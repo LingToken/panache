@@ -2,12 +2,12 @@ import React from "react";
 import Link from "next/link";
 import { FaSearch } from "react-icons/fa";
 
-import Button from "client/reusecore/Button";
-import Box from "client/reusecore/Box";
-import Heading from "client/reusecore/Heading";
-import Text from "client/reusecore/Text";
-import Image from "client/reusecore/Image";
-import { List, ListItem } from "client/reusecore/List";
+import Button from "reusecore/Button";
+import Box from "reusecore/Box";
+import Heading from "reusecore/Heading";
+import Text from "reusecore/Text";
+import Image from "reusecore/Image";
+import { List, ListItem } from "reusecore/List";
 
 import data from "assets/data/blog";
 import BlogSideBarWrapper from "./blogSidebar.style";

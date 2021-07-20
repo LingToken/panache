@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import BannerImage from "assets/images/banner-image-three.png";
+//import BannerImage from "assets/images/banner-image-three.png";
 
 const BannerWrapper = styled.div`
   position: relative;

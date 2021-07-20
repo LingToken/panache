@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled from 'styled-components';\nimport Slider from 'react-slick';\nconst SliderWrapper = styled(Slider)``;\nconst SliderItemWrapper = styled.div``;\nexport { SliderWrapper, SliderItemWrapper };","map":null,"metadata":{},"sourceType":"module"}

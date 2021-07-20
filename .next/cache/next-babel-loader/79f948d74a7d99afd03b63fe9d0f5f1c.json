@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React, { Fragment } from 'react';\nexport default (function (_ref) {\n  var Component = _ref.Component,\n      pageProps = _ref.pageProps;\n  return __jsx(Fragment, null, __jsx(Component, pageProps));\n});","map":null,"metadata":{},"sourceType":"module"}
