@@ -240,7 +240,7 @@ const BannerTwo = () => {
         </svg>
        
         <Row>
-        <Image src={"src/assets/images/banners/banner-two/cryptik-banner-key-icon.svg"}/>
+        {/* <Image src={"src/assets/images/banners/banner-two/cryptik-banner-key-icon.svg"}/> */}
           <Col className="lg-7 md-10 xs-12">
             <Box className="banner-content"> 
               <Heading>

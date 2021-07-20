@@ -26343,15 +26343,7 @@ var BannerTwo = function BannerTwo() {
       lineNumber: 242,
       columnNumber: 9
     }
-  }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    src: "src/assets/images/banners/banner-two/cryptik-banner-key-icon.svg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 243,
-      columnNumber: 9
-    }
-  }), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     className: "lg-7 md-10 xs-12",
     __self: _this,
     __source: {
