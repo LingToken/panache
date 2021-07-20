@@ -29118,7 +29118,7 @@ var WalletSectionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["defau
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Femplugxm3%2Fapplications%2Fnext-landing%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************************/
@@ -29141,5 +29141,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

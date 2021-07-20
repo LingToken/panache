@@ -5,7 +5,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import Box from "reusecore/Box";
 import Text from "reusecore/Text";
 import Heading from "reusecore/Heading";
-import { Container, Row, Col } from "reusecore/Layout";
+import { Container, Row, Col } from "client/reusecore/Layout";
 
 import PageHeader from "../../components/PageHeader";
 import Sidebar from "../../components/Blog-sidebar";

@@ -1,11 +1,11 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
 
-import Main from "../src/components/main";
+import Main from "../src/client/components/main";
 
-import Navigation from "sections/Navigation";
-import BlogList from "sections/Blog-list";
-import Footer from "sections/Footer";
+import Navigation from "client/sections/Navigation";
+import BlogList from "client/sections/Blog-list";
+import Footer from "client/sections/Footer";
 
 import theme from "assets/theme/theme";
 import GlobalStyle from "assets/theme";

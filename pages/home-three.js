@@ -2,18 +2,18 @@ import React from "react";
 import Head from "next/head";
 import { ThemeProvider } from "styled-components";
 
-import Navigation from "sections/Navigation";
-import BannerThree from 'sections/BannerThree'
-import Service from "sections/Service";
-import CoinFund from "sections/CoinFund";
-import About from "sections/About";
-import Awards from "sections/Awards";
-import UserMap from "sections/UserMap";
-import Wallet from "sections/Wallet";
-import Statistics from "sections/Statistics";
-import Stack from "sections/Stack"; 
-import Faq from "sections/Faq";
-import Footer from "sections/Footer";
+import Navigation from "client/sections/Navigation";
+import BannerThree from 'client/sections/BannerThree'
+import Service from "client/sections/Service";
+import CoinFund from "client/sections/CoinFund";
+import About from "client/sections/About";
+import Awards from "client/sections/Awards";
+import UserMap from "client/sections/UserMap";
+import Wallet from "client/sections/Wallet";
+import Statistics from "client/sections/Statistics";
+import Stack from "client/sections/Stack"; 
+import Faq from "client/sections/Faq";
+import Footer from "client/sections/Footer";
 
 import FavIcon from "assets/images/fav-icon.png";
 import theme from "assets/theme/theme";
