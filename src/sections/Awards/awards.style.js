@@ -21,7 +21,7 @@ const AwardsSectionWrapper = styled.div`
       width: 49%;
       color: #fff;
       align-items: center;
-      padding: 20px 0 20px 50px;
+      padding: 20px 0 20px 10px;
       margin-bottom: 10px;
       background: #2b1867;
       border-radius: 5px;
@@ -57,6 +57,7 @@ const AwardsSectionWrapper = styled.div`
             margin: 0;
             color: #beabdf;
             font-family: Open sans;
+            font-weight: 700;
           }
         }
       }

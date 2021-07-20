@@ -19,10 +19,11 @@ const Stack = () => {
           <Row>
             <Col className="offset-lg-3 offset-md-1 lg-6 md-10  sm-12">
               <SectionTitle>
-                <Heading> Technology we use</Heading>
+                <Heading>Our Propectus Partners</Heading>
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers.
+                  Each $PANACHE Token partner provides a liquidity to the trading pool, with a threshold of $5,000. 
+                  This position from each partners adds to the distributive percentage rate for each token holders and also adds addition percentage 
+                  to the partners brand ambassadors and trade activities happens in the marketplace
                 </Text>
               </SectionTitle>
             </Col>

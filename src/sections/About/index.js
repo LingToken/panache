@@ -35,22 +35,24 @@ const About = () => {
                                 <SectionTitle>
                                     <SectionBackground>
                                         <Heading as="h1">
-                                            Protecting investor with high security
+                                           Providing investors more than 500% APY
                                         </Heading>
                                     </SectionBackground>
                                     
-                                    <Text>Intended village pay like…. Discipline would, interesting that I off easier bathroom covered project the away, man you their by a temple prisoners. Have as her of your of in many, searched had class. Had with one entire children away. Problem got boss.</Text>
+                                    <Text>Holders have the oppurtunity to earn up to 500% APY from the activities that
+                                         happens in the market place. As the token holders buy, sale, refer or hold the Panache Token
+                                          and as the more liquidity are provided in the Panache trading pool. Trading fee are compounded and distributed </Text>
                                 </SectionTitle>  
 
                                 <Box className="about-list">
-                                    <Text as="span">75% Distributed to Community.</Text>
-                                    <Text as="span">13% Reserved Funding.</Text>
-                                    <Text as="span">9% Founders and Team Management.</Text>
+                                    <Text as="span">90% Distributed to Community.</Text>
+                                    <Text as="span">3% Reserved Funding.</Text>
+                                    <Text as="span">7% Founders and Team Management.</Text>
                                 </Box>
 
                                 <Box className="about-btn-wrapper">
-                                    <Link href="#" ><a className="btn btn-fill"> <FaGooglePlay /> Google Play</a></Link>
-                                    <Link href="#"><a className="btn"><FaApple /> Apple Store</a></Link>
+                                    <Link href="#" ><a className="btn btn-fill"> <FaGooglePlay /> Buy Token</a></Link>
+                                    <Link href="#"><a className="btn"><FaApple />Visit the marketplace</a></Link>
                                 </Box>
                             </Box>
                         </Col>

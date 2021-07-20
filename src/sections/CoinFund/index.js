@@ -45,9 +45,8 @@ const CoinFund = () => {
                   </Heading>
                 </SectionBackground>
                 <Text>
-                  The highly the not having with lively. Our up with ran go her
-                  it gloomy the back, though however projected not for six with
-                  then, trusted as concepts belt.
+                Panache Token represents all aspects of our social lives, from the type of watches you wear, 
+                your dressing appearances, the cars you drive, the houses you live in and all other confidence lifestyles.
                 </Text>
               </SectionTitle>
 
@@ -67,7 +66,7 @@ const CoinFund = () => {
               <Box className="progressbar">
                 <Text as="span">$5,097</Text>
               </Box>
-              <Text as="span">$11,931</Text>
+              <Text as="span">$100,931</Text>
             </Box>
 
             <Box className="payment-getway">

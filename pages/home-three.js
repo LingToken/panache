@@ -36,7 +36,7 @@ const Home = () => {
       <CoinFund />
       <About />
       <Awards />
-      <UserMap />
+      {/* <UserMap /> */}
       <Wallet />
       <Statistics />
        <Faq />

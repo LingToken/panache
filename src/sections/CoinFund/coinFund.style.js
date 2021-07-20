@@ -54,10 +54,10 @@ const CoinFundWrapper = styled.div`
       border-radius: 20px;
       background: rgb(35, 42, 213);
       background: linear-gradient(
-        90deg,
-        rgba(35, 42, 213, 1) 0%,
-        rgba(138, 50, 224, 1) 49%,
-        rgba(176, 53, 228, 1) 100%
+        93deg,
+        rgba(252, 165, 3, 1) 0%,
+        rgba(227, 197, 113, 1) 42%,
+        rgba(150, 112, 3, 1) 100%
       );
       span {
         bottom: -38px;

@@ -16,6 +16,7 @@ export const SectionTitleWrapper = styled.div`
 `;
 
 export const SectionBgWrapper = styled.div`
+
   background: url(${SectionBG});
   background-repeat: no-repeat;
   background-size: auto;
@@ -24,3 +25,6 @@ export const SectionBgWrapper = styled.div`
     padding: 10px 0 10px 22px;
   }
 `;
+
+
+// background: url(${SectionBG});

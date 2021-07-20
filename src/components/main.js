@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import FavIcon from "assets/images/fav-icon.png";
+import FavIcon from "assets/images/logo-white.png";
+// import FavIcon from "assets/images/fav-icon.png";
 
 const Main = ({
   children,
@@ -11,7 +12,7 @@ const Main = ({
       <Head>
         <title>{title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="Description" content="React next landing page" />
+        <meta name="Description" content="Panache Token Holders Page" />
         <meta name="theme-color" content="#ec5555" />
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
         <link

@@ -75,16 +75,16 @@ const BannerWrapper = styled.div`
         background: rgb(37, 42, 213);
         background: linear-gradient(
           93deg,
-          rgba(37, 42, 213, 1) 0%,
-          rgba(122, 49, 222, 1) 52%,
-          rgba(196, 56, 231, 1) 100%
+          rgba(252, 165, 3, 1) 0%,
+          rgba(227, 197, 113, 1) 42%,
+          rgba(150, 112, 3, 1) 100%
         );
         &:hover{
           background: linear-gradient(
           93deg,
-          rgba(196, 56, 231, 1) 0%,
-          rgba(122, 49, 222, 1) 52%,
-          rgba(37, 42, 213, 1) 100%
+          rgba(150, 3, 3, 1) 0%,
+          rgba(232, 128, 128, 1) 52%,
+          rgba(255, 0, 0, 1) 100%
         );
         }
       }

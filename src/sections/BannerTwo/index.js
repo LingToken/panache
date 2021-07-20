@@ -245,23 +245,26 @@ const BannerTwo = () => {
               <Text as="span" className="description">
                 Holders earn passive rewards through static reflection while watching their balance of <b>$PANACHE</b> grow indefinitely
               </Text>
-
+              
               <Text as="span" className="description">
-                Holders earn more trading rewards as exchange happen betweeen <b>$PANACHE</b> Token and partners wares at the marketplace
+                Panache Token allows you to access and position your lifesteyle 
+                giving you the opptunity to live your best life while still earning a living out of it.
               </Text>
+              <Text as="span" className="description"> Holders earn more trading rewards as exchange happen betweeen <b>$PANACHE</b> 
+                Token and partners wares at the marketplace. </Text>
 
               <Box className="coin-info">
                 <Box>
                   <Image src={keyIcon} alt="crypto banner icon" />
-                  <Text>Access</Text>
+                  <Text>Premium Lifestyle</Text>
                 </Box>
                 <Box>
                   <Image src={watchIcon} alt="crypto banner icon" />
-                  <Text>Speed</Text>
+                  <Text>Brand Ambassadors</Text>
                 </Box>
                 <Box>
                   <Image src={heartIcon} alt="crypto banner icon" />
-                  <Text>Certainty</Text>
+                  <Text>Modelling</Text>
                 </Box>
               </Box>
 
@@ -269,7 +272,11 @@ const BannerTwo = () => {
                 <Link href="#">
                   <a className="btn btn-fill"> <FaGithub /> Download Crypto</a>
                 </Link> 
+
+                
+                
               </Box>
+              
               
             </Box>
           </Col>

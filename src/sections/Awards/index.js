@@ -20,12 +20,11 @@ const Awards = () => {
               <Box className="awards-left-content">
                 <SectionTitle>
                   <SectionBackground>
-                    <Heading as="h1">Largest Achievements</Heading>
+                    <Heading as="h1">Why become a Community Holder?</Heading>
                   </SectionBackground>
                   <Text>
-                    Attention in when in just something bread not hundred well,
-                    muff value emerge on the known officers. A parameters phase
-                    orthographic the can differentiates far catch.
+                  Panache Token allows you to access and position your lifesteyle 
+                  giving you the opptunity to live your best life while still earning a living out of it.
                   </Text>
                 </SectionTitle>
               </Box>
@@ -38,13 +37,14 @@ const Awards = () => {
                     className={`awards-item ${index === 3 ? `active` : ""}`}
                     key={index}
                   >
-                    <Text as="span" className="award-icon">
+                    {/* <Text as="span" className="award-icon">
                       {" "}
                       {item.icon}{" "}
-                    </Text>
+                    </Text> */}
                     <Box className="counter-text">
                       {" "}
-                      <Counter end={item.count} suffix="+" />{" "}
+                      {/* <Counter end={item.count} suffix="+" />{" "} */}
+                      <Counter end={item.count} />{" "}
                       <Text as="span">{item.body}</Text>{" "}
                     </Box>
                   </Box>

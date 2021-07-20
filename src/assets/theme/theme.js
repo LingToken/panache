@@ -13,3 +13,5 @@ const theme = {
 };
 export default theme;
 
+// bodyColor: '#BEABDF',
+

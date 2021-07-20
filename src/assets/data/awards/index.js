@@ -4,8 +4,8 @@ export default {
   awards: [
     {
       icon: <FaAward />,
-      count: 100,
-      body: "Awards",
+      count: 1000000000000000,
+      body: "Initial Supplies",
     },
     {
       icon: <FaDownload />,

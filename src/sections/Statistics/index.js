@@ -20,13 +20,13 @@ const Statistics = () => {
             <Col className="md-6 sm-6">
               <Box className="statistics-image">
                 <Heading as="h2">Funds Allocation</Heading>
-                <Image src={statisticsImage1} alt="cryptic statistics image" />
+                <Image src={statisticsImage1} alt="panache statistics image" />
               </Box>
             </Col>
             <Col className="md-6 sm-6">
               <Box className="statistics-image">
                 <Heading as="h2">Token Distribution</Heading>
-                <Image src={statisticsImage2} alt="cryptic statistics image" />
+                <Image src={statisticsImage2} alt="panache statistics image" />
               </Box>
             </Col>
           </Row>

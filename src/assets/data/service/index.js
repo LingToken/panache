@@ -7,23 +7,23 @@ export default {
   services: [
     {
       icon: serviceIcon1,
-      title: "ICO Finance",
-      body: "The highly the not having with lively Our up with.",
-    },
-    {
-      icon: serviceIcon2,
-      title: "Blockchain",
-      body: "The highly the not having with lively Our up with.",
-    },
-    {
-      icon: serviceIcon3,
-      title: "Market News",
-      body: "The highly the not having with lively Our up with.",
+      title: "Brand Ambassadors",
+      body: "Panache token vendor partners sponsored Ambassadorship for every panache holders",
     },
     {
       icon: serviceIcon4,
+      title: "Vendor Marketplace",
+      body: "Every panache token holders can purchase vendors items in the community driven marketplace",
+    },
+    {
+      icon: serviceIcon3,
+      title: "PanachePay",
+      body: "Token holders can trade with the token assets through panachePay",
+    },
+    {
+      icon: serviceIcon2,
       title: "Exchange Offer",
-      body: "The highly the not having with lively Our up with.",
+      body: "Token Holders can exchange their tokens for goods and services",
     },
   ],
 };

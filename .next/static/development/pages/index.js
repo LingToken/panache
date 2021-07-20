@@ -21667,33 +21667,12 @@ var Home = function Home() {
       lineNumber: 38,
       columnNumber: 7
     }
-  }), __jsx(sections_UserMap__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 7
-    }
   }), __jsx(sections_Wallet__WEBPACK_IMPORTED_MODULE_10__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40,
       columnNumber: 7
-    }
-  }), __jsx(sections_Statistics__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 7
-    }
-  }), __jsx(sections_Faq__WEBPACK_IMPORTED_MODULE_13__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 8
     }
   }), __jsx(sections_Stack__WEBPACK_IMPORTED_MODULE_12__["default"], {
     __self: _this,
@@ -21742,8 +21721,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
         columnNumber: 13
       }
     }),
-    count: 100,
-    body: "Awards"
+    count: 1000000000000000,
+    body: "Initial Supplies"
   }, {
     icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaDownload"], {
       __self: undefined,
@@ -21980,20 +21959,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   services: [{
     icon: assets_images_service_service_icon_1_svg__WEBPACK_IMPORTED_MODULE_0___default.a,
-    title: "ICO Finance",
-    body: "The highly the not having with lively Our up with."
-  }, {
-    icon: assets_images_service_service_icon_2_svg__WEBPACK_IMPORTED_MODULE_1___default.a,
-    title: "Blockchain",
-    body: "The highly the not having with lively Our up with."
-  }, {
-    icon: assets_images_service_service_icon_3_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
-    title: "Market News",
-    body: "The highly the not having with lively Our up with."
+    title: "Brand Ambassadors",
+    body: "Panache token vendor partners sponsored Ambassadorship for every panache holders"
   }, {
     icon: assets_images_service_service_icon_4_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
+    title: "Vendor Marketplace",
+    body: "Every panache token holders can purchase vendors items in the community driven marketplace"
+  }, {
+    icon: assets_images_service_service_icon_3_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
+    title: "PanachePay",
+    body: "Token holders can trade with the token assets through panachePay"
+  }, {
+    icon: assets_images_service_service_icon_2_svg__WEBPACK_IMPORTED_MODULE_1___default.a,
     title: "Exchange Offer",
-    body: "The highly the not having with lively Our up with."
+    body: "Token Holders can exchange their tokens for goods and services"
   }]
 });
 
@@ -22272,7 +22251,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAABFCAYAAAAY
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/png;base64,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"
+module.exports = "/_next/static/images/logo-white-696e504556c1051c8cde8550af1af0fa.png";
 
 /***/ }),
 
@@ -22468,7 +22447,7 @@ var theme = {
   NavBGSolid: '#290E59',
   menuHoverColor: '#1F2AD5'
 };
-/* harmony default export */ __webpack_exports__["default"] = (theme);
+/* harmony default export */ __webpack_exports__["default"] = (theme); // bodyColor: '#BEABDF',
 
 /***/ }),
 
@@ -23579,7 +23558,7 @@ var _templateObject, _templateObject2;
 
 
 var SectionTitleWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  .heading {\n    font-size: 36px;\n    font-weight: 700;\n    line-height: 46px;\n    margin: 0;\n  }\n\n  .text {\n    margin-top: 27px;\n  }\n"])));
-var SectionBgWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2 || (_templateObject2 = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  background: url(", ");\n  background-repeat: no-repeat;\n  background-size: auto;\n  background-position: left;\n  .heading {\n    padding: 10px 0 10px 22px;\n  }\n"])), assets_images_section_title_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a);
+var SectionBgWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2 || (_templateObject2 = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n  background: url(", ");\n  background-repeat: no-repeat;\n  background-size: auto;\n  background-position: left;\n  .heading {\n    padding: 10px 0 10px 22px;\n  }\n"])), assets_images_section_title_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a); // background: url(${SectionBG});
 
 /***/ }),
 
@@ -23798,19 +23777,19 @@ var About = function About() {
       lineNumber: 37,
       columnNumber: 41
     }
-  }, "Protecting investor with high security")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "Providing investors more than 500% APY")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42,
       columnNumber: 37
     }
-  }, "Intended village pay like\u2026. Discipline would, interesting that I off easier bathroom covered project the away, man you their by a temple prisoners. Have as her of your of in many, searched had class. Had with one entire children away. Problem got boss.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Holders have the oppurtunity to earn up to 500% APY from the activities that happens in the market place. As the token holders buy, sale, refer or hold the Panache Token and as the more liquidity are provided in the Panache trading pool. Trading fee are compounded and distributed ")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "about-list",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 47,
       columnNumber: 33
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -23818,31 +23797,31 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 37
-    }
-  }, "75% Distributed to Community."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    as: "span",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 37
-    }
-  }, "13% Reserved Funding."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    as: "span",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 48,
       columnNumber: 37
     }
-  }, "9% Founders and Team Management.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "90% Distributed to Community."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    as: "span",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 37
+    }
+  }, "3% Reserved Funding."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    as: "span",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 37
+    }
+  }, "7% Founders and Team Management.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "about-btn-wrapper",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 53,
       columnNumber: 33
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -23850,7 +23829,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 54,
       columnNumber: 37
     }
   }, __jsx("a", {
@@ -23858,22 +23837,22 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 54,
       columnNumber: 53
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaGooglePlay"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 54,
       columnNumber: 82
     }
-  }), " Google Play")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }), " Buy Token")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "#",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 55,
       columnNumber: 37
     }
   }, __jsx("a", {
@@ -23881,17 +23860,17 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 55,
       columnNumber: 52
     }
   }, __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaApple"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 55,
       columnNumber: 71
     }
-  }), " Apple Store"))))))));
+  }), "Visit the marketplace"))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
@@ -23914,7 +23893,7 @@ __webpack_require__.r(__webpack_exports__);
 var _templateObject;
 
 
-var AwardsSectionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 85px 0;\n  .heading {\n    padding-right: 103px;\n  }\n  .col:nth-of-type(odd) {\n    .awards-item {\n      margin-right: 10px;\n    }\n  }\n\n  .awards-item-wrapper {\n    display: inline-flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n\n    .awards-item {\n      display: flex;\n      width: 49%;\n      color: #fff;\n      align-items: center;\n      padding: 20px 0 20px 50px;\n      margin-bottom: 10px;\n      background: #2b1867;\n      border-radius: 5px;\n      cursor: pointer;\n      &.active,\n      &:hover {\n        background: rgb(32, 47, 213);\n        background: linear-gradient(\n          90deg,\n          rgba(32, 47, 213, 1) 0%,\n          rgba(139, 51, 224, 1) 57%,\n          rgba(195, 56, 231, 1) 100%\n        );\n        box-shadow: 0px 0px 17px #221156;\n      }\n\n      .award-icon {\n        margin-right: 50px;\n        font-size: 30px;\n      }\n\n      .counter-text {\n        span {\n          display: block;\n\n          &:first-child {\n            font-size: 30px;\n            font-weight: 700;\n            margin-bottom: 5px;\n          }\n\n          &.text {\n            margin: 0;\n            color: #beabdf;\n            font-family: Open sans;\n          }\n        }\n      }\n    }\n  }\n\n  @media only screen and (max-width: 1024px) {\n    .awards-item-wrapper{\n      .awards-item{\n        padding: 20px 0 20px 30px;\n        .award-icon{\n          margin-right: 30px;\n        }\n      }\n    }  \n  }\n  @media only screen and (max-width: 912px) {\n    .awards-item-wrapper{\n      .awards-item{\n        padding: 20px 0 20px 15px;\n        .counter-text {\n          span:first-child{\n            font-size: 23px;\n          }\n        }\n        .award-icon{\n          margin-right: 15px;\n        }\n      }\n    }  \n  }\n  @media only screen and (max-width: 736px) {\n    .title__wrapper{\n      margin-bottom: 50px;\n    }\n    .awards-item-wrapper{\n      .awards-item{\n        padding: 20px 0 20px 30px;\n        .counter-text {\n          span:first-child{\n            font-size: 30px;\n          }\n        }\n        .award-icon{\n          margin-right: 30px;\n        }\n      }\n    }  \n  }\n  @media only screen and (max-width: 480px) {\n    padding: 50px 0;\n  }\n  @media only screen and (max-width: 480px) {\n    .heading{\n      padding-right: 0;\n      font-size: 30px;\n    }\n    .awards-col{\n      width: 100%;\n    }\n    .awards-item-wrapper{\n      flex-direction: column;\n      width: 100%;\n      .awards-item{\n        width: 100%;\n        margin-bottom: 30px;\n      }\n    }  \n  }\n  @media only screen and (max-width: 375px) {\n    .heading{\n      font-size: 25px;\n      line-height: 35px;\n    }\n  }\n"])));
+var AwardsSectionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 85px 0;\n  .heading {\n    padding-right: 103px;\n  }\n  .col:nth-of-type(odd) {\n    .awards-item {\n      margin-right: 10px;\n    }\n  }\n\n  .awards-item-wrapper {\n    display: inline-flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n\n    .awards-item {\n      display: flex;\n      width: 49%;\n      color: #fff;\n      align-items: center;\n      padding: 20px 0 20px 10px;\n      margin-bottom: 10px;\n      background: #2b1867;\n      border-radius: 5px;\n      cursor: pointer;\n      &.active,\n      &:hover {\n        background: rgb(32, 47, 213);\n        background: linear-gradient(\n          90deg,\n          rgba(32, 47, 213, 1) 0%,\n          rgba(139, 51, 224, 1) 57%,\n          rgba(195, 56, 231, 1) 100%\n        );\n        box-shadow: 0px 0px 17px #221156;\n      }\n\n      .award-icon {\n        margin-right: 50px;\n        font-size: 30px;\n      }\n\n      .counter-text {\n        span {\n          display: block;\n\n          &:first-child {\n            font-size: 30px;\n            font-weight: 700;\n            margin-bottom: 5px;\n          }\n\n          &.text {\n            margin: 0;\n            color: #beabdf;\n            font-family: Open sans;\n            font-weight: 700;\n          }\n        }\n      }\n    }\n  }\n\n  @media only screen and (max-width: 1024px) {\n    .awards-item-wrapper{\n      .awards-item{\n        padding: 20px 0 20px 30px;\n        .award-icon{\n          margin-right: 30px;\n        }\n      }\n    }  \n  }\n  @media only screen and (max-width: 912px) {\n    .awards-item-wrapper{\n      .awards-item{\n        padding: 20px 0 20px 15px;\n        .counter-text {\n          span:first-child{\n            font-size: 23px;\n          }\n        }\n        .award-icon{\n          margin-right: 15px;\n        }\n      }\n    }  \n  }\n  @media only screen and (max-width: 736px) {\n    .title__wrapper{\n      margin-bottom: 50px;\n    }\n    .awards-item-wrapper{\n      .awards-item{\n        padding: 20px 0 20px 30px;\n        .counter-text {\n          span:first-child{\n            font-size: 30px;\n          }\n        }\n        .award-icon{\n          margin-right: 30px;\n        }\n      }\n    }  \n  }\n  @media only screen and (max-width: 480px) {\n    padding: 50px 0;\n  }\n  @media only screen and (max-width: 480px) {\n    .heading{\n      padding-right: 0;\n      font-size: 30px;\n    }\n    .awards-col{\n      width: 100%;\n    }\n    .awards-item-wrapper{\n      flex-direction: column;\n      width: 100%;\n      .awards-item{\n        width: 100%;\n        margin-bottom: 30px;\n      }\n    }  \n  }\n  @media only screen and (max-width: 375px) {\n    .heading{\n      font-size: 25px;\n      line-height: 35px;\n    }\n  }\n"])));
 /* harmony default export */ __webpack_exports__["default"] = (AwardsSectionWrapper);
 
 /***/ }),
@@ -24020,19 +23999,19 @@ var Awards = function Awards() {
       lineNumber: 23,
       columnNumber: 21
     }
-  }, "Largest Achievements")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "Why become a Community Holder?")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
       columnNumber: 19
     }
-  }, "Attention in when in just something bread not hundred well, muff value emerge on the known officers. A parameters phase orthographic the can differentiates far catch.")))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  }, "Panache Token allows you to access and position your lifesteyle giving you the opptunity to live your best life while still earning a living out of it.")))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     className: "md-6 awards-col",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 33,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -24040,7 +24019,7 @@ var Awards = function Awards() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 34,
       columnNumber: 15
     }
   }, assets_data_awards__WEBPACK_IMPORTED_MODULE_7__["default"].awards.map(function (item, index) {
@@ -24050,29 +24029,19 @@ var Awards = function Awards() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37,
+        lineNumber: 36,
         columnNumber: 19
       }
-    }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      as: "span",
-      className: "award-icon",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 41,
-        columnNumber: 21
-      }
-    }, " ", item.icon, " "), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
       className: "counter-text",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45,
+        lineNumber: 44,
         columnNumber: 21
       }
     }, " ", __jsx(reusecore_Counter__WEBPACK_IMPORTED_MODULE_6__["default"], {
       end: item.count,
-      suffix: "+",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -24111,7 +24080,7 @@ __webpack_require__.r(__webpack_exports__);
 var _templateObject;
 
 
-var BannerWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: relative;\n  overflow: hidden;\n  padding: 278px 0 150px 0;\n\n  .banner__thumb{\n    position: absolute;\n    right: -4%;\n    top: -12%;\n    width: 40%;\n  }\n\n  .section__particle {\n    position: absolute;\n    &.top-left {\n      left: -98px;\n      top: -60px;\n      height: 150px;\n    }\n    &.top-right {\n      top: 65px;\n      right: 28px;\n      height: 74px;\n    }\n    &.bottom-left {\n      bottom: 0px;\n      left: 15px;\n      height: 150px;\n    }\n    &.two {\n      top: 6px;\n      left: 140px;\n      height: 87px;\n    }\n    &.bottom-right {\n      right: -40px;\n      bottom: 0px;\n      height: 200px;\n    }\n  }\n\n  .banner-content {\n    .heading {\n      margin: 0 0 38px 0;\n      font-size: 55px;\n      line-height: 75px;\n      font-weight: 900;\n    }\n\n    .text {\n      margin-bottom: 55px;\n    }\n\n    .banner-btn {\n      margin-top: 45px;\n      a {\n        width: 235px;\n        font-size: 16px;\n        color: #ffffff;\n        padding: 18px 25px;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        border: none;\n\n        svg{\n          margin-right: 10px;\n        }\n      }\n\n      .btn-fill {\n        transition: all 0.3s ease-in;\n        background: rgb(37, 42, 213);\n        background: linear-gradient(\n          93deg,\n          rgba(37, 42, 213, 1) 0%,\n          rgba(122, 49, 222, 1) 52%,\n          rgba(196, 56, 231, 1) 100%\n        );\n        &:hover{\n          background: linear-gradient(\n          93deg,\n          rgba(196, 56, 231, 1) 0%,\n          rgba(122, 49, 222, 1) 52%,\n          rgba(37, 42, 213, 1) 100%\n        );\n        }\n      }\n    }\n\n    .coin-info {\n      display: flex;\n      align-items: center;\n      div {\n        display: flex;\n        align-items: center;\n        margin: 12px 25px 5px 25px;\n\n        .text {\n          margin: 0;\n        }\n\n        img {\n          width: 25px;\n          margin-right: 15px;\n        }\n      }\n    }\n\n    .description {\n      position: relative;\n      display: block;\n      line-height: 28px;\n      font-size: 18px;\n      padding-left: 30px;\n      margin: 0 0 17px 0;\n\n      &:before {\n        position: absolute;\n        left: 0;\n        top: 0;\n        height: 100%;\n        width: 3px;\n        content: \"\";\n        background: #b096df;\n      }\n    }\n  }\n\n  @keyframes bounce-up-down {\n    from {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n    33% {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 180px 220px;\n      transform-origin: 1000px 220px;\n    }\n    66% {\n      -webkit-transform: rotate(1deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 1500px 200px;\n    }\n    to {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n  }\n\n  @-webkit-keyframes bounce-up-down {\n    from {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n    33% {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 180px 220px;\n      transform-origin: 1000px 220px;\n    }\n    66% {\n      -webkit-transform: rotate(1deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 1500px 200px;\n    }\n    to {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n  }\n\n  @keyframes opacity-controll {\n    0%   { opacity: 1; }\n    25%  { opacity: 0.8; }\n    50%  { opacity: 0.6; }\n    75%  { opacity: 0.2; }\n    100% { opacity: 0; }\n  }\n  @-webkit-keyframes opacity-controll {\n    0%   { opacity: 1; }\n    25%  { opacity: 0.8; }\n    50%  { opacity: 0.6; }\n    75%  { opacity: 0.2; }\n    100% { opacity: 0; }\n  }\n\n  #Path_46973{\n    animation: opacity-controll 1.5s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46974{\n    animation: opacity-controll 1.7s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46975{\n    animation: opacity-controll 1.9s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46976{\n    animation: opacity-controll 2s infinite; /* IE 10+, Fx 29+ */\n  }\n\n  @media only screen and (max-width: 1024px) { \n    .banner__thumb{\n      right: 0;\n    }\n    .banner-content {\n      .heading{\n        font-size: 45px;\n        line-height: 65px;\n        font-weight: 600;\n      }\n    }\n  }\n  @media only screen and (max-width: 912px) { \n    padding: 215px 0 150px 0;\n    .banner__thumb{\n      display: none;\n    }\n    .banner-content {\n      .heading{\n        font-size: 40px;\n        line-height: 60px;\n      }\n    }\n  }\n  @media only screen and (max-width: 768px) { \n    padding: 180px 0 120px 0;\n    .banner-content {\n      .heading{\n        font-size: 35px;\n        line-height: 50px;\n      }\n    }\n  }\n  @media only screen and (max-width: 480px) { \n    .banner-content {\n      .heading{\n        font-size: 30px;\n        line-height: 50px;\n        br{\n          display: none;\n        }\n      }\n      .text{\n        br{\n          display: none;\n        }\n      }\n    }\n    .section__particle{\n      &.bottom-right{\n        display: none;\n      }\n    }\n  }\n  @media only screen and (max-width: 375px) { \n    .banner-content {\n      .heading{\n        font-size: 28px;\n        line-height: 40px;\n      }\n      .description{\n        font-size: 16px;\n        line-height: 26px;\n        padding-left: 20px;\n      }\n      .coin-info{\n        div{\n          margin: 12px 8px 5px 8px;\n          img{\n            margin-right: 10px;\n          }\n        }\n      }\n    }\n  }\n"])));
+var BannerWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: relative;\n  overflow: hidden;\n  padding: 278px 0 150px 0;\n\n  .banner__thumb{\n    position: absolute;\n    right: -4%;\n    top: -12%;\n    width: 40%;\n  }\n\n  .section__particle {\n    position: absolute;\n    &.top-left {\n      left: -98px;\n      top: -60px;\n      height: 150px;\n    }\n    &.top-right {\n      top: 65px;\n      right: 28px;\n      height: 74px;\n    }\n    &.bottom-left {\n      bottom: 0px;\n      left: 15px;\n      height: 150px;\n    }\n    &.two {\n      top: 6px;\n      left: 140px;\n      height: 87px;\n    }\n    &.bottom-right {\n      right: -40px;\n      bottom: 0px;\n      height: 200px;\n    }\n  }\n\n  .banner-content {\n    .heading {\n      margin: 0 0 38px 0;\n      font-size: 55px;\n      line-height: 75px;\n      font-weight: 900;\n    }\n\n    .text {\n      margin-bottom: 55px;\n    }\n\n    .banner-btn {\n      margin-top: 45px;\n      a {\n        width: 235px;\n        font-size: 16px;\n        color: #ffffff;\n        padding: 18px 25px;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        border: none;\n\n        svg{\n          margin-right: 10px;\n        }\n      }\n\n      .btn-fill {\n        transition: all 0.3s ease-in;\n        background: rgb(37, 42, 213);\n        background: linear-gradient(\n          93deg,\n          rgba(252, 165, 3, 1) 0%,\n          rgba(227, 197, 113, 1) 42%,\n          rgba(150, 112, 3, 1) 100%\n        );\n        &:hover{\n          background: linear-gradient(\n          93deg,\n          rgba(150, 3, 3, 1) 0%,\n          rgba(232, 128, 128, 1) 52%,\n          rgba(255, 0, 0, 1) 100%\n        );\n        }\n      }\n    }\n\n    .coin-info {\n      display: flex;\n      align-items: center;\n      div {\n        display: flex;\n        align-items: center;\n        margin: 12px 25px 5px 25px;\n\n        .text {\n          margin: 0;\n        }\n\n        img {\n          width: 25px;\n          margin-right: 15px;\n        }\n      }\n    }\n\n    .description {\n      position: relative;\n      display: block;\n      line-height: 28px;\n      font-size: 18px;\n      padding-left: 30px;\n      margin: 0 0 17px 0;\n\n      &:before {\n        position: absolute;\n        left: 0;\n        top: 0;\n        height: 100%;\n        width: 3px;\n        content: \"\";\n        background: #b096df;\n      }\n    }\n  }\n\n  @keyframes bounce-up-down {\n    from {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n    33% {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 180px 220px;\n      transform-origin: 1000px 220px;\n    }\n    66% {\n      -webkit-transform: rotate(1deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 1500px 200px;\n    }\n    to {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n  }\n\n  @-webkit-keyframes bounce-up-down {\n    from {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n    33% {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 180px 220px;\n      transform-origin: 1000px 220px;\n    }\n    66% {\n      -webkit-transform: rotate(1deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 1500px 200px;\n    }\n    to {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n  }\n\n  @keyframes opacity-controll {\n    0%   { opacity: 1; }\n    25%  { opacity: 0.8; }\n    50%  { opacity: 0.6; }\n    75%  { opacity: 0.2; }\n    100% { opacity: 0; }\n  }\n  @-webkit-keyframes opacity-controll {\n    0%   { opacity: 1; }\n    25%  { opacity: 0.8; }\n    50%  { opacity: 0.6; }\n    75%  { opacity: 0.2; }\n    100% { opacity: 0; }\n  }\n\n  #Path_46973{\n    animation: opacity-controll 1.5s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46974{\n    animation: opacity-controll 1.7s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46975{\n    animation: opacity-controll 1.9s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46976{\n    animation: opacity-controll 2s infinite; /* IE 10+, Fx 29+ */\n  }\n\n  @media only screen and (max-width: 1024px) { \n    .banner__thumb{\n      right: 0;\n    }\n    .banner-content {\n      .heading{\n        font-size: 45px;\n        line-height: 65px;\n        font-weight: 600;\n      }\n    }\n  }\n  @media only screen and (max-width: 912px) { \n    padding: 215px 0 150px 0;\n    .banner__thumb{\n      display: none;\n    }\n    .banner-content {\n      .heading{\n        font-size: 40px;\n        line-height: 60px;\n      }\n    }\n  }\n  @media only screen and (max-width: 768px) { \n    padding: 180px 0 120px 0;\n    .banner-content {\n      .heading{\n        font-size: 35px;\n        line-height: 50px;\n      }\n    }\n  }\n  @media only screen and (max-width: 480px) { \n    .banner-content {\n      .heading{\n        font-size: 30px;\n        line-height: 50px;\n        br{\n          display: none;\n        }\n      }\n      .text{\n        br{\n          display: none;\n        }\n      }\n    }\n    .section__particle{\n      &.bottom-right{\n        display: none;\n      }\n    }\n  }\n  @media only screen and (max-width: 375px) { \n    .banner-content {\n      .heading{\n        font-size: 28px;\n        line-height: 40px;\n      }\n      .description{\n        font-size: 16px;\n        line-height: 26px;\n        padding-left: 20px;\n      }\n      .coin-info{\n        div{\n          margin: 12px 8px 5px 8px;\n          img{\n            margin-right: 10px;\n          }\n        }\n      }\n    }\n  }\n"])));
 /* harmony default export */ __webpack_exports__["default"] = (BannerWrapper);
 
 /***/ }),
@@ -26382,26 +26351,35 @@ var BannerTwo = function BannerTwo() {
       lineNumber: 249,
       columnNumber: 15
     }
-  }, "Holders earn more trading rewards as exchange happen betweeen ", __jsx("b", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 250,
-      columnNumber: 79
-    }
-  }, "$PANACHE"), " Token and partners wares at the marketplace"), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    className: "coin-info",
+  }, "Panache Token allows you to access and position your lifesteyle giving you the opptunity to live your best life while still earning a living out of it."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    as: "span",
+    className: "description",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 253,
       columnNumber: 15
     }
+  }, " Holders earn more trading rewards as exchange happen betweeen ", __jsx("b", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 253,
+      columnNumber: 118
+    }
+  }, "$PANACHE"), "Token and partners wares at the marketplace. "), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    className: "coin-info",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 256,
+      columnNumber: 15
+    }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 254,
+      lineNumber: 257,
       columnNumber: 17
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26410,21 +26388,21 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 255,
+      lineNumber: 258,
       columnNumber: 19
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 256,
+      lineNumber: 259,
       columnNumber: 19
     }
-  }, "Access")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Premium Lifestyle")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 258,
+      lineNumber: 261,
       columnNumber: 17
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26433,21 +26411,21 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 259,
+      lineNumber: 262,
       columnNumber: 19
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 260,
+      lineNumber: 263,
       columnNumber: 19
     }
-  }, "Speed")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Brand Ambassadors")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 262,
+      lineNumber: 265,
       columnNumber: 17
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26456,22 +26434,22 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 263,
+      lineNumber: 266,
       columnNumber: 19
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 264,
+      lineNumber: 267,
       columnNumber: 19
     }
-  }, "Certainty"))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Modelling"))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     className: "banner-btn",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 268,
+      lineNumber: 271,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -26479,7 +26457,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 269,
+      lineNumber: 272,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -26487,14 +26465,14 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 270,
+      lineNumber: 273,
       columnNumber: 19
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_14__["FaGithub"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 270,
+      lineNumber: 273,
       columnNumber: 48
     }
   }), " Download Crypto"))))))));
@@ -26523,7 +26501,7 @@ var _templateObject;
 
 
 
-var CoinFundWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 110px 0 140px 0;\n  position: relative;\n  background: url(", ");\n  background-repeat: no-repeat;\n  background-size: inherit;\n  background-position: 72% 0px;\n\n  &::before {\n    position: absolute;\n    right: 0;\n    top: 0%;\n    width: 100%;\n    height: 100%;\n    content: \" \";\n  }\n\n  .btn-wrapper{\n    margin-top: 35px;\n  }\n  .btn-fill {\n    font-size: 16px;\n    padding: 18px 35px;\n    background: #ffffff;\n    color: ", ";\n  }\n\n  .progressbar-wrapper {\n    position: relative;\n    height: 20px;\n    border-radius: 20px;\n    display: flex;\n    align-items: center;\n    background: #fff;\n\n    span {\n      position: absolute;\n      right: 0;\n      bottom: -42px;\n      color: #fff;\n      font-size: 18px;\n      margin: 0;\n    }\n\n    .progressbar {\n      position: relative;\n      width: 60%;\n      height: 30px;\n      border-radius: 20px;\n      background: rgb(35, 42, 213);\n      background: linear-gradient(\n        90deg,\n        rgba(35, 42, 213, 1) 0%,\n        rgba(138, 50, 224, 1) 49%,\n        rgba(176, 53, 228, 1) 100%\n      );\n      span {\n        bottom: -38px;\n      }\n    }\n  }\n\n  .payment-getway {\n    margin-top: 85px;\n    text-align: center;\n    font-size: 20px;\n    color: #fff;\n    span {\n      margin-right: 25px;\n      &:last-child {\n        margin-right: 0;\n      }\n    }\n  }\n  .countBoxItem {\n    min-width: 100px;\n    position: relative;\n    text-align: center;\n    display: flex;\n    flex-direction: column-reverse;\n  }\n  .countdown-wrapper {\n    margin-bottom: 40px;\n    .text {\n      font-size: 14px;\n      color: #fff;\n      text-align: center;\n      margin-bottom: 35px;\n    }\n    .countBox {\n      display: flex;\n      flex-direction: row-reverse;\n      justify-content: center;\n      .count {\n        line-height: 46px;\n        font-weight: 700;\n        margin-bottom: 16px;\n      }\n      .label {\n       font-size: 14px;\n       color: #BEABDF;\n      }\n      .split {\n        font-size: 40px;\n        font-weight: 700;\n        color: #fff;\n        margin: 6px 8px 0 8px;\n      }\n    }\n  }\n  @media only screen and (max-width: 1024px) {\n    background-size: 36%;\n    background-position: 86% 41%;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n      text-align: left;\n    }\n    .countdown-wrapper {\n      .count {\n        font-size: 45px;\n      }\n    }\n  }\n\n  @media only screen and (max-width: 912px) {\n    background-position: 86% 70%;\n    .coin-fund-content-left{\n      text-align: center;\n      margin-bottom: 80px;\n    }\n  }\n  @media only screen and (max-width: 768px) {\n    .countdown-wrap{\n      width: 100%;\n    }\n  }\n  @media only screen and (max-width: 480px) {\n    background: none;\n    padding: 50px 0;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n    }\n    .countdown-wrapper {\n      .split {\n        display: none;\n      }\n      .count {\n        font-size: 35px;\n      } \n      .countBox{\n        flex-direction: column-reverse;\n      }\n    }\n  }\n"])), assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, function (props) {
+var CoinFundWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 110px 0 140px 0;\n  position: relative;\n  background: url(", ");\n  background-repeat: no-repeat;\n  background-size: inherit;\n  background-position: 72% 0px;\n\n  &::before {\n    position: absolute;\n    right: 0;\n    top: 0%;\n    width: 100%;\n    height: 100%;\n    content: \" \";\n  }\n\n  .btn-wrapper{\n    margin-top: 35px;\n  }\n  .btn-fill {\n    font-size: 16px;\n    padding: 18px 35px;\n    background: #ffffff;\n    color: ", ";\n  }\n\n  .progressbar-wrapper {\n    position: relative;\n    height: 20px;\n    border-radius: 20px;\n    display: flex;\n    align-items: center;\n    background: #fff;\n\n    span {\n      position: absolute;\n      right: 0;\n      bottom: -42px;\n      color: #fff;\n      font-size: 18px;\n      margin: 0;\n    }\n\n    .progressbar {\n      position: relative;\n      width: 60%;\n      height: 30px;\n      border-radius: 20px;\n      background: rgb(35, 42, 213);\n      background: linear-gradient(\n        93deg,\n        rgba(252, 165, 3, 1) 0%,\n        rgba(227, 197, 113, 1) 42%,\n        rgba(150, 112, 3, 1) 100%\n      );\n      span {\n        bottom: -38px;\n      }\n    }\n  }\n\n  .payment-getway {\n    margin-top: 85px;\n    text-align: center;\n    font-size: 20px;\n    color: #fff;\n    span {\n      margin-right: 25px;\n      &:last-child {\n        margin-right: 0;\n      }\n    }\n  }\n  .countBoxItem {\n    min-width: 100px;\n    position: relative;\n    text-align: center;\n    display: flex;\n    flex-direction: column-reverse;\n  }\n  .countdown-wrapper {\n    margin-bottom: 40px;\n    .text {\n      font-size: 14px;\n      color: #fff;\n      text-align: center;\n      margin-bottom: 35px;\n    }\n    .countBox {\n      display: flex;\n      flex-direction: row-reverse;\n      justify-content: center;\n      .count {\n        line-height: 46px;\n        font-weight: 700;\n        margin-bottom: 16px;\n      }\n      .label {\n       font-size: 14px;\n       color: #BEABDF;\n      }\n      .split {\n        font-size: 40px;\n        font-weight: 700;\n        color: #fff;\n        margin: 6px 8px 0 8px;\n      }\n    }\n  }\n  @media only screen and (max-width: 1024px) {\n    background-size: 36%;\n    background-position: 86% 41%;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n      text-align: left;\n    }\n    .countdown-wrapper {\n      .count {\n        font-size: 45px;\n      }\n    }\n  }\n\n  @media only screen and (max-width: 912px) {\n    background-position: 86% 70%;\n    .coin-fund-content-left{\n      text-align: center;\n      margin-bottom: 80px;\n    }\n  }\n  @media only screen and (max-width: 768px) {\n    .countdown-wrap{\n      width: 100%;\n    }\n  }\n  @media only screen and (max-width: 480px) {\n    background: none;\n    padding: 50px 0;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n    }\n    .countdown-wrapper {\n      .split {\n        display: none;\n      }\n      .count {\n        font-size: 35px;\n      } \n      .countBox{\n        flex-direction: column-reverse;\n      }\n    }\n  }\n"])), assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, function (props) {
   return props.theme.linkColor ? props.theme.linkColor : "#1F2AD5";
 });
 /* harmony default export */ __webpack_exports__["default"] = (CoinFundWrapper);
@@ -26650,12 +26628,12 @@ var CoinFund = function CoinFund() {
       lineNumber: 47,
       columnNumber: 17
     }
-  }, "The highly the not having with lively. Our up with ran go her it gloomy the back, though however projected not for six with then, trusted as concepts belt.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "Panache Token represents all aspects of our social lives, from the type of watches you wear, your dressing appearances, the cars you drive, the houses you live in and all other confidence lifestyles.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
     className: "btn-wrapper",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 53,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -26663,7 +26641,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 54,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -26671,7 +26649,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 55,
       columnNumber: 19
     }
   }, "Buy Token"))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -26679,7 +26657,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 60,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -26687,21 +26665,21 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 61,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 62,
       columnNumber: 15
     }
   }, " Last moment to grab the token "), __jsx(react_component_countdown_timer__WEBPACK_IMPORTED_MODULE_3___default.a, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, settings, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 63,
       columnNumber: 15
     }
   }))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -26709,7 +26687,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 65,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -26717,7 +26695,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 66,
       columnNumber: 15
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26725,7 +26703,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 67,
       columnNumber: 17
     }
   }, "$5,097")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26733,15 +26711,15 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 69,
       columnNumber: 15
     }
-  }, "$11,931")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "$100,931")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
     className: "payment-getway",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 72,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26749,14 +26727,14 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 73,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaBitcoin"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 75,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26764,14 +26742,14 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 77,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcMastercard"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 79,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26779,14 +26757,14 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 81,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcVisa"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 83,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26794,14 +26772,14 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 85,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcDiscover"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 87,
       columnNumber: 17
     }
   }), " "))))));
@@ -28049,19 +28027,6 @@ var ScrollspyMenu = function ScrollspyMenu(_ref) {
 __webpack_require__.r(__webpack_exports__);
 var Data = {
   menuItems: [{
-    name: "Home",
-    path: "/",
-    subItems: [{
-      name: "Home Two",
-      path: "/home-two"
-    }, {
-      name: "Home Three",
-      path: "/home-three"
-    }, {
-      name: "Home Slider",
-      path: "/home-slider"
-    }]
-  }, {
     name: "About",
     path: "about",
     offset: "-100"
@@ -28070,11 +28035,11 @@ var Data = {
     path: "service",
     offset: "-120"
   }, {
-    name: "Token",
+    name: "Roadmap",
     path: "token",
     offset: "-100"
   }, {
-    name: "Pages",
+    name: "Features",
     path: "/blog-grid",
     subItems: [{
       name: "Blog Grid",
@@ -28200,7 +28165,7 @@ var Service = function Service() {
       }
     }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_5__["default"], {
       src: service.icon,
-      alt: "cryptik service icon",
+      alt: "panache icon",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -28339,18 +28304,18 @@ var Stack = function Stack() {
       lineNumber: 22,
       columnNumber: 17
     }
-  }, " Technology we use"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "Our Propectus Partners"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 17
     }
-  }, "Attention in when in just something bread not hundred well, muff value emerge on the known officers.")))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+  }, "Each $PANACHE Token partner provides a liquidity to the trading pool, with a threshold of $5,000. This position from each partners adds to the distributive percentage rate for each token holders and also adds addition percentage to the partners brand ambassadors and trade activities happens in the marketplace")))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 11
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -28358,7 +28323,7 @@ var Stack = function Stack() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 32,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -28366,7 +28331,7 @@ var Stack = function Stack() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 33,
       columnNumber: 15
     }
   }, assets_data_stack__WEBPACK_IMPORTED_MODULE_8__["default"].stack.map(function (item, index) {
@@ -28376,14 +28341,14 @@ var Stack = function Stack() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 35,
         columnNumber: 19
       }
     }, __jsx("a", {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35,
+        lineNumber: 36,
         columnNumber: 21
       }
     }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -28392,7 +28357,7 @@ var Stack = function Stack() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 37,
         columnNumber: 23
       }
     })));
@@ -28515,7 +28480,7 @@ var Statistics = function Statistics() {
     }
   }, "Funds Allocation"), __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_5__["default"], {
     src: assets_images_chart_token_chart_1_png__WEBPACK_IMPORTED_MODULE_6___default.a,
-    alt: "cryptic statistics image",
+    alt: "panache statistics image",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -28548,7 +28513,7 @@ var Statistics = function Statistics() {
     }
   }, "Token Distribution"), __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_5__["default"], {
     src: assets_images_chart_token_chart_2_png__WEBPACK_IMPORTED_MODULE_7___default.a,
-    alt: "cryptic statistics image",
+    alt: "panache statistics image",
     __self: _this,
     __source: {
       fileName: _jsxFileName,

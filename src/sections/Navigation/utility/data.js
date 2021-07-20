@@ -1,23 +1,6 @@
 const Data = {
   menuItems: [
-    {
-      name: "Home",
-      path: "/",
-      subItems: [
-        {
-          name: "Home Two",
-          path: "/home-two"
-        },
-        {
-          name: "Home Three",
-          path: "/home-three"
-        },
-        {
-          name: "Home Slider",
-          path: "/home-slider"
-        }
-      ]
-    },
+
     {
       name: "About",
       path: "about",
@@ -29,13 +12,13 @@ const Data = {
       offset: "-120"
     },
     {
-      name: "Token",
+      name: "Roadmap",
       path: "token",
       offset: "-100"
     },
    
     {
-      name: "Pages",
+      name: "Features",
       path: "/blog-grid",
       subItems: [
         {
