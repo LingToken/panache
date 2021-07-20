@@ -93,115 +93,6 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    "default": obj
-  };
-}
-
-module.exports = _interopRequireDefault;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/interopRequireWildcard.js ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js");
-
-function _getRequireWildcardCache() {
-  if (typeof WeakMap !== "function") return null;
-  var cache = new WeakMap();
-
-  _getRequireWildcardCache = function _getRequireWildcardCache() {
-    return cache;
-  };
-
-  return cache;
-}
-
-function _interopRequireWildcard(obj) {
-  if (obj && obj.__esModule) {
-    return obj;
-  }
-
-  if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") {
-    return {
-      "default": obj
-    };
-  }
-
-  var cache = _getRequireWildcardCache();
-
-  if (cache && cache.has(obj)) {
-    return cache.get(obj);
-  }
-
-  var newObj = {};
-  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
-
-  for (var key in obj) {
-    if (Object.prototype.hasOwnProperty.call(obj, key)) {
-      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
-
-      if (desc && (desc.get || desc.set)) {
-        Object.defineProperty(newObj, key, desc);
-      } else {
-        newObj[key] = obj[key];
-      }
-    }
-  }
-
-  newObj["default"] = obj;
-
-  if (cache) {
-    cache.set(obj, newObj);
-  }
-
-  return newObj;
-}
-
-module.exports = _interopRequireWildcard;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/typeof.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/typeof.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
-
-function _typeof(obj) {
-  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
-    module.exports = _typeof = function _typeof(obj) {
-      return _typeof2(obj);
-    };
-  } else {
-    module.exports = _typeof = function _typeof(obj) {
-      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
-    };
-  }
-
-  return _typeof(obj);
-}
-
-module.exports = _typeof;
-
-/***/ }),
-
 /***/ "./node_modules/next/dist/client/link.js":
 /*!***********************************************!*\
   !*** ./node_modules/next/dist/client/link.js ***!
@@ -212,9 +103,9 @@ module.exports = _typeof;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
-var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
+var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
 
 exports.__esModule = true;
 exports.default = void 0;
@@ -538,9 +429,9 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
+var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
 exports.useRouter = useRouter;
@@ -700,7 +591,7 @@ function makePublicRouterInstance(router) {
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
 exports.default = withRouter;
@@ -1765,6 +1656,115 @@ exports.ST = exports.SP && typeof performance.mark === 'function' && typeof perf
 
 module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/next/dist/client/link.js")
 
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+module.exports = _interopRequireDefault;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireWildcard.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireWildcard.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/next/node_modules/@babel/runtime/helpers/typeof.js");
+
+function _getRequireWildcardCache() {
+  if (typeof WeakMap !== "function") return null;
+  var cache = new WeakMap();
+
+  _getRequireWildcardCache = function _getRequireWildcardCache() {
+    return cache;
+  };
+
+  return cache;
+}
+
+function _interopRequireWildcard(obj) {
+  if (obj && obj.__esModule) {
+    return obj;
+  }
+
+  if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") {
+    return {
+      "default": obj
+    };
+  }
+
+  var cache = _getRequireWildcardCache();
+
+  if (cache && cache.has(obj)) {
+    return cache.get(obj);
+  }
+
+  var newObj = {};
+  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+
+  for (var key in obj) {
+    if (Object.prototype.hasOwnProperty.call(obj, key)) {
+      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+
+      if (desc && (desc.get || desc.set)) {
+        Object.defineProperty(newObj, key, desc);
+      } else {
+        newObj[key] = obj[key];
+      }
+    }
+  }
+
+  newObj["default"] = obj;
+
+  if (cache) {
+    cache.set(obj, newObj);
+  }
+
+  return newObj;
+}
+
+module.exports = _interopRequireWildcard;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/typeof.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/typeof.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
+
+function _typeof(obj) {
+  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
+    module.exports = _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    module.exports = _typeof = function _typeof(obj) {
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
+    };
+  }
+
+  return _typeof(obj);
+}
+
+module.exports = _typeof;
 
 /***/ }),
 
@@ -5832,6 +5832,8 @@ const BannerWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.d
 
     .banner-btn {
       margin-top: 45px;
+      display:flex;
+      justify-content:space-between;
       a {
         width: 235px;
         font-size: 16px;
@@ -6197,14 +6199,14 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 38,
       columnNumber: 7
     }
   }, __jsx("defs", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 39,
       columnNumber: 11
     }
   }, __jsx("linearGradient", {
@@ -6217,7 +6219,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 40,
       columnNumber: 13
     }
   }, __jsx("stop", {
@@ -6226,21 +6228,12 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.016",
-    stopColor: "#40ddda",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 41,
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.092",
-    stopColor: "#39aec0",
+    offset: "0.016",
+    stopColor: "#e38400",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6248,8 +6241,8 @@ const BannerTwo = () => {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.173",
-    stopColor: "#3384a8",
+    offset: "0.092",
+    stopColor: "#ff9900",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6257,8 +6250,8 @@ const BannerTwo = () => {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.257",
-    stopColor: "#2f6095",
+    offset: "0.173",
+    stopColor: "#fad873",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6266,8 +6259,8 @@ const BannerTwo = () => {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.346",
-    stopColor: "#2b4485",
+    offset: "0.257",
+    stopColor: "#ffce3d",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6275,8 +6268,8 @@ const BannerTwo = () => {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.44",
-    stopColor: "#272d79",
+    offset: "0.346",
+    stopColor: "#ffc20f",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6284,8 +6277,8 @@ const BannerTwo = () => {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.542",
-    stopColor: "#251e70",
+    offset: "0.44",
+    stopColor: "#e6ac05",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6293,12 +6286,21 @@ const BannerTwo = () => {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.659",
-    stopColor: "#24146b",
+    offset: "0.542",
+    stopColor: "#e6ac05",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48,
+      columnNumber: 15
+    }
+  }), __jsx("stop", {
+    offset: "0.659",
+    stopColor: "#e3ad12",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -6307,7 +6309,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 50,
       columnNumber: 15
     }
   })), __jsx("linearGradient", {
@@ -6319,25 +6321,25 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 52,
       columnNumber: 13
     }
   }, __jsx("stop", {
     offset: "0",
-    stopColor: "#c838e7",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.073",
-    stopColor: "#b536e5",
+    stopColor: "#e3bd00",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53,
+      columnNumber: 15
+    }
+  }), __jsx("stop", {
+    offset: "0.073",
+    stopColor: "#e38400",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -6346,7 +6348,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 55,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -6355,7 +6357,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 56,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -6364,7 +6366,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 57,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -6373,7 +6375,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 58,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -6382,7 +6384,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 59,
       columnNumber: 15
     }
   })), __jsx("radialGradient", {
@@ -6394,7 +6396,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 62,
       columnNumber: 13
     }
   }, __jsx("stop", {
@@ -6403,7 +6405,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 63,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -6412,7 +6414,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 64,
       columnNumber: 15
     }
   })), __jsx("linearGradient", {
@@ -6425,7 +6427,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 66,
       columnNumber: 13
     }
   }), __jsx("linearGradient", {
@@ -6438,7 +6440,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 67,
       columnNumber: 13
     }
   }, __jsx("stop", {
@@ -6447,30 +6449,12 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.151",
-    stopColor: "#42e3df",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.328",
-    stopColor: "#44d4de",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 68,
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.52",
-    stopColor: "#48bddd",
+    offset: "0.151",
+    stopColor: "#e38400",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6478,8 +6462,8 @@ const BannerTwo = () => {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.721",
-    stopColor: "#4d9bda",
+    offset: "0.328",
+    stopColor: "#e38400",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6487,8 +6471,8 @@ const BannerTwo = () => {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.927",
-    stopColor: "#5471d8",
+    offset: "0.52",
+    stopColor: "#e38400",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6496,12 +6480,30 @@ const BannerTwo = () => {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "1",
-    stopColor: "#5761d7",
+    offset: "0.721",
+    stopColor: "#e38400",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 72,
+      columnNumber: 15
+    }
+  }), __jsx("stop", {
+    offset: "0.927",
+    stopColor: "#e38400",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 15
+    }
+  }), __jsx("stop", {
+    offset: "1",
+    stopColor: "#e38400",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
       columnNumber: 15
     }
   })), __jsx("linearGradient", {
@@ -6514,7 +6516,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 76,
       columnNumber: 13
     }
   }), __jsx("linearGradient", {
@@ -6527,7 +6529,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 77,
       columnNumber: 13
     }
   }), __jsx("linearGradient", {
@@ -6540,7 +6542,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 78,
       columnNumber: 13
     }
   }), __jsx("clipPath", {
@@ -6548,7 +6550,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 79,
       columnNumber: 13
     }
   }, __jsx("ellipse", {
@@ -6562,7 +6564,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 80,
       columnNumber: 15
     }
   })), __jsx("linearGradient", {
@@ -6574,7 +6576,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 82,
       columnNumber: 13
     }
   }, __jsx("stop", {
@@ -6583,7 +6585,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 83,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -6592,7 +6594,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 84,
       columnNumber: 15
     }
   })), __jsx("linearGradient", {
@@ -6604,7 +6606,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 86,
       columnNumber: 13
     }
   }, __jsx("stop", {
@@ -6613,7 +6615,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 87,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -6622,7 +6624,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 88,
       columnNumber: 15
     }
   })), __jsx("linearGradient", {
@@ -6635,7 +6637,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 90,
       columnNumber: 13
     }
   }, __jsx("stop", {
@@ -6644,7 +6646,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 91,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -6653,7 +6655,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 92,
       columnNumber: 15
     }
   }))), __jsx("g", {
@@ -6663,7 +6665,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 95,
       columnNumber: 11
     }
   }, __jsx("g", {
@@ -6673,7 +6675,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 96,
       columnNumber: 13
     }
   }, __jsx("path", {
@@ -6686,7 +6688,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 97,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -6699,7 +6701,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 98,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -6712,7 +6714,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 99,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -6725,7 +6727,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 100,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -6738,7 +6740,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 101,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -6751,7 +6753,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 102,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -6764,7 +6766,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 103,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -6777,7 +6779,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 104,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -6790,7 +6792,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 105,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -6803,7 +6805,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 106,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -6816,7 +6818,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 107,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -6829,7 +6831,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 108,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -6842,7 +6844,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 109,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -6855,7 +6857,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 110,
       columnNumber: 15
     }
   })), __jsx("g", {
@@ -6865,7 +6867,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 112,
       columnNumber: 13
     }
   }, __jsx("g", {
@@ -6874,7 +6876,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 113,
       columnNumber: 15
     }
   }, __jsx("g", {
@@ -6883,7 +6885,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 114,
       columnNumber: 17
     }
   }, __jsx("ellipse", {
@@ -6899,7 +6901,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 115,
       columnNumber: 19
     }
   }), __jsx("ellipse", {
@@ -6914,7 +6916,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 116,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -6927,7 +6929,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 117,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -6940,7 +6942,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 118,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -6953,7 +6955,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 119,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -6965,7 +6967,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 120,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -6977,7 +6979,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119,
+      lineNumber: 121,
       columnNumber: 19
     }
   }), __jsx("ellipse", {
@@ -6991,7 +6993,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 122,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -7004,7 +7006,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 123,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -7017,7 +7019,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 124,
       columnNumber: 19
     }
   }), __jsx("g", {
@@ -7028,7 +7030,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 125,
       columnNumber: 19
     }
   }, __jsx("ellipse", {
@@ -7042,7 +7044,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 126,
       columnNumber: 21
     }
   }), __jsx("g", {
@@ -7052,7 +7054,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 127,
       columnNumber: 21
     }
   }, __jsx("g", {
@@ -7062,7 +7064,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 128,
       columnNumber: 23
     }
   }, __jsx("path", {
@@ -7070,11 +7072,11 @@ const BannerTwo = () => {
     "data-name": "Path 46883",
     d: "M7.873,347.3,5.9,346.154l322.61-186.259,1.977,1.141Z",
     transform: "translate(-5.896 -159.895)",
-    fill: "#42e8e0",
+    fill: "#e38400",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 129,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7086,7 +7088,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 130,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7098,7 +7100,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 131,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7110,7 +7112,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 132,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7122,7 +7124,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
+      lineNumber: 133,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7134,7 +7136,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132,
+      lineNumber: 134,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7146,7 +7148,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 135,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7158,7 +7160,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 136,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7170,7 +7172,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 137,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7182,7 +7184,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 138,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7194,7 +7196,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 139,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7202,11 +7204,11 @@ const BannerTwo = () => {
     "data-name": "Path 46894",
     d: "M37.792,364.569l-1.977-1.141,322.61-186.259,1.977,1.141Z",
     transform: "translate(26.706 -141.072)",
-    fill: "#42e8e0",
+    fill: "#e38400",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 140,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7218,7 +7220,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 141,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7230,7 +7232,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 142,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7242,7 +7244,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 143,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7254,7 +7256,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 144,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7266,7 +7268,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 145,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7278,7 +7280,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144,
+      lineNumber: 146,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7290,7 +7292,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 147,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7302,7 +7304,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146,
+      lineNumber: 148,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7314,7 +7316,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147,
+      lineNumber: 149,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7326,7 +7328,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
+      lineNumber: 150,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7338,7 +7340,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149,
+      lineNumber: 151,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7350,7 +7352,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150,
+      lineNumber: 152,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7362,7 +7364,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 153,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7374,7 +7376,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 154,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7386,7 +7388,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153,
+      lineNumber: 155,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7394,11 +7396,11 @@ const BannerTwo = () => {
     "data-name": "Path 46910",
     d: "M81.311,389.694l-1.977-1.141,322.61-186.259,1.977,1.141Z",
     transform: "translate(74.129 -113.692)",
-    fill: "#42e8e0",
+    fill: "#e38400",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154,
+      lineNumber: 156,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7406,11 +7408,11 @@ const BannerTwo = () => {
     "data-name": "Path 46911",
     d: "M84.031,391.265l-1.977-1.141,322.61-186.259,1.977,1.141Z",
     transform: "translate(77.093 -111.981)",
-    fill: "#42e8e0",
+    fill: "#e38400",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
+      lineNumber: 157,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7422,7 +7424,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156,
+      lineNumber: 158,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7434,7 +7436,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 159,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7446,7 +7448,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
+      lineNumber: 160,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7458,7 +7460,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159,
+      lineNumber: 161,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7470,7 +7472,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160,
+      lineNumber: 162,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7482,7 +7484,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161,
+      lineNumber: 163,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7494,7 +7496,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162,
+      lineNumber: 164,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7506,7 +7508,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163,
+      lineNumber: 165,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7518,7 +7520,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164,
+      lineNumber: 166,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7530,7 +7532,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165,
+      lineNumber: 167,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7542,7 +7544,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166,
+      lineNumber: 168,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7554,7 +7556,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167,
+      lineNumber: 169,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7566,7 +7568,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168,
+      lineNumber: 170,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7578,7 +7580,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169,
+      lineNumber: 171,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7590,7 +7592,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 172,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7602,7 +7604,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171,
+      lineNumber: 173,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7614,7 +7616,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 174,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7626,7 +7628,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173,
+      lineNumber: 175,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7638,7 +7640,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174,
+      lineNumber: 176,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7650,7 +7652,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175,
+      lineNumber: 177,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7662,7 +7664,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176,
+      lineNumber: 178,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7674,7 +7676,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177,
+      lineNumber: 179,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7686,7 +7688,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178,
+      lineNumber: 180,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7698,7 +7700,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179,
+      lineNumber: 181,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7710,7 +7712,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180,
+      lineNumber: 182,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7722,7 +7724,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 183,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7734,7 +7736,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182,
+      lineNumber: 184,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7746,7 +7748,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183,
+      lineNumber: 185,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7758,7 +7760,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184,
+      lineNumber: 186,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7770,7 +7772,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185,
+      lineNumber: 187,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7782,7 +7784,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186,
+      lineNumber: 188,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -7794,7 +7796,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187,
+      lineNumber: 189,
       columnNumber: 25
     }
   })))), __jsx("path", {
@@ -7806,7 +7808,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191,
+      lineNumber: 193,
       columnNumber: 19
     }
   }))), __jsx("g", {
@@ -7816,7 +7818,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 194,
+      lineNumber: 196,
       columnNumber: 15
     }
   }, __jsx("path", {
@@ -7828,7 +7830,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195,
+      lineNumber: 197,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -7841,7 +7843,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 196,
+      lineNumber: 198,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -7854,7 +7856,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 197,
+      lineNumber: 199,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -7867,7 +7869,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198,
+      lineNumber: 200,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -7879,7 +7881,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
+      lineNumber: 201,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -7892,7 +7894,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200,
+      lineNumber: 202,
       columnNumber: 17
     }
   }))), __jsx("g", {
@@ -7902,7 +7904,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203,
+      lineNumber: 205,
       columnNumber: 13
     }
   }, __jsx("path", {
@@ -7914,7 +7916,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 204,
+      lineNumber: 206,
       columnNumber: 15
     }
   }), __jsx("image", {
@@ -7927,7 +7929,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 205,
+      lineNumber: 207,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -7939,7 +7941,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206,
+      lineNumber: 208,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -7947,11 +7949,11 @@ const BannerTwo = () => {
     "data-name": "Path 46953",
     d: "M208,185.355l-12.437-7.181,21.176-12.226,12.437,7.18Z",
     transform: "translate(55.584 -110.536)",
-    fill: "#6df7fb",
+    fill: "#e38400",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 207,
+      lineNumber: 209,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -7964,7 +7966,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208,
+      lineNumber: 210,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -7977,7 +7979,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209,
+      lineNumber: 211,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -7990,7 +7992,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210,
+      lineNumber: 212,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -8003,7 +8005,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 211,
+      lineNumber: 213,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -8016,7 +8018,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 212,
+      lineNumber: 214,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -8029,7 +8031,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 213,
+      lineNumber: 215,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -8042,7 +8044,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214,
+      lineNumber: 216,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -8055,7 +8057,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215,
+      lineNumber: 217,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -8068,7 +8070,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216,
+      lineNumber: 218,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -8080,7 +8082,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217,
+      lineNumber: 219,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -8092,7 +8094,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 218,
+      lineNumber: 220,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -8104,7 +8106,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219,
+      lineNumber: 221,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -8116,7 +8118,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220,
+      lineNumber: 222,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -8128,7 +8130,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221,
+      lineNumber: 223,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -8140,7 +8142,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 222,
+      lineNumber: 224,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -8152,7 +8154,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223,
+      lineNumber: 225,
       columnNumber: 15
     }
   }), __jsx("g", {
@@ -8161,7 +8163,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224,
+      lineNumber: 226,
       columnNumber: 15
     }
   }, __jsx("path", {
@@ -8174,7 +8176,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 225,
+      lineNumber: 227,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -8187,7 +8189,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226,
+      lineNumber: 228,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -8199,7 +8201,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227,
+      lineNumber: 229,
       columnNumber: 17
     }
   })), __jsx("g", {
@@ -8209,7 +8211,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 229,
+      lineNumber: 231,
       columnNumber: 15
     }
   }, __jsx("path", {
@@ -8217,11 +8219,11 @@ const BannerTwo = () => {
     "data-name": "Path 46973",
     d: "M163.955,267.684l-11.1-6.409,142.49-82.267,11.1,6.409Z",
     transform: "translate(-152.855 -179.008)",
-    fill: "#6df7fb",
+    fill: "#e38400",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 230,
+      lineNumber: 232,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -8234,7 +8236,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 231,
+      lineNumber: 233,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -8247,7 +8249,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 232,
+      lineNumber: 234,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -8260,22 +8262,30 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 233,
+      lineNumber: 235,
       columnNumber: 17
     }
   }))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 238,
+      lineNumber: 242,
       columnNumber: 9
     }
-  }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    src: "src/assets/images/banners/banner-two/cryptik-banner-key-icon.svg",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 243,
+      columnNumber: 9
+    }
+  }), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     className: "lg-7 md-10 xs-12",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 239,
+      lineNumber: 244,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -8283,21 +8293,21 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 240,
+      lineNumber: 245,
       columnNumber: 13
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 241,
+      lineNumber: 246,
       columnNumber: 15
     }
   }, "Access and ", __jsx("br", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 242,
+      lineNumber: 247,
       columnNumber: 28
     }
   }), "position your lifestyle"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -8306,14 +8316,14 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 245,
+      lineNumber: 250,
       columnNumber: 15
     }
   }, "Holders earn passive rewards through static reflection while watching their balance of ", __jsx("b", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246,
+      lineNumber: 251,
       columnNumber: 104
     }
   }, "$PANACHE"), " grow indefinitely"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -8322,7 +8332,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 249,
+      lineNumber: 254,
       columnNumber: 15
     }
   }, "Panache Token allows you to access and position your lifesteyle giving you the opptunity to live your best life while still earning a living out of it."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -8331,14 +8341,14 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 253,
+      lineNumber: 258,
       columnNumber: 15
     }
   }, " Holders earn more trading rewards as exchange happen betweeen ", __jsx("b", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 253,
+      lineNumber: 258,
       columnNumber: 118
     }
   }, "$PANACHE"), "Token and partners wares at the marketplace. "), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -8346,14 +8356,14 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 256,
+      lineNumber: 261,
       columnNumber: 15
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 257,
+      lineNumber: 262,
       columnNumber: 17
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -8362,21 +8372,21 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 258,
+      lineNumber: 263,
       columnNumber: 19
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 259,
+      lineNumber: 264,
       columnNumber: 19
     }
   }, "Premium Lifestyle")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 261,
+      lineNumber: 266,
       columnNumber: 17
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -8385,21 +8395,21 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 262,
+      lineNumber: 267,
       columnNumber: 19
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 263,
+      lineNumber: 268,
       columnNumber: 19
     }
   }, "Brand Ambassadors")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 265,
+      lineNumber: 270,
       columnNumber: 17
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -8408,22 +8418,22 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 266,
+      lineNumber: 271,
       columnNumber: 19
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 267,
+      lineNumber: 272,
       columnNumber: 19
     }
-  }, "Modelling"))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Model"))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     className: "banner-btn",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 271,
+      lineNumber: 276,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -8431,7 +8441,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 272,
+      lineNumber: 277,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -8439,17 +8449,40 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 273,
+      lineNumber: 278,
       columnNumber: 19
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_14__["FaGithub"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 273,
+      lineNumber: 278,
       columnNumber: 48
     }
-  }), " Download Crypto"))))))));
+  }), "Buy $PANACHE")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "#",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 280,
+      columnNumber: 20
+    }
+  }, __jsx("a", {
+    className: "btn ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 281,
+      columnNumber: 19
+    }
+  }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_14__["FaGithub"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 281,
+      columnNumber: 40
+    }
+  }), " Read our whitepaper"))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BannerTwo);

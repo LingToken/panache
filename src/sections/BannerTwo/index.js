@@ -33,30 +33,32 @@ const BannerTwo = () => {
       <img src={particleBottomLeft} className="section__particle bottom-left" alt="cryptik particles"/>
       <img src={particleBottomRight} className="section__particle bottom-right" alt="cryptik particles"/>
       <Container>
+      
        
       <svg className="banner__thumb" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="493.537" height="606.367" viewBox="0 0 493.537 606.367">
           <defs>
             <linearGradient id="linear-gradient" x1="0.412" y1="-0.263" x2="0.691" y2="2.155" gradientUnits="objectBoundingBox">
               <stop offset="0" stopColor="#42e8e0"/>
-              <stop offset="0.016" stopColor="#40ddda"/>
-              <stop offset="0.092" stopColor="#39aec0"/>
-              <stop offset="0.173" stopColor="#3384a8"/>
-              <stop offset="0.257" stopColor="#2f6095"/>
-              <stop offset="0.346" stopColor="#2b4485"/>
-              <stop offset="0.44" stopColor="#272d79"/>
-              <stop offset="0.542" stopColor="#251e70"/>
-              <stop offset="0.659" stopColor="#24146b"/>
+              <stop offset="0.016" stopColor="#e38400"/>
+              <stop offset="0.092" stopColor="#ff9900"/>
+              <stop offset="0.173" stopColor="#fad873"/>
+              <stop offset="0.257" stopColor="#ffce3d"/>
+              <stop offset="0.346" stopColor="#ffc20f"/>
+              <stop offset="0.44" stopColor="#e6ac05"/>
+              <stop offset="0.542" stopColor="#e6ac05"/>
+              <stop offset="0.659" stopColor="#e3ad12"/>
               <stop offset="0.823" stopColor="#24126a"/>
             </linearGradient>
             <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-              <stop offset="0" stopColor="#c838e7"/>
-              <stop offset="0.073" stopColor="#b536e5"/>
+              <stop offset="0" stopColor="#e3bd00"/>
+              <stop offset="0.073" stopColor="#e38400"/>
               <stop offset="0.305" stopColor="#8032df"/>
               <stop offset="0.521" stopColor="#562eda"/>
               <stop offset="0.716" stopColor="#382cd7"/>
               <stop offset="0.882" stopColor="#252ad5"/>
               <stop offset="1" stopColor="#1f2ad5"/>
             </linearGradient>
+
             <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
               <stop offset="0" stopColor="#4268db"/>
               <stop offset="1" stopColor="#280d57"/>
@@ -64,12 +66,12 @@ const BannerTwo = () => {
             <linearGradient id="linear-gradient-16" x1="0.698" y1="0.045" x2="0.763" y2="1.973" xlinkHref="#linear-gradient-2"/>
             <linearGradient id="linear-gradient-17" x1="-0.076" y1="0.5" x2="0.915" y2="0.5" gradientUnits="objectBoundingBox">
               <stop offset="0" stopColor="#42e8e0"/>
-              <stop offset="0.151" stopColor="#42e3df"/>
-              <stop offset="0.328" stopColor="#44d4de"/>
-              <stop offset="0.52" stopColor="#48bddd"/>
-              <stop offset="0.721" stopColor="#4d9bda"/>
-              <stop offset="0.927" stopColor="#5471d8"/>
-              <stop offset="1" stopColor="#5761d7"/>
+              <stop offset="0.151" stopColor="#e38400"/>
+              <stop offset="0.328" stopColor="#e38400"/>
+              <stop offset="0.52" stopColor="#e38400"/>
+              <stop offset="0.721" stopColor="#e38400"/>
+              <stop offset="0.927" stopColor="#e38400"/>
+              <stop offset="1" stopColor="#e38400"/>
             </linearGradient>
             <linearGradient id="linear-gradient-20" x1="-0.076" y1="0.5" x2="0.915" y2="0.5" xlinkHref="#linear-gradient"/>
             <linearGradient id="linear-gradient-21" x1="0" y1="0.5" x2="1" y2="0.5" xlinkHref="#linear-gradient-2"/>
@@ -124,7 +126,7 @@ const BannerTwo = () => {
                     <ellipse id="Ellipse_4138" data-name="Ellipse 4138" cx="185.181" cy="106.914" rx="185.181" ry="106.914" fill="url(#linear-gradient)"/>
                     <g id="Group_6356" data-name="Group 6356" clipPath="url(#clip-path)">
                       <g id="Group_6355" data-name="Group 6355" transform="translate(-147.583 -80.947)">
-                        <path id="Path_46883" data-name="Path 46883" d="M7.873,347.3,5.9,346.154l322.61-186.259,1.977,1.141Z" transform="translate(-5.896 -159.895)" fill="#42e8e0"/>
+                        <path id="Path_46883" data-name="Path 46883" d="M7.873,347.3,5.9,346.154l322.61-186.259,1.977,1.141Z" transform="translate(-5.896 -159.895)" fill="#e38400"/>
                         <path id="Path_46884" data-name="Path 46884" d="M10.593,348.865l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(-2.933 -158.184)" fill="#42e8e0"/>
                         <path id="Path_46885" data-name="Path 46885" d="M13.313,350.436l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(0.031 -156.472)" fill="#42e8e0"/>
                         <path id="Path_46886" data-name="Path 46886" d="M16.033,352.006l-1.977-1.141,322.61-186.259,1.977,1.142Z" transform="translate(2.995 -154.761)" fill="#42e8e0"/>
@@ -135,7 +137,7 @@ const BannerTwo = () => {
                         <path id="Path_46891" data-name="Path 46891" d="M29.633,359.858l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(17.815 -146.205)" fill="#42e8e0"/>
                         <path id="Path_46892" data-name="Path 46892" d="M32.353,361.428l-1.977-1.142,322.61-186.259,1.977,1.141Z" transform="translate(20.779 -144.494)" fill="#42e8e0"/>
                         <path id="Path_46893" data-name="Path 46893" d="M35.073,363,33.1,361.857,355.705,175.6l1.977,1.141Z" transform="translate(23.742 -142.783)" fill="#42e8e0"/>
-                        <path id="Path_46894" data-name="Path 46894" d="M37.792,364.569l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(26.706 -141.072)" fill="#42e8e0"/>
+                        <path id="Path_46894" data-name="Path 46894" d="M37.792,364.569l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(26.706 -141.072)" fill="#e38400"/>
                         <path id="Path_46895" data-name="Path 46895" d="M40.512,366.139,38.535,365l322.61-186.259,1.977,1.142Z" transform="translate(29.67 -139.36)" fill="#42e8e0"/>
                         <path id="Path_46896" data-name="Path 46896" d="M43.232,367.71l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(32.634 -137.649)" fill="#42e8e0"/>
                         <path id="Path_46897" data-name="Path 46897" d="M45.952,369.28l-1.977-1.141L366.585,181.88l1.977,1.141Z" transform="translate(35.598 -135.938)" fill="#42e8e0"/>
@@ -151,8 +153,8 @@ const BannerTwo = () => {
                         <path id="Path_46907" data-name="Path 46907" d="M73.151,384.983l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(65.237 -118.826)" fill="#42e8e0"/>
                         <path id="Path_46908" data-name="Path 46908" d="M75.871,386.554l-1.977-1.141L396.5,199.154l1.977,1.141Z" transform="translate(68.201 -117.115)" fill="#42e8e0"/>
                         <path id="Path_46909" data-name="Path 46909" d="M78.591,388.124l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(71.165 -115.403)" fill="#42e8e0"/>
-                        <path id="Path_46910" data-name="Path 46910" d="M81.311,389.694l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(74.129 -113.692)" fill="#42e8e0"/>
-                        <path id="Path_46911" data-name="Path 46911" d="M84.031,391.265l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(77.093 -111.981)" fill="#42e8e0"/>
+                        <path id="Path_46910" data-name="Path 46910" d="M81.311,389.694l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(74.129 -113.692)" fill="#e38400"/>
+                        <path id="Path_46911" data-name="Path 46911" d="M84.031,391.265l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(77.093 -111.981)" fill="#e38400"/>
                         <path id="Path_46912" data-name="Path 46912" d="M86.751,392.835l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(80.057 -110.27)" fill="#42e8e0"/>
                         <path id="Path_46913" data-name="Path 46913" d="M89.471,394.406l-1.977-1.141L410.1,207.005l1.977,1.141Z" transform="translate(83.021 -108.559)" fill="#42e8e0"/>
                         <path id="Path_46914" data-name="Path 46914" d="M92.191,395.976l-1.977-1.141,322.61-186.259,1.977,1.141Z" transform="translate(85.985 -106.847)" fill="#42e8e0"/>
@@ -204,7 +206,7 @@ const BannerTwo = () => {
               <path id="Path_46951" data-name="Path 46951" d="M182.293,219.37c-7.676,0-15.353-1.688-21.2-5.061-5.885-3.4-9.124-7.981-9.124-12.912s3.239-9.517,9.124-12.912c11.688-6.748,30.708-6.748,42.4,0,5.885,3.4,9.124,7.981,9.124,12.912s-3.239,9.516-9.122,12.912h0C197.648,217.681,189.97,219.37,182.293,219.37Zm0-33.651c-7.255,0-14.509,1.594-20.032,4.783-5.132,2.961-7.958,6.831-7.958,10.894s2.825,7.93,7.958,10.892c11.046,6.38,29.02,6.38,40.066,0h0c5.13-2.961,7.956-6.829,7.956-10.892s-2.825-7.933-7.956-10.894C196.8,187.314,189.548,185.719,182.293,185.719Z" transform="translate(8.085 -91.494)" fill="#6df7fb"/>
               <image id="Rectangle_239" data-name="Rectangle 239" width="79.242" height="101.81" transform="translate(76.576 71.911)" xlinkHref="data:image/png;base64,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"/>
               <path id="Path_46952" data-name="Path 46952" d="M188.283,204.612c-6.929,4-18.166,4-25.1,0s-6.929-10.488,0-14.49,18.168-4,25.1,0S195.215,200.61,188.283,204.612Z" transform="translate(14.643 -87.465)" fill="#6df7fb"/>
-              <path id="Path_46953" data-name="Path 46953" d="M208,185.355l-12.437-7.181,21.176-12.226,12.437,7.18Z" transform="translate(55.584 -110.536)" fill="#6df7fb"/>
+              <path id="Path_46953" data-name="Path 46953" d="M208,185.355l-12.437-7.181,21.176-12.226,12.437,7.18Z" transform="translate(55.584 -110.536)" fill="#e38400"/>
               <path id="Path_46954" data-name="Path 46954" d="M198.983,180.245l-15.672-4.61,13.6-15.406,15.672,4.61Z" transform="translate(42.237 -116.769)" fill="#6df7fb" opacity="0.8"/>
               <path id="Path_46955" data-name="Path 46955" d="M186.788,176.287,169.416,174.7l4.684-17.078,17.372,1.589Z" transform="translate(27.094 -119.611)" fill="#6df7fb" opacity="0.6"/>
               <path id="Path_46956" data-name="Path 46956" d="M175.048,174.7l-17.372,1.588-4.685-17.078,17.372-1.588Z" transform="translate(9.196 -119.611)" fill="#6df7fb" opacity="0.4"/>
@@ -227,15 +229,18 @@ const BannerTwo = () => {
                 <path id="Path_46972" data-name="Path 46972" d="M77.3,264.936l28.366-5.64c-5.013-27,10.369-55.018,46.214-75.712,59.264-34.217,153.211-36.175,216.483-5.908l20.8-12.007c-74.8-36.852-187.3-34.892-258.022,5.939C87.065,197.05,69.125,231.862,77.3,264.936Z" transform="translate(-75.378 -139.432)" fill="#6df7fb"/>
               </g>
               <g id="Group_6363" data-name="Group 6363" transform="translate(161.903 82.703)">
-                <path id="Path_46973" data-name="Path 46973" d="M163.955,267.684l-11.1-6.409,142.49-82.267,11.1,6.409Z" transform="translate(-152.855 -179.008)" fill="#6df7fb"/>
+                <path id="Path_46973" data-name="Path 46973" d="M163.955,267.684l-11.1-6.409,142.49-82.267,11.1,6.409Z" transform="translate(-152.855 -179.008)" fill="#e38400"/>
                 <path id="Path_46974" data-name="Path 46974" d="M171.5,247.785l-11.1-6.409,61.928-35.754,11.1,6.409Z" transform="translate(-144.632 -150.006)" fill="#6df7fb" opacity="0.8"/>
                 <path id="Path_46975" data-name="Path 46975" d="M179.571,263.479l-11.1-6.409,98.579-56.915,11.1,6.409Z" transform="translate(-135.838 -155.963)" fill="#6df7fb" opacity="0.6"/>
                 <path id="Path_46976" data-name="Path 46976" d="M187.513,261.489l-11.1-6.409,76.739-44.305,11.1,6.409Z" transform="translate(-127.183 -144.39)" fill="#6df7fb" opacity="0.2"/>
               </g>
             </g>
           </g>
+          
         </svg>
+       
         <Row>
+        <Image src={"src/assets/images/banners/banner-two/cryptik-banner-key-icon.svg"}/>
           <Col className="lg-7 md-10 xs-12">
             <Box className="banner-content"> 
               <Heading>
@@ -264,13 +269,16 @@ const BannerTwo = () => {
                 </Box>
                 <Box>
                   <Image src={heartIcon} alt="crypto banner icon" />
-                  <Text>Modelling</Text>
+                  <Text>Model</Text>
                 </Box>
               </Box>
 
               <Box className="banner-btn">
                 <Link href="#">
-                  <a className="btn btn-fill"> <FaGithub /> Download Crypto</a>
+                  <a className="btn btn-fill"> <FaGithub />Buy $PANACHE</a>
+                </Link> 
+                   <Link href="#">
+                  <a className="btn "> <FaGithub /> Read our whitepaper</a>
                 </Link> 
 
                 

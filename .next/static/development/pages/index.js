@@ -1,144 +1,24 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/arrayWithHoles.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-function _arrayWithHoles(arr) {
-  if (Array.isArray(arr)) return arr;
-}
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _arrayLikeToArray; });
+function _arrayLikeToArray(arr, len) {
+  if (len == null || len > arr.length) len = arr.length;
 
-module.exports = _arrayWithHoles;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _arrayWithoutHoles(arr) {
-  if (Array.isArray(arr)) {
-    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
-      arr2[i] = arr[i];
-    }
-
-    return arr2;
-  }
-}
-
-module.exports = _arrayWithoutHoles;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _assertThisInitialized(self) {
-  if (self === void 0) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  for (var i = 0, arr2 = new Array(len); i < len; i++) {
+    arr2[i] = arr[i];
   }
 
-  return self;
+  return arr2;
 }
-
-module.exports = _assertThisInitialized;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/classCallCheck.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/classCallCheck.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _classCallCheck(instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-}
-
-module.exports = _classCallCheck;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/construct.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/construct.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
-
-function isNativeReflectConstruct() {
-  if (typeof Reflect === "undefined" || !Reflect.construct) return false;
-  if (Reflect.construct.sham) return false;
-  if (typeof Proxy === "function") return true;
-
-  try {
-    Date.prototype.toString.call(Reflect.construct(Date, [], function () {}));
-    return true;
-  } catch (e) {
-    return false;
-  }
-}
-
-function _construct(Parent, args, Class) {
-  if (isNativeReflectConstruct()) {
-    module.exports = _construct = Reflect.construct;
-  } else {
-    module.exports = _construct = function _construct(Parent, args, Class) {
-      var a = [null];
-      a.push.apply(a, args);
-      var Constructor = Function.bind.apply(Parent, a);
-      var instance = new Constructor();
-      if (Class) setPrototypeOf(instance, Class.prototype);
-      return instance;
-    };
-  }
-
-  return _construct.apply(null, arguments);
-}
-
-module.exports = _construct;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/createClass.js":
-/*!************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/createClass.js ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _defineProperties(target, props) {
-  for (var i = 0; i < props.length; i++) {
-    var descriptor = props[i];
-    descriptor.enumerable = descriptor.enumerable || false;
-    descriptor.configurable = true;
-    if ("value" in descriptor) descriptor.writable = true;
-    Object.defineProperty(target, descriptor.key, descriptor);
-  }
-}
-
-function _createClass(Constructor, protoProps, staticProps) {
-  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
-  if (staticProps) _defineProperties(Constructor, staticProps);
-  return Constructor;
-}
-
-module.exports = _createClass;
 
 /***/ }),
 
@@ -199,17 +79,17 @@ function _extends() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _iterableToArrayLimit; });
 function _iterableToArrayLimit(arr, i) {
-  if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) {
-    return;
-  }
+  var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"];
 
+  if (_i == null) return;
   var _arr = [];
   var _n = true;
   var _d = false;
-  var _e = undefined;
+
+  var _s, _e;
 
   try {
-    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
+    for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) {
       _arr.push(_s.value);
 
       if (i && _arr.length === i) break;
@@ -241,7 +121,7 @@ function _iterableToArrayLimit(arr, i) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _nonIterableRest; });
 function _nonIterableRest() {
-  throw new TypeError("Invalid attempt to destructure non-iterable instance");
+  throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
 }
 
 /***/ }),
@@ -256,11 +136,11 @@ function _nonIterableRest() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectWithoutProperties; });
-/* harmony import */ var _objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var _objectWithoutPropertiesLoose_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./objectWithoutPropertiesLoose.js */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
 
 function _objectWithoutProperties(source, excluded) {
   if (source == null) return {};
-  var target = Object(_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(source, excluded);
+  var target = Object(_objectWithoutPropertiesLoose_js__WEBPACK_IMPORTED_MODULE_0__["default"])(source, excluded);
   var key, i;
 
   if (Object.getOwnPropertySymbols) {
@@ -316,14 +196,16 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _slicedToArray; });
-/* harmony import */ var _arrayWithHoles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayWithHoles */ "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js");
-/* harmony import */ var _iterableToArrayLimit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterableToArrayLimit */ "./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js");
-/* harmony import */ var _nonIterableRest__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nonIterableRest */ "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js");
+/* harmony import */ var _arrayWithHoles_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayWithHoles.js */ "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js");
+/* harmony import */ var _iterableToArrayLimit_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterableToArrayLimit.js */ "./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js");
+/* harmony import */ var _unsupportedIterableToArray_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./unsupportedIterableToArray.js */ "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js");
+/* harmony import */ var _nonIterableRest_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./nonIterableRest.js */ "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js");
+
 
 
 
 function _slicedToArray(arr, i) {
-  return Object(_arrayWithHoles__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || Object(_iterableToArrayLimit__WEBPACK_IMPORTED_MODULE_1__["default"])(arr, i) || Object(_nonIterableRest__WEBPACK_IMPORTED_MODULE_2__["default"])();
+  return Object(_arrayWithHoles_js__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || Object(_iterableToArrayLimit_js__WEBPACK_IMPORTED_MODULE_1__["default"])(arr, i) || Object(_unsupportedIterableToArray_js__WEBPACK_IMPORTED_MODULE_2__["default"])(arr, i) || Object(_nonIterableRest_js__WEBPACK_IMPORTED_MODULE_3__["default"])();
 }
 
 /***/ }),
@@ -352,341 +234,26 @@ function _taggedTemplateLiteral(strings, raw) {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-function _getPrototypeOf(o) {
-  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
-    return o.__proto__ || Object.getPrototypeOf(o);
-  };
-  return _getPrototypeOf(o);
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _unsupportedIterableToArray; });
+/* harmony import */ var _arrayLikeToArray_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayLikeToArray.js */ "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js");
+
+function _unsupportedIterableToArray(o, minLen) {
+  if (!o) return;
+  if (typeof o === "string") return Object(_arrayLikeToArray_js__WEBPACK_IMPORTED_MODULE_0__["default"])(o, minLen);
+  var n = Object.prototype.toString.call(o).slice(8, -1);
+  if (n === "Object" && o.constructor) n = o.constructor.name;
+  if (n === "Map" || n === "Set") return Array.from(o);
+  if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return Object(_arrayLikeToArray_js__WEBPACK_IMPORTED_MODULE_0__["default"])(o, minLen);
 }
-
-module.exports = _getPrototypeOf;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/inherits.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/inherits.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
-
-function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function");
-  }
-
-  subClass.prototype = Object.create(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      writable: true,
-      configurable: true
-    }
-  });
-  if (superClass) setPrototypeOf(subClass, superClass);
-}
-
-module.exports = _inherits;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    "default": obj
-  };
-}
-
-module.exports = _interopRequireDefault;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/interopRequireWildcard.js ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js");
-
-function _getRequireWildcardCache() {
-  if (typeof WeakMap !== "function") return null;
-  var cache = new WeakMap();
-
-  _getRequireWildcardCache = function _getRequireWildcardCache() {
-    return cache;
-  };
-
-  return cache;
-}
-
-function _interopRequireWildcard(obj) {
-  if (obj && obj.__esModule) {
-    return obj;
-  }
-
-  if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") {
-    return {
-      "default": obj
-    };
-  }
-
-  var cache = _getRequireWildcardCache();
-
-  if (cache && cache.has(obj)) {
-    return cache.get(obj);
-  }
-
-  var newObj = {};
-  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
-
-  for (var key in obj) {
-    if (Object.prototype.hasOwnProperty.call(obj, key)) {
-      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
-
-      if (desc && (desc.get || desc.set)) {
-        Object.defineProperty(newObj, key, desc);
-      } else {
-        newObj[key] = obj[key];
-      }
-    }
-  }
-
-  newObj["default"] = obj;
-
-  if (cache) {
-    cache.set(obj, newObj);
-  }
-
-  return newObj;
-}
-
-module.exports = _interopRequireWildcard;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/iterableToArray.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/iterableToArray.js ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _iterableToArray(iter) {
-  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
-}
-
-module.exports = _iterableToArray;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _iterableToArrayLimit(arr, i) {
-  if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) {
-    return;
-  }
-
-  var _arr = [];
-  var _n = true;
-  var _d = false;
-  var _e = undefined;
-
-  try {
-    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
-      _arr.push(_s.value);
-
-      if (i && _arr.length === i) break;
-    }
-  } catch (err) {
-    _d = true;
-    _e = err;
-  } finally {
-    try {
-      if (!_n && _i["return"] != null) _i["return"]();
-    } finally {
-      if (_d) throw _e;
-    }
-  }
-
-  return _arr;
-}
-
-module.exports = _iterableToArrayLimit;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/nonIterableRest.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/nonIterableRest.js ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _nonIterableRest() {
-  throw new TypeError("Invalid attempt to destructure non-iterable instance");
-}
-
-module.exports = _nonIterableRest;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/nonIterableSpread.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/nonIterableSpread.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance");
-}
-
-module.exports = _nonIterableSpread;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js");
-
-var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
-
-function _possibleConstructorReturn(self, call) {
-  if (call && (_typeof(call) === "object" || typeof call === "function")) {
-    return call;
-  }
-
-  return assertThisInitialized(self);
-}
-
-module.exports = _possibleConstructorReturn;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _setPrototypeOf(o, p) {
-  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-    o.__proto__ = p;
-    return o;
-  };
-
-  return _setPrototypeOf(o, p);
-}
-
-module.exports = _setPrototypeOf;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/slicedToArray.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/slicedToArray.js ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var arrayWithHoles = __webpack_require__(/*! ./arrayWithHoles */ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js");
-
-var iterableToArrayLimit = __webpack_require__(/*! ./iterableToArrayLimit */ "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js");
-
-var nonIterableRest = __webpack_require__(/*! ./nonIterableRest */ "./node_modules/@babel/runtime/helpers/nonIterableRest.js");
-
-function _slicedToArray(arr, i) {
-  return arrayWithHoles(arr) || iterableToArrayLimit(arr, i) || nonIterableRest();
-}
-
-module.exports = _slicedToArray;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/toConsumableArray.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/toConsumableArray.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var arrayWithoutHoles = __webpack_require__(/*! ./arrayWithoutHoles */ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js");
-
-var iterableToArray = __webpack_require__(/*! ./iterableToArray */ "./node_modules/@babel/runtime/helpers/iterableToArray.js");
-
-var nonIterableSpread = __webpack_require__(/*! ./nonIterableSpread */ "./node_modules/@babel/runtime/helpers/nonIterableSpread.js");
-
-function _toConsumableArray(arr) {
-  return arrayWithoutHoles(arr) || iterableToArray(arr) || nonIterableSpread();
-}
-
-module.exports = _toConsumableArray;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/typeof.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/typeof.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
-
-function _typeof(obj) {
-  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
-    module.exports = _typeof = function _typeof(obj) {
-      return _typeof2(obj);
-    };
-  } else {
-    module.exports = _typeof = function _typeof(obj) {
-      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
-    };
-  }
-
-  return _typeof(obj);
-}
-
-module.exports = _typeof;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/regenerator/index.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/regenerator-runtime/runtime.js");
-
 
 /***/ }),
 
@@ -2233,23 +1800,23 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 "use strict";
 
 
-var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/next/node_modules/@babel/runtime/helpers/classCallCheck.js");
 
-var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/next/node_modules/@babel/runtime/helpers/createClass.js");
 
-var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/next/node_modules/@babel/runtime/helpers/inherits.js");
 
-var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/next/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
 
-var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/next/node_modules/@babel/runtime/helpers/getPrototypeOf.js");
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
-var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
+var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
 
 exports.__esModule = true;
 exports["default"] = void 0;
@@ -2586,7 +2153,7 @@ exports["default"] = _default;
 "use strict";
 
 
-var _construct = __webpack_require__(/*! @babel/runtime/helpers/construct */ "./node_modules/@babel/runtime/helpers/construct.js");
+var _construct = __webpack_require__(/*! @babel/runtime/helpers/construct */ "./node_modules/next/node_modules/@babel/runtime/helpers/construct.js");
 
 function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
@@ -2594,9 +2161,9 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
+var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
 exports.useRouter = useRouter;
@@ -2767,7 +2334,7 @@ function makePublicRouterInstance(router) {
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
 exports["default"] = withRouter;
@@ -3177,13 +2744,13 @@ exports.RouterContext = React.createContext(null);
 "use strict";
 
 
-var _regeneratorRuntime = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+var _regeneratorRuntime = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/next/node_modules/@babel/runtime/regenerator/index.js");
 
-var _slicedToArray = __webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "./node_modules/@babel/runtime/helpers/slicedToArray.js");
+var _slicedToArray = __webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "./node_modules/next/node_modules/@babel/runtime/helpers/slicedToArray.js");
 
-var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/next/node_modules/@babel/runtime/helpers/classCallCheck.js");
 
-var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/next/node_modules/@babel/runtime/helpers/createClass.js");
 
 var __importDefault = this && this.__importDefault || function (mod) {
   return mod && mod.__esModule ? mod : {
@@ -4083,19 +3650,19 @@ exports.getRouteRegex = getRouteRegex;
 "use strict";
 
 
-var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/next/node_modules/@babel/runtime/helpers/classCallCheck.js");
 
-var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/next/node_modules/@babel/runtime/helpers/createClass.js");
 
-var _assertThisInitialized = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+var _assertThisInitialized = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/next/node_modules/@babel/runtime/helpers/assertThisInitialized.js");
 
-var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/next/node_modules/@babel/runtime/helpers/inherits.js");
 
-var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/next/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
 
-var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/next/node_modules/@babel/runtime/helpers/getPrototypeOf.js");
 
-var _toConsumableArray = __webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ "./node_modules/@babel/runtime/helpers/toConsumableArray.js");
+var _toConsumableArray = __webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ "./node_modules/next/node_modules/@babel/runtime/helpers/toConsumableArray.js");
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -4190,7 +3757,7 @@ exports["default"] = function () {
 "use strict";
 
 
-var _regeneratorRuntime = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+var _regeneratorRuntime = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/next/node_modules/@babel/runtime/regenerator/index.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -4368,6 +3935,486 @@ exports.ST = exports.SP && typeof performance.mark === 'function' && typeof perf
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/next/dist/client/link.js")
+
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/arrayWithHoles.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/arrayWithHoles.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _arrayWithHoles(arr) {
+  if (Array.isArray(arr)) return arr;
+}
+
+module.exports = _arrayWithHoles;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _arrayWithoutHoles(arr) {
+  if (Array.isArray(arr)) {
+    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
+      arr2[i] = arr[i];
+    }
+
+    return arr2;
+  }
+}
+
+module.exports = _arrayWithoutHoles;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/assertThisInitialized.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+module.exports = _assertThisInitialized;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/classCallCheck.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/classCallCheck.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+module.exports = _classCallCheck;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/construct.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/construct.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/next/node_modules/@babel/runtime/helpers/setPrototypeOf.js");
+
+function isNativeReflectConstruct() {
+  if (typeof Reflect === "undefined" || !Reflect.construct) return false;
+  if (Reflect.construct.sham) return false;
+  if (typeof Proxy === "function") return true;
+
+  try {
+    Date.prototype.toString.call(Reflect.construct(Date, [], function () {}));
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+function _construct(Parent, args, Class) {
+  if (isNativeReflectConstruct()) {
+    module.exports = _construct = Reflect.construct;
+  } else {
+    module.exports = _construct = function _construct(Parent, args, Class) {
+      var a = [null];
+      a.push.apply(a, args);
+      var Constructor = Function.bind.apply(Parent, a);
+      var instance = new Constructor();
+      if (Class) setPrototypeOf(instance, Class.prototype);
+      return instance;
+    };
+  }
+
+  return _construct.apply(null, arguments);
+}
+
+module.exports = _construct;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/createClass.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/createClass.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+module.exports = _createClass;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/getPrototypeOf.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _getPrototypeOf(o) {
+  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  };
+  return _getPrototypeOf(o);
+}
+
+module.exports = _getPrototypeOf;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/inherits.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/inherits.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/next/node_modules/@babel/runtime/helpers/setPrototypeOf.js");
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) setPrototypeOf(subClass, superClass);
+}
+
+module.exports = _inherits;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+module.exports = _interopRequireDefault;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireWildcard.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireWildcard.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/next/node_modules/@babel/runtime/helpers/typeof.js");
+
+function _getRequireWildcardCache() {
+  if (typeof WeakMap !== "function") return null;
+  var cache = new WeakMap();
+
+  _getRequireWildcardCache = function _getRequireWildcardCache() {
+    return cache;
+  };
+
+  return cache;
+}
+
+function _interopRequireWildcard(obj) {
+  if (obj && obj.__esModule) {
+    return obj;
+  }
+
+  if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") {
+    return {
+      "default": obj
+    };
+  }
+
+  var cache = _getRequireWildcardCache();
+
+  if (cache && cache.has(obj)) {
+    return cache.get(obj);
+  }
+
+  var newObj = {};
+  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+
+  for (var key in obj) {
+    if (Object.prototype.hasOwnProperty.call(obj, key)) {
+      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+
+      if (desc && (desc.get || desc.set)) {
+        Object.defineProperty(newObj, key, desc);
+      } else {
+        newObj[key] = obj[key];
+      }
+    }
+  }
+
+  newObj["default"] = obj;
+
+  if (cache) {
+    cache.set(obj, newObj);
+  }
+
+  return newObj;
+}
+
+module.exports = _interopRequireWildcard;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/iterableToArray.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/iterableToArray.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _iterableToArray(iter) {
+  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
+}
+
+module.exports = _iterableToArray;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _iterableToArrayLimit(arr, i) {
+  if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) {
+    return;
+  }
+
+  var _arr = [];
+  var _n = true;
+  var _d = false;
+  var _e = undefined;
+
+  try {
+    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
+      _arr.push(_s.value);
+
+      if (i && _arr.length === i) break;
+    }
+  } catch (err) {
+    _d = true;
+    _e = err;
+  } finally {
+    try {
+      if (!_n && _i["return"] != null) _i["return"]();
+    } finally {
+      if (_d) throw _e;
+    }
+  }
+
+  return _arr;
+}
+
+module.exports = _iterableToArrayLimit;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/nonIterableRest.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/nonIterableRest.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _nonIterableRest() {
+  throw new TypeError("Invalid attempt to destructure non-iterable instance");
+}
+
+module.exports = _nonIterableRest;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/nonIterableSpread.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/nonIterableSpread.js ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance");
+}
+
+module.exports = _nonIterableSpread;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/next/node_modules/@babel/runtime/helpers/typeof.js");
+
+var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/next/node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (_typeof(call) === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return assertThisInitialized(self);
+}
+
+module.exports = _possibleConstructorReturn;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/setPrototypeOf.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _setPrototypeOf(o, p) {
+  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+module.exports = _setPrototypeOf;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/slicedToArray.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/slicedToArray.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var arrayWithHoles = __webpack_require__(/*! ./arrayWithHoles */ "./node_modules/next/node_modules/@babel/runtime/helpers/arrayWithHoles.js");
+
+var iterableToArrayLimit = __webpack_require__(/*! ./iterableToArrayLimit */ "./node_modules/next/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js");
+
+var nonIterableRest = __webpack_require__(/*! ./nonIterableRest */ "./node_modules/next/node_modules/@babel/runtime/helpers/nonIterableRest.js");
+
+function _slicedToArray(arr, i) {
+  return arrayWithHoles(arr) || iterableToArrayLimit(arr, i) || nonIterableRest();
+}
+
+module.exports = _slicedToArray;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/toConsumableArray.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/toConsumableArray.js ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var arrayWithoutHoles = __webpack_require__(/*! ./arrayWithoutHoles */ "./node_modules/next/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js");
+
+var iterableToArray = __webpack_require__(/*! ./iterableToArray */ "./node_modules/next/node_modules/@babel/runtime/helpers/iterableToArray.js");
+
+var nonIterableSpread = __webpack_require__(/*! ./nonIterableSpread */ "./node_modules/next/node_modules/@babel/runtime/helpers/nonIterableSpread.js");
+
+function _toConsumableArray(arr) {
+  return arrayWithoutHoles(arr) || iterableToArray(arr) || nonIterableSpread();
+}
+
+module.exports = _toConsumableArray;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/typeof.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/typeof.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
+
+function _typeof(obj) {
+  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
+    module.exports = _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    module.exports = _typeof = function _typeof(obj) {
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
+    };
+  }
+
+  return _typeof(obj);
+}
+
+module.exports = _typeof;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/regenerator/index.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/regenerator/index.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/regenerator-runtime/runtime.js");
 
 
 /***/ }),
@@ -24080,7 +24127,7 @@ __webpack_require__.r(__webpack_exports__);
 var _templateObject;
 
 
-var BannerWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: relative;\n  overflow: hidden;\n  padding: 278px 0 150px 0;\n\n  .banner__thumb{\n    position: absolute;\n    right: -4%;\n    top: -12%;\n    width: 40%;\n  }\n\n  .section__particle {\n    position: absolute;\n    &.top-left {\n      left: -98px;\n      top: -60px;\n      height: 150px;\n    }\n    &.top-right {\n      top: 65px;\n      right: 28px;\n      height: 74px;\n    }\n    &.bottom-left {\n      bottom: 0px;\n      left: 15px;\n      height: 150px;\n    }\n    &.two {\n      top: 6px;\n      left: 140px;\n      height: 87px;\n    }\n    &.bottom-right {\n      right: -40px;\n      bottom: 0px;\n      height: 200px;\n    }\n  }\n\n  .banner-content {\n    .heading {\n      margin: 0 0 38px 0;\n      font-size: 55px;\n      line-height: 75px;\n      font-weight: 900;\n    }\n\n    .text {\n      margin-bottom: 55px;\n    }\n\n    .banner-btn {\n      margin-top: 45px;\n      a {\n        width: 235px;\n        font-size: 16px;\n        color: #ffffff;\n        padding: 18px 25px;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        border: none;\n\n        svg{\n          margin-right: 10px;\n        }\n      }\n\n      .btn-fill {\n        transition: all 0.3s ease-in;\n        background: rgb(37, 42, 213);\n        background: linear-gradient(\n          93deg,\n          rgba(252, 165, 3, 1) 0%,\n          rgba(227, 197, 113, 1) 42%,\n          rgba(150, 112, 3, 1) 100%\n        );\n        &:hover{\n          background: linear-gradient(\n          93deg,\n          rgba(150, 3, 3, 1) 0%,\n          rgba(232, 128, 128, 1) 52%,\n          rgba(255, 0, 0, 1) 100%\n        );\n        }\n      }\n    }\n\n    .coin-info {\n      display: flex;\n      align-items: center;\n      div {\n        display: flex;\n        align-items: center;\n        margin: 12px 25px 5px 25px;\n\n        .text {\n          margin: 0;\n        }\n\n        img {\n          width: 25px;\n          margin-right: 15px;\n        }\n      }\n    }\n\n    .description {\n      position: relative;\n      display: block;\n      line-height: 28px;\n      font-size: 18px;\n      padding-left: 30px;\n      margin: 0 0 17px 0;\n\n      &:before {\n        position: absolute;\n        left: 0;\n        top: 0;\n        height: 100%;\n        width: 3px;\n        content: \"\";\n        background: #b096df;\n      }\n    }\n  }\n\n  @keyframes bounce-up-down {\n    from {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n    33% {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 180px 220px;\n      transform-origin: 1000px 220px;\n    }\n    66% {\n      -webkit-transform: rotate(1deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 1500px 200px;\n    }\n    to {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n  }\n\n  @-webkit-keyframes bounce-up-down {\n    from {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n    33% {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 180px 220px;\n      transform-origin: 1000px 220px;\n    }\n    66% {\n      -webkit-transform: rotate(1deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 1500px 200px;\n    }\n    to {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n  }\n\n  @keyframes opacity-controll {\n    0%   { opacity: 1; }\n    25%  { opacity: 0.8; }\n    50%  { opacity: 0.6; }\n    75%  { opacity: 0.2; }\n    100% { opacity: 0; }\n  }\n  @-webkit-keyframes opacity-controll {\n    0%   { opacity: 1; }\n    25%  { opacity: 0.8; }\n    50%  { opacity: 0.6; }\n    75%  { opacity: 0.2; }\n    100% { opacity: 0; }\n  }\n\n  #Path_46973{\n    animation: opacity-controll 1.5s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46974{\n    animation: opacity-controll 1.7s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46975{\n    animation: opacity-controll 1.9s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46976{\n    animation: opacity-controll 2s infinite; /* IE 10+, Fx 29+ */\n  }\n\n  @media only screen and (max-width: 1024px) { \n    .banner__thumb{\n      right: 0;\n    }\n    .banner-content {\n      .heading{\n        font-size: 45px;\n        line-height: 65px;\n        font-weight: 600;\n      }\n    }\n  }\n  @media only screen and (max-width: 912px) { \n    padding: 215px 0 150px 0;\n    .banner__thumb{\n      display: none;\n    }\n    .banner-content {\n      .heading{\n        font-size: 40px;\n        line-height: 60px;\n      }\n    }\n  }\n  @media only screen and (max-width: 768px) { \n    padding: 180px 0 120px 0;\n    .banner-content {\n      .heading{\n        font-size: 35px;\n        line-height: 50px;\n      }\n    }\n  }\n  @media only screen and (max-width: 480px) { \n    .banner-content {\n      .heading{\n        font-size: 30px;\n        line-height: 50px;\n        br{\n          display: none;\n        }\n      }\n      .text{\n        br{\n          display: none;\n        }\n      }\n    }\n    .section__particle{\n      &.bottom-right{\n        display: none;\n      }\n    }\n  }\n  @media only screen and (max-width: 375px) { \n    .banner-content {\n      .heading{\n        font-size: 28px;\n        line-height: 40px;\n      }\n      .description{\n        font-size: 16px;\n        line-height: 26px;\n        padding-left: 20px;\n      }\n      .coin-info{\n        div{\n          margin: 12px 8px 5px 8px;\n          img{\n            margin-right: 10px;\n          }\n        }\n      }\n    }\n  }\n"])));
+var BannerWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: relative;\n  overflow: hidden;\n  padding: 278px 0 150px 0;\n\n  .banner__thumb{\n    position: absolute;\n    right: -4%;\n    top: -12%;\n    width: 40%;\n  }\n\n  .section__particle {\n    position: absolute;\n    &.top-left {\n      left: -98px;\n      top: -60px;\n      height: 150px;\n    }\n    &.top-right {\n      top: 65px;\n      right: 28px;\n      height: 74px;\n    }\n    &.bottom-left {\n      bottom: 0px;\n      left: 15px;\n      height: 150px;\n    }\n    &.two {\n      top: 6px;\n      left: 140px;\n      height: 87px;\n    }\n    &.bottom-right {\n      right: -40px;\n      bottom: 0px;\n      height: 200px;\n    }\n  }\n\n  .banner-content {\n    .heading {\n      margin: 0 0 38px 0;\n      font-size: 55px;\n      line-height: 75px;\n      font-weight: 900;\n    }\n\n    .text {\n      margin-bottom: 55px;\n    }\n\n    .banner-btn {\n      margin-top: 45px;\n      display:flex;\n      justify-content:space-between;\n      a {\n        width: 235px;\n        font-size: 16px;\n        color: #ffffff;\n        padding: 18px 25px;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        border: none;\n\n        svg{\n          margin-right: 10px;\n        }\n      }\n\n      .btn-fill {\n        transition: all 0.3s ease-in;\n        background: rgb(37, 42, 213);\n        background: linear-gradient(\n          93deg,\n          rgba(252, 165, 3, 1) 0%,\n          rgba(227, 197, 113, 1) 42%,\n          rgba(150, 112, 3, 1) 100%\n        );\n        &:hover{\n          background: linear-gradient(\n          93deg,\n          rgba(150, 3, 3, 1) 0%,\n          rgba(232, 128, 128, 1) 52%,\n          rgba(255, 0, 0, 1) 100%\n        );\n        }\n      }\n    }\n\n    .coin-info {\n      display: flex;\n      align-items: center;\n      div {\n        display: flex;\n        align-items: center;\n        margin: 12px 25px 5px 25px;\n\n        .text {\n          margin: 0;\n        }\n\n        img {\n          width: 25px;\n          margin-right: 15px;\n        }\n      }\n    }\n\n    .description {\n      position: relative;\n      display: block;\n      line-height: 28px;\n      font-size: 18px;\n      padding-left: 30px;\n      margin: 0 0 17px 0;\n\n      &:before {\n        position: absolute;\n        left: 0;\n        top: 0;\n        height: 100%;\n        width: 3px;\n        content: \"\";\n        background: #b096df;\n      }\n    }\n  }\n\n  @keyframes bounce-up-down {\n    from {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n    33% {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 180px 220px;\n      transform-origin: 1000px 220px;\n    }\n    66% {\n      -webkit-transform: rotate(1deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 1500px 200px;\n    }\n    to {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n  }\n\n  @-webkit-keyframes bounce-up-down {\n    from {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n    33% {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 180px 220px;\n      transform-origin: 1000px 220px;\n    }\n    66% {\n      -webkit-transform: rotate(1deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 1500px 200px;\n    }\n    to {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n  }\n\n  @keyframes opacity-controll {\n    0%   { opacity: 1; }\n    25%  { opacity: 0.8; }\n    50%  { opacity: 0.6; }\n    75%  { opacity: 0.2; }\n    100% { opacity: 0; }\n  }\n  @-webkit-keyframes opacity-controll {\n    0%   { opacity: 1; }\n    25%  { opacity: 0.8; }\n    50%  { opacity: 0.6; }\n    75%  { opacity: 0.2; }\n    100% { opacity: 0; }\n  }\n\n  #Path_46973{\n    animation: opacity-controll 1.5s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46974{\n    animation: opacity-controll 1.7s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46975{\n    animation: opacity-controll 1.9s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46976{\n    animation: opacity-controll 2s infinite; /* IE 10+, Fx 29+ */\n  }\n\n  @media only screen and (max-width: 1024px) { \n    .banner__thumb{\n      right: 0;\n    }\n    .banner-content {\n      .heading{\n        font-size: 45px;\n        line-height: 65px;\n        font-weight: 600;\n      }\n    }\n  }\n  @media only screen and (max-width: 912px) { \n    padding: 215px 0 150px 0;\n    .banner__thumb{\n      display: none;\n    }\n    .banner-content {\n      .heading{\n        font-size: 40px;\n        line-height: 60px;\n      }\n    }\n  }\n  @media only screen and (max-width: 768px) { \n    padding: 180px 0 120px 0;\n    .banner-content {\n      .heading{\n        font-size: 35px;\n        line-height: 50px;\n      }\n    }\n  }\n  @media only screen and (max-width: 480px) { \n    .banner-content {\n      .heading{\n        font-size: 30px;\n        line-height: 50px;\n        br{\n          display: none;\n        }\n      }\n      .text{\n        br{\n          display: none;\n        }\n      }\n    }\n    .section__particle{\n      &.bottom-right{\n        display: none;\n      }\n    }\n  }\n  @media only screen and (max-width: 375px) { \n    .banner-content {\n      .heading{\n        font-size: 28px;\n        line-height: 40px;\n      }\n      .description{\n        font-size: 16px;\n        line-height: 26px;\n        padding-left: 20px;\n      }\n      .coin-info{\n        div{\n          margin: 12px 8px 5px 8px;\n          img{\n            margin-right: 10px;\n          }\n        }\n      }\n    }\n  }\n"])));
 /* harmony default export */ __webpack_exports__["default"] = (BannerWrapper);
 
 /***/ }),
@@ -24223,14 +24270,14 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 38,
       columnNumber: 7
     }
   }, __jsx("defs", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 39,
       columnNumber: 11
     }
   }, __jsx("linearGradient", {
@@ -24243,7 +24290,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 40,
       columnNumber: 13
     }
   }, __jsx("stop", {
@@ -24252,21 +24299,12 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.016",
-    stopColor: "#40ddda",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 41,
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.092",
-    stopColor: "#39aec0",
+    offset: "0.016",
+    stopColor: "#e38400",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -24274,8 +24312,8 @@ var BannerTwo = function BannerTwo() {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.173",
-    stopColor: "#3384a8",
+    offset: "0.092",
+    stopColor: "#ff9900",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -24283,8 +24321,8 @@ var BannerTwo = function BannerTwo() {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.257",
-    stopColor: "#2f6095",
+    offset: "0.173",
+    stopColor: "#fad873",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -24292,8 +24330,8 @@ var BannerTwo = function BannerTwo() {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.346",
-    stopColor: "#2b4485",
+    offset: "0.257",
+    stopColor: "#ffce3d",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -24301,8 +24339,8 @@ var BannerTwo = function BannerTwo() {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.44",
-    stopColor: "#272d79",
+    offset: "0.346",
+    stopColor: "#ffc20f",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -24310,8 +24348,8 @@ var BannerTwo = function BannerTwo() {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.542",
-    stopColor: "#251e70",
+    offset: "0.44",
+    stopColor: "#e6ac05",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -24319,12 +24357,21 @@ var BannerTwo = function BannerTwo() {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.659",
-    stopColor: "#24146b",
+    offset: "0.542",
+    stopColor: "#e6ac05",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48,
+      columnNumber: 15
+    }
+  }), __jsx("stop", {
+    offset: "0.659",
+    stopColor: "#e3ad12",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -24333,7 +24380,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 50,
       columnNumber: 15
     }
   })), __jsx("linearGradient", {
@@ -24345,25 +24392,25 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 52,
       columnNumber: 13
     }
   }, __jsx("stop", {
     offset: "0",
-    stopColor: "#c838e7",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.073",
-    stopColor: "#b536e5",
+    stopColor: "#e3bd00",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53,
+      columnNumber: 15
+    }
+  }), __jsx("stop", {
+    offset: "0.073",
+    stopColor: "#e38400",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -24372,7 +24419,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 55,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -24381,7 +24428,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 56,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -24390,7 +24437,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 57,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -24399,7 +24446,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 58,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -24408,7 +24455,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 59,
       columnNumber: 15
     }
   })), __jsx("radialGradient", {
@@ -24420,7 +24467,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 62,
       columnNumber: 13
     }
   }, __jsx("stop", {
@@ -24429,7 +24476,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 63,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -24438,7 +24485,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 64,
       columnNumber: 15
     }
   })), __jsx("linearGradient", {
@@ -24451,7 +24498,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 66,
       columnNumber: 13
     }
   }), __jsx("linearGradient", {
@@ -24464,7 +24511,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 67,
       columnNumber: 13
     }
   }, __jsx("stop", {
@@ -24473,30 +24520,12 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.151",
-    stopColor: "#42e3df",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.328",
-    stopColor: "#44d4de",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 68,
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.52",
-    stopColor: "#48bddd",
+    offset: "0.151",
+    stopColor: "#e38400",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -24504,8 +24533,8 @@ var BannerTwo = function BannerTwo() {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.721",
-    stopColor: "#4d9bda",
+    offset: "0.328",
+    stopColor: "#e38400",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -24513,8 +24542,8 @@ var BannerTwo = function BannerTwo() {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "0.927",
-    stopColor: "#5471d8",
+    offset: "0.52",
+    stopColor: "#e38400",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -24522,12 +24551,30 @@ var BannerTwo = function BannerTwo() {
       columnNumber: 15
     }
   }), __jsx("stop", {
-    offset: "1",
-    stopColor: "#5761d7",
+    offset: "0.721",
+    stopColor: "#e38400",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 72,
+      columnNumber: 15
+    }
+  }), __jsx("stop", {
+    offset: "0.927",
+    stopColor: "#e38400",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 15
+    }
+  }), __jsx("stop", {
+    offset: "1",
+    stopColor: "#e38400",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
       columnNumber: 15
     }
   })), __jsx("linearGradient", {
@@ -24540,7 +24587,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 76,
       columnNumber: 13
     }
   }), __jsx("linearGradient", {
@@ -24553,7 +24600,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 77,
       columnNumber: 13
     }
   }), __jsx("linearGradient", {
@@ -24566,7 +24613,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 78,
       columnNumber: 13
     }
   }), __jsx("clipPath", {
@@ -24574,7 +24621,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 79,
       columnNumber: 13
     }
   }, __jsx("ellipse", {
@@ -24588,7 +24635,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 80,
       columnNumber: 15
     }
   })), __jsx("linearGradient", {
@@ -24600,7 +24647,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 82,
       columnNumber: 13
     }
   }, __jsx("stop", {
@@ -24609,7 +24656,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 83,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -24618,7 +24665,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 84,
       columnNumber: 15
     }
   })), __jsx("linearGradient", {
@@ -24630,7 +24677,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 86,
       columnNumber: 13
     }
   }, __jsx("stop", {
@@ -24639,7 +24686,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 87,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -24648,7 +24695,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 88,
       columnNumber: 15
     }
   })), __jsx("linearGradient", {
@@ -24661,7 +24708,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 90,
       columnNumber: 13
     }
   }, __jsx("stop", {
@@ -24670,7 +24717,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 91,
       columnNumber: 15
     }
   }), __jsx("stop", {
@@ -24679,7 +24726,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 92,
       columnNumber: 15
     }
   }))), __jsx("g", {
@@ -24689,7 +24736,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 95,
       columnNumber: 11
     }
   }, __jsx("g", {
@@ -24699,7 +24746,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 96,
       columnNumber: 13
     }
   }, __jsx("path", {
@@ -24712,7 +24759,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 97,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -24725,7 +24772,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 98,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -24738,7 +24785,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 99,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -24751,7 +24798,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 100,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -24764,7 +24811,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 101,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -24777,7 +24824,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 102,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -24790,7 +24837,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 103,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -24803,7 +24850,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 104,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -24816,7 +24863,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 105,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -24829,7 +24876,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 106,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -24842,7 +24889,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 107,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -24855,7 +24902,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 108,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -24868,7 +24915,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 109,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -24881,7 +24928,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 110,
       columnNumber: 15
     }
   })), __jsx("g", {
@@ -24891,7 +24938,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 112,
       columnNumber: 13
     }
   }, __jsx("g", {
@@ -24900,7 +24947,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 113,
       columnNumber: 15
     }
   }, __jsx("g", {
@@ -24909,7 +24956,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 114,
       columnNumber: 17
     }
   }, __jsx("ellipse", {
@@ -24925,7 +24972,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 115,
       columnNumber: 19
     }
   }), __jsx("ellipse", {
@@ -24940,7 +24987,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 116,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -24953,7 +25000,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 117,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -24966,7 +25013,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 118,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -24979,7 +25026,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 119,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -24991,7 +25038,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 120,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -25003,7 +25050,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119,
+      lineNumber: 121,
       columnNumber: 19
     }
   }), __jsx("ellipse", {
@@ -25017,7 +25064,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 122,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -25030,7 +25077,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 123,
       columnNumber: 19
     }
   }), __jsx("path", {
@@ -25043,7 +25090,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 124,
       columnNumber: 19
     }
   }), __jsx("g", {
@@ -25054,7 +25101,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 125,
       columnNumber: 19
     }
   }, __jsx("ellipse", {
@@ -25068,7 +25115,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 126,
       columnNumber: 21
     }
   }), __jsx("g", {
@@ -25078,7 +25125,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 127,
       columnNumber: 21
     }
   }, __jsx("g", {
@@ -25088,7 +25135,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 128,
       columnNumber: 23
     }
   }, __jsx("path", {
@@ -25096,11 +25143,11 @@ var BannerTwo = function BannerTwo() {
     "data-name": "Path 46883",
     d: "M7.873,347.3,5.9,346.154l322.61-186.259,1.977,1.141Z",
     transform: "translate(-5.896 -159.895)",
-    fill: "#42e8e0",
+    fill: "#e38400",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 129,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25112,7 +25159,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 130,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25124,7 +25171,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 131,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25136,7 +25183,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 132,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25148,7 +25195,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
+      lineNumber: 133,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25160,7 +25207,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132,
+      lineNumber: 134,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25172,7 +25219,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 135,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25184,7 +25231,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 136,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25196,7 +25243,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 137,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25208,7 +25255,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 138,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25220,7 +25267,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 139,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25228,11 +25275,11 @@ var BannerTwo = function BannerTwo() {
     "data-name": "Path 46894",
     d: "M37.792,364.569l-1.977-1.141,322.61-186.259,1.977,1.141Z",
     transform: "translate(26.706 -141.072)",
-    fill: "#42e8e0",
+    fill: "#e38400",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 140,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25244,7 +25291,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 141,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25256,7 +25303,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 142,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25268,7 +25315,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 143,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25280,7 +25327,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 144,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25292,7 +25339,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 145,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25304,7 +25351,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144,
+      lineNumber: 146,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25316,7 +25363,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 147,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25328,7 +25375,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146,
+      lineNumber: 148,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25340,7 +25387,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147,
+      lineNumber: 149,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25352,7 +25399,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
+      lineNumber: 150,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25364,7 +25411,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149,
+      lineNumber: 151,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25376,7 +25423,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150,
+      lineNumber: 152,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25388,7 +25435,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 153,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25400,7 +25447,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 154,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25412,7 +25459,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153,
+      lineNumber: 155,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25420,11 +25467,11 @@ var BannerTwo = function BannerTwo() {
     "data-name": "Path 46910",
     d: "M81.311,389.694l-1.977-1.141,322.61-186.259,1.977,1.141Z",
     transform: "translate(74.129 -113.692)",
-    fill: "#42e8e0",
+    fill: "#e38400",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154,
+      lineNumber: 156,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25432,11 +25479,11 @@ var BannerTwo = function BannerTwo() {
     "data-name": "Path 46911",
     d: "M84.031,391.265l-1.977-1.141,322.61-186.259,1.977,1.141Z",
     transform: "translate(77.093 -111.981)",
-    fill: "#42e8e0",
+    fill: "#e38400",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
+      lineNumber: 157,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25448,7 +25495,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156,
+      lineNumber: 158,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25460,7 +25507,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 159,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25472,7 +25519,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
+      lineNumber: 160,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25484,7 +25531,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159,
+      lineNumber: 161,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25496,7 +25543,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160,
+      lineNumber: 162,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25508,7 +25555,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161,
+      lineNumber: 163,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25520,7 +25567,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162,
+      lineNumber: 164,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25532,7 +25579,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163,
+      lineNumber: 165,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25544,7 +25591,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164,
+      lineNumber: 166,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25556,7 +25603,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165,
+      lineNumber: 167,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25568,7 +25615,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166,
+      lineNumber: 168,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25580,7 +25627,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167,
+      lineNumber: 169,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25592,7 +25639,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168,
+      lineNumber: 170,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25604,7 +25651,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169,
+      lineNumber: 171,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25616,7 +25663,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 172,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25628,7 +25675,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171,
+      lineNumber: 173,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25640,7 +25687,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 174,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25652,7 +25699,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173,
+      lineNumber: 175,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25664,7 +25711,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174,
+      lineNumber: 176,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25676,7 +25723,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175,
+      lineNumber: 177,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25688,7 +25735,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176,
+      lineNumber: 178,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25700,7 +25747,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177,
+      lineNumber: 179,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25712,7 +25759,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178,
+      lineNumber: 180,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25724,7 +25771,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179,
+      lineNumber: 181,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25736,7 +25783,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180,
+      lineNumber: 182,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25748,7 +25795,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 183,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25760,7 +25807,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182,
+      lineNumber: 184,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25772,7 +25819,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183,
+      lineNumber: 185,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25784,7 +25831,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184,
+      lineNumber: 186,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25796,7 +25843,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185,
+      lineNumber: 187,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25808,7 +25855,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186,
+      lineNumber: 188,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -25820,7 +25867,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187,
+      lineNumber: 189,
       columnNumber: 25
     }
   })))), __jsx("path", {
@@ -25832,7 +25879,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191,
+      lineNumber: 193,
       columnNumber: 19
     }
   }))), __jsx("g", {
@@ -25842,7 +25889,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 194,
+      lineNumber: 196,
       columnNumber: 15
     }
   }, __jsx("path", {
@@ -25854,7 +25901,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195,
+      lineNumber: 197,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -25867,7 +25914,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 196,
+      lineNumber: 198,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -25880,7 +25927,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 197,
+      lineNumber: 199,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -25893,7 +25940,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198,
+      lineNumber: 200,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -25905,7 +25952,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
+      lineNumber: 201,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -25918,7 +25965,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200,
+      lineNumber: 202,
       columnNumber: 17
     }
   }))), __jsx("g", {
@@ -25928,7 +25975,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203,
+      lineNumber: 205,
       columnNumber: 13
     }
   }, __jsx("path", {
@@ -25940,7 +25987,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 204,
+      lineNumber: 206,
       columnNumber: 15
     }
   }), __jsx("image", {
@@ -25953,7 +26000,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 205,
+      lineNumber: 207,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -25965,7 +26012,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206,
+      lineNumber: 208,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -25973,11 +26020,11 @@ var BannerTwo = function BannerTwo() {
     "data-name": "Path 46953",
     d: "M208,185.355l-12.437-7.181,21.176-12.226,12.437,7.18Z",
     transform: "translate(55.584 -110.536)",
-    fill: "#6df7fb",
+    fill: "#e38400",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 207,
+      lineNumber: 209,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -25990,7 +26037,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208,
+      lineNumber: 210,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26003,7 +26050,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209,
+      lineNumber: 211,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26016,7 +26063,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210,
+      lineNumber: 212,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26029,7 +26076,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 211,
+      lineNumber: 213,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26042,7 +26089,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 212,
+      lineNumber: 214,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26055,7 +26102,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 213,
+      lineNumber: 215,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26068,7 +26115,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214,
+      lineNumber: 216,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26081,7 +26128,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215,
+      lineNumber: 217,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26094,7 +26141,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216,
+      lineNumber: 218,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26106,7 +26153,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217,
+      lineNumber: 219,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26118,7 +26165,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 218,
+      lineNumber: 220,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26130,7 +26177,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219,
+      lineNumber: 221,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26142,7 +26189,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220,
+      lineNumber: 222,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26154,7 +26201,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221,
+      lineNumber: 223,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26166,7 +26213,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 222,
+      lineNumber: 224,
       columnNumber: 15
     }
   }), __jsx("path", {
@@ -26178,7 +26225,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223,
+      lineNumber: 225,
       columnNumber: 15
     }
   }), __jsx("g", {
@@ -26187,7 +26234,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224,
+      lineNumber: 226,
       columnNumber: 15
     }
   }, __jsx("path", {
@@ -26200,7 +26247,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 225,
+      lineNumber: 227,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -26213,7 +26260,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226,
+      lineNumber: 228,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -26225,7 +26272,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227,
+      lineNumber: 229,
       columnNumber: 17
     }
   })), __jsx("g", {
@@ -26235,7 +26282,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 229,
+      lineNumber: 231,
       columnNumber: 15
     }
   }, __jsx("path", {
@@ -26243,11 +26290,11 @@ var BannerTwo = function BannerTwo() {
     "data-name": "Path 46973",
     d: "M163.955,267.684l-11.1-6.409,142.49-82.267,11.1,6.409Z",
     transform: "translate(-152.855 -179.008)",
-    fill: "#6df7fb",
+    fill: "#e38400",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 230,
+      lineNumber: 232,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -26260,7 +26307,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 231,
+      lineNumber: 233,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -26273,7 +26320,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 232,
+      lineNumber: 234,
       columnNumber: 17
     }
   }), __jsx("path", {
@@ -26286,22 +26333,30 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 233,
+      lineNumber: 235,
       columnNumber: 17
     }
   }))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 238,
+      lineNumber: 242,
       columnNumber: 9
     }
-  }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    src: "src/assets/images/banners/banner-two/cryptik-banner-key-icon.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 243,
+      columnNumber: 9
+    }
+  }), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     className: "lg-7 md-10 xs-12",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 239,
+      lineNumber: 244,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -26309,21 +26364,21 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 240,
+      lineNumber: 245,
       columnNumber: 13
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 241,
+      lineNumber: 246,
       columnNumber: 15
     }
   }, "Access and ", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 242,
+      lineNumber: 247,
       columnNumber: 28
     }
   }), "position your lifestyle"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -26332,14 +26387,14 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 245,
+      lineNumber: 250,
       columnNumber: 15
     }
   }, "Holders earn passive rewards through static reflection while watching their balance of ", __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246,
+      lineNumber: 251,
       columnNumber: 104
     }
   }, "$PANACHE"), " grow indefinitely"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -26348,7 +26403,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 249,
+      lineNumber: 254,
       columnNumber: 15
     }
   }, "Panache Token allows you to access and position your lifesteyle giving you the opptunity to live your best life while still earning a living out of it."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -26357,14 +26412,14 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 253,
+      lineNumber: 258,
       columnNumber: 15
     }
   }, " Holders earn more trading rewards as exchange happen betweeen ", __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 253,
+      lineNumber: 258,
       columnNumber: 118
     }
   }, "$PANACHE"), "Token and partners wares at the marketplace. "), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -26372,14 +26427,14 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 256,
+      lineNumber: 261,
       columnNumber: 15
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 257,
+      lineNumber: 262,
       columnNumber: 17
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26388,21 +26443,21 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 258,
+      lineNumber: 263,
       columnNumber: 19
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 259,
+      lineNumber: 264,
       columnNumber: 19
     }
   }, "Premium Lifestyle")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 261,
+      lineNumber: 266,
       columnNumber: 17
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26411,21 +26466,21 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 262,
+      lineNumber: 267,
       columnNumber: 19
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 263,
+      lineNumber: 268,
       columnNumber: 19
     }
   }, "Brand Ambassadors")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 265,
+      lineNumber: 270,
       columnNumber: 17
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26434,22 +26489,22 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 266,
+      lineNumber: 271,
       columnNumber: 19
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 267,
+      lineNumber: 272,
       columnNumber: 19
     }
-  }, "Modelling"))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Model"))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     className: "banner-btn",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 271,
+      lineNumber: 276,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -26457,7 +26512,7 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 272,
+      lineNumber: 277,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -26465,17 +26520,40 @@ var BannerTwo = function BannerTwo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 273,
+      lineNumber: 278,
       columnNumber: 19
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_14__["FaGithub"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 273,
+      lineNumber: 278,
       columnNumber: 48
     }
-  }), " Download Crypto"))))))));
+  }), "Buy $PANACHE")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 280,
+      columnNumber: 20
+    }
+  }, __jsx("a", {
+    className: "btn ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 281,
+      columnNumber: 19
+    }
+  }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_14__["FaGithub"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 281,
+      columnNumber: 40
+    }
+  }), " Read our whitepaper"))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BannerTwo);
