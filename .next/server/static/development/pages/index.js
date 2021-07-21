@@ -10036,7 +10036,7 @@ const Footer = () => {
       lineNumber: 142,
       columnNumber: 17
     }
-  }, "\xA9 Cryptik | All right rserved 2020"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "\xA9 Panache | All right rserved 2020"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     as: "span",
     __self: undefined,
     __source: {
@@ -11465,15 +11465,15 @@ const SubscribeWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.
       background: rgb(200, 56, 231);
       background: linear-gradient(
         270deg,
-        rgba(200, 56, 231, 1) 0%,
-        rgba(31, 42, 213, 1) 100%
+        rgba(252, 165, 3, 1) 0%,
+        rgba(227, 197, 113, 1) 100%
       );
       &:hover {
         background: rgb(200, 56, 231);
         background: linear-gradient(
           270deg,
-          rgba(31, 42, 213, 1) 0%,
-          rgba(200, 56, 231, 1) 100%
+          rgba(252, 165, 3, 1) 0%,
+          rgba(227, 197, 113, 1) 100%
         );
       }
     }

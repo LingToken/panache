@@ -43,15 +43,15 @@ const SubscribeWrapper = styled.div`
       background: rgb(200, 56, 231);
       background: linear-gradient(
         270deg,
-        rgba(200, 56, 231, 1) 0%,
-        rgba(31, 42, 213, 1) 100%
+        rgba(252, 165, 3, 1) 0%,
+        rgba(227, 197, 113, 1) 100%
       );
       &:hover {
         background: rgb(200, 56, 231);
         background: linear-gradient(
           270deg,
-          rgba(31, 42, 213, 1) 0%,
-          rgba(200, 56, 231, 1) 100%
+          rgba(252, 165, 3, 1) 0%,
+          rgba(227, 197, 113, 1) 100%
         );
       }
     }

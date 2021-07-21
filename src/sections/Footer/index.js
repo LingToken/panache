@@ -139,7 +139,7 @@ const Footer = () => {
               </Box>
 
               <Box className="copyright-text">
-                <Text>&copy; Cryptik | All right rserved 2020</Text>
+                <Text>&copy; Panache | All right rserved 2020</Text>
                 <Text as="span">
                   Powered By{" "}
                   <Link href="#">
