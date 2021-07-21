@@ -33,7 +33,7 @@ const Wallet = () => {
             <Box className="wallet-left-content">
               <SectionTitle>
                 <SectionBackground>
-                  <Heading> Crypto management wallet </Heading>
+                  <Heading> $PANACHE MARKET CAP </Heading>
                 </SectionBackground>
                 <Text>
                   Attention in when in just something bread not hundred well,

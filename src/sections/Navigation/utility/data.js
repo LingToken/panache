@@ -7,9 +7,14 @@ const Data = {
       offset: "-100"
     },
     {
-      name: "Service",
+      name: "Features",
       path: "service",
       offset: "-120"
+    },
+    {
+      name: "Special Offer",
+      path: "token",
+      offset: "-100"
     },
     {
       name: "Roadmap",
@@ -18,7 +23,7 @@ const Data = {
     },
    
     {
-      name: "Features",
+      name: "Contributions",
       path: "/blog-grid",
       subItems: [
         {
@@ -39,11 +44,11 @@ const Data = {
         }
       ]
     },
-    {
-      name: "FAQ",
-      path: "faq",
-      offset: "-60"
-    },
+    // {
+    //   name: "FAQ",
+    //   path: "faq",
+    //   offset: "-60"
+    // },
     {
       name: "Contact",
       path: "contact",

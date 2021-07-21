@@ -141,9 +141,9 @@ const Footer = () => {
               <Box className="copyright-text">
                 <Text>&copy; Cryptik | All right rserved 2020</Text>
                 <Text as="span">
-                  Designed By{" "}
+                  Powered By{" "}
                   <Link href="#">
-                    <a>Devscorn</a>
+                    <a>Panache</a>
                   </Link>
                 </Text>
               </Box>

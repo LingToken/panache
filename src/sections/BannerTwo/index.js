@@ -240,11 +240,10 @@ const BannerTwo = () => {
         </svg>
        
         <Row>
-        {/* <Image src={"src/assets/images/banners/banner-two/cryptik-banner-key-icon.svg"}/> */}
+    
           <Col className="lg-7 md-10 xs-12">
             <Box className="banner-content"> 
-              <Heading>
-                Access and <br/>
+              <Heading>PANACHE: Access and <br/>
                  position your lifestyle
               </Heading>
               <Text as="span" className="description">
@@ -269,7 +268,7 @@ const BannerTwo = () => {
                 </Box>
                 <Box>
                   <Image src={heartIcon} alt="crypto banner icon" />
-                  <Text>Model</Text>
+                  <Text>Model Living</Text>
                 </Box>
               </Box>
 
@@ -287,6 +286,7 @@ const BannerTwo = () => {
               
               
             </Box>
+                {/* <Image src={"src/assets/images/banners/banner-two/cryptik-banner-key-icon.svg"}/> */}
           </Col>
         </Row>
       </Container>

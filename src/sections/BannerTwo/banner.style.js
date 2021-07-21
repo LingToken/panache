@@ -56,7 +56,7 @@ const BannerWrapper = styled.div`
     .banner-btn {
       margin-top: 45px;
       display:flex;
-      justify-content:space-between;
+      justify-content:space-evenly;
       a {
         width: 235px;
         font-size: 16px;
