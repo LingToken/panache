@@ -9,13 +9,13 @@ export default {
     },
     {
       icon: <FaDownload />,
-      count: 12000,
-      body: "Downloads",
+      count: 120000000,
+      body: "Circulating Supplies",
     },
     {
       icon: <FaStar />,
       count: 10000,
-      body: "Ratings",
+      body: "Current Market Price",
     },
     {
       icon: <FaHeart />,

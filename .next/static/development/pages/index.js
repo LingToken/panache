@@ -21695,6 +21695,7 @@ var Home = function Home() {
       columnNumber: 7
     }
   }), __jsx(sections_CoinFund__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    dayCount: true,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -21780,8 +21781,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
         columnNumber: 13
       }
     }),
-    count: 12000,
-    body: "Downloads"
+    count: 120000000,
+    body: "Circulating Supplies"
   }, {
     icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaStar"], {
       __self: undefined,
@@ -21792,7 +21793,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       }
     }),
     count: 10000,
-    body: "Ratings"
+    body: "Current Market Price"
   }, {
     icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaHeart"], {
       __self: undefined,
@@ -26561,8 +26562,10 @@ var _templateObject;
 
 
 
-var CoinFundWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 110px 0 140px 0;\n  position: relative;\n  background: url(", ");\n  background-repeat: no-repeat;\n  background-size: inherit;\n  background-position: 72% 0px;\n\n  &::before {\n    position: absolute;\n    right: 0;\n    top: 0%;\n    width: 100%;\n    height: 100%;\n    content: \" \";\n  }\n\n  .btn-wrapper{\n    margin-top: 35px;\n  }\n  .btn-fill {\n    font-size: 16px;\n    padding: 18px 35px;\n    background: #ffffff;\n    color: ", ";\n  }\n\n  .progressbar-wrapper {\n    position: relative;\n    height: 20px;\n    border-radius: 20px;\n    display: flex;\n    align-items: center;\n    background: #fff;\n\n    span {\n      position: absolute;\n      right: 0;\n      bottom: -42px;\n      color: #fff;\n      font-size: 18px;\n      margin: 0;\n    }\n\n    .progressbar {\n      position: relative;\n      width: 60%;\n      height: 30px;\n      border-radius: 20px;\n      background: rgb(35, 42, 213);\n      background: linear-gradient(\n        93deg,\n        rgba(252, 165, 3, 1) 0%,\n        rgba(227, 197, 113, 1) 42%,\n        rgba(150, 112, 3, 1) 100%\n      );\n      span {\n        bottom: -38px;\n      }\n    }\n  }\n\n  .payment-getway {\n    margin-top: 85px;\n    text-align: center;\n    font-size: 20px;\n    color: #fff;\n    span {\n      margin-right: 25px;\n      &:last-child {\n        margin-right: 0;\n      }\n    }\n  }\n  .countBoxItem {\n    min-width: 100px;\n    position: relative;\n    text-align: center;\n    display: flex;\n    flex-direction: column-reverse;\n  }\n  .countdown-wrapper {\n    margin-bottom: 40px;\n    .text {\n      font-size: 14px;\n      color: #fff;\n      text-align: center;\n      margin-bottom: 35px;\n    }\n    .countBox {\n      display: flex;\n      flex-direction: row-reverse;\n      justify-content: center;\n      .count {\n        line-height: 46px;\n        font-weight: 700;\n        margin-bottom: 16px;\n      }\n      .label {\n       font-size: 14px;\n       color: #BEABDF;\n      }\n      .split {\n        font-size: 40px;\n        font-weight: 700;\n        color: #fff;\n        margin: 6px 8px 0 8px;\n      }\n    }\n  }\n  @media only screen and (max-width: 1024px) {\n    background-size: 36%;\n    background-position: 86% 41%;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n      text-align: left;\n    }\n    .countdown-wrapper {\n      .count {\n        font-size: 45px;\n      }\n    }\n  }\n\n  @media only screen and (max-width: 912px) {\n    background-position: 86% 70%;\n    .coin-fund-content-left{\n      text-align: center;\n      margin-bottom: 80px;\n    }\n  }\n  @media only screen and (max-width: 768px) {\n    .countdown-wrap{\n      width: 100%;\n    }\n  }\n  @media only screen and (max-width: 480px) {\n    background: none;\n    padding: 50px 0;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n    }\n    .countdown-wrapper {\n      .split {\n        display: none;\n      }\n      .count {\n        font-size: 35px;\n      } \n      .countBox{\n        flex-direction: column-reverse;\n      }\n    }\n  }\n"])), assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, function (props) {
+var CoinFundWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 110px 0 140px 0;\n  position: relative;\n  background: url(", ");\n  background-repeat: no-repeat;\n  background-size: inherit;\n  background-position: 72% 0px;\n\n  &::before {\n    position: absolute;\n    right: 0;\n    top: 0%;\n    width: 100%;\n    height: 100%;\n    content: \" \";\n  }\n\n  .btn-wrapper{\n    margin-top: 35px;\n  }\n  .btn-fill {\n    font-size: 16px;\n    padding: 18px 35px;\n    background: #ffffff;\n    color: ", ";\n  }\n\n  .progressbar-wrapper {\n    position: relative;\n    height: 20px;\n    border-radius: 20px;\n    display: flex;\n    align-items: center;\n    background: #fff;\n\n    span {\n      position: absolute;\n      right: 0;\n      bottom: -42px;\n      color: #fff;\n      font-size: 18px;\n      margin: 0;\n    }\n\n    .progressbar {\n      position: relative;\n      width: ", ";\n      height: 30px;\n      border-radius: 20px;\n      background: rgb(35, 42, 213);\n      background: linear-gradient(\n        93deg,\n        rgba(252, 165, 3, 1) 0%,\n        rgba(227, 197, 113, 1) 42%,\n        rgba(150, 112, 3, 1) 100%\n      );\n      span {\n        bottom: -38px;\n      }\n    }\n  }\n\n  .payment-getway {\n    margin-top: 85px;\n    text-align: center;\n    font-size: 20px;\n    color: #fff;\n    span {\n      margin-right: 25px;\n      &:last-child {\n        margin-right: 0;\n      }\n    }\n  }\n  .countBoxItem {\n    min-width: 100px;\n    position: relative;\n    text-align: center;\n    display: flex;\n    flex-direction: column-reverse;\n  }\n  .countdown-wrapper {\n    margin-bottom: 40px;\n    .text {\n      font-size: 14px;\n      color: #fff;\n      text-align: center;\n      margin-bottom: 35px;\n    }\n    .countBox {\n      display: flex;\n      flex-direction: row-reverse;\n      justify-content: center;\n      .count {\n        line-height: 46px;\n        font-weight: 700;\n        margin-bottom: 16px;\n      }\n      .label {\n       font-size: 14px;\n       color: #BEABDF;\n      }\n      .split {\n        font-size: 40px;\n        font-weight: 700;\n        color: #fff;\n        margin: 6px 8px 0 8px;\n      }\n    }\n  }\n  @media only screen and (max-width: 1024px) {\n    background-size: 36%;\n    background-position: 86% 41%;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n      text-align: left;\n    }\n    .countdown-wrapper {\n      .count {\n        font-size: 45px;\n      }\n    }\n  }\n\n  @media only screen and (max-width: 912px) {\n    background-position: 86% 70%;\n    .coin-fund-content-left{\n      text-align: center;\n      margin-bottom: 80px;\n    }\n  }\n  @media only screen and (max-width: 768px) {\n    .countdown-wrap{\n      width: 100%;\n    }\n  }\n  @media only screen and (max-width: 480px) {\n    background: none;\n    padding: 50px 0;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n    }\n    .countdown-wrapper {\n      .split {\n        display: none;\n      }\n      .count {\n        font-size: 35px;\n      } \n      .countBox{\n        flex-direction: column-reverse;\n      }\n    }\n  }\n"])), assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, function (props) {
   return props.theme.linkColor ? props.theme.linkColor : "#1F2AD5";
+}, function (props) {
+  return props.dayCount ? props.dayCount + "%" : "1%";
 });
 /* harmony default export */ __webpack_exports__["default"] = (CoinFundWrapper);
 
@@ -26608,12 +26611,31 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
-var CoinFund = function CoinFund() {
+var CoinFund = function CoinFund(_ref) {
+  var dayCount = _ref.dayCount;
+  var preSaleDuration = Math.floor(new Date("August 30, 2021 0:0:0") / 1000.0); //2678400;
+
+  var startPreSaleCount = Math.floor(new Date("July 30, 2021 0:0:0") / 1000.0);
+  var secondsPerDay = 86400;
+  var preSaleTimeApart = preSaleDuration - startPreSaleCount;
+  var preSaleDurationDay = preSaleTimeApart / secondsPerDay; // console.log((Math.round(secondsPerDay /preSaleDurationDay) * 100));
+  // while(startPreSaleCount < preSaleDuration){
+  //   console.log("dayCount1") 
+  //   setInterval(()=>{
+  //     console.log("dayCount2") 
+  //     dayCount = ((startPreSaleCount - preSaleDuration /preSaleDuration) * 100)/secondsPerDay;
+  //    console.log(dayCount) 
+  //   }, secondsPerDay)
+  //   startPreSaleCount += secondsPerDay 
+  // }
+  // console.log(preSale_duration - startPreSaleCount);
+
   var settings = {
-    count: 5432560,
+    count: 2678400,
     showTitle: true,
     size: 60,
     labelSize: 14,
+    responsive: true,
     backgroundColor: "transparent",
     color: "#fff",
     dayTitle: "Days",
@@ -26624,24 +26646,25 @@ var CoinFund = function CoinFund() {
   };
   return __jsx(_coinFund_style__WEBPACK_IMPORTED_MODULE_10__["default"], {
     id: "token",
+    dayCount: dayCount,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 67,
       columnNumber: 5
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 68,
       columnNumber: 7
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 69,
       columnNumber: 9
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -26649,7 +26672,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 70,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -26657,35 +26680,35 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 71,
       columnNumber: 13
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_8__["SectionTitle"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 72,
       columnNumber: 15
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_8__["SectionBackground"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 73,
       columnNumber: 17
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 74,
       columnNumber: 19
     }
   }, "Powering Data for the new equity blockchain.")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 78,
       columnNumber: 17
     }
   }, "Panache Token represents all aspects of our social lives, from the type of watches you wear, your dressing appearances, the cars you drive, the houses you live in and all other confidence lifestyles.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -26693,7 +26716,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 84,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -26701,7 +26724,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 85,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -26709,7 +26732,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 86,
       columnNumber: 19
     }
   }, "Buy Token"))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -26717,7 +26740,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 91,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -26725,21 +26748,21 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 92,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 93,
       columnNumber: 15
     }
   }, " Last moment to grab the token "), __jsx(react_component_countdown_timer__WEBPACK_IMPORTED_MODULE_3___default.a, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, settings, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 94,
       columnNumber: 15
     }
   }))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -26747,7 +26770,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 96,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -26755,7 +26778,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 97,
       columnNumber: 15
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26763,7 +26786,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 98,
       columnNumber: 17
     }
   }, "$5,097")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26771,7 +26794,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 100,
       columnNumber: 15
     }
   }, "$100,931")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -26779,7 +26802,7 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 103,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26787,14 +26810,14 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 104,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaBitcoin"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 106,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26802,14 +26825,14 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 108,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcMastercard"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 110,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26817,14 +26840,14 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 112,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcVisa"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 114,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -26832,14 +26855,14 @@ var CoinFund = function CoinFund() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 116,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcDiscover"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 118,
       columnNumber: 17
     }
   }), " "))))));
@@ -27303,26 +27326,26 @@ var Footer = function Footer() {
       lineNumber: 36,
       columnNumber: 23
     }
-  }), " contact@cryptik.com", " ")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }), " admin@panachetoken.com", " ")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "#",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 40,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 41,
       columnNumber: 21
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__["FaEnvelope"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 43,
       columnNumber: 23
     }
   }), " +88 12345 697858", " "))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -27330,7 +27353,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 49,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -27338,7 +27361,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 50,
       columnNumber: 15
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -27346,21 +27369,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 51,
       columnNumber: 17
     }
   }, "Service"), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["List"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 52,
       columnNumber: 17
     }
   }, __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 53,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -27368,21 +27391,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 54,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 55,
       columnNumber: 23
     }
   }, "Web Design"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 58,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -27390,21 +27413,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 59,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 60,
       columnNumber: 23
     }
   }, "Web Development"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 63,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -27412,21 +27435,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 64,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 65,
       columnNumber: 23
     }
   }, "UXUI Design"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 68,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -27434,21 +27457,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 69,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 70,
       columnNumber: 23
     }
   }, "Graphics Design"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 73,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -27456,21 +27479,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 74,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 75,
       columnNumber: 23
     }
   }, "Software development"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 78,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -27478,14 +27501,14 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 79,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 80,
       columnNumber: 23
     }
   }, "Content")))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -27493,7 +27516,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 86,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -27501,7 +27524,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 87,
       columnNumber: 15
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -27509,21 +27532,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 88,
       columnNumber: 17
     }
   }, "About Us"), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["List"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 89,
       columnNumber: 17
     }
   }, __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 90,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -27531,21 +27554,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 91,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 92,
       columnNumber: 23
     }
   }, "About Us"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 95,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -27553,21 +27576,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 96,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 97,
       columnNumber: 23
     }
   }, "Work Portfolio"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 100,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -27575,21 +27598,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 101,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 102,
       columnNumber: 23
     }
   }, "Team"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 105,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -27597,21 +27620,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 106,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 107,
       columnNumber: 23
     }
   }, "Plan & Pricing"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 110,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -27619,21 +27642,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 111,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 112,
       columnNumber: 23
     }
   }, "Content"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 115,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -27641,14 +27664,14 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 116,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 117,
       columnNumber: 23
     }
   }, "Company News")))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -27656,7 +27679,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 123,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -27664,7 +27687,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 124,
       columnNumber: 15
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -27672,21 +27695,21 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 125,
       columnNumber: 17
     }
   }, "Our Address"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 126,
       columnNumber: 17
     }
   }, "1370 Roosevelt Street, Little York City, New Jersey 08834")))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
+      lineNumber: 132,
       columnNumber: 11
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -27694,7 +27717,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132,
+      lineNumber: 133,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -27702,7 +27725,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 134,
       columnNumber: 15
     }
   }, assets_data_footer__WEBPACK_IMPORTED_MODULE_11__["default"].links.map(function (item, index) {
@@ -27712,14 +27735,14 @@ var Footer = function Footer() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 135,
+        lineNumber: 136,
         columnNumber: 19
       }
     }, __jsx("a", {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 136,
+        lineNumber: 137,
         columnNumber: 21
       }
     }, " ", item.icon, " "));
@@ -27728,14 +27751,14 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 142,
       columnNumber: 15
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 143,
       columnNumber: 17
     }
   }, "\xA9 Panache | All right rserved 2020"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -27743,7 +27766,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 144,
       columnNumber: 17
     }
   }, "Powered By", " ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -27751,17 +27774,17 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 146,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146,
+      lineNumber: 147,
       columnNumber: 21
     }
-  }, "Panache")))))))));
+  }, "Panache Finance")))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -28783,7 +28806,7 @@ __webpack_require__.r(__webpack_exports__);
 var _templateObject;
 
 
-var SubscribeWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 100px 0;\n\n  .title__wrapper {\n    text-align: center;\n  }\n\n  .subscribe-box-bg {\n    position: relative;\n    padding: 100px 0;\n\n    &:before {\n      position: absolute;\n      left: 0;\n      top: 0;\n      width: 100%;\n      height: 100%;\n      border-radius: 43px;\n      background: rgb(200, 56, 231);\n      background: linear-gradient(\n        94deg,\n        rgba(200, 56, 231, 1) 0%,\n        rgba(31, 42, 213, 1) 100%\n      );\n      content: \"\";\n      opacity: 0.65;\n    }\n  }\n  .form-box {\n    position: relative;\n    margin-top: 70px;\n    button {\n      position: absolute;\n      right: 10px;\n      top: 10px;\n      color: #fff;\n      width: 220px;\n      border-radius: 10px;\n      border: none;\n      transition: all 0.3s ease-in;\n      background: rgb(200, 56, 231);\n      background: linear-gradient(\n        270deg,\n        rgba(252, 165, 3, 1) 0%,\n        rgba(227, 197, 113, 1) 100%\n      );\n      &:hover {\n        background: rgb(200, 56, 231);\n        background: linear-gradient(\n          270deg,\n          rgba(252, 165, 3, 1) 0%,\n          rgba(227, 197, 113, 1) 100%\n        );\n      }\n    }\n    .input__wrapper {\n      input {\n        height: 80px;\n        padding-left: 28px;\n        border-radius: 10px;\n\n        &::placeholder {\n          color: #280d57;\n        }\n      }\n    }\n  }\n\n  @media only screen and (max-width: 912px) {\n    .subscribe-box-wrapper {\n      .subscribe-box-bg {\n        padding: 100px 30px;\n      }\n    }\n  }\n  @media only screen and (max-width: 568px) {\n    .subscribe-box-wrapper {\n      .subscribe-box-bg {\n        padding: 50px 30px;\n      }\n      .form-box {\n        text-align: center;\n        margin-top: 35px;\n        button {\n          position: relative;\n          right: 0;\n          top: 0;\n          margin: 30px auto 0 auto;\n        }\n      }\n    }\n  }\n  @media only screen and (max-width: 480px) {\n    .subscribe-box-wrapper {\n      .subscribe-box-bg {\n        padding: 50px 18px;\n      }\n    }\n    .heading {\n      font-size: 30px;\n      line-height: 40px;\n    }\n  }\n  @media only screen and (max-width: 375px) {\n    .heading {\n      font-size: 25px;\n      line-height: 35px;\n    }\n  }\n"])));
+var SubscribeWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 100px 0;\n\n  .title__wrapper {\n    text-align: center;\n  }\n\n  .subscribe-box-bg {\n    position: relative;\n    padding: 100px 0;\n\n    &:before {\n      position: absolute;\n      left: 0;\n      top: 0;\n      width: 100%;\n      height: 100%;\n      border-radius: 43px;\n      background: rgb(200, 56, 231);\n      background: linear-gradient(\n        94deg,\n        rgba(200, 56, 231, 0.6) 0%,\n        rgba(31, 42, 213, 0.6) 100%\n      );\n      content: \"\";\n      opacity: 0.65;\n    }\n  }\n  .form-box {\n    position: relative;\n    margin-top: 70px;\n    button {\n      position: absolute;\n      right: 10px;\n      top: 10px;\n      color: #fff;\n      width: 220px;\n      border-radius: 10px;\n      border: none;\n      transition: all 0.3s ease-in;\n      background: rgb(200, 56, 231);\n      background: linear-gradient(\n        270deg,\n        rgba(252, 165, 3, 1) 0%,\n        rgba(227, 197, 113, 1) 100%\n      );\n      &:hover {\n        background: rgb(200, 56, 231);\n        background: linear-gradient(\n          270deg,\n          rgba(252, 165, 3, 1) 0%,\n          rgba(227, 197, 113, 1) 100%\n        );\n      }\n    }\n    .input__wrapper {\n      input {\n        height: 80px;\n        padding-left: 28px;\n        border-radius: 10px;\n\n        &::placeholder {\n          color: #280d57;\n        }\n      }\n    }\n  }\n\n  @media only screen and (max-width: 912px) {\n    .subscribe-box-wrapper {\n      .subscribe-box-bg {\n        padding: 100px 30px;\n      }\n    }\n  }\n  @media only screen and (max-width: 568px) {\n    .subscribe-box-wrapper {\n      .subscribe-box-bg {\n        padding: 50px 30px;\n      }\n      .form-box {\n        text-align: center;\n        margin-top: 35px;\n        button {\n          position: relative;\n          right: 0;\n          top: 0;\n          margin: 30px auto 0 auto;\n        }\n      }\n    }\n  }\n  @media only screen and (max-width: 480px) {\n    .subscribe-box-wrapper {\n      .subscribe-box-bg {\n        padding: 50px 18px;\n      }\n    }\n    .heading {\n      font-size: 30px;\n      line-height: 40px;\n    }\n  }\n  @media only screen and (max-width: 375px) {\n    .heading {\n      font-size: 25px;\n      line-height: 35px;\n    }\n  }\n"])));
 /* harmony default export */ __webpack_exports__["default"] = (SubscribeWrapper);
 
 /***/ }),
@@ -29078,19 +29101,28 @@ var Wallet = function Wallet() {
       lineNumber: 36,
       columnNumber: 19
     }
-  }, " $PANACHE MARKET CAP ")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, " PANACHE MARKET CAP ")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38,
       columnNumber: 17
     }
-  }, "Attention in when in just something bread not hundred well, muff value emerge on the known officers. A parameters phase orthographic the can differentiates far catch he warned a they but country. Times, cache in and what but the that go facilitate far were house.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "Attention in when in just something bread not hundred well, muff value emerge on the known officers. A parameters phase orthographic the can differentiates far catch he warned a they but country. Times, cache in and what but the that go facilitate far were house."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    as: "span",
+    className: "description",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 17
+    }
+  }, "Contract Address: 0xcca0e7e445b5f762c1592c7b40c3eeaa88449c37")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_2__["default"], {
     className: "wallet-info",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 48,
       columnNumber: 15
     }
   }, assets_data_wallet__WEBPACK_IMPORTED_MODULE_10__["default"].wallet.map(function (item, index) {
@@ -29100,7 +29132,7 @@ var Wallet = function Wallet() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49,
+        lineNumber: 50,
         columnNumber: 19
       }
     }, __jsx(reusecore_Counter__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -29109,14 +29141,14 @@ var Wallet = function Wallet() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50,
+        lineNumber: 51,
         columnNumber: 21
       }
     }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51,
+        lineNumber: 52,
         columnNumber: 21
       }
     }, item.body));

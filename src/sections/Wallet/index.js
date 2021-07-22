@@ -33,7 +33,7 @@ const Wallet = () => {
             <Box className="wallet-left-content">
               <SectionTitle>
                 <SectionBackground>
-                  <Heading> $PANACHE MARKET CAP </Heading>
+                  <Heading> PANACHE MARKET CAP </Heading>
                 </SectionBackground>
                 <Text>
                   Attention in when in just something bread not hundred well,
@@ -42,6 +42,7 @@ const Wallet = () => {
                   but country. Times, cache in and what but the that go
                   facilitate far were house.
                 </Text>
+                <Text as="span" className="description">Contract Address: 0xcca0e7e445b5f762c1592c7b40c3eeaa88449c37</Text>
               </SectionTitle>
 
               <Box className="wallet-info">

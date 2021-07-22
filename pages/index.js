@@ -34,7 +34,7 @@ const Home = () => {
       <Navigation />
       <BannerTwo />
       <Service />
-      <CoinFund />
+      <CoinFund dayCount />
       <About />
       <Awards />
       {/* <UserMap /> */}

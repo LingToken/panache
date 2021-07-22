@@ -33,7 +33,8 @@ const Footer = () => {
                   <Link href="#">
                     <a>
                       {" "}
-                      <FaPhoneAlt /> contact@cryptik.com{" "}
+                      <FaPhoneAlt /> admin@panachetoken.com{" "}
+                      
                     </a>
                   </Link>
                   <Link href="#">
@@ -143,7 +144,7 @@ const Footer = () => {
                 <Text as="span">
                   Powered By{" "}
                   <Link href="#">
-                    <a>Panache</a>
+                    <a>Panache Finance</a>
                   </Link>
                 </Text>
               </Box>

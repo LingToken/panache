@@ -1923,6 +1923,7 @@ const Home = () => {
       columnNumber: 7
     }
   }), __jsx(sections_CoinFund__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    dayCount: true,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2009,8 +2010,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
         columnNumber: 13
       }
     }),
-    count: 12000,
-    body: "Downloads"
+    count: 120000000,
+    body: "Circulating Supplies"
   }, {
     icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaStar"], {
       __self: undefined,
@@ -2021,7 +2022,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       }
     }),
     count: 10000,
-    body: "Ratings"
+    body: "Current Market Price"
   }, {
     icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaHeart"], {
       __self: undefined,
@@ -8532,7 +8533,7 @@ const CoinFundWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a
 
     .progressbar {
       position: relative;
-      width: 60%;
+      width: ${props => props.dayCount ? props.dayCount + "%" : "1%"};
       height: 30px;
       border-radius: 20px;
       background: rgb(35, 42, 213);
@@ -8686,12 +8687,32 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 
-const CoinFund = () => {
+const CoinFund = ({
+  dayCount
+}) => {
+  const preSaleDuration = Math.floor(new Date("August 30, 2021 0:0:0") / 1000.0); //2678400;
+
+  let startPreSaleCount = Math.floor(new Date("July 30, 2021 0:0:0") / 1000.0);
+  let secondsPerDay = 86400;
+  const preSaleTimeApart = preSaleDuration - startPreSaleCount;
+  const preSaleDurationDay = preSaleTimeApart / secondsPerDay; // console.log((Math.round(secondsPerDay /preSaleDurationDay) * 100));
+  // while(startPreSaleCount < preSaleDuration){
+  //   console.log("dayCount1") 
+  //   setInterval(()=>{
+  //     console.log("dayCount2") 
+  //     dayCount = ((startPreSaleCount - preSaleDuration /preSaleDuration) * 100)/secondsPerDay;
+  //    console.log(dayCount) 
+  //   }, secondsPerDay)
+  //   startPreSaleCount += secondsPerDay 
+  // }
+  // console.log(preSale_duration - startPreSaleCount);
+
   const settings = {
-    count: 5432560,
+    count: 2678400,
     showTitle: true,
     size: 60,
     labelSize: 14,
+    responsive: true,
     backgroundColor: "transparent",
     color: "#fff",
     dayTitle: "Days",
@@ -8702,24 +8723,25 @@ const CoinFund = () => {
   };
   return __jsx(_coinFund_style__WEBPACK_IMPORTED_MODULE_9__["default"], {
     id: "token",
+    dayCount: dayCount,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 67,
       columnNumber: 5
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Container"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 68,
       columnNumber: 7
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 69,
       columnNumber: 9
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -8727,7 +8749,7 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 70,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -8735,35 +8757,35 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 71,
       columnNumber: 13
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_7__["SectionTitle"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 72,
       columnNumber: 15
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_7__["SectionBackground"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 73,
       columnNumber: 17
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 74,
       columnNumber: 19
     }
   }, "Powering Data for the new equity blockchain.")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 78,
       columnNumber: 17
     }
   }, "Panache Token represents all aspects of our social lives, from the type of watches you wear, your dressing appearances, the cars you drive, the houses you live in and all other confidence lifestyles.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -8771,7 +8793,7 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 84,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -8779,7 +8801,7 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 85,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -8787,7 +8809,7 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 86,
       columnNumber: 19
     }
   }, "Buy Token"))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -8795,7 +8817,7 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 91,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -8803,21 +8825,21 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 92,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 93,
       columnNumber: 15
     }
   }, " Last moment to grab the token "), __jsx(react_component_countdown_timer__WEBPACK_IMPORTED_MODULE_2___default.a, _extends({}, settings, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 94,
       columnNumber: 15
     }
   }))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -8825,7 +8847,7 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 96,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -8833,7 +8855,7 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 97,
       columnNumber: 15
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -8841,7 +8863,7 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 98,
       columnNumber: 17
     }
   }, "$5,097")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -8849,7 +8871,7 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 100,
       columnNumber: 15
     }
   }, "$100,931")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -8857,7 +8879,7 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 103,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -8865,14 +8887,14 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 104,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_8__["FaBitcoin"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 106,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -8880,14 +8902,14 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 108,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_8__["FaCcMastercard"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 110,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -8895,14 +8917,14 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 112,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_8__["FaCcVisa"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 114,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -8910,14 +8932,14 @@ const CoinFund = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 116,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_8__["FaCcDiscover"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 118,
       columnNumber: 17
     }
   }), " "))))));
@@ -9603,26 +9625,26 @@ const Footer = () => {
       lineNumber: 36,
       columnNumber: 23
     }
-  }), " contact@cryptik.com", " ")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }), " admin@panachetoken.com", " ")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "#",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 40,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 41,
       columnNumber: 21
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__["FaEnvelope"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 43,
       columnNumber: 23
     }
   }), " +88 12345 697858", " "))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -9630,7 +9652,7 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 49,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -9638,7 +9660,7 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 50,
       columnNumber: 15
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -9646,21 +9668,21 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 51,
       columnNumber: 17
     }
   }, "Service"), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["List"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 52,
       columnNumber: 17
     }
   }, __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 53,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -9668,21 +9690,21 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 54,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 55,
       columnNumber: 23
     }
   }, "Web Design"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 58,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -9690,21 +9712,21 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 59,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 60,
       columnNumber: 23
     }
   }, "Web Development"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 63,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -9712,21 +9734,21 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 64,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 65,
       columnNumber: 23
     }
   }, "UXUI Design"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 68,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -9734,21 +9756,21 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 69,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 70,
       columnNumber: 23
     }
   }, "Graphics Design"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 73,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -9756,21 +9778,21 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 74,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 75,
       columnNumber: 23
     }
   }, "Software development"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 78,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -9778,14 +9800,14 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 79,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 80,
       columnNumber: 23
     }
   }, "Content")))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -9793,7 +9815,7 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 86,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -9801,7 +9823,7 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 87,
       columnNumber: 15
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -9809,21 +9831,21 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 88,
       columnNumber: 17
     }
   }, "About Us"), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["List"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 89,
       columnNumber: 17
     }
   }, __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 90,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -9831,21 +9853,21 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 91,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 92,
       columnNumber: 23
     }
   }, "About Us"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 95,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -9853,21 +9875,21 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 96,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 97,
       columnNumber: 23
     }
   }, "Work Portfolio"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 100,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -9875,21 +9897,21 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 101,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 102,
       columnNumber: 23
     }
   }, "Team"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 105,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -9897,21 +9919,21 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 106,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 107,
       columnNumber: 23
     }
   }, "Plan & Pricing"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 110,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -9919,21 +9941,21 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 111,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 112,
       columnNumber: 23
     }
   }, "Content"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 115,
       columnNumber: 19
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -9941,14 +9963,14 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 116,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 117,
       columnNumber: 23
     }
   }, "Company News")))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -9956,7 +9978,7 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 123,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -9964,7 +9986,7 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 124,
       columnNumber: 15
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -9972,21 +9994,21 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 125,
       columnNumber: 17
     }
   }, "Our Address"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 126,
       columnNumber: 17
     }
   }, "1370 Roosevelt Street, Little York City, New Jersey 08834")))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
+      lineNumber: 132,
       columnNumber: 11
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -9994,7 +10016,7 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132,
+      lineNumber: 133,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -10002,7 +10024,7 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 134,
       columnNumber: 15
     }
   }, assets_data_footer__WEBPACK_IMPORTED_MODULE_11__["default"].links.map((item, index) => __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -10011,14 +10033,14 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 136,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 137,
       columnNumber: 21
     }
   }, " ", item.icon, " ")))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -10026,14 +10048,14 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 142,
       columnNumber: 15
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 143,
       columnNumber: 17
     }
   }, "\xA9 Panache | All right rserved 2020"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -10041,7 +10063,7 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 144,
       columnNumber: 17
     }
   }, "Powered By", " ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -10049,17 +10071,17 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 146,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146,
+      lineNumber: 147,
       columnNumber: 21
     }
-  }, "Panache")))))))));
+  }, "Panache Finance")))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -11443,8 +11465,8 @@ const SubscribeWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.
       background: rgb(200, 56, 231);
       background: linear-gradient(
         94deg,
-        rgba(200, 56, 231, 1) 0%,
-        rgba(31, 42, 213, 1) 100%
+        rgba(200, 56, 231, 0.6) 0%,
+        rgba(31, 42, 213, 0.6) 100%
       );
       content: "";
       opacity: 0.65;
@@ -11840,19 +11862,28 @@ const Wallet = () => {
       lineNumber: 36,
       columnNumber: 19
     }
-  }, " $PANACHE MARKET CAP ")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, " PANACHE MARKET CAP ")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38,
       columnNumber: 17
     }
-  }, "Attention in when in just something bread not hundred well, muff value emerge on the known officers. A parameters phase orthographic the can differentiates far catch he warned a they but country. Times, cache in and what but the that go facilitate far were house.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "Attention in when in just something bread not hundred well, muff value emerge on the known officers. A parameters phase orthographic the can differentiates far catch he warned a they but country. Times, cache in and what but the that go facilitate far were house."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    as: "span",
+    className: "description",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 17
+    }
+  }, "Contract Address: 0xcca0e7e445b5f762c1592c7b40c3eeaa88449c37")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_2__["default"], {
     className: "wallet-info",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 48,
       columnNumber: 15
     }
   }, assets_data_wallet__WEBPACK_IMPORTED_MODULE_10__["default"].wallet.map((item, index) => __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -11861,7 +11892,7 @@ const Wallet = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 50,
       columnNumber: 19
     }
   }, __jsx(reusecore_Counter__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -11870,14 +11901,14 @@ const Wallet = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 51,
       columnNumber: 21
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 52,
       columnNumber: 21
     }
   }, item.body)))))))));

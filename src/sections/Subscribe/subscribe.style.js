@@ -21,8 +21,8 @@ const SubscribeWrapper = styled.div`
       background: rgb(200, 56, 231);
       background: linear-gradient(
         94deg,
-        rgba(200, 56, 231, 1) 0%,
-        rgba(31, 42, 213, 1) 100%
+        rgba(200, 56, 231, 0.6) 0%,
+        rgba(31, 42, 213, 0.6) 100%
       );
       content: "";
       opacity: 0.65;

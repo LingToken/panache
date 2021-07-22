@@ -17,12 +17,43 @@ import {
 
 import CoinFundWrapper from "./coinFund.style";
 
-const CoinFund = () => {
+const CoinFund = ({dayCount}) => {
+const preSaleDuration = Math.floor(new Date("August 30, 2021 0:0:0")/1000.0); //2678400;
+
+let startPreSaleCount = Math.floor(new Date("July 30, 2021 0:0:0")/1000.0);
+
+let secondsPerDay= 86400;
+const preSaleTimeApart = preSaleDuration - startPreSaleCount;
+
+const preSaleDurationDay = preSaleTimeApart/secondsPerDay
+
+
+ // console.log((Math.round(secondsPerDay /preSaleDurationDay) * 100));
+
+  // while(startPreSaleCount < preSaleDuration){
+  //   console.log("dayCount1") 
+
+  //   setInterval(()=>{
+  //     console.log("dayCount2") 
+  //     dayCount = ((startPreSaleCount - preSaleDuration /preSaleDuration) * 100)/secondsPerDay;
+  //    console.log(dayCount) 
+  //   }, secondsPerDay)
+
+  //   startPreSaleCount += secondsPerDay 
+      
+     
+  // }
+  
+
+
+  // console.log(preSale_duration - startPreSaleCount);
+
   const settings = { 
-    count: 5432560,
+    count: 2678400,
     showTitle: true,
     size: 60,
     labelSize: 14,
+    responsive:true,
     backgroundColor: "transparent",
     color: "#fff",
     dayTitle: "Days",
@@ -33,7 +64,7 @@ const CoinFund = () => {
   };
 
   return (
-    <CoinFundWrapper id="token">
+    <CoinFundWrapper id="token" dayCount={dayCount}>
       <Container>
         <Row>
           <Col className="lg-6 md-12 ">
