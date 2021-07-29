@@ -26676,7 +26676,7 @@ var CoinFund = function CoinFund(_ref) {
       lineNumber: 74,
       columnNumber: 19
     }
-  }, "Get the token, Presale starts: August 1 - 31, 2021")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, "Get the token, Presale starts: August 4th - 31st, 2021")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,

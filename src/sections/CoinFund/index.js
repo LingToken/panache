@@ -72,7 +72,7 @@ const preSaleDurationDay = preSaleTimeApart/secondsPerDay
               <SectionTitle>
                 <SectionBackground>
                   <Heading>
-                 Get the token, Presale starts: August 1 - 31, 2021
+                 Get the token, Presale starts: August 4th - 31st, 2021
                   </Heading>
                 </SectionBackground>
                 <Text>
