@@ -23,7 +23,7 @@ const Subscribe = () => {
                     <Heading> Don’t miss out, Stay updated </Heading>
                     <Text>
                       Sign up for updates and market news. Subscribe to our
-                      newsletter and receive update about ICOs and crypto tips.
+                      newsletter and receive update about our PreSale, ICOs and crypto tips.
                     </Text>
                   </SectionTitle>
                 </Col>

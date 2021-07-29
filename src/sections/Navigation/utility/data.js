@@ -23,26 +23,26 @@ const Data = {
     },
    
     {
-      name: "Contributions",
+      name: "Blogs",
       path: "/blog-grid",
-      subItems: [
-        {
-          name: "Blog Grid",
-          path: "/blog-grid"
-        },
-        {
-          name: "Blog List",
-          path: "/blog-list"
-        },
-        {
-          name: "Blog Full",
-          path: "/blog-full"
-        },
-        {
-          name: "Blog Single",
-          path: "/blog-single"
-        }
-      ]
+      // subItems: [
+      //   {
+      //     name: "Blog Grid",
+      //     path: "/blog-grid"
+      //   },
+      //   {
+      //     name: "Blog List",
+      //     path: "/blog-list"
+      //   },
+      //   {
+      //     name: "Blog Full",
+      //     path: "/blog-full"
+      //   },
+      //   {
+      //     name: "Blog Single",
+      //     path: "/blog-single"
+      //   }
+      // ]
     },
     // {
     //   name: "FAQ",

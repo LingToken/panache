@@ -30,7 +30,7 @@ const Stack = () => {
           </Row>
           <Row>
             <Col className="md-8 offset-md-2 xs-12">
-              <Box className="language-image">
+              {/* <Box className="language-image">
                 {data.stack.map((item, index) => (
                   <Link href={item.url} key={index}>
                     <a>
@@ -38,7 +38,7 @@ const Stack = () => {
                     </a>
                   </Link>
                 ))}
-              </Box>
+              </Box> */}
             </Col>
           </Row>
         </Container>

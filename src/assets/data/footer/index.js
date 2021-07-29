@@ -10,53 +10,51 @@ import {
     FaSnapchatGhost,
     FaPinterestP,
     FaYoutube,
+    FaInstagramSquare,
+    FaRedditSquare
   } from "react-icons/fa";
 
   export default {
     links : [
         {
             icon: <FaTwitter />,
-            url: "#"
+            url: "https://twitter.com/PanacheToken"
         },
-        {
-            icon: <FaTumblr />,
-            url: "#"
-        },
-        {
-            icon: <FaGooglePlusG />,
-            url: "#"
-        },
+        // {
+        //     icon: <FaGooglePlusG />,
+        //     url: "#"
+        // },
         {
             icon: <FaFacebookF />,
-            url: "#"
+            url: "https://www.facebook.com/panachetoken/"
         },
         {
-            icon: <FaLinkedinIn />,
-            url: "#"
+            icon: <FaInstagramSquare />,
+            url: "https://www.instagram.com/panachetoken/"
         },
         {
-            icon: <FaSlack />,
-            url: "#"
+            icon: <FaRedditSquare />,
+            url: "https://www.reddit.com/user/panachetoken"
         },
         {
             icon: <FaMediumM />,
-            url: "#"
+            url: "https://medium.com/@panachetoken"
         },
         {
             icon: <FaTelegramPlane />,
-            url: "#"
+            url: "https://t.me/panachetoken"
         },
-        {
-            icon: <FaSnapchatGhost />,
-            url: "#"
-        },
+        // {
+        //     icon: <FaSnapchatGhost />,
+        //     url: "#"
+        // },
         {
             icon: <FaPinterestP />,
-            url: "#"
+            url: "https://www.pinterest.com/panachetoken/"
         },
         {
             icon: <FaYoutube />,
-            url: "#"
+            url: "https://www.youtube.com/channel/UCBFEGITbmSWKIjIDVBKVApA"
         }
     ]
   }

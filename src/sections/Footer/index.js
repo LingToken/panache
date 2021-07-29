@@ -20,7 +20,7 @@ const Footer = () => {
       <Box className="footer-content-wrapper">
         <Subscribe />
         <Container>
-          <Row>
+          {/* <Row>
             <Col className="lg-3 sm-6">
               <Box className="footer-widgets company-desc">
                 <Image src={cryptikFooterLogo} alt="cryptik footer logo" />
@@ -40,7 +40,7 @@ const Footer = () => {
                   <Link href="#">
                     <a>
                       {" "}
-                      <FaEnvelope /> +88 12345 697858{" "}
+                      <FaEnvelope /> +66947592385{" "}
                     </a>
                   </Link>
                 </Box>
@@ -128,7 +128,7 @@ const Footer = () => {
                 </Text>
               </Box>
             </Col>
-          </Row>
+          </Row> */}
           <Row>
             <Col className="xs-12">
               <Box className="footer-social-links">
@@ -140,7 +140,7 @@ const Footer = () => {
               </Box>
 
               <Box className="copyright-text">
-                <Text>&copy; Panache | All right rserved 2020</Text>
+                <Text>&copy; Panache | All right rserved 2021</Text>
                 <Text as="span">
                   Powered By{" "}
                   <Link href="#">

@@ -2104,111 +2104,89 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
+        lineNumber: 20,
         columnNumber: 19
       }
     }),
-    url: "#"
-  }, {
-    icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaTumblr"], {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22,
-        columnNumber: 19
-      }
-    }),
-    url: "#"
-  }, {
-    icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaGooglePlusG"], {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 26,
-        columnNumber: 19
-      }
-    }),
-    url: "#"
-  }, {
+    url: "https://twitter.com/PanacheToken"
+  }, // {
+  //     icon: <FaGooglePlusG />,
+  //     url: "#"
+  // },
+  {
     icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaFacebookF"], {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30,
+        lineNumber: 28,
         columnNumber: 19
       }
     }),
-    url: "#"
+    url: "https://www.facebook.com/panachetoken/"
   }, {
-    icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaLinkedinIn"], {
+    icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaInstagramSquare"], {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 32,
         columnNumber: 19
       }
     }),
-    url: "#"
+    url: "https://www.instagram.com/panachetoken/"
   }, {
-    icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaSlack"], {
+    icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaRedditSquare"], {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 36,
         columnNumber: 19
       }
     }),
-    url: "#"
+    url: "https://www.reddit.com/user/panachetoken"
   }, {
     icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaMediumM"], {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42,
+        lineNumber: 40,
         columnNumber: 19
       }
     }),
-    url: "#"
+    url: "https://medium.com/@panachetoken"
   }, {
     icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaTelegramPlane"], {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46,
+        lineNumber: 44,
         columnNumber: 19
       }
     }),
-    url: "#"
-  }, {
-    icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaSnapchatGhost"], {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 50,
-        columnNumber: 19
-      }
-    }),
-    url: "#"
-  }, {
+    url: "https://t.me/panachetoken"
+  }, // {
+  //     icon: <FaSnapchatGhost />,
+  //     url: "#"
+  // },
+  {
     icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaPinterestP"], {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54,
+        lineNumber: 52,
         columnNumber: 19
       }
     }),
-    url: "#"
+    url: "https://www.pinterest.com/panachetoken/"
   }, {
     icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaYoutube"], {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58,
+        lineNumber: 56,
         columnNumber: 19
       }
     }),
-    url: "#"
+    url: "https://www.youtube.com/channel/UCBFEGITbmSWKIjIDVBKVApA"
   }]
 });
 
@@ -9560,454 +9538,6 @@ const Footer = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 11
-    }
-  }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    className: "lg-3 sm-6",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 13
-    }
-  }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: "footer-widgets company-desc",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 15
-    }
-  }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    src: assets_images_logo_white_png__WEBPACK_IMPORTED_MODULE_10___default.a,
-    alt: "cryptik footer logo",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 17
-    }
-  }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 17
-    }
-  }, "Attention in when in just something bread not hundred well, muff value emerge on the known officers."), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: "contact-info",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 17
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 21
-    }
-  }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__["FaPhoneAlt"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 23
-    }
-  }), " admin@panachetoken.com", " ")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 21
-    }
-  }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__["FaEnvelope"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 23
-    }
-  }), " +88 12345 697858", " "))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    className: "lg-3 sm-6",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 13
-    }
-  }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: "footer-widgets",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 15
-    }
-  }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    as: "h2",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 17
-    }
-  }, "Service"), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["List"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 17
-    }
-  }, __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 19
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 21
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 23
-    }
-  }, "Web Design"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 19
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 21
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 23
-    }
-  }, "Web Development"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 19
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 21
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 23
-    }
-  }, "UXUI Design"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 19
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 21
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 23
-    }
-  }, "Graphics Design"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 19
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74,
-      columnNumber: 21
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 23
-    }
-  }, "Software development"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 19
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 21
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 23
-    }
-  }, "Content")))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    className: "lg-3 sm-6",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86,
-      columnNumber: 13
-    }
-  }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: "footer-widgets",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87,
-      columnNumber: 15
-    }
-  }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    as: "h2",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88,
-      columnNumber: 17
-    }
-  }, "About Us"), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["List"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89,
-      columnNumber: 17
-    }
-  }, __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 90,
-      columnNumber: 19
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91,
-      columnNumber: 21
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 23
-    }
-  }, "About Us"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95,
-      columnNumber: 19
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96,
-      columnNumber: 21
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 97,
-      columnNumber: 23
-    }
-  }, "Work Portfolio"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 100,
-      columnNumber: 19
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 101,
-      columnNumber: 21
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 102,
-      columnNumber: 23
-    }
-  }, "Team"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 105,
-      columnNumber: 19
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 106,
-      columnNumber: 21
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 107,
-      columnNumber: 23
-    }
-  }, "Plan & Pricing"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 110,
-      columnNumber: 19
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 111,
-      columnNumber: 21
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 112,
-      columnNumber: 23
-    }
-  }, "Content"))), __jsx(reusecore_List__WEBPACK_IMPORTED_MODULE_8__["ListItem"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 115,
-      columnNumber: 19
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 116,
-      columnNumber: 21
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 117,
-      columnNumber: 23
-    }
-  }, "Company News")))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    className: "lg-3 sm-6",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 123,
-      columnNumber: 13
-    }
-  }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: "footer-widgets address",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 124,
-      columnNumber: 15
-    }
-  }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    as: "h2",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 125,
-      columnNumber: 17
-    }
-  }, "Our Address"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 126,
-      columnNumber: 17
-    }
-  }, "1370 Roosevelt Street, Little York City, New Jersey 08834")))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Row"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 132,
       columnNumber: 11
     }
@@ -10058,7 +9588,7 @@ const Footer = () => {
       lineNumber: 143,
       columnNumber: 17
     }
-  }, "\xA9 Panache | All right rserved 2020"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "\xA9 Panache | All right rserved 2021"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     as: "span",
     __self: undefined,
     __source: {
@@ -10189,7 +9719,14 @@ const Navigation = () => {
       lineNumber: 41,
       columnNumber: 15
     }
-  }))), __jsx("nav", {
+  }))), __jsx("b", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 18
+    }
+  }, "PANACHE TOKEN"), __jsx("nav", {
     className: "nav",
     __self: undefined,
     __source: {
@@ -10641,21 +10178,26 @@ const Data = {
     path: "token",
     offset: "-100"
   }, {
-    name: "Contributions",
-    path: "/blog-grid",
-    subItems: [{
-      name: "Blog Grid",
-      path: "/blog-grid"
-    }, {
-      name: "Blog List",
-      path: "/blog-list"
-    }, {
-      name: "Blog Full",
-      path: "/blog-full"
-    }, {
-      name: "Blog Single",
-      path: "/blog-single"
-    }]
+    name: "Blogs",
+    path: "/blog-grid" // subItems: [
+    //   {
+    //     name: "Blog Grid",
+    //     path: "/blog-grid"
+    //   },
+    //   {
+    //     name: "Blog List",
+    //     path: "/blog-list"
+    //   },
+    //   {
+    //     name: "Blog Full",
+    //     path: "/blog-full"
+    //   },
+    //   {
+    //     name: "Blog Single",
+    //     path: "/blog-single"
+    //   }
+    // ]
+
   }, // {
   //   name: "FAQ",
   //   path: "faq",
@@ -10962,40 +10504,7 @@ const Stack = () => {
       lineNumber: 32,
       columnNumber: 13
     }
-  }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: "language-image",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 15
-    }
-  }, assets_data_stack__WEBPACK_IMPORTED_MODULE_8__["default"].stack.map((item, index) => __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: item.url,
-    key: index,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 21
-    }
-  }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    src: item.imageSrc,
-    alt: item.name,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 23
-    }
-  }))))))))));
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Stack);
@@ -11386,7 +10895,7 @@ const Subscribe = () => {
       lineNumber: 24,
       columnNumber: 21
     }
-  }, "Sign up for updates and market news. Subscribe to our newsletter and receive update about ICOs and crypto tips.")))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+  }, "Sign up for updates and market news. Subscribe to our newsletter and receive update about our PreSale, ICOs and crypto tips.")))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
