@@ -9561,6 +9561,7 @@ const Footer = () => {
       columnNumber: 19
     }
   }, __jsx("a", {
+    target: "_blank",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,

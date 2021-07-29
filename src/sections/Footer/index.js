@@ -133,8 +133,8 @@ const Footer = () => {
             <Col className="xs-12">
               <Box className="footer-social-links">
                 {data.links.map((item, index) => (
-                  <Link href={item.url} key={index}>
-                    <a> {item.icon} </a>
+                  <Link href={item.url} key={index} >
+                    <a target="_blank"> {item.icon} </a>
                   </Link>
                 ))}
               </Box>
@@ -143,7 +143,7 @@ const Footer = () => {
                 <Text>&copy; Panache | All right rserved 2021</Text>
                 <Text as="span">
                   Powered By{" "}
-                  <Link href="#">
+                  <Link href="#" >
                     <a>Panache Finance</a>
                   </Link>
                 </Text>

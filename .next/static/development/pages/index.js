@@ -27263,6 +27263,7 @@ var Footer = function Footer() {
         columnNumber: 19
       }
     }, __jsx("a", {
+      target: "_blank",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
