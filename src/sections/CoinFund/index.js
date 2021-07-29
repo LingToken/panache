@@ -95,9 +95,9 @@ const preSaleDurationDay = preSaleTimeApart/secondsPerDay
             </Box>
             <Box className="progressbar-wrapper">
               <Box className="progressbar">
-                <Text as="span">$5,097</Text>
+                <Text as="span">$0</Text>
               </Box>
-              <Text as="span">$100,931</Text>
+              <Text as="span">$1,000,000</Text>
             </Box>
 
             <Box className="payment-getway">

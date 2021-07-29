@@ -36,11 +36,7 @@ const Wallet = () => {
                   <Heading> PANACHE MARKET CAP </Heading>
                 </SectionBackground>
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers. A parameters phase
-                  orthographic the can differentiates far catch he warned a they
-                  but country. Times, cache in and what but the that go
-                  facilitate far were house.
+                This is a Community driven project. Panache is a deflationary meme token with antiwhale mechanism. Each user is in theory an equivalent owner and contributor to the network.
                 </Text>
                 <Text as="span" className="description">Contract Address: 0xcca0e7e445b5f762c1592c7b40c3eeaa88449c37</Text>
               </SectionTitle>

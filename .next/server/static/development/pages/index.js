@@ -2293,15 +2293,15 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   wallet: [{
-    count: 5665,
+    count: 0,
     // suffixText: "T+",
     body: "Holders Addresses"
   }, {
-    count: 9806,
+    count: 0,
     // suffixText: "+",
     body: "Transfers"
   }, {
-    count: 120000000,
+    count: 0,
     // suffixText: "M+",
     body: "Markep Cap"
   }]
@@ -8838,7 +8838,7 @@ const CoinFund = ({
       lineNumber: 98,
       columnNumber: 17
     }
-  }, "$5,097")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "$0")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     as: "span",
     __self: undefined,
     __source: {
@@ -8846,7 +8846,7 @@ const CoinFund = ({
       lineNumber: 100,
       columnNumber: 15
     }
-  }, "$100,931")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "$1,000,000")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "payment-getway",
     __self: undefined,
     __source: {
@@ -11372,13 +11372,13 @@ const Wallet = () => {
       lineNumber: 38,
       columnNumber: 17
     }
-  }, "Attention in when in just something bread not hundred well, muff value emerge on the known officers. A parameters phase orthographic the can differentiates far catch he warned a they but country. Times, cache in and what but the that go facilitate far were house."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "This is a Community driven project. Panache is a deflationary meme token with antiwhale mechanism. Each user is in theory an equivalent owner and contributor to the network."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_4__["default"], {
     as: "span",
     className: "description",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 41,
       columnNumber: 17
     }
   }, "Contract Address: 0xcca0e7e445b5f762c1592c7b40c3eeaa88449c37")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -11386,7 +11386,7 @@ const Wallet = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 44,
       columnNumber: 15
     }
   }, assets_data_wallet__WEBPACK_IMPORTED_MODULE_10__["default"].wallet.map((item, index) => __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -11395,7 +11395,7 @@ const Wallet = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 46,
       columnNumber: 19
     }
   }, __jsx(reusecore_Counter__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -11404,14 +11404,14 @@ const Wallet = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 47,
       columnNumber: 21
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 48,
       columnNumber: 21
     }
   }, item.body)))))))));
