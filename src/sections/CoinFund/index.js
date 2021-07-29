@@ -72,7 +72,7 @@ const preSaleDurationDay = preSaleTimeApart/secondsPerDay
               <SectionTitle>
                 <SectionBackground>
                   <Heading>
-                    Powering Data for the new equity blockchain.
+                 Get the token, Presale starts: August 1 - 31, 2021
                   </Heading>
                 </SectionBackground>
                 <Text>
