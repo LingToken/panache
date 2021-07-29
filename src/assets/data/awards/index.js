@@ -9,18 +9,18 @@ export default {
     },
     {
       icon: <FaDownload />,
-      count: 120000000,
+      count: 0,
       body: "Circulating Supplies",
     },
     {
       icon: <FaStar />,
-      count: 10000,
+      count: 0,
       body: "Current Market Price",
     },
-    {
-      icon: <FaHeart />,
-      count: 15000,
-      body: "Loves",
-    },
+    // {
+    //   icon: <FaHeart />,
+    //   count: 15000,
+    //   body: "Loves",
+    // },
   ],
 };

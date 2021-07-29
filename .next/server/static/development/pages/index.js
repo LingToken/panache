@@ -2010,7 +2010,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
         columnNumber: 13
       }
     }),
-    count: 120000000,
+    count: 0,
     body: "Circulating Supplies"
   }, {
     icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaStar"], {
@@ -2021,20 +2021,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
         columnNumber: 13
       }
     }),
-    count: 10000,
+    count: 0,
     body: "Current Market Price"
-  }, {
-    icon: __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaHeart"], {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 21,
-        columnNumber: 13
-      }
-    }),
-    count: 15000,
-    body: "Loves"
-  }]
+  } // {
+  //   icon: <FaHeart />,
+  //   count: 15000,
+  //   body: "Loves",
+  // },
+  ]
 });
 
 /***/ }),
@@ -5452,7 +5446,7 @@ const AwardsSectionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___defa
 
     .awards-item {
       display: flex;
-      width: 49%;
+      width: 100%;
       color: #fff;
       align-items: center;
       padding: 20px 0 20px 10px;
