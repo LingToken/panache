@@ -25,7 +25,8 @@ const Home = () => {
     <ThemeProvider theme={theme}>
       <Head>
       <title>Panache | Your Lifestyle Token</title>
-        <meta name="Description" content="React next landing page" />
+        <meta name="Description" content="Lifestyle marketplace, that will list vendors and allow customers to trade using panache token and earn panache" />
+        <meta name="Keywords" content="premium fashion, premium jewelleries, top jeweller, top models, top wrist watch, top designers in amaerica, top footwears, top cars" />
         <meta name="theme-color" content="#280D57" />
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
       </Head>
