@@ -38,9 +38,10 @@ const Navigation = () => {
         <div className="navbar-wrap">
           <Link href="/">
             <a className="logo">
-              <img src={logo} alt="prime app landing" />
+              <img src={logo} alt="panache-token logo" />
             </a> 
-          </Link><b>PANACHE TOKEN</b>
+          </Link>
+          {/* <b>PANACHE TOKEN</b> */}
           <nav className="nav">
             <FaBars
               className="mobile-menu-icon"

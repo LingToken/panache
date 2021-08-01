@@ -11,6 +11,10 @@ const BannerWrapper = styled.div`
     top: -12%;
     width: 40%;
   }
+  .banner-panache{
+    background-size:cover;
+    width:60%
+  }
 
   .section__particle {
     position: absolute;

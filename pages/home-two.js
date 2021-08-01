@@ -12,6 +12,7 @@ import UserMap from "sections/UserMap";
 import Wallet from "sections/Wallet";
 import Statistics from "sections/Statistics";
 import Stack from "sections/Stack"; 
+import RoadMap  from "sections/RoadMap";
 import Faq from "sections/Faq";
 import Footer from "sections/Footer";
 
@@ -39,6 +40,7 @@ const Home = () => {
       <Awards />
       {/* <UserMap /> */}
       <Wallet />
+      <RoadMap/>
       <Statistics />
        <Faq />
       <Stack />

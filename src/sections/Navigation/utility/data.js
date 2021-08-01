@@ -18,7 +18,7 @@ const Data = {
     },
     {
       name: "Roadmap",
-      path: "token",
+      path: "roadmap",
       offset: "-100"
     },
    

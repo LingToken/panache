@@ -1815,14 +1815,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var sections_Wallet__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! sections/Wallet */ "./src/sections/Wallet/index.js");
 /* harmony import */ var sections_Statistics__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! sections/Statistics */ "./src/sections/Statistics/index.js");
 /* harmony import */ var sections_Stack__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! sections/Stack */ "./src/sections/Stack/index.js");
-/* harmony import */ var sections_Faq__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! sections/Faq */ "./src/sections/Faq/index.js");
-/* harmony import */ var sections_Footer__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! sections/Footer */ "./src/sections/Footer/index.js");
-/* harmony import */ var assets_images_logo_white_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! assets/images/logo-white.png */ "./src/assets/images/logo-white.png");
-/* harmony import */ var assets_images_logo_white_png__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(assets_images_logo_white_png__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var assets_theme_theme__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! assets/theme/theme */ "./src/assets/theme/theme.js");
-/* harmony import */ var assets_theme__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! assets/theme */ "./src/assets/theme/index.js");
+/* harmony import */ var sections_RoadMap__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! sections/RoadMap */ "./src/sections/RoadMap/index.js");
+/* harmony import */ var sections_Faq__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! sections/Faq */ "./src/sections/Faq/index.js");
+/* harmony import */ var sections_Footer__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! sections/Footer */ "./src/sections/Footer/index.js");
+/* harmony import */ var assets_images_logo_white_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! assets/images/logo-white.png */ "./src/assets/images/logo-white.png");
+/* harmony import */ var assets_images_logo_white_png__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(assets_images_logo_white_png__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var assets_theme_theme__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! assets/theme/theme */ "./src/assets/theme/theme.js");
+/* harmony import */ var assets_theme__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! assets/theme */ "./src/assets/theme/index.js");
 var _jsxFileName = "/home/emplugxm3/applications/next-landing/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -1845,34 +1847,43 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const Home = () => {
   return __jsx(styled_components__WEBPACK_IMPORTED_MODULE_2__["ThemeProvider"], {
-    theme: assets_theme_theme__WEBPACK_IMPORTED_MODULE_16__["default"],
+    theme: assets_theme_theme__WEBPACK_IMPORTED_MODULE_17__["default"],
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 26,
       columnNumber: 5
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 7
     }
   }, "Panache | Your Lifestyle Token"), __jsx("meta", {
     name: "Description",
-    content: "React next landing page",
+    content: "Lifestyle marketplace, that will list vendors and allow customers to trade using panache token and earn panache",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  }), __jsx("meta", {
+    name: "Keywords",
+    content: "premium fashion, premium jewelleries, top jeweller, top models, top wrist watch, top designers in amaerica, top footwears, top cars",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
       columnNumber: 9
     }
   }), __jsx("meta", {
@@ -1881,45 +1892,45 @@ const Home = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 31,
       columnNumber: 9
     }
   }), __jsx("link", {
     rel: "shortcut icon",
     type: "image/x-icon",
-    href: assets_images_logo_white_png__WEBPACK_IMPORTED_MODULE_15___default.a,
+    href: assets_images_logo_white_png__WEBPACK_IMPORTED_MODULE_16___default.a,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 32,
       columnNumber: 9
     }
-  })), __jsx(assets_theme__WEBPACK_IMPORTED_MODULE_17__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 7
-    }
-  }), __jsx(sections_Navigation__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 7
-    }
-  }), __jsx(sections_BannerTwo__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  })), __jsx(assets_theme__WEBPACK_IMPORTED_MODULE_18__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35,
       columnNumber: 7
     }
-  }), __jsx(sections_Service__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), __jsx(sections_Navigation__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
+      columnNumber: 7
+    }
+  }), __jsx(sections_BannerTwo__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 7
+    }
+  }), __jsx(sections_Service__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
       columnNumber: 7
     }
   }), __jsx(sections_CoinFund__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -1927,42 +1938,49 @@ const Home = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 39,
       columnNumber: 7
     }
   }), __jsx(sections_About__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 40,
       columnNumber: 7
     }
   }), __jsx(sections_Awards__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 41,
       columnNumber: 7
     }
   }), __jsx(sections_Wallet__WEBPACK_IMPORTED_MODULE_10__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 43,
       columnNumber: 7
     }
-  }), __jsx(sections_Stack__WEBPACK_IMPORTED_MODULE_12__["default"], {
+  }), __jsx(sections_RoadMap__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44,
       columnNumber: 7
     }
-  }), __jsx(sections_Footer__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }), __jsx(sections_Stack__WEBPACK_IMPORTED_MODULE_12__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 47,
+      columnNumber: 7
+    }
+  }), __jsx(sections_Footer__WEBPACK_IMPORTED_MODULE_15__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
       columnNumber: 7
     }
   }));
@@ -2493,6 +2511,17 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAABFCAYAAAAY
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/logo-white-696e504556c1051c8cde8550af1af0fa.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/panache-banner.png":
+/*!**********************************************!*\
+  !*** ./src/assets/images/panache-banner.png ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/panache-banner-c96e67377d04175d9460be4a740f1874.png";
 
 /***/ }),
 
@@ -5751,6 +5780,10 @@ const BannerWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.d
     top: -12%;
     width: 40%;
   }
+  .banner-panache{
+    background-size:cover;
+    width:60%
+  }
 
   .section__particle {
     position: absolute;
@@ -6064,7 +6097,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var assets_images_banners_banner_two_cryptik_banner_watch_icon_svg__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(assets_images_banners_banner_two_cryptik_banner_watch_icon_svg__WEBPACK_IMPORTED_MODULE_16__);
 /* harmony import */ var assets_images_banners_banner_two_cryptik_banner_heart_icon_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! assets/images/banners/banner-two/cryptik-banner-heart-icon.svg */ "./src/assets/images/banners/banner-two/cryptik-banner-heart-icon.svg");
 /* harmony import */ var assets_images_banners_banner_two_cryptik_banner_heart_icon_svg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(assets_images_banners_banner_two_cryptik_banner_heart_icon_svg__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var _banner_style__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./banner.style */ "./src/sections/BannerTwo/banner.style.js");
+/* harmony import */ var assets_images_panache_banner_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! assets/images/panache-banner.png */ "./src/assets/images/panache-banner.png");
+/* harmony import */ var assets_images_panache_banner_png__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(assets_images_panache_banner_png__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var _banner_style__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./banner.style */ "./src/sections/BannerTwo/banner.style.js");
 var _jsxFileName = "/home/emplugxm3/applications/next-landing/src/sections/BannerTwo/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -6087,12 +6122,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 const BannerTwo = () => {
-  return __jsx(_banner_style__WEBPACK_IMPORTED_MODULE_18__["default"], {
+  return __jsx(_banner_style__WEBPACK_IMPORTED_MODULE_19__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 5
     }
   }, __jsx("img", {
@@ -6102,7 +6138,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 7
     }
   }), __jsx("img", {
@@ -6112,7 +6148,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 32,
       columnNumber: 7
     }
   }), __jsx("img", {
@@ -6122,7 +6158,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 33,
       columnNumber: 7
     }
   }), __jsx("img", {
@@ -6132,7 +6168,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 7
     }
   }), __jsx("img", {
@@ -6142,2097 +6178,30 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 7
     }
   }), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Container"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 37,
       columnNumber: 7
     }
-  }, __jsx("svg", {
+  }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    src: assets_images_panache_banner_png__WEBPACK_IMPORTED_MODULE_18___default.a,
     className: "banner__thumb",
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "493.537",
-    height: "606.367",
-    viewBox: "0 0 493.537 606.367",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 7
-    }
-  }, __jsx("defs", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39,
-      columnNumber: 11
+      columnNumber: 8
     }
-  }, __jsx("linearGradient", {
-    id: "linear-gradient",
-    x1: "0.412",
-    y1: "-0.263",
-    x2: "0.691",
-    y2: "2.155",
-    gradientUnits: "objectBoundingBox",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 13
-    }
-  }, __jsx("stop", {
-    offset: "0",
-    stopColor: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.016",
-    stopColor: "#e38400",
+  }), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.092",
-    stopColor: "#ff9900",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.173",
-    stopColor: "#fad873",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.257",
-    stopColor: "#ffce3d",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.346",
-    stopColor: "#ffc20f",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.44",
-    stopColor: "#e6ac05",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.542",
-    stopColor: "#e6ac05",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.659",
-    stopColor: "#e3ad12",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.823",
-    stopColor: "#24126a",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 15
-    }
-  })), __jsx("linearGradient", {
-    id: "linear-gradient-2",
-    x1: "0.5",
-    x2: "0.5",
-    y2: "1",
-    gradientUnits: "objectBoundingBox",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 13
-    }
-  }, __jsx("stop", {
-    offset: "0",
-    stopColor: "#e3bd00",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.073",
-    stopColor: "#e38400",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.305",
-    stopColor: "#8032df",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.521",
-    stopColor: "#562eda",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.716",
-    stopColor: "#382cd7",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.882",
-    stopColor: "#252ad5",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "1",
-    stopColor: "#1f2ad5",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 15
-    }
-  })), __jsx("radialGradient", {
-    id: "radial-gradient",
-    cx: "0.5",
-    cy: "0.5",
-    r: "0.5",
-    gradientUnits: "objectBoundingBox",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 13
-    }
-  }, __jsx("stop", {
-    offset: "0",
-    stopColor: "#4268db",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "1",
-    stopColor: "#280d57",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 15
-    }
-  })), __jsx("linearGradient", {
-    id: "linear-gradient-16",
-    x1: "0.698",
-    y1: "0.045",
-    x2: "0.763",
-    y2: "1.973",
-    xlinkHref: "#linear-gradient-2",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 13
-    }
-  }), __jsx("linearGradient", {
-    id: "linear-gradient-17",
-    x1: "-0.076",
-    y1: "0.5",
-    x2: "0.915",
-    y2: "0.5",
-    gradientUnits: "objectBoundingBox",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 13
-    }
-  }, __jsx("stop", {
-    offset: "0",
-    stopColor: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.151",
-    stopColor: "#e38400",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.328",
-    stopColor: "#e38400",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.52",
-    stopColor: "#e38400",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.721",
-    stopColor: "#e38400",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "0.927",
-    stopColor: "#e38400",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "1",
-    stopColor: "#e38400",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74,
-      columnNumber: 15
-    }
-  })), __jsx("linearGradient", {
-    id: "linear-gradient-20",
-    x1: "-0.076",
-    y1: "0.5",
-    x2: "0.915",
-    y2: "0.5",
-    xlinkHref: "#linear-gradient",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76,
-      columnNumber: 13
-    }
-  }), __jsx("linearGradient", {
-    id: "linear-gradient-21",
-    x1: "0",
-    y1: "0.5",
-    x2: "1",
-    y2: "0.5",
-    xlinkHref: "#linear-gradient-2",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 13
-    }
-  }), __jsx("linearGradient", {
-    id: "linear-gradient-22",
-    x1: "0.554",
-    y1: "-0.037",
-    x2: "0.635",
-    y2: "1.463",
-    xlinkHref: "#linear-gradient-2",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 13
-    }
-  }), __jsx("clipPath", {
-    id: "clip-path",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 13
-    }
-  }, __jsx("ellipse", {
-    id: "Ellipse_4139",
-    "data-name": "Ellipse 4139",
-    cx: "185.181",
-    cy: "106.914",
-    rx: "185.181",
-    ry: "106.914",
-    fill: "url(#linear-gradient)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 15
-    }
-  })), __jsx("linearGradient", {
-    id: "linear-gradient-24",
-    y1: "0.5",
-    x2: "1",
-    y2: "0.5",
-    gradientUnits: "objectBoundingBox",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82,
-      columnNumber: 13
-    }
-  }, __jsx("stop", {
-    offset: "0",
-    stopColor: "#2b237c",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "1",
-    stopColor: "#180d5b",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84,
-      columnNumber: 15
-    }
-  })), __jsx("linearGradient", {
-    id: "linear-gradient-25",
-    x1: "0.5",
-    x2: "0.5",
-    y2: "1",
-    gradientUnits: "objectBoundingBox",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86,
-      columnNumber: 13
-    }
-  }, __jsx("stop", {
-    offset: "0",
-    stopColor: "#1f2ad5",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "1",
-    stopColor: "#27b7ff",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88,
-      columnNumber: 15
-    }
-  })), __jsx("linearGradient", {
-    id: "linear-gradient-26",
-    x1: "14.554",
-    y1: "-3.785",
-    x2: "14.735",
-    y2: "-2.339",
-    gradientUnits: "objectBoundingBox",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 90,
-      columnNumber: 13
-    }
-  }, __jsx("stop", {
-    offset: "0",
-    stopColor: "#069efc",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91,
-      columnNumber: 15
-    }
-  }), __jsx("stop", {
-    offset: "1",
-    stopColor: "#6df7fb",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 15
-    }
-  }))), __jsx("g", {
-    id: "Group_6365",
-    "data-name": "Group 6365",
-    transform: "translate(-65.071 -62.076)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95,
-      columnNumber: 11
-    }
-  }, __jsx("g", {
-    id: "Group_6354",
-    "data-name": "Group 6354",
-    transform: "translate(274.754 62.076)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96,
-      columnNumber: 13
-    }
-  }, __jsx("path", {
-    id: "Path_46862",
-    "data-name": "Path 46862",
-    d: "M291.544,246.929l20.275,11.706v46.823l-20.275-11.706Z",
-    transform: "translate(-27.965 139.361)",
-    opacity: "0.5",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 97,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46863",
-    "data-name": "Path 46863",
-    d: "M281.842,252.531l20.275,11.706v23.411l-20.275-11.706Z",
-    transform: "translate(-38.538 145.465)",
-    opacity: "0.2",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 98,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46864",
-    "data-name": "Path 46864",
-    d: "M272.139,213.32l20.275,11.706v93.645l-20.275-11.706Z",
-    transform: "translate(-49.111 102.736)",
-    opacity: "0.7",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46865",
-    "data-name": "Path 46865",
-    d: "M262.437,196.515l20.275,11.706V325.277l-20.275-11.706Z",
-    transform: "translate(-59.684 84.424)",
-    opacity: "0.2",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 100,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46866",
-    "data-name": "Path 46866",
-    d: "M252.734,202.116l20.275,11.706v93.645l-20.275-11.706Z",
-    transform: "translate(-70.257 90.528)",
-    opacity: "0.5",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 101,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46867",
-    "data-name": "Path 46867",
-    d: "M243.032,162.9l20.275,11.706V338.49l-20.275-11.706Z",
-    transform: "translate(-80.829 47.799)",
-    opacity: "0.2",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 102,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46868",
-    "data-name": "Path 46868",
-    d: "M233.329,168.506,253.6,180.212V320.68l-20.275-11.706Z",
-    transform: "translate(-91.402 53.903)",
-    opacity: "0.5",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 103,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46869",
-    "data-name": "Path 46869",
-    d: "M223.627,174.108,243.9,185.814V302.87l-20.275-11.706Z",
-    transform: "translate(-101.975 60.007)",
-    opacity: "0.2",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 104,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46870",
-    "data-name": "Path 46870",
-    d: "M213.924,146.1,234.2,157.806V321.685l-20.275-11.706Z",
-    transform: "translate(-112.548 29.486)",
-    opacity: "0.5",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 105,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46871",
-    "data-name": "Path 46871",
-    d: "M204.222,118.092,224.5,129.8V340.5l-20.275-11.706Z",
-    transform: "translate(-123.121 -1.034)",
-    opacity: "0.2",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 106,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46872",
-    "data-name": "Path 46872",
-    d: "M194.519,123.693,214.795,135.4v187.29l-20.275-11.706Z",
-    transform: "translate(-133.694 5.07)",
-    opacity: "0.5",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 107,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46873",
-    "data-name": "Path 46873",
-    d: "M184.817,95.685l20.275,11.706V341.5L184.817,329.8Z",
-    transform: "translate(-144.266 -25.451)",
-    opacity: "0.2",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 108,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46874",
-    "data-name": "Path 46874",
-    d: "M175.115,90.084l20.275,11.706V335.9L175.115,324.2Z",
-    transform: "translate(-154.839 -31.555)",
-    opacity: "0.5",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 109,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46875",
-    "data-name": "Path 46875",
-    d: "M165.412,62.076l20.275,11.706V354.716L165.412,343.01Z",
-    transform: "translate(-165.412 -62.076)",
-    opacity: "0.2",
-    fill: "url(#linear-gradient-2)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 110,
-      columnNumber: 15
-    }
-  })), __jsx("g", {
-    id: "Group_6361",
-    "data-name": "Group 6361",
-    transform: "translate(65.071 333.623)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 112,
-      columnNumber: 13
-    }
-  }, __jsx("g", {
-    id: "Group_6359",
-    "data-name": "Group 6359",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 113,
-      columnNumber: 15
-    }
-  }, __jsx("g", {
-    id: "Group_6358",
-    "data-name": "Group 6358",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 114,
-      columnNumber: 17
-    }
-  }, __jsx("ellipse", {
-    id: "Ellipse_4135",
-    "data-name": "Ellipse 4135",
-    cx: "185.636",
-    cy: "107.177",
-    rx: "185.636",
-    ry: "107.177",
-    transform: "translate(23.47 120.465)",
-    opacity: "0.4",
-    fill: "url(#radial-gradient)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 115,
-      columnNumber: 19
-    }
-  }), __jsx("ellipse", {
-    id: "Ellipse_4136",
-    "data-name": "Ellipse 4136",
-    cx: "209.106",
-    cy: "120.728",
-    rx: "209.106",
-    ry: "120.728",
-    transform: "translate(0 50.097)",
-    fill: "url(#linear-gradient-16)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 116,
-      columnNumber: 19
-    }
-  }), __jsx("path", {
-    id: "Path_46876",
-    "data-name": "Path 46876",
-    d: "M483.277,303.809l-5.157-.046c-8.4-21.5-27.093-41.94-56.09-58.681-81.661-47.148-214.061-47.148-295.72,0-27.379,15.807-45.564,34.908-54.583,55.093l-6.56-.056v26.769c-1.628,32.073,18.747,64.449,61.147,88.93,81.661,47.148,214.061,47.148,295.72,0,40.831-23.574,61.245-54.472,61.243-85.369h0Z",
-    transform: "translate(-65.066 -172.734)",
-    opacity: "0.48",
-    fill: "url(#linear-gradient-17)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 117,
-      columnNumber: 19
-    }
-  }), __jsx("path", {
-    id: "Path_46877",
-    "data-name": "Path 46877",
-    d: "M483.277,303.809l-5.157-.046c-8.4-21.5-27.093-41.94-56.09-58.681-81.661-47.148-214.061-47.148-295.72,0-27.379,15.807-45.564,34.908-54.583,55.093l-6.56-.056v26.769c-1.628,32.073,18.747,64.449,61.147,88.93,81.661,47.148,214.061,47.148,295.72,0,40.831-23.574,61.245-54.472,61.243-85.369h0Z",
-    transform: "translate(-65.066 -172.734)",
-    opacity: "0.48",
-    fill: "url(#linear-gradient-17)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 118,
-      columnNumber: 19
-    }
-  }), __jsx("path", {
-    id: "Path_46878",
-    "data-name": "Path 46878",
-    d: "M483.277,303.809l-5.157-.046c-8.4-21.5-27.093-41.94-56.09-58.681-81.661-47.148-214.061-47.148-295.72,0-27.379,15.807-45.564,34.908-54.583,55.093l-6.56-.056v26.769c-1.628,32.073,18.747,64.449,61.147,88.93,81.661,47.148,214.061,47.148,295.72,0,40.831-23.574,61.245-54.472,61.243-85.369h0Z",
-    transform: "translate(-65.066 -172.734)",
-    opacity: "0.48",
-    fill: "url(#linear-gradient-17)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 119,
-      columnNumber: 19
-    }
-  }), __jsx("path", {
-    id: "Path_46879",
-    "data-name": "Path 46879",
-    d: "M483.277,298.858l-5.157-.046c-8.4-21.505-27.093-41.94-56.09-58.681-81.661-47.148-214.061-47.15-295.72,0-27.379,15.807-45.564,34.909-54.583,55.093l-6.56-.059v26.771c-1.628,32.073,18.747,64.449,61.147,88.927,81.661,47.148,214.061,47.15,295.72,0,40.831-23.572,61.245-54.47,61.243-85.369h0Z",
-    transform: "translate(-65.066 -178.13)",
-    fill: "url(#linear-gradient-20)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 120,
-      columnNumber: 19
-    }
-  }), __jsx("path", {
-    id: "Path_46880",
-    "data-name": "Path 46880",
-    d: "M477.327,287.389c-.293-.748-.608-1.492-.926-2.236V267.572H465.445v-1.258a113.512,113.512,0,0,0-9.31-10.935v12.193H449.85V249.279q-4.376-3.965-9.341-7.767v26.061h-6.255v-30.6q-4.479-3.109-9.37-6.081v36.683h-6.225V227.255q-4.6-2.57-9.4-4.951v45.267h-6.2V219.367q-4.636-2.122-9.429-4.075v52.28h-6.167V225.224h-9.458v42.348h-6.137V236.847h-9.489v30.725h-6.108v-19.1h-9.517v19.1h-6.079V260.1h-9.546v7.475H215.715V260.1h-9.548v7.475h-6.079v-19.1h-9.517v19.1h-6.108V236.847h-9.487v30.725h-6.137V225.224h-9.46v42.348h-6.167v-52.32q-4.79,1.947-9.429,4.071v48.249h-6.2V222.259q-4.8,2.37-9.4,4.942v40.371h-6.227V230.829q-4.893,2.962-9.368,6.069v30.675h-6.257V241.434c-3.316,2.537-6.417,5.134-9.341,7.78v18.358H90.711V255.278A113.58,113.58,0,0,0,81.4,266.184v1.388H70.445v16.222l-4.641-.042v44.885a80.355,80.355,0,0,0,9.28,23.81V324.42H81.4v37.552a113.527,113.527,0,0,0,9.312,10.9V324.42h6.284v54.525q4.379,3.959,9.341,7.757V324.42h6.257v66.831q4.482,3.106,9.368,6.077V324.42h6.227v76.521q4.6,2.564,9.4,4.942V324.42h6.2v84.4q4.639,2.122,9.429,4.071V324.42h6.167V415.3q4.67,1.755,9.46,3.352V324.42h6.137v96.2q4.7,1.445,9.487,2.748V324.42h6.108V424.96q4.721,1.175,9.517,2.209V324.42h6.079V428.412q4.746.928,9.548,1.72V324.42h6.048V431.075q4.768.7,9.577,1.264V324.42h6.02V433q4.786.483,9.606.832V324.42h5.989v109.8q4.812.27,9.636.412V324.42h5.96V434.767q4.871.066,9.742,0V324.42h5.962V434.633q4.821-.144,9.634-.414V324.42h5.991V433.827q4.815-.354,9.606-.836V324.42H315.5V432.33q4.808-.567,9.577-1.266V324.42h6.05v105.7q4.8-.793,9.546-1.722V324.42h6.079V427.152q4.8-1.034,9.517-2.211V324.42h6.108v98.929q4.793-1.3,9.489-2.75V324.42h6.137v94.208q4.786-1.6,9.458-3.356V324.42h6.167v88.438q4.793-1.95,9.429-4.075V324.42h6.2v81.425q4.8-2.373,9.4-4.951V324.42h6.225v72.864q4.9-2.968,9.37-6.085V324.42h6.255v62.219q4.965-3.8,9.341-7.765V324.42h6.286v48.387a113.408,113.408,0,0,0,9.31-10.925V324.42h6.315V352.3a80.2,80.2,0,0,0,9.282-24.046V287.422Z",
-    transform: "translate(-64.273 -166.706)",
-    fill: "url(#linear-gradient-21)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 121,
-      columnNumber: 19
-    }
-  }), __jsx("ellipse", {
-    id: "Ellipse_4137",
-    "data-name": "Ellipse 4137",
-    cx: "209.106",
-    cy: "120.728",
-    rx: "209.106",
-    ry: "120.728",
-    fill: "url(#linear-gradient-22)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 122,
-      columnNumber: 19
-    }
-  }), __jsx("path", {
-    id: "Path_46881",
-    "data-name": "Path 46881",
-    d: "M267.231,192.022c-47.382-.01-94.753,9.236-133.34,27.707L71.511,355.339c10.166,15.593,26.057,30.228,47.792,42.774a237.054,237.054,0,0,0,44.17,19.474Z",
-    transform: "translate(-58.054 -192.02)",
-    fill: "#6df7fb",
-    opacity: "0.3",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 123,
-      columnNumber: 19
-    }
-  }), __jsx("path", {
-    id: "Path_46882",
-    "data-name": "Path 46882",
-    d: "M249.168,194.336,141.849,427.641a361.259,361.259,0,0,0,78.253,2.1L318.9,214.966C297.645,205.395,273.958,198.5,249.168,194.336Z",
-    transform: "translate(18.593 -189.499)",
-    fill: "#6df7fb",
-    opacity: "0.3",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 124,
-      columnNumber: 19
-    }
-  }), __jsx("g", {
-    id: "Group_6357",
-    "data-name": "Group 6357",
-    transform: "translate(23.925 13.813)",
-    opacity: "0.05",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 125,
-      columnNumber: 19
-    }
-  }, __jsx("ellipse", {
-    id: "Ellipse_4138",
-    "data-name": "Ellipse 4138",
-    cx: "185.181",
-    cy: "106.914",
-    rx: "185.181",
-    ry: "106.914",
-    fill: "url(#linear-gradient)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 126,
-      columnNumber: 21
-    }
-  }), __jsx("g", {
-    id: "Group_6356",
-    "data-name": "Group 6356",
-    clipPath: "url(#clip-path)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 127,
-      columnNumber: 21
-    }
-  }, __jsx("g", {
-    id: "Group_6355",
-    "data-name": "Group 6355",
-    transform: "translate(-147.583 -80.947)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 128,
-      columnNumber: 23
-    }
-  }, __jsx("path", {
-    id: "Path_46883",
-    "data-name": "Path 46883",
-    d: "M7.873,347.3,5.9,346.154l322.61-186.259,1.977,1.141Z",
-    transform: "translate(-5.896 -159.895)",
-    fill: "#e38400",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 129,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46884",
-    "data-name": "Path 46884",
-    d: "M10.593,348.865l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(-2.933 -158.184)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 130,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46885",
-    "data-name": "Path 46885",
-    d: "M13.313,350.436l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(0.031 -156.472)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 131,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46886",
-    "data-name": "Path 46886",
-    d: "M16.033,352.006l-1.977-1.141,322.61-186.259,1.977,1.142Z",
-    transform: "translate(2.995 -154.761)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 132,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46887",
-    "data-name": "Path 46887",
-    d: "M18.753,353.576l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(5.959 -153.05)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 133,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46888",
-    "data-name": "Path 46888",
-    d: "M21.473,355.147,19.5,354.005l322.61-186.259,1.977,1.141Z",
-    transform: "translate(8.923 -151.339)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 134,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46889",
-    "data-name": "Path 46889",
-    d: "M24.193,356.717l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(11.887 -149.628)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 135,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46890",
-    "data-name": "Path 46890",
-    d: "M26.913,358.288l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(14.851 -147.916)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 136,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46891",
-    "data-name": "Path 46891",
-    d: "M29.633,359.858l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(17.815 -146.205)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 137,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46892",
-    "data-name": "Path 46892",
-    d: "M32.353,361.428l-1.977-1.142,322.61-186.259,1.977,1.141Z",
-    transform: "translate(20.779 -144.494)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 138,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46893",
-    "data-name": "Path 46893",
-    d: "M35.073,363,33.1,361.857,355.705,175.6l1.977,1.141Z",
-    transform: "translate(23.742 -142.783)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 139,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46894",
-    "data-name": "Path 46894",
-    d: "M37.792,364.569l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(26.706 -141.072)",
-    fill: "#e38400",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 140,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46895",
-    "data-name": "Path 46895",
-    d: "M40.512,366.139,38.535,365l322.61-186.259,1.977,1.142Z",
-    transform: "translate(29.67 -139.36)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 141,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46896",
-    "data-name": "Path 46896",
-    d: "M43.232,367.71l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(32.634 -137.649)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 142,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46897",
-    "data-name": "Path 46897",
-    d: "M45.952,369.28l-1.977-1.141L366.585,181.88l1.977,1.141Z",
-    transform: "translate(35.598 -135.938)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 143,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46898",
-    "data-name": "Path 46898",
-    d: "M48.672,370.85,46.7,369.709,369.3,183.45l1.977,1.141Z",
-    transform: "translate(38.562 -134.227)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 144,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46899",
-    "data-name": "Path 46899",
-    d: "M51.392,372.421l-1.977-1.141L372.025,185.02,374,186.162Z",
-    transform: "translate(41.526 -132.516)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 145,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46900",
-    "data-name": "Path 46900",
-    d: "M54.112,373.991l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(44.49 -130.804)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 146,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46901",
-    "data-name": "Path 46901",
-    d: "M56.832,375.561l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(47.454 -129.093)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 147,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46902",
-    "data-name": "Path 46902",
-    d: "M59.552,377.132l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(50.418 -127.382)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 148,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46903",
-    "data-name": "Path 46903",
-    d: "M62.272,378.7l-1.977-1.141L382.9,191.3l1.977,1.141Z",
-    transform: "translate(53.382 -125.671)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 149,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46904",
-    "data-name": "Path 46904",
-    d: "M64.992,380.272l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(56.345 -123.959)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 150,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46905",
-    "data-name": "Path 46905",
-    d: "M67.712,381.843,65.735,380.7l322.61-186.259,1.977,1.141Z",
-    transform: "translate(59.309 -122.248)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 151,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46906",
-    "data-name": "Path 46906",
-    d: "M70.432,383.413l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(62.273 -120.537)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 152,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46907",
-    "data-name": "Path 46907",
-    d: "M73.151,384.983l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(65.237 -118.826)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 153,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46908",
-    "data-name": "Path 46908",
-    d: "M75.871,386.554l-1.977-1.141L396.5,199.154l1.977,1.141Z",
-    transform: "translate(68.201 -117.115)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 154,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46909",
-    "data-name": "Path 46909",
-    d: "M78.591,388.124l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(71.165 -115.403)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 155,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46910",
-    "data-name": "Path 46910",
-    d: "M81.311,389.694l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(74.129 -113.692)",
-    fill: "#e38400",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 156,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46911",
-    "data-name": "Path 46911",
-    d: "M84.031,391.265l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(77.093 -111.981)",
-    fill: "#e38400",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 157,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46912",
-    "data-name": "Path 46912",
-    d: "M86.751,392.835l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(80.057 -110.27)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 158,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46913",
-    "data-name": "Path 46913",
-    d: "M89.471,394.406l-1.977-1.141L410.1,207.005l1.977,1.141Z",
-    transform: "translate(83.021 -108.559)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 159,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46914",
-    "data-name": "Path 46914",
-    d: "M92.191,395.976l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(85.985 -106.847)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 160,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46915",
-    "data-name": "Path 46915",
-    d: "M94.911,397.546,92.934,396.4l322.61-186.259,1.977,1.141Z",
-    transform: "translate(88.948 -105.136)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 161,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46916",
-    "data-name": "Path 46916",
-    d: "M97.631,399.116l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(91.912 -103.425)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 162,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46917",
-    "data-name": "Path 46917",
-    d: "M100.351,400.687l-1.977-1.142,322.61-186.259,1.977,1.141Z",
-    transform: "translate(94.876 -101.714)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 163,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46918",
-    "data-name": "Path 46918",
-    d: "M103.071,402.257l-1.977-1.141L423.7,214.857,425.68,216Z",
-    transform: "translate(97.84 -100.002)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 164,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46919",
-    "data-name": "Path 46919",
-    d: "M105.79,403.827l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(100.804 -98.291)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 165,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46920",
-    "data-name": "Path 46920",
-    d: "M108.51,405.4l-1.977-1.141L429.143,218l1.977,1.142Z",
-    transform: "translate(103.768 -96.58)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 166,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46921",
-    "data-name": "Path 46921",
-    d: "M111.23,406.968l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(106.732 -94.869)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 167,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46922",
-    "data-name": "Path 46922",
-    d: "M113.95,408.539l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(109.696 -93.158)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 168,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46923",
-    "data-name": "Path 46923",
-    d: "M116.67,410.109l-1.977-1.141L437.3,222.709l1.977,1.141Z",
-    transform: "translate(112.66 -91.446)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 169,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46924",
-    "data-name": "Path 46924",
-    d: "M119.39,411.679l-1.977-1.141,322.61-186.259L442,225.42Z",
-    transform: "translate(115.624 -89.735)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 170,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46925",
-    "data-name": "Path 46925",
-    d: "M122.11,413.249l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(118.587 -88.024)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 171,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46926",
-    "data-name": "Path 46926",
-    d: "M124.83,414.82l-1.977-1.142L445.463,227.42l1.977,1.141Z",
-    transform: "translate(121.551 -86.313)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 172,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46927",
-    "data-name": "Path 46927",
-    d: "M127.55,416.39l-1.977-1.141L448.182,228.99l1.977,1.141Z",
-    transform: "translate(124.515 -84.602)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 173,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46928",
-    "data-name": "Path 46928",
-    d: "M130.27,417.961l-1.977-1.141L450.9,230.56l1.977,1.141Z",
-    transform: "translate(127.479 -82.89)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 174,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46929",
-    "data-name": "Path 46929",
-    d: "M132.99,419.531l-1.977-1.141,322.61-186.259,1.977,1.142Z",
-    transform: "translate(130.443 -81.179)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 175,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46930",
-    "data-name": "Path 46930",
-    d: "M135.71,421.1l-1.977-1.141L456.342,233.7l1.977,1.141Z",
-    transform: "translate(133.407 -79.468)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 176,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46931",
-    "data-name": "Path 46931",
-    d: "M138.429,422.672l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(136.371 -77.757)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 177,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46932",
-    "data-name": "Path 46932",
-    d: "M141.149,424.242l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(139.335 -76.046)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 178,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46933",
-    "data-name": "Path 46933",
-    d: "M143.869,425.812l-1.977-1.141L464.5,238.412l1.977,1.141Z",
-    transform: "translate(142.299 -74.334)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 179,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46934",
-    "data-name": "Path 46934",
-    d: "M146.589,427.383l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(145.263 -72.623)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 180,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46935",
-    "data-name": "Path 46935",
-    d: "M149.309,428.953l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(148.227 -70.912)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 181,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46936",
-    "data-name": "Path 46936",
-    d: "M152.029,430.523l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(151.19 -69.201)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 182,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46937",
-    "data-name": "Path 46937",
-    d: "M154.749,432.094l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(154.154 -67.489)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 183,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46938",
-    "data-name": "Path 46938",
-    d: "M157.469,433.664l-1.977-1.141L478.1,246.264l1.977,1.141Z",
-    transform: "translate(157.118 -65.778)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 184,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46939",
-    "data-name": "Path 46939",
-    d: "M160.189,435.234l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(160.082 -64.067)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 185,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46940",
-    "data-name": "Path 46940",
-    d: "M162.909,436.8l-1.977-1.141L483.541,249.4l1.977,1.141Z",
-    transform: "translate(163.046 -62.356)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 186,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46941",
-    "data-name": "Path 46941",
-    d: "M165.629,438.375l-1.977-1.141,322.61-186.259,1.977,1.141Z",
-    transform: "translate(166.01 -60.645)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 187,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46942",
-    "data-name": "Path 46942",
-    d: "M168.349,439.946l-1.977-1.142,322.61-186.259,1.977,1.141Z",
-    transform: "translate(168.974 -58.933)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 188,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    id: "Path_46943",
-    "data-name": "Path 46943",
-    d: "M171.068,441.516l-1.977-1.141L491.7,254.116l1.977,1.141Z",
-    transform: "translate(171.938 -57.222)",
-    fill: "#42e8e0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 189,
-      columnNumber: 25
-    }
-  })))), __jsx("path", {
-    id: "Path_46944",
-    "data-name": "Path 46944",
-    d: "M130.751,237.148c72.316-41.752,189.565-41.75,261.884,0,34.574,19.961,52.606,45.85,54.123,72,1.657-28.549-16.375-57.41-54.123-79.2-72.318-41.754-189.568-41.754-261.884,0C93,251.737,74.974,280.6,76.632,309.145,78.149,283,96.179,257.109,130.751,237.148Z",
-    transform: "translate(-52.588 -184.818)",
-    fill: "url(#linear-gradient-24)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 193,
-      columnNumber: 19
-    }
-  }))), __jsx("g", {
-    id: "Group_6360",
-    "data-name": "Group 6360",
-    transform: "translate(101.549 56.72)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 196,
-      columnNumber: 15
-    }
-  }, __jsx("path", {
-    id: "Path_46945",
-    "data-name": "Path 46945",
-    d: "M294.219,241.512,113.666,219.164l38.708,104.242,117.557-14.022Z",
-    transform: "translate(-113.666 -219.164)",
-    fill: "url(#linear-gradient-25)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 197,
-      columnNumber: 17
-    }
-  }), __jsx("path", {
-    id: "Path_46946",
-    "data-name": "Path 46946",
-    d: "M132.189,308.749l49.4-76.135,68.159,62.113Z",
-    transform: "translate(-93.481 -204.507)",
-    fill: "#0f054c",
-    opacity: "0.4",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 198,
-      columnNumber: 17
-    }
-  }), __jsx("path", {
-    id: "Path_46947",
-    "data-name": "Path 46947",
-    d: "M248.275,229.858l-92.446,5.759,68.159,62.113Z",
-    transform: "translate(-67.722 -207.51)",
-    fill: "#0f054c",
-    opacity: "0.4",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 199,
-      columnNumber: 17
-    }
-  }), __jsx("path", {
-    id: "Path_46948",
-    "data-name": "Path 46948",
-    d: "M294.219,241.512,113.666,219.164l88.106,28.107,68.159,62.113Z",
-    transform: "translate(-113.666 -219.164)",
-    fill: "#0f054c",
-    opacity: "0.4",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 200,
-      columnNumber: 17
-    }
-  }), __jsx("path", {
-    id: "Path_46949",
-    "data-name": "Path 46949",
-    d: "M140.343,316.46l165.98,13.935-24.135-95.829-24.307,52.619Z",
-    transform: "translate(-84.596 -202.38)",
-    fill: "url(#linear-gradient-26)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 201,
-      columnNumber: 17
-    }
-  }), __jsx("path", {
-    id: "Path_46950",
-    "data-name": "Path 46950",
-    d: "M196.589,287.185l48.443,43.21L220.9,234.566Z",
-    transform: "translate(-23.305 -202.38)",
-    fill: "#0f054c",
-    opacity: "0.4",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 202,
-      columnNumber: 17
-    }
-  }))), __jsx("g", {
-    id: "Group_6364",
-    "data-name": "Group 6364",
-    transform: "translate(86.61 223.727)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 205,
-      columnNumber: 13
-    }
-  }, __jsx("path", {
-    id: "Path_46951",
-    "data-name": "Path 46951",
-    d: "M182.293,219.37c-7.676,0-15.353-1.688-21.2-5.061-5.885-3.4-9.124-7.981-9.124-12.912s3.239-9.517,9.124-12.912c11.688-6.748,30.708-6.748,42.4,0,5.885,3.4,9.124,7.981,9.124,12.912s-3.239,9.516-9.122,12.912h0C197.648,217.681,189.97,219.37,182.293,219.37Zm0-33.651c-7.255,0-14.509,1.594-20.032,4.783-5.132,2.961-7.958,6.831-7.958,10.894s2.825,7.93,7.958,10.892c11.046,6.38,29.02,6.38,40.066,0h0c5.13-2.961,7.956-6.829,7.956-10.892s-2.825-7.933-7.956-10.894C196.8,187.314,189.548,185.719,182.293,185.719Z",
-    transform: "translate(8.085 -91.494)",
-    fill: "#6df7fb",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 206,
-      columnNumber: 15
-    }
-  }), __jsx("image", {
-    id: "Rectangle_239",
-    "data-name": "Rectangle 239",
-    width: "79.242",
-    height: "101.81",
-    transform: "translate(76.576 71.911)",
-    xlinkHref: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ4AAADLCAYAAACfxio/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAA8lSURBVHhe7Z0LyHXpFMdnvlFI0jRiEhqNpsktueQamck1QjJJck8hiUSi5JZLbrnklhQRySBhEpM7uSSXpEQjmkZMkyYhl8//v8/z39Ze77P32fuc857LPv9frdZ61rPf8371/r71nH3Oezn37Nmz5xizbc6UvFdcdt01ZxDnlqWZIXsnHoS7CRKlO9fyzZe9Eg+i3RSpkU5h+ebJ3ogHwW5eyo54DMs3P/ZCPIh1i1KekK6EmRk7Fw/S3bKU/LdQMuUonKfezNipeJDpVkhRspp8bVi++bAz8SDR+UhRLMlG9OJi3G/C8s2DnYgHeS5AikLlf0fcOxGW7/DZuniQ5jZIWSaSM8nXkFibA2Wr4kG6C0tJefi5GaqzXOqpr945V194kd/nO3CaL+Q2gHS3Q6oJJSiT+jn4MZLuP8zmsNmKeJDu9kiSiMTPy15NOtHWkO5fpTQHzqmLB+nuiBRF6pOOfeYY7bWQ7p+lNDPg1MUrRJGUGXHSEdWdHqT7R6nNTDhV8TDt7oSkzyHpJNR/EVEyhaRsrod0f0M2M0NSbBxIdzFSlImZcMpROqJ90spWgsfrjcxmfpyKeJDuzqWURPnzqNe3T+n+WkozQzYuHqS7BCnKxJpTrkYWsAlIdwOymTEbFQ/SXYokgUh+/NodLFFN6a5vOmbWbFQ80AqE6JNOaL/9GEj356ZjZs/GxMO0u0spRStUs+quNfGyfOZI2Ih4kO5uSJKHcR6CE652B8sg8VpOu+vYNMfBpiZelKpviqnmPqPdh3TXMpvjYW3xMO3uUUpKlB8vvkhMTnw+SPfHUpojYi3xIN09kaJwrHW85ncmeE1c83j9A7I5QtYSr0CJCB+L0omOZGyU3ASk+33TMUfJyuJh2t0LKQqlmwkhyQg/T5545ohZSTxId2+kKFGUisTc3LU2qwKm3e9KaY6UVSdeFImPoUnHzL0YollDut8uluaYmSwept19kSRV/nj1tRfXlO43yMasNPE6MrFRiM/vSL4uXmuOnEniYdrdD0kCZZGiYHpe1wam3a+RjWkYLR6kuz8SJSISKqKeHlNrSverpmNMYcrEa0UqIWo3FHE/1sY0jBIP0+6BSMvEyvt8bE67XyAb02HsxJNMhDneSMS9RrYSfL3u58zGZJaKh2n3YCSJpUwkn0TTY2kdrzWmw5iJJ4GiTKprQXjE/rTUxpxgUDxMu4eUsiaYgtR6xvQyduJloWrHbHsdpt1PkI3ppVc8TLuHIkXZajWzHqORroQxgwxNvCgXI9/JdqYcogHT7oelNKaXZeJ1pCrUhFM99HjGtFRFwTH7sFISyUWiaBKwFRHT7vvIxiylb0JFwZRzj6gf941ZytDRKJGiVKpjNGDafbeUxizlhHg4Zi9HymL1rUmsjRnF0MQjEkrfgUIkmoLT7tvMxoylJp4EE1k0hYi1MaPoiIdj9uGlzIJl0Rj8WEbcM2YUQxMvZoVE0x6P2W+U0pjRZPEkVM6kthf3jRlNKx6O2UeUUkLVIk48hTGTiROvT6IoWCfjmP16szJmIrWjNgaJudY3ZjJZvEyWTuS1MZPIR+0YoZprcMx+dbE0ZjqNeLixeFSz+j+SL8qonjFrM3TU1kSzfGYjSLwoVF8t2LOAZi1qz/FIrmM2Zm2GjtpIR0jcWFy1WBqzGmdwY/GYUpNGrBDGnArxOV5NtChh3zXGTGbsURuxfGZtVhHPmLWxeGYnULx4dPbVxmyU2s1FrW7j6gsv+jKyMWvho9bsBItndoLFMzvB4pmdYPHMTrB4ZidYPLMTLJ7ZCVPF0wvLxqxFFO/EuxQlSKyNWRuKt0yqzt5l113z2FIaszJ+jmd2whTxNBmHpqMxo1gmnkUzp0J8jlcLEWtj1maV53iW0KyNxItTblkYszZnrr7woi+WejSXXXfN40tpzEqMOWrzxNPzQmNWZspRa8zGGJp4WbgoYewbM5m+iRePU/WIsjFrce7Zs4s/vI0bhic0RV0u9uLfM2vAjcmVpTRmEvGopVSadDmIMom1MZPJ4vUhAWPEjzVmEjV5slxx3enheL4C2ZjJtOKV52tZMhJzrrU2ZhJ54kWhFHHq1SagMZMZI14M0sk4bp/arIyZQEc8HLefKWWUjaFJl7PCmEnkiUeiUGPCmMm0LyBHcHw+BSlKlQXLe/y9eR9fLI1ZTm3ikUamntDHxNqYSawiHoMfFwXka3rPXCyNWU5VPBybn0SKkpFcx2Cf2ZhRVMUrZLkkVq7bx8DUe3YpjRmkV7xysyDBNNEkWq1WGLOUXvEKWaplwan3XGZjhtikeHwsTUBjBqm+jhfBBHsWkuTSN4PGWqhP+LreB0ttzAmWTTxSk6sjWU8Y08tY8WpCxZ6OWNWclC9gNqbGUvFwZH4EKUoWBYvCMYT6xlRZKl5BYmXRYkjEVjpMvRcxG5MZJR6m3odLSaJ8rWQF1dqPe8a0jBKvEIWLQrEfQ/usOfVezGxMZOnLKRFI9HykKF4UkNT2mPnLgd6xWBpTptJYIM/7kWpiNXKV0JpMenxzPKwiRpaMxFriqddkTMuXIRvTMOmoFeVuNYtGciaqGwExNd+6WJpjhjJMBvK8B4lC5UmnrOhMvRLGrCZeQSJFsZj1mHG/DUzLVyKbI2dl8TD13lVKCqWsWiIyVAvK96pSmyNlZfEKkoo5ypZD+4wGyPfqUpojpBVhFTD13o4kuUiWTX0Sr1nr85rDZ6W72gym18tLGeVSiNoe73Jfy6Y5LjY1eSQSH++8UotWMoSmoILSWrwjZCPiYWq9BakRqRDlGorm80O+1zGb42FTE4/yvRkpChWnW5yCsc+QfG9kNsfBxsQrSC4SBSOSLGaF5HsTs5k/GxUPU49TS1KRLFdcM0RbQz5OTjNzNioegXyvR8qCKeLn0zrv8QVmv587czYuXoEiET5+/hxRthzttZDvbaU0M2Qjr+PVgDh8mSRKpZ/DZZC4JySe+vwG0pc2HTMr8jTaGBDmNaUUtUknGskWZXcfAr+T2cyLU5t4AuK8AakVqcCaosUpGK+JuREWIvtnN2bEqYtHIB/vdrNYMUjfXhuQzz8uORNO7aiNQBh+G5QEykcuUY57Gd7tvq/U5sDZysQTECe+tRZzlG1o3QRE9q/HOHC2MvEEhHlFKSVRnnCqFdon6lHgDzCbw2Wr4hHIx2+haiVKOfYF11lAyudfg3bAbF08Avn0o476/BJLkdcMEvcoX/zVGuaA2OpzvAzE4Wt0WS4iwUjer64h83MWS3MI6Iu7EyDLS0opqlKVILEmbR8Sf7TU5gDY6cQTkObdSJKqlSkEGbPmW2zPWCzNPrMX4hHI916kmkx5nfOJgHxPRzZ7zN6IRyAfXyCOEpEp604fAj6t1GbP2OlzvAxEeSFSlCff3eZ/b7w20vQhMv80ltlD9ko8Avn4O/iIhMpi8d+chewNyPcpZLNn7NVRG4EwH0KKEvEfGtcMMqbXBKS+AtnsAXs38QQkeV4pRZ50JIol8po0a8isP31vdszeTjwBWeKfOyAxxyBDa/Uo9ZNLaXbE3osnICBfIK4JRWp17MXJ3l4HAZ9UarNl9vaozUAS/k01kqUiWuejmPTVlPmzpTRb5mAmnoAsH0OSQFEy1bUeUSa55vR74mJptsHBiUcgX/wjzo04JUhtHTPp3bOA2+EgxRMQ8BNIlCYKFEPEfdG7D/me0KzMqXHQ4hHIx3cnKEwMEmsR1/E60elBwMc3K7NxDubmog/I8VSkKA/Ja9IrWMknPgZSf6GUZsMc/MQTkOTTSFGgKNKyuvYxHTz9NstsxBMQUO9ODAlGlu1nuMe738ctlmYdDv6ozUAMvisRRVomVV8/0j4OxP4Ss1mP2U28CCSJLxBHwVTn3If+g/K6NiD5o9k005m1eKTIF8Wq1bGXaSQrQeK6CQj4SGQzgdmLJyDglUiSh/TVmTjtlKsBAR+ObEZwNOIRyPe5UhLKEnMNSUVqxy3Ja/7A0eWlNj0clXgCAn6+lETC1IhSKcjQug0I+DBkU+EoxSOQb9mLw3nCkY5YbKTcdxPyUDbN/zla8USPgJJp7PEa17UeoYAPKfXRc/TiiSTgmBsKEutlkhJeQwEftFgeLxYvUOTLopDYU11b13okrjs9SPiAxfK4sHgVIOAXkaqiLMrevRxEOU/RjtQQ8H6L5XFg8QaAgHx7LEuU63V7RDVfirlP05k5Fm8EEPArSDVRiOrautYjy54PNgEJ78XmHLF4E4CAVyE1NwhNo5sVJK6H+mRo3QQEvCfyrLB4E4F8X0WqSUJqdQySn+vVrsm9NiDh3ZEPHou3IhDwa0gSgtTqGEQ5H7VEde71XgsJ77pYHh4Wb00g4NVIHSEWZVtvolfrk+bYh4CXLpaHg8XbIJDwm6Xsk6Wvl/sk7vX1SWciQsJLFsv9xuKdAhDwW0hZkKH1UJ/EOh+9+Zo2IOHFyHuJxTtFIOB3kLIQJOYcZGyfDK3bgIQXIe8NFm8LQMDvIUkC0pGCjZL71n19Etd9vU5Awjsg7xSLt0Ug4A9K2dwULMqOFCSuc1859vseS0EGexDxdk1ni1i8HQEJf4SUJSCtECHIsh6J66E+yb0mIOFtkU8di7djIOCPkWoSkJhrQWq9sTcgZLAHEW/ddDaMxdsTIOBPS9krQbNa5DFikbge6pNYx8ePmT+3fEEp18Li7SGQ8GdIUQTVtXVfn8R1X5/Ede7HHGmug4jnL5bTsHh7DiT8JVIUQEGmrPv6JK5jEOVI33UU8ZaL5TAW70CAgL9C6nyRS5BaXQvS11Pu24vk/cGAjDdD7mDxDhBI+Guk+MUltToHGVrHELEW+Vpdk3t6qacTEPE8i3fgQMLfIPELSvJNB2m/4CXI2B6JtcjX6hrVVeFiWLwZAQl/i5S/yCT3an2S1yTWJF8T12PjjMWbKZDwGiR+kUnt5Rftxbr3ZZSArleQWC+ddgyLdwRAwj+UMn7xSVzHELEW+VpdU+v3hsU7MiDhtaWUBGSozmg/B6n1Fe0kxM2Fj9pjByL+qZRREqIcyfsxSO5Vj12LZzpAwr+UklCSTBSI5PWo53cWzwwCEa8vpYgCkbiuRd/E83M8Mx6IeEMpo0hEdd/EI9rjNxp44pn1gIw3lpJSLT1qKR2y3zIzmwUi/h2pKh3D4pmtARn/jdQItxDvnHP+Bxty/6llIqc8AAAAAElFTkSuQmCC",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 207,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46952",
-    "data-name": "Path 46952",
-    d: "M188.283,204.612c-6.929,4-18.166,4-25.1,0s-6.929-10.488,0-14.49,18.168-4,25.1,0S195.215,200.61,188.283,204.612Z",
-    transform: "translate(14.643 -87.465)",
-    fill: "#6df7fb",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 208,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46953",
-    "data-name": "Path 46953",
-    d: "M208,185.355l-12.437-7.181,21.176-12.226,12.437,7.18Z",
-    transform: "translate(55.584 -110.536)",
-    fill: "#e38400",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 209,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46954",
-    "data-name": "Path 46954",
-    d: "M198.983,180.245l-15.672-4.61,13.6-15.406,15.672,4.61Z",
-    transform: "translate(42.237 -116.769)",
-    fill: "#6df7fb",
-    opacity: "0.8",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 210,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46955",
-    "data-name": "Path 46955",
-    d: "M186.788,176.287,169.416,174.7l4.684-17.078,17.372,1.589Z",
-    transform: "translate(27.094 -119.611)",
-    fill: "#6df7fb",
-    opacity: "0.6",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 211,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46956",
-    "data-name": "Path 46956",
-    d: "M175.048,174.7l-17.372,1.588-4.685-17.078,17.372-1.588Z",
-    transform: "translate(9.196 -119.611)",
-    fill: "#6df7fb",
-    opacity: "0.4",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 212,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46957",
-    "data-name": "Path 46957",
-    d: "M164.912,175.634l-15.671,4.61-13.6-15.406,15.671-4.61Z",
-    transform: "translate(-9.706 -116.77)",
-    fill: "#6df7fb",
-    opacity: "0.2",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 213,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46958",
-    "data-name": "Path 46958",
-    d: "M154.93,178.174l-12.437,7.18-21.177-12.226,12.437-7.18Z",
-    transform: "translate(-25.319 -110.537)",
-    fill: "#6df7fb",
-    opacity: "0.1",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 214,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46959",
-    "data-name": "Path 46959",
-    d: "M183.925,195.3l-4.37-2.523,31.6-18.242,4.37,2.523Z",
-    transform: "translate(38.144 -101.175)",
-    fill: "#6df7fb",
-    opacity: "0.2",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 215,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46960",
-    "data-name": "Path 46960",
-    d: "M179.735,194.971l-5.506-1.62,20.286-22.987,5.506,1.62Z",
-    transform: "translate(32.34 -105.724)",
-    fill: "#6df7fb",
-    opacity: "0.4",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 216,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46961",
-    "data-name": "Path 46961",
-    d: "M174.248,194.349l-6.1-.558,6.99-25.481,6.1.558Z",
-    transform: "translate(25.709 -107.963)",
-    fill: "#6df7fb",
-    opacity: "0.6",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 217,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46962",
-    "data-name": "Path 46962",
-    d: "M171.646,193.791l-6.1.558-6.991-25.481,6.1-.558Z",
-    transform: "translate(15.256 -107.963)",
-    fill: "#6df7fb",
-    opacity: "0.8",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 218,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46963",
-    "data-name": "Path 46963",
-    d: "M172.183,193.351l-5.506,1.62L146.39,171.984l5.506-1.62Z",
-    transform: "translate(2.004 -105.725)",
-    fill: "#6df7fb",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 219,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46964",
-    "data-name": "Path 46964",
-    d: "M172.162,192.781l-4.37,2.523-31.6-18.242,4.37-2.523Z",
-    transform: "translate(-9.106 -101.176)",
-    fill: "#6df7fb",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 220,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46965",
-    "data-name": "Path 46965",
-    d: "M171.585,192.137l-2.805,3.179L128.965,183.6l2.805-3.179Z",
-    transform: "translate(-16.984 -94.762)",
-    fill: "#6df7fb",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 221,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46966",
-    "data-name": "Path 46966",
-    d: "M170.509,191.482l-.967,3.524-44.134-4.036.967-3.524Z",
-    transform: "translate(-20.861 -87.111)",
-    fill: "#6df7fb",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 222,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46967",
-    "data-name": "Path 46967",
-    d: "M169.542,192.984l.967,3.524-44.134,4.035-.967-3.524Z",
-    transform: "translate(-20.861 -81.076)",
-    fill: "#6df7fb",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 223,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46968",
-    "data-name": "Path 46968",
-    d: "M168.78,196.5l2.806,3.179-39.814,11.712-2.806-3.179Z",
-    transform: "translate(-16.984 -77.248)",
-    fill: "#6df7fb",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 224,
-      columnNumber: 15
-    }
-  }), __jsx("path", {
-    id: "Path_46969",
-    "data-name": "Path 46969",
-    d: "M167.793,199.572l4.37,2.523-31.6,18.242-4.37-2.523Z",
-    transform: "translate(-9.105 -73.897)",
-    fill: "#6df7fb",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 225,
-      columnNumber: 15
-    }
-  }), __jsx("g", {
-    id: "Group_6362",
-    "data-name": "Group 6362",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 226,
-      columnNumber: 15
-    }
-  }, __jsx("path", {
-    id: "Path_46970",
-    "data-name": "Path 46970",
-    d: "M225.874,169.938c46.444,32.361,49.039,78.608,7.828,112.535l16.665,15.4c56.865-40.9,55.615-99.811-3.7-139.939Z",
-    transform: "translate(88.617 -119.273)",
-    fill: "#6df7fb",
-    opacity: "0.6",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 227,
-      columnNumber: 17
-    }
-  }), __jsx("path", {
-    id: "Path_46971",
-    "data-name": "Path 46971",
-    d: "M277.733,258.273C228.6,262.73,176.581,254.05,138.72,232.192A126.552,126.552,0,0,1,115.8,215.5l-28.351,5.636a145.262,145.262,0,0,0,30.526,23.031c47.875,27.643,114.9,37.456,176.413,29.5Z",
-    transform: "translate(-62.221 -56.541)",
-    fill: "#6df7fb",
-    opacity: "0.2",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 228,
-      columnNumber: 17
-    }
-  }), __jsx("path", {
-    id: "Path_46972",
-    "data-name": "Path 46972",
-    d: "M77.3,264.936l28.366-5.64c-5.013-27,10.369-55.018,46.214-75.712,59.264-34.217,153.211-36.175,216.483-5.908l20.8-12.007c-74.8-36.852-187.3-34.892-258.022,5.939C87.065,197.05,69.125,231.862,77.3,264.936Z",
-    transform: "translate(-75.378 -139.432)",
-    fill: "#6df7fb",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 229,
-      columnNumber: 17
-    }
-  })), __jsx("g", {
-    id: "Group_6363",
-    "data-name": "Group 6363",
-    transform: "translate(161.903 82.703)",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 231,
-      columnNumber: 15
-    }
-  }, __jsx("path", {
-    id: "Path_46973",
-    "data-name": "Path 46973",
-    d: "M163.955,267.684l-11.1-6.409,142.49-82.267,11.1,6.409Z",
-    transform: "translate(-152.855 -179.008)",
-    fill: "#e38400",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 232,
-      columnNumber: 17
-    }
-  }), __jsx("path", {
-    id: "Path_46974",
-    "data-name": "Path 46974",
-    d: "M171.5,247.785l-11.1-6.409,61.928-35.754,11.1,6.409Z",
-    transform: "translate(-144.632 -150.006)",
-    fill: "#6df7fb",
-    opacity: "0.8",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 233,
-      columnNumber: 17
-    }
-  }), __jsx("path", {
-    id: "Path_46975",
-    "data-name": "Path 46975",
-    d: "M179.571,263.479l-11.1-6.409,98.579-56.915,11.1,6.409Z",
-    transform: "translate(-135.838 -155.963)",
-    fill: "#6df7fb",
-    opacity: "0.6",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 234,
-      columnNumber: 17
-    }
-  }), __jsx("path", {
-    id: "Path_46976",
-    "data-name": "Path 46976",
-    d: "M187.513,261.489l-11.1-6.409,76.739-44.305,11.1,6.409Z",
-    transform: "translate(-127.183 -144.39)",
-    fill: "#6df7fb",
-    opacity: "0.2",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 235,
-      columnNumber: 17
-    }
-  }))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Row"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 242,
       columnNumber: 9
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Col"], {
@@ -8240,7 +6209,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 244,
+      lineNumber: 44,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -8248,21 +6217,21 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 245,
+      lineNumber: 45,
       columnNumber: 13
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246,
+      lineNumber: 46,
       columnNumber: 15
     }
   }, "PANACHE: Access and ", __jsx("br", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246,
+      lineNumber: 46,
       columnNumber: 44
     }
   }), "position your lifestyle"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -8271,14 +6240,14 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 249,
+      lineNumber: 49,
       columnNumber: 15
     }
   }, "Holders earn passive rewards through static reflection while watching their balance of ", __jsx("b", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 250,
+      lineNumber: 50,
       columnNumber: 104
     }
   }, "$PANACHE"), " grow indefinitely"), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -8287,7 +6256,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 253,
+      lineNumber: 53,
       columnNumber: 15
     }
   }, "Panache Token allows you to access and position your lifesteyle giving you the opptunity to live your best life while still earning a living out of it."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -8296,14 +6265,14 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 257,
+      lineNumber: 57,
       columnNumber: 15
     }
   }, " Holders earn more trading rewards as exchange happen betweeen ", __jsx("b", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 257,
+      lineNumber: 57,
       columnNumber: 118
     }
   }, "$PANACHE"), "Token and partners wares at the marketplace. "), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -8311,14 +6280,14 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 260,
+      lineNumber: 60,
       columnNumber: 15
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 261,
+      lineNumber: 61,
       columnNumber: 17
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -8327,21 +6296,21 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 262,
+      lineNumber: 62,
       columnNumber: 19
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 263,
+      lineNumber: 63,
       columnNumber: 19
     }
   }, "Premium Lifestyle")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 265,
+      lineNumber: 65,
       columnNumber: 17
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -8350,21 +6319,21 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 266,
+      lineNumber: 66,
       columnNumber: 19
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 267,
+      lineNumber: 67,
       columnNumber: 19
     }
   }, "Brand Ambassadors")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 269,
+      lineNumber: 69,
       columnNumber: 17
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -8373,14 +6342,14 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 270,
+      lineNumber: 70,
       columnNumber: 19
     }
   }), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 271,
+      lineNumber: 71,
       columnNumber: 19
     }
   }, "Model Living"))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -8388,7 +6357,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 275,
+      lineNumber: 75,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -8396,7 +6365,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 276,
+      lineNumber: 76,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -8404,14 +6373,14 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 277,
+      lineNumber: 77,
       columnNumber: 19
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_14__["FaGithub"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 277,
+      lineNumber: 77,
       columnNumber: 48
     }
   }), "Buy $PANACHE")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -8419,7 +6388,7 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 279,
+      lineNumber: 79,
       columnNumber: 20
     }
   }, __jsx("a", {
@@ -8427,14 +6396,14 @@ const BannerTwo = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 280,
+      lineNumber: 80,
       columnNumber: 19
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_14__["FaGithub"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 280,
+      lineNumber: 80,
       columnNumber: 40
     }
   }), " Read our whitepaper"))))))));
@@ -9707,26 +7676,19 @@ const Navigation = () => {
     }
   }, __jsx("img", {
     src: assets_images_logo_white_png__WEBPACK_IMPORTED_MODULE_4___default.a,
-    alt: "prime app landing",
+    alt: "panache-token logo",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41,
       columnNumber: 15
     }
-  }))), __jsx("b", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 18
-    }
-  }, "PANACHE TOKEN"), __jsx("nav", {
+  }))), __jsx("nav", {
     className: "nav",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 45,
       columnNumber: 11
     }
   }, __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__["FaBars"], {
@@ -9735,7 +7697,7 @@ const Navigation = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 46,
       columnNumber: 13
     }
   }), __jsx(_utility_ScrollspyMenu__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -9744,7 +7706,7 @@ const Navigation = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 50,
       columnNumber: 13
     }
   })))));
@@ -10124,22 +8086,7 @@ const ScrollspyMenu = _ref => {
       lineNumber: 34,
       columnNumber: 23
     }
-  }, subItem.name))))))), __jsx("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 7
-    }
-  }, __jsx("button", {
-    className: "nav__button",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 9
-    }
-  }, "Get in Touch")));
+  }, subItem.name))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ScrollspyMenu);
@@ -10170,7 +8117,7 @@ const Data = {
     offset: "-100"
   }, {
     name: "Roadmap",
-    path: "token",
+    path: "roadmap",
     offset: "-100"
   }, {
     name: "Blogs",
@@ -10205,6 +8152,263 @@ const Data = {
   }]
 };
 /* harmony default export */ __webpack_exports__["default"] = (Data);
+
+/***/ }),
+
+/***/ "./src/sections/RoadMap/index.js":
+/*!***************************************!*\
+  !*** ./src/sections/RoadMap/index.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _roadmap_style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./roadmap.style */ "./src/sections/RoadMap/roadmap.style.js");
+var _jsxFileName = "/home/emplugxm3/applications/next-landing/src/sections/RoadMap/index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const RoadMap = () => {
+  return __jsx(_roadmap_style__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    id: "roadmap",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 9
+    }
+  }, __jsx("h1", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 13
+    }
+  }, "Our RoadMap"), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 13
+    }
+  }, "we intend to continously improve on the features of panache token, however, the first three quarters below is just our starting point, it will be updated as the community grows"), __jsx("div", {
+    className: "roadmap-item-container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "roadmap-item",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 13
+    }
+  }, __jsx("h2", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 17
+    }
+  }, "Third Quarter, 2021"), __jsx("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 17
+    }
+  }, __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 21
+    }
+  }, "Deploy Panache token on BSC Main net"), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 21
+    }
+  }, "Launch the panache token official website"), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 21
+    }
+  }, "Invite early adopters for presale on the token asset"), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 21
+    }
+  }, "provide liquidity for the token asset on pancakeswap"), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 21
+    }
+  }, "Lock LP token "))), __jsx("div", {
+    className: "roadmap-item",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 13
+    }
+  }, __jsx("h2", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 13
+    }
+  }, "Last Quarter, 2021"), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "Launch Panache token marketplace"), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 21
+    }
+  }, "List panache token on trust wallet"), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 21
+    }
+  }, "List panache token on crypto exchanges"), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 21
+    }
+  }, "List panache token on coinmarketcap, coingecko, coinvote, etc"), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 21
+    }
+  }, "Commence listing vendors for the marketplace")), __jsx("div", {
+    className: "roadmap-item",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 13
+    }
+  }, __jsx("h2", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 13
+    }
+  }, "First Quarter, 2022"), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 13
+    }
+  }, "Add multiple tokens for marketplace exchanges"), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 21
+    }
+  }, "Consolidate on vendor listing"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (RoadMap);
+
+/***/ }),
+
+/***/ "./src/sections/RoadMap/roadmap.style.js":
+/*!***********************************************!*\
+  !*** ./src/sections/RoadMap/roadmap.style.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
+
+const RoadMapHead = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h1`
+    display: flex;
+    text-align:center;
+
+`;
+const RoadMapWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div`
+
+h1{
+   text-align:center;
+   padding: 1.5em 0 0 0;
+}
+p{
+    text-align:center;
+    width:30%;
+    margin: 0 auto;
+    padding: 1em 0 1em 0;
+}
+
+.roadmap-item-container{
+display:flex;
+width:100%;
+justify-content:center;
+align-items:center;
+background: transparent;
+
+    .roadmap-item{
+        width:20%;
+        height: 20rem;
+        margin:1rem;
+        border-radius:5px;
+        border: 1px solid #ccc;
+        transition: all .7s ease-in-out;
+        li{
+            list-style:none;
+            padding:0.3rem;
+            text-align: center;
+        }
+        h2{
+            text-align:center;
+        }
+    
+        &:hover{
+            transform:scale(1.1);
+        }
+    }
+
+}
+
+
+`;
+/* harmony default export */ __webpack_exports__["default"] = (RoadMapWrapper);
 
 /***/ }),
 
@@ -10499,7 +8703,15 @@ const Stack = () => {
       lineNumber: 32,
       columnNumber: 13
     }
-  })))));
+  }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: "language-image",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 15
+    }
+  }))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Stack);
