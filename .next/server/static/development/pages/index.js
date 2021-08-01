@@ -2510,7 +2510,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAABFCAYAAAAY
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/logo-white-696e504556c1051c8cde8550af1af0fa.png";
+module.exports = "/_next/static/images/logo-white-5b911bfca072040f2dfe354ff587388a.png";
 
 /***/ }),
 
@@ -6174,7 +6174,7 @@ const BannerTwo = () => {
   }), __jsx("img", {
     src: assets_images_particles_banner_particle_bottom_right_png__WEBPACK_IMPORTED_MODULE_13___default.a,
     className: "section__particle bottom-right",
-    alt: "cryptik particles",
+    alt: "panache banner",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -8385,7 +8385,8 @@ background: transparent;
 
     .roadmap-item{
         width:20%;
-        height: 20rem;
+        height: 25em;
+        flex-wrap:wrap;
         margin:1rem;
         border-radius:5px;
         border: 1px solid #ccc;
@@ -8394,6 +8395,7 @@ background: transparent;
             list-style:none;
             padding:0.3rem;
             text-align: center;
+            text-decoration:underline;
         }
         h2{
             text-align:center;
@@ -8402,6 +8404,20 @@ background: transparent;
         &:hover{
             transform:scale(1.1);
         }
+    }
+    @media(max-width: 600px){
+        flex-direction:column;
+
+        p{
+            width:400px !important;
+    
+        }
+        .roadmap-item{
+            width:70%;
+            height: auto;
+            padding:1em;
+        }
+
     }
 
 }

@@ -28,7 +28,8 @@ background: transparent;
 
     .roadmap-item{
         width:20%;
-        height: 20rem;
+        height: 25em;
+        flex-wrap:wrap;
         margin:1rem;
         border-radius:5px;
         border: 1px solid #ccc;
@@ -37,6 +38,7 @@ background: transparent;
             list-style:none;
             padding:0.3rem;
             text-align: center;
+            text-decoration:underline;
         }
         h2{
             text-align:center;
@@ -45,6 +47,20 @@ background: transparent;
         &:hover{
             transform:scale(1.1);
         }
+    }
+    @media(max-width: 600px){
+        flex-direction:column;
+
+        p{
+            width:400px !important;
+    
+        }
+        .roadmap-item{
+            width:70%;
+            height: auto;
+            padding:1em;
+        }
+
     }
 
 }

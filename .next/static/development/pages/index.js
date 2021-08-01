@@ -22279,7 +22279,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAABFCAYAAAAY
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/logo-white-696e504556c1051c8cde8550af1af0fa.png";
+module.exports = "/_next/static/images/logo-white-5b911bfca072040f2dfe354ff587388a.png";
 
 /***/ }),
 
@@ -24241,7 +24241,7 @@ var BannerTwo = function BannerTwo() {
   }), __jsx("img", {
     src: assets_images_particles_banner_particle_bottom_right_png__WEBPACK_IMPORTED_MODULE_13___default.a,
     className: "section__particle bottom-right",
-    alt: "cryptik particles",
+    alt: "panache banner",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -25846,7 +25846,7 @@ var _templateObject, _templateObject2;
 
 
 var RoadMapHead = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    display: flex;\n    text-align:center;\n\n"])));
-var RoadMapWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2 || (_templateObject2 = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\nh1{\n   text-align:center;\n   padding: 1.5em 0 0 0;\n}\np{\n    text-align:center;\n    width:30%;\n    margin: 0 auto;\n    padding: 1em 0 1em 0;\n}\n\n.roadmap-item-container{\ndisplay:flex;\nwidth:100%;\njustify-content:center;\nalign-items:center;\nbackground: transparent;\n\n    .roadmap-item{\n        width:20%;\n        height: 20rem;\n        margin:1rem;\n        border-radius:5px;\n        border: 1px solid #ccc;\n        transition: all .7s ease-in-out;\n        li{\n            list-style:none;\n            padding:0.3rem;\n            text-align: center;\n        }\n        h2{\n            text-align:center;\n        }\n    \n        &:hover{\n            transform:scale(1.1);\n        }\n    }\n\n}\n\n\n"])));
+var RoadMapWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2 || (_templateObject2 = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\nh1{\n   text-align:center;\n   padding: 1.5em 0 0 0;\n}\np{\n    text-align:center;\n    width:30%;\n    margin: 0 auto;\n    padding: 1em 0 1em 0;\n}\n\n.roadmap-item-container{\ndisplay:flex;\nwidth:100%;\njustify-content:center;\nalign-items:center;\nbackground: transparent;\n\n    .roadmap-item{\n        width:20%;\n        height: 25em;\n        flex-wrap:wrap;\n        margin:1rem;\n        border-radius:5px;\n        border: 1px solid #ccc;\n        transition: all .7s ease-in-out;\n        li{\n            list-style:none;\n            padding:0.3rem;\n            text-align: center;\n            text-decoration:underline;\n        }\n        h2{\n            text-align:center;\n        }\n    \n        &:hover{\n            transform:scale(1.1);\n        }\n    }\n    @media(max-width: 600px){\n        flex-direction:column;\n\n        p{\n            width:400px !important;\n    \n        }\n        .roadmap-item{\n            width:70%;\n            height: auto;\n            padding:1em;\n        }\n\n    }\n\n}\n\n\n"])));
 /* harmony default export */ __webpack_exports__["default"] = (RoadMapWrapper);
 
 /***/ }),
