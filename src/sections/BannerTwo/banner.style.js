@@ -12,6 +12,19 @@ const BannerWrapper = styled.div`
   // background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url(${bkg})); 
   // background-repeat:none;
 
+  .animate-banner{
+    animation: banner 5s -2s infinite;
+  }
+
+  @keyframes banner {
+    0%,100%{
+      transform:scale(0.95)
+    }
+    50%{
+      transform:scale(1.1)
+    }
+  }
+
   .banner__thumb{
     position: absolute;
     right: -4%;

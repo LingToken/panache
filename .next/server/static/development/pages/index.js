@@ -5796,6 +5796,19 @@ const BannerWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.d
   // background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url(${assets_images_bkg_jpg__WEBPACK_IMPORTED_MODULE_1___default.a})); 
   // background-repeat:none;
 
+  .animate-banner{
+    animation: banner 5s -2s infinite;
+  }
+
+  @keyframes banner {
+    0%,100%{
+      transform:scale(0.95)
+    }
+    50%{
+      transform:scale(1.1)
+    }
+  }
+
   .banner__thumb{
     position: absolute;
     right: -4%;
@@ -6162,7 +6175,7 @@ const BannerTwo = () => {
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
     src: assets_images_panache_logo_old_png__WEBPACK_IMPORTED_MODULE_18___default.a,
-    className: "banner__thumb",
+    className: "banner__thumb animate-banner",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,

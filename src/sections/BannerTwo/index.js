@@ -36,7 +36,7 @@ const BannerTwo = () => {
       
       <Container>
       
-       <Image src={panacheBanner} className="banner__thumb"/>
+       <Image src={panacheBanner} className="banner__thumb animate-banner"/>
       
        
         <Row>
