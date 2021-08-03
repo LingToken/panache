@@ -7832,7 +7832,7 @@ const NavigationWrap = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.
     margin-top: 8px;
     transition: all 0.8s cubic-bezier(0.3, 0.8, 0.2, 1) 0s;
     img{
-      width: 135px;
+      width: 250px;
     }
   }
   &.scrolled{ 
@@ -7844,7 +7844,7 @@ const NavigationWrap = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.
       border-color: transparent
     }
     .logo{
-        width: 100px;
+        width: 230px;
     } 
     .nav{
       li{
@@ -7870,7 +7870,8 @@ const NavigationWrap = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.
     height: auto;
     min-height: 50px;
     padding: 15px 20px;
-    background: #290E59;
+    // background: #290E59;
+    background: rgb(0, 27, 71);
     &.scrolled{
         padding: 8px 20px;
         border-color: transparent;
