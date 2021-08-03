@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Link from "next/link";
 import CountdownTimer from "react-component-countdown-timer";
 
@@ -18,38 +18,39 @@ import {
 import CoinFundWrapper from "./coinFund.style";
 
 const CoinFund = ({dayCount}) => {
-const preSaleDuration = Math.floor(new Date("August 30, 2021 0:0:0")/1000.0); //2678400;
 
-let startPreSaleCount = Math.floor(new Date("July 30, 2021 0:0:0")/1000.0);
+  const [state, setState] = useState(
 
-let secondsPerDay= 86400;
-const preSaleTimeApart = preSaleDuration - startPreSaleCount;
+    {
+      daySecondsCount : new Date().getUTCSeconds() + (60 * (new Date().getUTCMinutes() + (60 * new Date().getUTCHours()))),
+      preSaleStartDate: "August, 20 2021",
+      preSaleStopDate: "August, 27 2021"
+    }
+  )
+// state.preSaleStartDate ? new Date()
+const tokenpreSaleStopDate = Math.floor(new Date(state.preSaleStartDate)/1000.0); //2678400;
 
-const preSaleDurationDay = preSaleTimeApart/secondsPerDay
+const tokenPreSaleStartDate = Math.floor(new Date(state.preSaleStopDate)/1000.0);
 
-
- // console.log((Math.round(secondsPerDay /preSaleDurationDay) * 100));
-
-  // while(startPreSaleCount < preSaleDuration){
-  //   console.log("dayCount1") 
-
-  //   setInterval(()=>{
-  //     console.log("dayCount2") 
-  //     dayCount = ((startPreSaleCount - preSaleDuration /preSaleDuration) * 100)/secondsPerDay;
-  //    console.log(dayCount) 
-  //   }, secondsPerDay)
-
-  //   startPreSaleCount += secondsPerDay 
-      
-     
-  // }
-  
+let preSaleDuration = tokenPreSaleStartDate - tokenpreSaleStopDate;
 
 
-  // console.log(preSale_duration - startPreSaleCount);
+let secondsSinceEpoch = Math.round(Date.now()/ 1000);
+let displayText = "";
 
+
+
+let daysLeftBeforePreSaleDate = tokenpreSaleStopDate - secondsSinceEpoch;
+
+
+console.log(daysLeftBeforePreSaleDate);
+
+
+  preSaleDuration = preSaleDuration != secondsSinceEpoch  ? daysLeftBeforePreSaleDate : preSaleDuration;
+
+  displayText = preSaleDuration != secondsSinceEpoch  ? `Countdown to ${Math.floor(((preSaleDuration % 31536000) % 2628000) / 86400)} days before presale starts` : `Last moment to grab the token, ${Math.floor(((preSaleDuration % 31536000) % 2628000) / 86400)} `;
   const settings = { 
-    count: 2678400,
+    count: preSaleDuration,
     showTitle: true,
     size: 60,
     labelSize: 14,
@@ -63,6 +64,7 @@ const preSaleDurationDay = preSaleTimeApart/secondsPerDay
     id: "countdownwrap"
   };
 
+  
   return (
     <CoinFundWrapper id="token" dayCount={dayCount}>
       <Container>
@@ -72,7 +74,7 @@ const preSaleDurationDay = preSaleTimeApart/secondsPerDay
               <SectionTitle>
                 <SectionBackground>
                   <Heading>
-                 Get the token, Presale starts: August 4th - 31st, 2021
+                 Get the token, Presale starts: August 20th - 27th, 2021
                   </Heading>
                 </SectionBackground>
                 <Text>
@@ -90,7 +92,7 @@ const preSaleDurationDay = preSaleTimeApart/secondsPerDay
           </Col>
           <Col className="lg-6 md-12 countdown-wrap">
             <Box className="countdown-wrapper">
-              <Text> Last moment to grab the token </Text>
+              <Text> <b>{displayText}</b></Text>
               <CountdownTimer {...settings} />
             </Box>
             <Box className="progressbar-wrapper">

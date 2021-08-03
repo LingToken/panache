@@ -2393,6 +2393,17 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5v
 
 /***/ }),
 
+/***/ "./src/assets/images/bkg.jpg":
+/*!***********************************!*\
+  !*** ./src/assets/images/bkg.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/bkg-8c3e27f78974a2ded742ce1cd1f0e4d5.jpg";
+
+/***/ }),
+
 /***/ "./src/assets/images/chart/token-chart-1.png":
 /*!***************************************************!*\
   !*** ./src/assets/images/chart/token-chart-1.png ***!
@@ -2723,8 +2734,8 @@ body {
   margin: 0;
   padding: 0;
 
-    background: rgb(40,13,87);
-    background: linear-gradient(167deg, rgba(40,13,87,1) 0%, rgba(54,63,159,1) 100%);
+    background: rgb(0, 27, 71);
+    background: linear-gradient(167deg, rgba(0, 27, 71,1) 0%, rgba(54,63,159,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -4979,12 +4990,13 @@ const SectionTitleWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___defau
 `;
 const SectionBgWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div`
 
-  background: url(${assets_images_section_title_bg_png__WEBPACK_IMPORTED_MODULE_1___default.a});
+  // background: url(${assets_images_section_title_bg_png__WEBPACK_IMPORTED_MODULE_1___default.a});
   background-repeat: no-repeat;
   background-size: auto;
   background-position: left;
   .heading {
-    padding: 10px 0 10px 22px;
+    // padding: 10px 0 10px 22px;
+    padding: 0px 0 10px 22px;
   }
 `; // background: url(${SectionBG});
 
@@ -5480,7 +5492,8 @@ const AwardsSectionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___defa
       align-items: center;
       padding: 20px 0 20px 10px;
       margin-bottom: 10px;
-      background: #2b1867;
+      background: rgb(0, 27, 71);
+      // background: #2b1867;
       border-radius: 5px;
       cursor: pointer;
       &.active,
@@ -5768,11 +5781,20 @@ const Awards = () => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var assets_images_bkg_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! assets/images/bkg.jpg */ "./src/assets/images/bkg.jpg");
+/* harmony import */ var assets_images_bkg_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(assets_images_bkg_jpg__WEBPACK_IMPORTED_MODULE_1__);
+
 
 const BannerWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div`
   position: relative;
   overflow: hidden;
+  width:100vw;
+  height:auto;
   padding: 278px 0 150px 0;
+  background: #001b47;
+  // background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url(${assets_images_bkg_jpg__WEBPACK_IMPORTED_MODULE_1___default.a});
+  // background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url(${assets_images_bkg_jpg__WEBPACK_IMPORTED_MODULE_1___default.a})); 
+  // background-repeat:none;
 
   .banner__thumb{
     position: absolute;
@@ -6131,57 +6153,7 @@ const BannerTwo = () => {
       lineNumber: 30,
       columnNumber: 5
     }
-  }, __jsx("img", {
-    src: assets_images_particles_banner_particle_top_left_png__WEBPACK_IMPORTED_MODULE_9___default.a,
-    className: "section__particle top-left",
-    alt: "cryptik particles",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 7
-    }
-  }), __jsx("img", {
-    src: assets_images_particles_banner_particle_under_logo_png__WEBPACK_IMPORTED_MODULE_10___default.a,
-    className: "section__particle two",
-    alt: "cryptik particles",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 7
-    }
-  }), __jsx("img", {
-    src: assets_images_particles_banner_prticle_top_right_png__WEBPACK_IMPORTED_MODULE_11___default.a,
-    className: "section__particle top-right",
-    alt: "cryptik particles",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 7
-    }
-  }), __jsx("img", {
-    src: assets_images_particles_banner_particle_bottom_left_png__WEBPACK_IMPORTED_MODULE_12___default.a,
-    className: "section__particle bottom-left",
-    alt: "cryptik particles",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 7
-    }
-  }), __jsx("img", {
-    src: assets_images_particles_banner_particle_bottom_right_png__WEBPACK_IMPORTED_MODULE_13___default.a,
-    className: "section__particle bottom-right",
-    alt: "panache banner",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 7
-    }
-  }), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+  }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Container"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6631,25 +6603,27 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 const CoinFund = ({
   dayCount
 }) => {
-  const preSaleDuration = Math.floor(new Date("August 30, 2021 0:0:0") / 1000.0); //2678400;
+  const {
+    0: state,
+    1: setState
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
+    daySecondsCount: new Date().getUTCSeconds() + 60 * (new Date().getUTCMinutes() + 60 * new Date().getUTCHours()),
+    preSaleStartDate: "August, 20 2021",
+    preSaleStopDate: "August, 27 2021"
+  }); // state.preSaleStartDate ? new Date()
 
-  let startPreSaleCount = Math.floor(new Date("July 30, 2021 0:0:0") / 1000.0);
-  let secondsPerDay = 86400;
-  const preSaleTimeApart = preSaleDuration - startPreSaleCount;
-  const preSaleDurationDay = preSaleTimeApart / secondsPerDay; // console.log((Math.round(secondsPerDay /preSaleDurationDay) * 100));
-  // while(startPreSaleCount < preSaleDuration){
-  //   console.log("dayCount1") 
-  //   setInterval(()=>{
-  //     console.log("dayCount2") 
-  //     dayCount = ((startPreSaleCount - preSaleDuration /preSaleDuration) * 100)/secondsPerDay;
-  //    console.log(dayCount) 
-  //   }, secondsPerDay)
-  //   startPreSaleCount += secondsPerDay 
-  // }
-  // console.log(preSale_duration - startPreSaleCount);
+  const tokenpreSaleStopDate = Math.floor(new Date(state.preSaleStartDate) / 1000.0); //2678400;
 
+  const tokenPreSaleStartDate = Math.floor(new Date(state.preSaleStopDate) / 1000.0);
+  let preSaleDuration = tokenPreSaleStartDate - tokenpreSaleStopDate;
+  let secondsSinceEpoch = Math.round(Date.now() / 1000);
+  let displayText = "";
+  let daysLeftBeforePreSaleDate = tokenpreSaleStopDate - secondsSinceEpoch;
+  console.log(daysLeftBeforePreSaleDate);
+  preSaleDuration = preSaleDuration != secondsSinceEpoch ? daysLeftBeforePreSaleDate : preSaleDuration;
+  displayText = preSaleDuration != secondsSinceEpoch ? `Countdown to ${Math.floor(preSaleDuration % 31536000 % 2628000 / 86400)} days before presale starts` : `Last moment to grab the token, ${Math.floor(preSaleDuration % 31536000 % 2628000 / 86400)} `;
   const settings = {
-    count: 2678400,
+    count: preSaleDuration,
     showTitle: true,
     size: 60,
     labelSize: 14,
@@ -6668,21 +6642,21 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 69,
       columnNumber: 5
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Container"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 70,
       columnNumber: 7
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 71,
       columnNumber: 9
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -6690,7 +6664,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 72,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -6698,35 +6672,35 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 73,
       columnNumber: 13
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_7__["SectionTitle"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 74,
       columnNumber: 15
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_7__["SectionBackground"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 75,
       columnNumber: 17
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 76,
       columnNumber: 19
     }
-  }, "Get the token, Presale starts: August 4th - 31st, 2021")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "Get the token, Presale starts: August 20th - 27th, 2021")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 80,
       columnNumber: 17
     }
   }, "Panache Token represents all aspects of our social lives, from the type of watches you wear, your dressing appearances, the cars you drive, the houses you live in and all other confidence lifestyles.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -6734,7 +6708,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 86,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -6742,7 +6716,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 87,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -6750,7 +6724,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 88,
       columnNumber: 19
     }
   }, "Buy Token"))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -6758,7 +6732,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 93,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -6766,21 +6740,28 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 94,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 95,
       columnNumber: 15
     }
-  }, " Last moment to grab the token "), __jsx(react_component_countdown_timer__WEBPACK_IMPORTED_MODULE_2___default.a, _extends({}, settings, {
+  }, " ", __jsx("b", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 95,
+      columnNumber: 22
+    }
+  }, displayText)), __jsx(react_component_countdown_timer__WEBPACK_IMPORTED_MODULE_2___default.a, _extends({}, settings, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
       columnNumber: 15
     }
   }))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -6788,7 +6769,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 98,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -6796,7 +6777,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 99,
       columnNumber: 15
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -6804,7 +6785,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 100,
       columnNumber: 17
     }
   }, "$0")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -6812,7 +6793,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 102,
       columnNumber: 15
     }
   }, "$1,000,000")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -6820,7 +6801,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 105,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -6828,14 +6809,14 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 106,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_8__["FaBitcoin"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 108,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -6843,14 +6824,14 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 110,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_8__["FaCcMastercard"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 112,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -6858,14 +6839,14 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 114,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_8__["FaCcVisa"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 116,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -6873,14 +6854,14 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 118,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_8__["FaCcDiscover"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 120,
       columnNumber: 17
     }
   }), " "))))));
@@ -7856,7 +7837,8 @@ const NavigationWrap = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.
   }
   &.scrolled{ 
     box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 30px;
-    background: #290E59;
+    background: rgb(0, 27, 71);
+    // background: #290E59;
     border-color: ${props => props.theme.NavBGSolid};
     .navbar-wrap{
       border-color: transparent
@@ -8570,14 +8552,15 @@ const ServiceSectionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___def
     .service-item-wrapper{
         padding: 25px 32px;
         border-radius: 10px;
-        background-color: #2B1867;
+        background: rgb(0, 27, 71);
+        // background-color: #2B1867;
 
         .service-item {
             padding: 15px 0;
             border-radius: 8px;
             transition: all 0.3s ease-in;
             &:hover{
-                background: #280D57;
+                background: #002a6e;
             }
             img {
                 height: 80px;

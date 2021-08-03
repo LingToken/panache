@@ -23,7 +23,8 @@ const AwardsSectionWrapper = styled.div`
       align-items: center;
       padding: 20px 0 20px 10px;
       margin-bottom: 10px;
-      background: #2b1867;
+      background: rgb(0, 27, 71);
+      // background: #2b1867;
       border-radius: 5px;
       cursor: pointer;
       &.active,

@@ -128,7 +128,8 @@ const NavigationWrap =  styled.header`
   }
   &.scrolled{ 
     box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 30px;
-    background: #290E59;
+    background: rgb(0, 27, 71);
+    // background: #290E59;
     border-color: ${props => props.theme.NavBGSolid};
     .navbar-wrap{
       border-color: transparent

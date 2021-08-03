@@ -1,9 +1,16 @@
 import styled from "styled-components";
+import bkg from "assets/images/bkg.jpg";
 
 const BannerWrapper = styled.div`
   position: relative;
   overflow: hidden;
+  width:100vw;
+  height:auto;
   padding: 278px 0 150px 0;
+  background: #001b47;
+  // background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url(${bkg});
+  // background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url(${bkg})); 
+  // background-repeat:none;
 
   .banner__thumb{
     position: absolute;

@@ -44,8 +44,8 @@ body {
   margin: 0;
   padding: 0;
 
-    background: rgb(40,13,87);
-    background: linear-gradient(167deg, rgba(40,13,87,1) 0%, rgba(54,63,159,1) 100%);
+    background: rgb(0, 27, 71);
+    background: linear-gradient(167deg, rgba(0, 27, 71,1) 0%, rgba(54,63,159,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

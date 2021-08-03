@@ -17,12 +17,13 @@ export const SectionTitleWrapper = styled.div`
 
 export const SectionBgWrapper = styled.div`
 
-  background: url(${SectionBG});
+  // background: url(${SectionBG});
   background-repeat: no-repeat;
   background-size: auto;
   background-position: left;
   .heading {
-    padding: 10px 0 10px 22px;
+    // padding: 10px 0 10px 22px;
+    padding: 0px 0 10px 22px;
   }
 `;
 

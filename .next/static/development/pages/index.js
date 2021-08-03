@@ -22162,6 +22162,17 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5v
 
 /***/ }),
 
+/***/ "./src/assets/images/bkg.jpg":
+/*!***********************************!*\
+  !*** ./src/assets/images/bkg.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/bkg-8c3e27f78974a2ded742ce1cd1f0e4d5.jpg";
+
+/***/ }),
+
 /***/ "./src/assets/images/chart/token-chart-1.png":
 /*!***************************************************!*\
   !*** ./src/assets/images/chart/token-chart-1.png ***!
@@ -22453,7 +22464,7 @@ __webpack_require__.r(__webpack_exports__);
 var _templateObject;
 
 
-var GlobalStyle = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["createGlobalStyle"])(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n::selection {\n    background: #333333;\n    color: #ffffff;\n  }\n\n  *,\n  *::before,\n  *::after {\n    box-sizing: inherit;\n  }\n\n  * {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n  *:focus {\n    outline: none;\n  }\n\nhtml{\n    box-sizing: border-box;\n    -ms-overflow-style: scrollbar;\n}\n\nbody,html {\n    \n    margin: 0px;\n\n}\nbody {\n  font-size: 16px;\n  line-height: 28px;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: 'Poppins', sans-serif;\n  color: ", ";\n  overflow-x: hidden !important;\n  font-weight: 400;\n  margin: 0;\n  padding: 0;\n\n    background: rgb(40,13,87);\n    background: linear-gradient(167deg, rgba(40,13,87,1) 0%, rgba(54,63,159,1) 100%);\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-position: center center;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n    font-family: 'Poppins', sans-serif;\n    color: ", ";  \n}\n\np{\n  font-family: sans-serif;\n    margin: 0 0 15px 0;\n}\n\na{\n    text-decoration: none;\n    color: ", ";\n  }\n  img{\n    max-width: 100%;\n  }\n\n\nsection{\n    position: relative;\n}\n\n.text-center{\n  text-align: center;\n}\n\nbutton, .btn{\n  display: inline-block;\n  width: 170px;\n  height: 60px;\n  font-weight: 400;\n  text-align: center;\n  vertical-align: middle;\n  cursor: pointer;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  background-color: transparent;\n  border: 1px solid transparent;\n  padding: 0.375rem 0.75rem;\n  font-size: 1rem;\n  line-height: 1.5;\n  border-radius: 0.25rem;\n  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,\n  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n\n}\n"])), function (props) {
+var GlobalStyle = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["createGlobalStyle"])(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n::selection {\n    background: #333333;\n    color: #ffffff;\n  }\n\n  *,\n  *::before,\n  *::after {\n    box-sizing: inherit;\n  }\n\n  * {\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n  *:focus {\n    outline: none;\n  }\n\nhtml{\n    box-sizing: border-box;\n    -ms-overflow-style: scrollbar;\n}\n\nbody,html {\n    \n    margin: 0px;\n\n}\nbody {\n  font-size: 16px;\n  line-height: 28px;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: 'Poppins', sans-serif;\n  color: ", ";\n  overflow-x: hidden !important;\n  font-weight: 400;\n  margin: 0;\n  padding: 0;\n\n    background: rgb(0, 27, 71);\n    background: linear-gradient(167deg, rgba(0, 27, 71,1) 0%, rgba(54,63,159,1) 100%);\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-position: center center;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n    font-family: 'Poppins', sans-serif;\n    color: ", ";  \n}\n\np{\n  font-family: sans-serif;\n    margin: 0 0 15px 0;\n}\n\na{\n    text-decoration: none;\n    color: ", ";\n  }\n  img{\n    max-width: 100%;\n  }\n\n\nsection{\n    position: relative;\n}\n\n.text-center{\n  text-align: center;\n}\n\nbutton, .btn{\n  display: inline-block;\n  width: 170px;\n  height: 60px;\n  font-weight: 400;\n  text-align: center;\n  vertical-align: middle;\n  cursor: pointer;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  background-color: transparent;\n  border: 1px solid transparent;\n  padding: 0.375rem 0.75rem;\n  font-size: 1rem;\n  line-height: 1.5;\n  border-radius: 0.25rem;\n  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,\n  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n\n}\n"])), function (props) {
   return props.theme.bodyColor ? props.theme.bodyColor : '#BEABDF';
 }, function (props) {
   return props.theme.headingColor ? props.theme.headingColor : '#FFFFFF';
@@ -23597,7 +23608,7 @@ var _templateObject, _templateObject2;
 
 
 var SectionTitleWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  .heading {\n    font-size: 36px;\n    font-weight: 700;\n    line-height: 46px;\n    margin: 0;\n  }\n\n  .text {\n    margin-top: 27px;\n  }\n"])));
-var SectionBgWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2 || (_templateObject2 = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n  background: url(", ");\n  background-repeat: no-repeat;\n  background-size: auto;\n  background-position: left;\n  .heading {\n    padding: 10px 0 10px 22px;\n  }\n"])), assets_images_section_title_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a); // background: url(${SectionBG});
+var SectionBgWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2 || (_templateObject2 = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n  // background: url(", ");\n  background-repeat: no-repeat;\n  background-size: auto;\n  background-position: left;\n  .heading {\n    // padding: 10px 0 10px 22px;\n    padding: 0px 0 10px 22px;\n  }\n"])), assets_images_section_title_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a); // background: url(${SectionBG});
 
 /***/ }),
 
@@ -23932,7 +23943,7 @@ __webpack_require__.r(__webpack_exports__);
 var _templateObject;
 
 
-var AwardsSectionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 85px 0;\n  .heading {\n    padding-right: 103px;\n  }\n  .col:nth-of-type(odd) {\n    .awards-item {\n      margin-right: 10px;\n    }\n  }\n\n  .awards-item-wrapper {\n    display: inline-flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n\n    .awards-item {\n      display: flex;\n      width: 100%;\n      color: #fff;\n      align-items: center;\n      padding: 20px 0 20px 10px;\n      margin-bottom: 10px;\n      background: #2b1867;\n      border-radius: 5px;\n      cursor: pointer;\n      &.active,\n      &:hover {\n        background: rgb(32, 47, 213);\n        background: linear-gradient(\n          90deg,\n          rgba(32, 47, 213, 1) 0%,\n          rgba(139, 51, 224, 1) 57%,\n          rgba(195, 56, 231, 1) 100%\n        );\n        box-shadow: 0px 0px 17px #221156;\n      }\n\n      .award-icon {\n        margin-right: 50px;\n        font-size: 30px;\n      }\n\n      .counter-text {\n        span {\n          display: block;\n\n          &:first-child {\n            font-size: 30px;\n            font-weight: 700;\n            margin-bottom: 5px;\n          }\n\n          &.text {\n            margin: 0;\n            color: #beabdf;\n            font-family: Open sans;\n            font-weight: 700;\n          }\n        }\n      }\n    }\n  }\n\n  @media only screen and (max-width: 1024px) {\n    .awards-item-wrapper{\n      .awards-item{\n        padding: 20px 0 20px 30px;\n        .award-icon{\n          margin-right: 30px;\n        }\n      }\n    }  \n  }\n  @media only screen and (max-width: 912px) {\n    .awards-item-wrapper{\n      .awards-item{\n        padding: 20px 0 20px 15px;\n        .counter-text {\n          span:first-child{\n            font-size: 23px;\n          }\n        }\n        .award-icon{\n          margin-right: 15px;\n        }\n      }\n    }  \n  }\n  @media only screen and (max-width: 736px) {\n    .title__wrapper{\n      margin-bottom: 50px;\n    }\n    .awards-item-wrapper{\n      .awards-item{\n        padding: 20px 0 20px 30px;\n        .counter-text {\n          span:first-child{\n            font-size: 30px;\n          }\n        }\n        .award-icon{\n          margin-right: 30px;\n        }\n      }\n    }  \n  }\n  @media only screen and (max-width: 480px) {\n    padding: 50px 0;\n  }\n  @media only screen and (max-width: 480px) {\n    .heading{\n      padding-right: 0;\n      font-size: 30px;\n    }\n    .awards-col{\n      width: 100%;\n    }\n    .awards-item-wrapper{\n      flex-direction: column;\n      width: 100%;\n      .awards-item{\n        width: 100%;\n        margin-bottom: 30px;\n      }\n    }  \n  }\n  @media only screen and (max-width: 375px) {\n    .heading{\n      font-size: 25px;\n      line-height: 35px;\n    }\n  }\n"])));
+var AwardsSectionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 85px 0;\n  .heading {\n    padding-right: 103px;\n  }\n  .col:nth-of-type(odd) {\n    .awards-item {\n      margin-right: 10px;\n    }\n  }\n\n  .awards-item-wrapper {\n    display: inline-flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n\n    .awards-item {\n      display: flex;\n      width: 100%;\n      color: #fff;\n      align-items: center;\n      padding: 20px 0 20px 10px;\n      margin-bottom: 10px;\n      background: rgb(0, 27, 71);\n      // background: #2b1867;\n      border-radius: 5px;\n      cursor: pointer;\n      &.active,\n      &:hover {\n        background: rgb(32, 47, 213);\n        background: linear-gradient(\n          90deg,\n          rgba(32, 47, 213, 1) 0%,\n          rgba(139, 51, 224, 1) 57%,\n          rgba(195, 56, 231, 1) 100%\n        );\n        box-shadow: 0px 0px 17px #221156;\n      }\n\n      .award-icon {\n        margin-right: 50px;\n        font-size: 30px;\n      }\n\n      .counter-text {\n        span {\n          display: block;\n\n          &:first-child {\n            font-size: 30px;\n            font-weight: 700;\n            margin-bottom: 5px;\n          }\n\n          &.text {\n            margin: 0;\n            color: #beabdf;\n            font-family: Open sans;\n            font-weight: 700;\n          }\n        }\n      }\n    }\n  }\n\n  @media only screen and (max-width: 1024px) {\n    .awards-item-wrapper{\n      .awards-item{\n        padding: 20px 0 20px 30px;\n        .award-icon{\n          margin-right: 30px;\n        }\n      }\n    }  \n  }\n  @media only screen and (max-width: 912px) {\n    .awards-item-wrapper{\n      .awards-item{\n        padding: 20px 0 20px 15px;\n        .counter-text {\n          span:first-child{\n            font-size: 23px;\n          }\n        }\n        .award-icon{\n          margin-right: 15px;\n        }\n      }\n    }  \n  }\n  @media only screen and (max-width: 736px) {\n    .title__wrapper{\n      margin-bottom: 50px;\n    }\n    .awards-item-wrapper{\n      .awards-item{\n        padding: 20px 0 20px 30px;\n        .counter-text {\n          span:first-child{\n            font-size: 30px;\n          }\n        }\n        .award-icon{\n          margin-right: 30px;\n        }\n      }\n    }  \n  }\n  @media only screen and (max-width: 480px) {\n    padding: 50px 0;\n  }\n  @media only screen and (max-width: 480px) {\n    .heading{\n      padding-right: 0;\n      font-size: 30px;\n    }\n    .awards-col{\n      width: 100%;\n    }\n    .awards-item-wrapper{\n      flex-direction: column;\n      width: 100%;\n      .awards-item{\n        width: 100%;\n        margin-bottom: 30px;\n      }\n    }  \n  }\n  @media only screen and (max-width: 375px) {\n    .heading{\n      font-size: 25px;\n      line-height: 35px;\n    }\n  }\n"])));
 /* harmony default export */ __webpack_exports__["default"] = (AwardsSectionWrapper);
 
 /***/ }),
@@ -24114,12 +24125,15 @@ var Awards = function Awards() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var assets_images_bkg_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! assets/images/bkg.jpg */ "./src/assets/images/bkg.jpg");
+/* harmony import */ var assets_images_bkg_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(assets_images_bkg_jpg__WEBPACK_IMPORTED_MODULE_2__);
 
 
 var _templateObject;
 
 
-var BannerWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: relative;\n  overflow: hidden;\n  padding: 278px 0 150px 0;\n\n  .banner__thumb{\n    position: absolute;\n    right: -4%;\n    top: -12%;\n    width: 40%;\n  }\n  .banner-panache{\n    background-size:cover;\n    width:60%\n  }\n\n  .section__particle {\n    position: absolute;\n    &.top-left {\n      left: -98px;\n      top: -60px;\n      height: 150px;\n    }\n    &.top-right {\n      top: 65px;\n      right: 28px;\n      height: 74px;\n    }\n    &.bottom-left {\n      bottom: 0px;\n      left: 15px;\n      height: 150px;\n    }\n    &.two {\n      top: 6px;\n      left: 140px;\n      height: 87px;\n    }\n    &.bottom-right {\n      right: -40px;\n      bottom: 0px;\n      height: 200px;\n    }\n  }\n\n  .banner-content {\n    .heading {\n      margin: 0 0 38px 0;\n      font-size: 55px;\n      line-height: 75px;\n      font-weight: 900;\n    }\n\n    .text {\n      margin-bottom: 55px;\n    }\n\n    .banner-btn {\n      margin-top: 45px;\n      display:flex;\n      justify-content:space-evenly;\n      a {\n        width: 235px;\n        font-size: 16px;\n        color: #ffffff;\n        padding: 18px 25px;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        border: none;\n\n        svg{\n          margin-right: 10px;\n        }\n      }\n\n      .btn-fill {\n        transition: all 0.3s ease-in;\n        background: rgb(37, 42, 213);\n        background: linear-gradient(\n          93deg,\n          rgba(252, 165, 3, 1) 0%,\n          rgba(227, 197, 113, 1) 42%,\n          rgba(150, 112, 3, 1) 100%\n        );\n        &:hover{\n          background: linear-gradient(\n          93deg,\n          rgba(150, 3, 3, 1) 0%,\n          rgba(232, 128, 128, 1) 52%,\n          rgba(255, 0, 0, 1) 100%\n        );\n        }\n      }\n    }\n\n    .coin-info {\n      display: flex;\n      align-items: center;\n      div {\n        display: flex;\n        align-items: center;\n        margin: 12px 25px 5px 25px;\n\n        .text {\n          margin: 0;\n        }\n\n        img {\n          width: 25px;\n          margin-right: 15px;\n        }\n      }\n    }\n\n    .description {\n      position: relative;\n      display: block;\n      line-height: 28px;\n      font-size: 18px;\n      padding-left: 30px;\n      margin: 0 0 17px 0;\n\n      &:before {\n        position: absolute;\n        left: 0;\n        top: 0;\n        height: 100%;\n        width: 3px;\n        content: \"\";\n        background: #b096df;\n      }\n    }\n  }\n\n  @keyframes bounce-up-down {\n    from {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n    33% {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 180px 220px;\n      transform-origin: 1000px 220px;\n    }\n    66% {\n      -webkit-transform: rotate(1deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 1500px 200px;\n    }\n    to {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n  }\n\n  @-webkit-keyframes bounce-up-down {\n    from {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n    33% {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 180px 220px;\n      transform-origin: 1000px 220px;\n    }\n    66% {\n      -webkit-transform: rotate(1deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 1500px 200px;\n    }\n    to {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n  }\n\n  @keyframes opacity-controll {\n    0%   { opacity: 1; }\n    25%  { opacity: 0.8; }\n    50%  { opacity: 0.6; }\n    75%  { opacity: 0.2; }\n    100% { opacity: 0; }\n  }\n  @-webkit-keyframes opacity-controll {\n    0%   { opacity: 1; }\n    25%  { opacity: 0.8; }\n    50%  { opacity: 0.6; }\n    75%  { opacity: 0.2; }\n    100% { opacity: 0; }\n  }\n\n  #Path_46973{\n    animation: opacity-controll 1.5s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46974{\n    animation: opacity-controll 1.7s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46975{\n    animation: opacity-controll 1.9s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46976{\n    animation: opacity-controll 2s infinite; /* IE 10+, Fx 29+ */\n  }\n\n  @media only screen and (max-width: 1024px) { \n    .banner__thumb{\n      right: 0;\n    }\n    .banner-content {\n      .heading{\n        font-size: 45px;\n        line-height: 65px;\n        font-weight: 600;\n      }\n    }\n  }\n  @media only screen and (max-width: 912px) { \n    padding: 215px 0 150px 0;\n    .banner__thumb{\n      display: none;\n    }\n    .banner-content {\n      .heading{\n        font-size: 40px;\n        line-height: 60px;\n      }\n    }\n  }\n  @media only screen and (max-width: 768px) { \n    padding: 180px 0 120px 0;\n    .banner-content {\n      .heading{\n        font-size: 35px;\n        line-height: 50px;\n      }\n    }\n  }\n  @media only screen and (max-width: 480px) { \n    .banner-content {\n      .heading{\n        font-size: 30px;\n        line-height: 50px;\n        br{\n          display: none;\n        }\n      }\n      .text{\n        br{\n          display: none;\n        }\n      }\n    }\n    .section__particle{\n      &.bottom-right{\n        display: none;\n      }\n    }\n  }\n  @media only screen and (max-width: 375px) { \n    .banner-content {\n      .heading{\n        font-size: 28px;\n        line-height: 40px;\n      }\n      .description{\n        font-size: 16px;\n        line-height: 26px;\n        padding-left: 20px;\n      }\n      .coin-info{\n        div{\n          margin: 12px 8px 5px 8px;\n          img{\n            margin-right: 10px;\n          }\n        }\n      }\n    }\n  }\n"])));
+
+var BannerWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: relative;\n  overflow: hidden;\n  width:100vw;\n  height:auto;\n  padding: 278px 0 150px 0;\n  background: #001b47;\n  // background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url(", ");\n  // background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url(", ")); \n  // background-repeat:none;\n\n  .banner__thumb{\n    position: absolute;\n    right: -4%;\n    top: -12%;\n    width: 40%;\n  }\n  .banner-panache{\n    background-size:cover;\n    width:60%\n  }\n\n  .section__particle {\n    position: absolute;\n    &.top-left {\n      left: -98px;\n      top: -60px;\n      height: 150px;\n    }\n    &.top-right {\n      top: 65px;\n      right: 28px;\n      height: 74px;\n    }\n    &.bottom-left {\n      bottom: 0px;\n      left: 15px;\n      height: 150px;\n    }\n    &.two {\n      top: 6px;\n      left: 140px;\n      height: 87px;\n    }\n    &.bottom-right {\n      right: -40px;\n      bottom: 0px;\n      height: 200px;\n    }\n  }\n\n  .banner-content {\n    .heading {\n      margin: 0 0 38px 0;\n      font-size: 55px;\n      line-height: 75px;\n      font-weight: 900;\n    }\n\n    .text {\n      margin-bottom: 55px;\n    }\n\n    .banner-btn {\n      margin-top: 45px;\n      display:flex;\n      justify-content:space-evenly;\n      a {\n        width: 235px;\n        font-size: 16px;\n        color: #ffffff;\n        padding: 18px 25px;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        border: none;\n\n        svg{\n          margin-right: 10px;\n        }\n      }\n\n      .btn-fill {\n        transition: all 0.3s ease-in;\n        background: rgb(37, 42, 213);\n        background: linear-gradient(\n          93deg,\n          rgba(252, 165, 3, 1) 0%,\n          rgba(227, 197, 113, 1) 42%,\n          rgba(150, 112, 3, 1) 100%\n        );\n        &:hover{\n          background: linear-gradient(\n          93deg,\n          rgba(150, 3, 3, 1) 0%,\n          rgba(232, 128, 128, 1) 52%,\n          rgba(255, 0, 0, 1) 100%\n        );\n        }\n      }\n    }\n\n    .coin-info {\n      display: flex;\n      align-items: center;\n      div {\n        display: flex;\n        align-items: center;\n        margin: 12px 25px 5px 25px;\n\n        .text {\n          margin: 0;\n        }\n\n        img {\n          width: 25px;\n          margin-right: 15px;\n        }\n      }\n    }\n\n    .description {\n      position: relative;\n      display: block;\n      line-height: 28px;\n      font-size: 18px;\n      padding-left: 30px;\n      margin: 0 0 17px 0;\n\n      &:before {\n        position: absolute;\n        left: 0;\n        top: 0;\n        height: 100%;\n        width: 3px;\n        content: \"\";\n        background: #b096df;\n      }\n    }\n  }\n\n  @keyframes bounce-up-down {\n    from {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n    33% {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 180px 220px;\n      transform-origin: 1000px 220px;\n    }\n    66% {\n      -webkit-transform: rotate(1deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 1500px 200px;\n    }\n    to {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n  }\n\n  @-webkit-keyframes bounce-up-down {\n    from {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n    33% {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 180px 220px;\n      transform-origin: 1000px 220px;\n    }\n    66% {\n      -webkit-transform: rotate(1deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 1500px 200px;\n    }\n    to {\n      -webkit-transform: rotate(0deg);\n      -webkit-transform-origin: 200px 200px;\n      transform-origin: 200px 200px;\n    }\n  }\n\n  @keyframes opacity-controll {\n    0%   { opacity: 1; }\n    25%  { opacity: 0.8; }\n    50%  { opacity: 0.6; }\n    75%  { opacity: 0.2; }\n    100% { opacity: 0; }\n  }\n  @-webkit-keyframes opacity-controll {\n    0%   { opacity: 1; }\n    25%  { opacity: 0.8; }\n    50%  { opacity: 0.6; }\n    75%  { opacity: 0.2; }\n    100% { opacity: 0; }\n  }\n\n  #Path_46973{\n    animation: opacity-controll 1.5s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46974{\n    animation: opacity-controll 1.7s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46975{\n    animation: opacity-controll 1.9s infinite; /* IE 10+, Fx 29+ */\n  }\n  #Path_46976{\n    animation: opacity-controll 2s infinite; /* IE 10+, Fx 29+ */\n  }\n\n  @media only screen and (max-width: 1024px) { \n    .banner__thumb{\n      right: 0;\n    }\n    .banner-content {\n      .heading{\n        font-size: 45px;\n        line-height: 65px;\n        font-weight: 600;\n      }\n    }\n  }\n  @media only screen and (max-width: 912px) { \n    padding: 215px 0 150px 0;\n    .banner__thumb{\n      display: none;\n    }\n    .banner-content {\n      .heading{\n        font-size: 40px;\n        line-height: 60px;\n      }\n    }\n  }\n  @media only screen and (max-width: 768px) { \n    padding: 180px 0 120px 0;\n    .banner-content {\n      .heading{\n        font-size: 35px;\n        line-height: 50px;\n      }\n    }\n  }\n  @media only screen and (max-width: 480px) { \n    .banner-content {\n      .heading{\n        font-size: 30px;\n        line-height: 50px;\n        br{\n          display: none;\n        }\n      }\n      .text{\n        br{\n          display: none;\n        }\n      }\n    }\n    .section__particle{\n      &.bottom-right{\n        display: none;\n      }\n    }\n  }\n  @media only screen and (max-width: 375px) { \n    .banner-content {\n      .heading{\n        font-size: 28px;\n        line-height: 40px;\n      }\n      .description{\n        font-size: 16px;\n        line-height: 26px;\n        padding-left: 20px;\n      }\n      .coin-info{\n        div{\n          margin: 12px 8px 5px 8px;\n          img{\n            margin-right: 10px;\n          }\n        }\n      }\n    }\n  }\n"])), assets_images_bkg_jpg__WEBPACK_IMPORTED_MODULE_2___default.a, assets_images_bkg_jpg__WEBPACK_IMPORTED_MODULE_2___default.a);
 /* harmony default export */ __webpack_exports__["default"] = (BannerWrapper);
 
 /***/ }),
@@ -24198,57 +24212,7 @@ var BannerTwo = function BannerTwo() {
       lineNumber: 30,
       columnNumber: 5
     }
-  }, __jsx("img", {
-    src: assets_images_particles_banner_particle_top_left_png__WEBPACK_IMPORTED_MODULE_9___default.a,
-    className: "section__particle top-left",
-    alt: "cryptik particles",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 7
-    }
-  }), __jsx("img", {
-    src: assets_images_particles_banner_particle_under_logo_png__WEBPACK_IMPORTED_MODULE_10___default.a,
-    className: "section__particle two",
-    alt: "cryptik particles",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 7
-    }
-  }), __jsx("img", {
-    src: assets_images_particles_banner_prticle_top_right_png__WEBPACK_IMPORTED_MODULE_11___default.a,
-    className: "section__particle top-right",
-    alt: "cryptik particles",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 7
-    }
-  }), __jsx("img", {
-    src: assets_images_particles_banner_particle_bottom_left_png__WEBPACK_IMPORTED_MODULE_12___default.a,
-    className: "section__particle bottom-left",
-    alt: "cryptik particles",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 7
-    }
-  }), __jsx("img", {
-    src: assets_images_particles_banner_particle_bottom_right_png__WEBPACK_IMPORTED_MODULE_13___default.a,
-    className: "section__particle bottom-right",
-    alt: "panache banner",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 7
-    }
-  }), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+  }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_2__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -24550,25 +24514,28 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 var CoinFund = function CoinFund(_ref) {
   var dayCount = _ref.dayCount;
-  var preSaleDuration = Math.floor(new Date("August 30, 2021 0:0:0") / 1000.0); //2678400;
 
-  var startPreSaleCount = Math.floor(new Date("July 30, 2021 0:0:0") / 1000.0);
-  var secondsPerDay = 86400;
-  var preSaleTimeApart = preSaleDuration - startPreSaleCount;
-  var preSaleDurationDay = preSaleTimeApart / secondsPerDay; // console.log((Math.round(secondsPerDay /preSaleDurationDay) * 100));
-  // while(startPreSaleCount < preSaleDuration){
-  //   console.log("dayCount1") 
-  //   setInterval(()=>{
-  //     console.log("dayCount2") 
-  //     dayCount = ((startPreSaleCount - preSaleDuration /preSaleDuration) * 100)/secondsPerDay;
-  //    console.log(dayCount) 
-  //   }, secondsPerDay)
-  //   startPreSaleCount += secondsPerDay 
-  // }
-  // console.log(preSale_duration - startPreSaleCount);
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])({
+    daySecondsCount: new Date().getUTCSeconds() + 60 * (new Date().getUTCMinutes() + 60 * new Date().getUTCHours()),
+    preSaleStartDate: "August, 20 2021",
+    preSaleStopDate: "August, 27 2021"
+  }),
+      state = _useState[0],
+      setState = _useState[1]; // state.preSaleStartDate ? new Date()
 
+
+  var tokenpreSaleStopDate = Math.floor(new Date(state.preSaleStartDate) / 1000.0); //2678400;
+
+  var tokenPreSaleStartDate = Math.floor(new Date(state.preSaleStopDate) / 1000.0);
+  var preSaleDuration = tokenPreSaleStartDate - tokenpreSaleStopDate;
+  var secondsSinceEpoch = Math.round(Date.now() / 1000);
+  var displayText = "";
+  var daysLeftBeforePreSaleDate = tokenpreSaleStopDate - secondsSinceEpoch;
+  console.log(daysLeftBeforePreSaleDate);
+  preSaleDuration = preSaleDuration != secondsSinceEpoch ? daysLeftBeforePreSaleDate : preSaleDuration;
+  displayText = preSaleDuration != secondsSinceEpoch ? "Countdown to ".concat(Math.floor(preSaleDuration % 31536000 % 2628000 / 86400), " days before presale starts") : "Last moment to grab the token, ".concat(Math.floor(preSaleDuration % 31536000 % 2628000 / 86400), " ");
   var settings = {
-    count: 2678400,
+    count: preSaleDuration,
     showTitle: true,
     size: 60,
     labelSize: 14,
@@ -24587,21 +24554,21 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 69,
       columnNumber: 5
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 70,
       columnNumber: 7
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 71,
       columnNumber: 9
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -24609,7 +24576,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 72,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24617,35 +24584,35 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 73,
       columnNumber: 13
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_8__["SectionTitle"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 74,
       columnNumber: 15
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_8__["SectionBackground"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 75,
       columnNumber: 17
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 76,
       columnNumber: 19
     }
-  }, "Get the token, Presale starts: August 4th - 31st, 2021")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, "Get the token, Presale starts: August 20th - 27th, 2021")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 80,
       columnNumber: 17
     }
   }, "Panache Token represents all aspects of our social lives, from the type of watches you wear, your dressing appearances, the cars you drive, the houses you live in and all other confidence lifestyles.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24653,7 +24620,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 86,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -24661,7 +24628,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 87,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -24669,7 +24636,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 88,
       columnNumber: 19
     }
   }, "Buy Token"))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -24677,7 +24644,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 93,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24685,21 +24652,28 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 94,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 95,
       columnNumber: 15
     }
-  }, " Last moment to grab the token "), __jsx(react_component_countdown_timer__WEBPACK_IMPORTED_MODULE_3___default.a, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, settings, {
+  }, " ", __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 95,
+      columnNumber: 22
+    }
+  }, displayText)), __jsx(react_component_countdown_timer__WEBPACK_IMPORTED_MODULE_3___default.a, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, settings, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
       columnNumber: 15
     }
   }))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24707,7 +24681,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 98,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24715,7 +24689,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 99,
       columnNumber: 15
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24723,7 +24697,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 100,
       columnNumber: 17
     }
   }, "$0")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24731,7 +24705,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 102,
       columnNumber: 15
     }
   }, "$1,000,000")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24739,7 +24713,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 105,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24747,14 +24721,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 106,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaBitcoin"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 108,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24762,14 +24736,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 110,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcMastercard"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 112,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24777,14 +24751,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 114,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcVisa"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 116,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24792,14 +24766,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 118,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcDiscover"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 120,
       columnNumber: 17
     }
   }), " "))))));
@@ -25441,7 +25415,7 @@ __webpack_require__.r(__webpack_exports__);
 var _templateObject;
 
 
-var NavigationWrap = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].header(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    background: ", ";\n    position: fixed;\n    width: 100%;\n    z-index: 9999;\n    top: 0;\n    transition: all 0.3s ease 0s;\n    border-bottom: 1px solid transparent;\n  .navbar-wrap{\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    border-bottom: 1px solid #6A598E;\n  }\n  .mobile-menu-icon {\n    display: none;\n    color: #1D316C;\n    font-size: 24px;\n  }\n  .nav__button{\n    width: 170px;\n    height: 60px;\n    background: ", ";\n    border-radius: 5px;\n    font-size: 18px;\n    color: ", ";\n    transition: all 0.3s ease-in;\n    &:hover,\n    &:focus{\n      outline: none;\n      border: none;\n      background: linear-gradient( 93deg,rgba(196,56,231,1) 0%,rgba(122,49,222,1) 52%,rgba(37,42,213,1) 100% );\n      color: ", ";\n    }\n  }\n  /*Drop down style*/ \n  .dropdown{\n    background: #fff;\n    visibility: hidden;\n    opacity: 0;\n    min-width: 200px;\n    border: 1px solid #f5f5f5;\n    position: absolute;\n    margin-top: 1rem;\n    left: 20px;\n    padding: 15px 0px;\n    display: none;\n    box-shadow: 0px 30px 70px 0px rgba(137,139,142,0.15);\n    -webkit-transform: translateY(20px);\n    -ms-transform: translateY(20px);\n    transform: translateY(20px);\n    transition: all 0.3s ease-in-out;\n  }\n  ul li:hover > ul,\n  ul li ul:hover {\n    opacity: 1;\n    visibility: visible;\n    -webkit-transform: translateY(0px);\n    -ms-transform: translateY(0px);\n    transform: translateY(0px);\n    display: block;\n  }\n  \n  nav {\n    ul {\n      margin: 0;\n      padding: 0;\n      list-style: none;\n      display: flex;\n      align-items: center;\n    }\n    li{\n        position: relative;\n        padding: 28px 0px 28px 40px;\n        .dropdown{\n          li{\n            padding: 0;\n            a{\n              color: #1D316C;\n              display: block;\n              padding: 5px 15px;\n              &:hover{\n                color: ", " !important;\n              }\n              &:before{\n                content: none;\n              }\n            }\n          }\n        }\n      \n      a, .nav-active{\n        position: relative;\n        color: #fff;\n        font-size: 15px;\n        transition: 450ms all;\n        padding-bottom: 5px;\n        cursor: pointer;\n        &:before{\n          content: '';\n          position: absolute;\n          left : 0;\n          bottom:0;\n          width: 20px;\n          height: 1px;\n          opacity: 0;\n          background: ", ";\n          transition: 450ms all;\n        }\n        &:hover{\n          color: ", ";\n          &:before{\n            opacity: 1;\n          }\n        }\n      }\n    }\n  }\n  .logo{\n    margin-top: 8px;\n    transition: all 0.8s cubic-bezier(0.3, 0.8, 0.2, 1) 0s;\n    img{\n      width: 135px;\n    }\n  }\n  &.scrolled{ \n    box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 30px;\n    background: #290E59;\n    border-color: ", ";\n    .navbar-wrap{\n      border-color: transparent\n    }\n    .logo{\n        width: 100px;\n    } \n    .nav{\n      li{\n        padding: 14px 0px 14px 40px;\n        a{ \n          &:hover{\n            color: ", ";\n          }\n        }\n      }\n      li{\n        .dropdown{\n          li{\n            padding: 0;\n          }\n        }\n      }\n    }\n  }\n\n\n  @media only screen and (max-width: 912px) {\n    height: auto;\n    min-height: 50px;\n    padding: 15px 20px;\n    background: #290E59;\n    &.scrolled{\n        padding: 8px 20px;\n        border-color: transparent;\n        .nav .collapsed {\n          li{\n            padding: 0;\n            a{\n              padding: 8px 10px;\n              display: block;\n            }\n          }\n          li+li{\n            padding-left: 0;\n          }\n        } \n    }\n    .has-dropdown{\n      a{\n        position: relative;\n        &:before{\n          content: '';\n          \n        }\n      }\n    }\n    .dropdown{\n      position: relative;\n      left: 0;\n      margin-top: 0;\n      box-shadow: none;\n    }\n    .navbar-wrap{\n        border-color: transparent;\n        display: block;\n        position: relative;\n    }\n    .logo {\n      width: 100%;\n      display: block;\n      margin: 7px 0 0 0;\n      img{width: 110px;}\n    }\n    .mobile-menu-icon {\n      display: inline-block;\n      position: absolute;\n      top: 8px;\n      right: 3px;\n      cursor: pointer;\n    }\n    .nav{\n        width: 100%;\n        .mobile-menu-icon{\n          color: white;\n        }\n      .collapsed {\n        width: 100%;\n        display: flex;\n        justify-content: space-between;\n        flex-wrap: wrap;\n        transition: 450ms all ease-in-out;\n        overflow: hidden;\n        max-height: 0;\n\n        &.is-expanded {\n          padding-top: 15px;\n          overflow-y: auto;\n          max-height: 250px; /* approximate max height */\n        }\n        li {\n          padding: 0;\n          margin: 0px 0px;\n          width: 100%;\n          .dropdown{\n            li{\n              a{\n                color: #1D316C;\n              }\n            }\n          }\n          a{\n            padding: 8px 10px;\n            display: block;\n            color: white;\n            &:before{\n              content: none;\n            }\n          }\n        }\n      }\n    }\n  }\n\n"])), function (props) {
+var NavigationWrap = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].header(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    background: ", ";\n    position: fixed;\n    width: 100%;\n    z-index: 9999;\n    top: 0;\n    transition: all 0.3s ease 0s;\n    border-bottom: 1px solid transparent;\n  .navbar-wrap{\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    border-bottom: 1px solid #6A598E;\n  }\n  .mobile-menu-icon {\n    display: none;\n    color: #1D316C;\n    font-size: 24px;\n  }\n  .nav__button{\n    width: 170px;\n    height: 60px;\n    background: ", ";\n    border-radius: 5px;\n    font-size: 18px;\n    color: ", ";\n    transition: all 0.3s ease-in;\n    &:hover,\n    &:focus{\n      outline: none;\n      border: none;\n      background: linear-gradient( 93deg,rgba(196,56,231,1) 0%,rgba(122,49,222,1) 52%,rgba(37,42,213,1) 100% );\n      color: ", ";\n    }\n  }\n  /*Drop down style*/ \n  .dropdown{\n    background: #fff;\n    visibility: hidden;\n    opacity: 0;\n    min-width: 200px;\n    border: 1px solid #f5f5f5;\n    position: absolute;\n    margin-top: 1rem;\n    left: 20px;\n    padding: 15px 0px;\n    display: none;\n    box-shadow: 0px 30px 70px 0px rgba(137,139,142,0.15);\n    -webkit-transform: translateY(20px);\n    -ms-transform: translateY(20px);\n    transform: translateY(20px);\n    transition: all 0.3s ease-in-out;\n  }\n  ul li:hover > ul,\n  ul li ul:hover {\n    opacity: 1;\n    visibility: visible;\n    -webkit-transform: translateY(0px);\n    -ms-transform: translateY(0px);\n    transform: translateY(0px);\n    display: block;\n  }\n  \n  nav {\n    ul {\n      margin: 0;\n      padding: 0;\n      list-style: none;\n      display: flex;\n      align-items: center;\n    }\n    li{\n        position: relative;\n        padding: 28px 0px 28px 40px;\n        .dropdown{\n          li{\n            padding: 0;\n            a{\n              color: #1D316C;\n              display: block;\n              padding: 5px 15px;\n              &:hover{\n                color: ", " !important;\n              }\n              &:before{\n                content: none;\n              }\n            }\n          }\n        }\n      \n      a, .nav-active{\n        position: relative;\n        color: #fff;\n        font-size: 15px;\n        transition: 450ms all;\n        padding-bottom: 5px;\n        cursor: pointer;\n        &:before{\n          content: '';\n          position: absolute;\n          left : 0;\n          bottom:0;\n          width: 20px;\n          height: 1px;\n          opacity: 0;\n          background: ", ";\n          transition: 450ms all;\n        }\n        &:hover{\n          color: ", ";\n          &:before{\n            opacity: 1;\n          }\n        }\n      }\n    }\n  }\n  .logo{\n    margin-top: 8px;\n    transition: all 0.8s cubic-bezier(0.3, 0.8, 0.2, 1) 0s;\n    img{\n      width: 135px;\n    }\n  }\n  &.scrolled{ \n    box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 30px;\n    background: rgb(0, 27, 71);\n    // background: #290E59;\n    border-color: ", ";\n    .navbar-wrap{\n      border-color: transparent\n    }\n    .logo{\n        width: 100px;\n    } \n    .nav{\n      li{\n        padding: 14px 0px 14px 40px;\n        a{ \n          &:hover{\n            color: ", ";\n          }\n        }\n      }\n      li{\n        .dropdown{\n          li{\n            padding: 0;\n          }\n        }\n      }\n    }\n  }\n\n\n  @media only screen and (max-width: 912px) {\n    height: auto;\n    min-height: 50px;\n    padding: 15px 20px;\n    background: #290E59;\n    &.scrolled{\n        padding: 8px 20px;\n        border-color: transparent;\n        .nav .collapsed {\n          li{\n            padding: 0;\n            a{\n              padding: 8px 10px;\n              display: block;\n            }\n          }\n          li+li{\n            padding-left: 0;\n          }\n        } \n    }\n    .has-dropdown{\n      a{\n        position: relative;\n        &:before{\n          content: '';\n          \n        }\n      }\n    }\n    .dropdown{\n      position: relative;\n      left: 0;\n      margin-top: 0;\n      box-shadow: none;\n    }\n    .navbar-wrap{\n        border-color: transparent;\n        display: block;\n        position: relative;\n    }\n    .logo {\n      width: 100%;\n      display: block;\n      margin: 7px 0 0 0;\n      img{width: 110px;}\n    }\n    .mobile-menu-icon {\n      display: inline-block;\n      position: absolute;\n      top: 8px;\n      right: 3px;\n      cursor: pointer;\n    }\n    .nav{\n        width: 100%;\n        .mobile-menu-icon{\n          color: white;\n        }\n      .collapsed {\n        width: 100%;\n        display: flex;\n        justify-content: space-between;\n        flex-wrap: wrap;\n        transition: 450ms all ease-in-out;\n        overflow: hidden;\n        max-height: 0;\n\n        &.is-expanded {\n          padding-top: 15px;\n          overflow-y: auto;\n          max-height: 250px; /* approximate max height */\n        }\n        li {\n          padding: 0;\n          margin: 0px 0px;\n          width: 100%;\n          .dropdown{\n            li{\n              a{\n                color: #1D316C;\n              }\n            }\n          }\n          a{\n            padding: 8px 10px;\n            display: block;\n            color: white;\n            &:before{\n              content: none;\n            }\n          }\n        }\n      }\n    }\n  }\n\n"])), function (props) {
   return props.theme.NavBG;
 }, function (props) {
   return props.theme.white;
@@ -25994,7 +25968,7 @@ __webpack_require__.r(__webpack_exports__);
 var _templateObject;
 
 
-var ServiceSectionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n    padding: 99px 0 100px 0;\n\n    .service-item-wrapper{\n        padding: 25px 32px;\n        border-radius: 10px;\n        background-color: #2B1867;\n\n        .service-item {\n            padding: 15px 0;\n            border-radius: 8px;\n            transition: all 0.3s ease-in;\n            &:hover{\n                background: #280D57;\n            }\n            img {\n                height: 80px;\n                margin-bottom: 20px;\n            }\n\n            h3 {\n                font-size: 20px;\n                font-weight: 500;\n                margin: 0 0 14px 0;\n            }\n        }\n\n        p {\n            margin: 0;\n        }\n    }\n    @media only screen and (max-width: 768px) { \n        .service-item{\n            margin-bottom: 30px;\n        }\n        .service-item-wrapper{\n            padding: 45px 32px 25px 32px;\n        }\n    }\n    @media only screen and (max-width: 480px) { \n        padding: 55px 0 50px 0;\n    }\n"])));
+var ServiceSectionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n    padding: 99px 0 100px 0;\n\n    .service-item-wrapper{\n        padding: 25px 32px;\n        border-radius: 10px;\n        background: rgb(0, 27, 71);\n        // background-color: #2B1867;\n\n        .service-item {\n            padding: 15px 0;\n            border-radius: 8px;\n            transition: all 0.3s ease-in;\n            &:hover{\n                background: #002a6e;\n            }\n            img {\n                height: 80px;\n                margin-bottom: 20px;\n            }\n\n            h3 {\n                font-size: 20px;\n                font-weight: 500;\n                margin: 0 0 14px 0;\n            }\n        }\n\n        p {\n            margin: 0;\n        }\n    }\n    @media only screen and (max-width: 768px) { \n        .service-item{\n            margin-bottom: 30px;\n        }\n        .service-item-wrapper{\n            padding: 45px 32px 25px 32px;\n        }\n    }\n    @media only screen and (max-width: 480px) { \n        padding: 55px 0 50px 0;\n    }\n"])));
 /* harmony default export */ __webpack_exports__["default"] = (ServiceSectionWrapper);
 
 /***/ }),
