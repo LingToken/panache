@@ -21,7 +21,7 @@ import {FaGithub} from 'react-icons/fa'
 import keyIcon from 'assets/images/banners/banner-two/cryptik-banner-key-icon.svg';
 import watchIcon from 'assets/images/banners/banner-two/cryptik-banner-watch-icon.svg';
 import heartIcon from 'assets/images/banners/banner-two/cryptik-banner-heart-icon.svg';
-import panacheBanner from 'assets/images/panache-banner.png';
+import panacheBanner from 'assets/images/panache_logo-old.png';
 
 import BannerWrapper from "./banner.style";
 

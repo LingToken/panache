@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2525,14 +2525,14 @@ module.exports = "/_next/static/images/logo-white-5b911bfca072040f2dfe354ff58738
 
 /***/ }),
 
-/***/ "./src/assets/images/panache-banner.png":
-/*!**********************************************!*\
-  !*** ./src/assets/images/panache-banner.png ***!
-  \**********************************************/
+/***/ "./src/assets/images/panache_logo-old.png":
+/*!************************************************!*\
+  !*** ./src/assets/images/panache_logo-old.png ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/panache-banner-c96e67377d04175d9460be4a740f1874.png";
+module.exports = "/_next/static/images/panache_logo-old-696e504556c1051c8cde8550af1af0fa.png";
 
 /***/ }),
 
@@ -6119,8 +6119,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var assets_images_banners_banner_two_cryptik_banner_watch_icon_svg__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(assets_images_banners_banner_two_cryptik_banner_watch_icon_svg__WEBPACK_IMPORTED_MODULE_16__);
 /* harmony import */ var assets_images_banners_banner_two_cryptik_banner_heart_icon_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! assets/images/banners/banner-two/cryptik-banner-heart-icon.svg */ "./src/assets/images/banners/banner-two/cryptik-banner-heart-icon.svg");
 /* harmony import */ var assets_images_banners_banner_two_cryptik_banner_heart_icon_svg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(assets_images_banners_banner_two_cryptik_banner_heart_icon_svg__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var assets_images_panache_banner_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! assets/images/panache-banner.png */ "./src/assets/images/panache-banner.png");
-/* harmony import */ var assets_images_panache_banner_png__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(assets_images_panache_banner_png__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var assets_images_panache_logo_old_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! assets/images/panache_logo-old.png */ "./src/assets/images/panache_logo-old.png");
+/* harmony import */ var assets_images_panache_logo_old_png__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(assets_images_panache_logo_old_png__WEBPACK_IMPORTED_MODULE_18__);
 /* harmony import */ var _banner_style__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./banner.style */ "./src/sections/BannerTwo/banner.style.js");
 var _jsxFileName = "/home/emplugxm3/applications/next-landing/src/sections/BannerTwo/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -6161,7 +6161,7 @@ const BannerTwo = () => {
       columnNumber: 7
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    src: assets_images_panache_banner_png__WEBPACK_IMPORTED_MODULE_18___default.a,
+    src: assets_images_panache_logo_old_png__WEBPACK_IMPORTED_MODULE_18___default.a,
     className: "banner__thumb",
     __self: undefined,
     __source: {
@@ -9745,7 +9745,7 @@ const WalletSectionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___defa
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
