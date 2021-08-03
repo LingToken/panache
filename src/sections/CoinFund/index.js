@@ -46,6 +46,7 @@ let daysLeftBeforePreSaleDate = tokenpreSaleStopDate - secondsSinceEpoch;
 console.log(daysLeftBeforePreSaleDate);
 
 
+let tokenBuyAction =  preSaleDuration != secondsSinceEpoch  ? `${Math.floor(((daysLeftBeforePreSaleDate % 31536000) % 2628000) / 86400)} days remaining to buy token`  : "Buy Token";
   preSaleDuration = preSaleDuration != secondsSinceEpoch  ? daysLeftBeforePreSaleDate : preSaleDuration;
 
   displayText = preSaleDuration != secondsSinceEpoch  ? `Countdown to ${Math.floor(((preSaleDuration % 31536000) % 2628000) / 86400)} days before presale starts` : `Last moment to grab the token, ${Math.floor(((preSaleDuration % 31536000) % 2628000) / 86400)} `;
@@ -85,7 +86,7 @@ console.log(daysLeftBeforePreSaleDate);
 
               <Box className="btn-wrapper">
                 <Link href="#">
-                  <a className="btn btn-fill">Buy Token</a>
+                  <a className="btn btn-fill">{tokenBuyAction}</a>
                 </Link>
               </Box>
             </Box>

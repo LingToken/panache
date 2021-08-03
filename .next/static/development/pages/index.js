@@ -24463,7 +24463,7 @@ var _templateObject;
 
 
 
-var CoinFundWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 110px 0 140px 0;\n  position: relative;\n  background: url(", ");\n  background-repeat: no-repeat;\n  background-size: inherit;\n  background-position: 72% 0px;\n\n  &::before {\n    position: absolute;\n    right: 0;\n    top: 0%;\n    width: 100%;\n    height: 100%;\n    content: \" \";\n  }\n\n  .btn-wrapper{\n    margin-top: 35px;\n  }\n  .btn-fill {\n    font-size: 16px;\n    padding: 18px 35px;\n    background: #ffffff;\n    color: ", ";\n  }\n\n  .progressbar-wrapper {\n    position: relative;\n    height: 20px;\n    border-radius: 20px;\n    display: flex;\n    align-items: center;\n    background: #fff;\n\n    span {\n      position: absolute;\n      right: 0;\n      bottom: -42px;\n      color: #fff;\n      font-size: 18px;\n      margin: 0;\n    }\n\n    .progressbar {\n      position: relative;\n      width: ", ";\n      height: 30px;\n      border-radius: 20px;\n      background: rgb(35, 42, 213);\n      background: linear-gradient(\n        93deg,\n        rgba(252, 165, 3, 1) 0%,\n        rgba(227, 197, 113, 1) 42%,\n        rgba(150, 112, 3, 1) 100%\n      );\n      span {\n        bottom: -38px;\n      }\n    }\n  }\n\n  .payment-getway {\n    margin-top: 85px;\n    text-align: center;\n    font-size: 20px;\n    color: #fff;\n    span {\n      margin-right: 25px;\n      &:last-child {\n        margin-right: 0;\n      }\n    }\n  }\n  .countBoxItem {\n    min-width: 100px;\n    position: relative;\n    text-align: center;\n    display: flex;\n    flex-direction: column-reverse;\n  }\n  .countdown-wrapper {\n    margin-bottom: 40px;\n    .text {\n      font-size: 14px;\n      color: #fff;\n      text-align: center;\n      margin-bottom: 35px;\n    }\n    .countBox {\n      display: flex;\n      flex-direction: row-reverse;\n      justify-content: center;\n      .count {\n        line-height: 46px;\n        font-weight: 700;\n        margin-bottom: 16px;\n      }\n      .label {\n       font-size: 14px;\n       color: #BEABDF;\n      }\n      .split {\n        font-size: 40px;\n        font-weight: 700;\n        color: #fff;\n        margin: 6px 8px 0 8px;\n      }\n    }\n  }\n  @media only screen and (max-width: 1024px) {\n    background-size: 36%;\n    background-position: 86% 41%;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n      text-align: left;\n    }\n    .countdown-wrapper {\n      .count {\n        font-size: 45px;\n      }\n    }\n  }\n\n  @media only screen and (max-width: 912px) {\n    background-position: 86% 70%;\n    .coin-fund-content-left{\n      text-align: center;\n      margin-bottom: 80px;\n    }\n  }\n  @media only screen and (max-width: 768px) {\n    .countdown-wrap{\n      width: 100%;\n    }\n  }\n  @media only screen and (max-width: 480px) {\n    background: none;\n    padding: 50px 0;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n    }\n    .countdown-wrapper {\n      .split {\n        display: none;\n      }\n      .count {\n        font-size: 35px;\n      } \n      .countBox{\n        flex-direction: column-reverse;\n      }\n    }\n  }\n"])), assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, function (props) {
+var CoinFundWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 110px 0 140px 0;\n  position: relative;\n  background: url(", ");\n  background-repeat: no-repeat;\n  background-size: inherit;\n  background-position: 72% 0px;\n\n  &::before {\n    position: absolute;\n    right: 0;\n    top: 0%;\n    width: 100%;\n    height: 100%;\n    content: \" \";\n  }\n\n  .btn-wrapper{\n    margin-top: 35px;\n  }\n  .btn-fill {\n    width:auto;\n    font-size: 16px;\n    padding: 18px 35px;\n    font-weight:bold;\n    background: #ffffff;\n    color: ", ";\n  }\n\n  .progressbar-wrapper {\n    position: relative;\n    height: 20px;\n    border-radius: 20px;\n    display: flex;\n    align-items: center;\n    background: #fff;\n\n    span {\n      position: absolute;\n      right: 0;\n      bottom: -42px;\n      color: #fff;\n      font-size: 18px;\n      margin: 0;\n    }\n\n    .progressbar {\n      position: relative;\n      width: ", ";\n      height: 30px;\n      border-radius: 20px;\n      background: rgb(35, 42, 213);\n      background: linear-gradient(\n        93deg,\n        rgba(252, 165, 3, 1) 0%,\n        rgba(227, 197, 113, 1) 42%,\n        rgba(150, 112, 3, 1) 100%\n      );\n      span {\n        bottom: -38px;\n      }\n    }\n  }\n\n  .payment-getway {\n    margin-top: 85px;\n    text-align: center;\n    font-size: 20px;\n    color: #fff;\n    span {\n      margin-right: 25px;\n      &:last-child {\n        margin-right: 0;\n      }\n    }\n  }\n  .countBoxItem {\n    min-width: 100px;\n    position: relative;\n    text-align: center;\n    display: flex;\n    flex-direction: column-reverse;\n  }\n  .countdown-wrapper {\n    margin-bottom: 40px;\n    .text {\n      font-size: 14px;\n      color: #fff;\n      text-align: center;\n      margin-bottom: 35px;\n    }\n    .countBox {\n      display: flex;\n      flex-direction: row-reverse;\n      justify-content: center;\n      .count {\n        line-height: 46px;\n        font-weight: 700;\n        margin-bottom: 16px;\n      }\n      .label {\n       font-size: 14px;\n       color: #BEABDF;\n      }\n      .split {\n        font-size: 40px;\n        font-weight: 700;\n        color: #fff;\n        margin: 6px 8px 0 8px;\n      }\n    }\n  }\n  @media only screen and (max-width: 1024px) {\n    background-size: 36%;\n    background-position: 86% 41%;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n      text-align: left;\n    }\n    .countdown-wrapper {\n      .count {\n        font-size: 45px;\n      }\n    }\n  }\n\n  @media only screen and (max-width: 912px) {\n    background-position: 86% 70%;\n    .coin-fund-content-left{\n      text-align: center;\n      margin-bottom: 80px;\n    }\n  }\n  @media only screen and (max-width: 768px) {\n    .countdown-wrap{\n      width: 100%;\n    }\n  }\n  @media only screen and (max-width: 480px) {\n    background: none;\n    padding: 50px 0;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n    }\n    .countdown-wrapper {\n      .split {\n        display: none;\n      }\n      .count {\n        font-size: 35px;\n      } \n      .countBox{\n        flex-direction: column-reverse;\n      }\n    }\n  }\n"])), assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, function (props) {
   return props.theme.linkColor ? props.theme.linkColor : "#1F2AD5";
 }, function (props) {
   return props.dayCount ? props.dayCount + "%" : "1%";
@@ -24532,6 +24532,7 @@ var CoinFund = function CoinFund(_ref) {
   var displayText = "";
   var daysLeftBeforePreSaleDate = tokenpreSaleStopDate - secondsSinceEpoch;
   console.log(daysLeftBeforePreSaleDate);
+  var tokenBuyAction = preSaleDuration != secondsSinceEpoch ? "".concat(Math.floor(daysLeftBeforePreSaleDate % 31536000 % 2628000 / 86400), " days remaining to buy token") : "Buy Token";
   preSaleDuration = preSaleDuration != secondsSinceEpoch ? daysLeftBeforePreSaleDate : preSaleDuration;
   displayText = preSaleDuration != secondsSinceEpoch ? "Countdown to ".concat(Math.floor(preSaleDuration % 31536000 % 2628000 / 86400), " days before presale starts") : "Last moment to grab the token, ".concat(Math.floor(preSaleDuration % 31536000 % 2628000 / 86400), " ");
   var settings = {
@@ -24554,21 +24555,21 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 70,
       columnNumber: 5
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 71,
       columnNumber: 7
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 72,
       columnNumber: 9
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -24576,7 +24577,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 73,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24584,35 +24585,35 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 74,
       columnNumber: 13
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_8__["SectionTitle"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 75,
       columnNumber: 15
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_8__["SectionBackground"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 76,
       columnNumber: 17
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 77,
       columnNumber: 19
     }
   }, "Get the token, Presale starts: August 20th - 27th, 2021")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 81,
       columnNumber: 17
     }
   }, "Panache Token represents all aspects of our social lives, from the type of watches you wear, your dressing appearances, the cars you drive, the houses you live in and all other confidence lifestyles.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24620,7 +24621,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 87,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -24628,7 +24629,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 88,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -24636,15 +24637,15 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 89,
       columnNumber: 19
     }
-  }, "Buy Token"))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+  }, tokenBuyAction))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Col"], {
     className: "lg-6 md-12 countdown-wrap",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 94,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24652,28 +24653,28 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 95,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 96,
       columnNumber: 15
     }
   }, " ", __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 96,
       columnNumber: 22
     }
   }, displayText)), __jsx(react_component_countdown_timer__WEBPACK_IMPORTED_MODULE_3___default.a, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, settings, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 97,
       columnNumber: 15
     }
   }))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24681,7 +24682,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 99,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24689,7 +24690,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 100,
       columnNumber: 15
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24697,7 +24698,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 101,
       columnNumber: 17
     }
   }, "$0")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24705,7 +24706,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 103,
       columnNumber: 15
     }
   }, "$1,000,000")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24713,7 +24714,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 106,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24721,14 +24722,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 107,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaBitcoin"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 109,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24736,14 +24737,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 111,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcMastercard"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 113,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24751,14 +24752,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 115,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcVisa"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 117,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24766,14 +24767,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 119,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcDiscover"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 121,
       columnNumber: 17
     }
   }), " "))))));
@@ -25415,7 +25416,7 @@ __webpack_require__.r(__webpack_exports__);
 var _templateObject;
 
 
-var NavigationWrap = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].header(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    background: ", ";\n    position: fixed;\n    width: 100%;\n    z-index: 9999;\n    top: 0;\n    transition: all 0.3s ease 0s;\n    border-bottom: 1px solid transparent;\n  .navbar-wrap{\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    border-bottom: 1px solid #6A598E;\n  }\n  .mobile-menu-icon {\n    display: none;\n    color: #1D316C;\n    font-size: 24px;\n  }\n  .nav__button{\n    width: 170px;\n    height: 60px;\n    background: ", ";\n    border-radius: 5px;\n    font-size: 18px;\n    color: ", ";\n    transition: all 0.3s ease-in;\n    &:hover,\n    &:focus{\n      outline: none;\n      border: none;\n      background: linear-gradient( 93deg,rgba(196,56,231,1) 0%,rgba(122,49,222,1) 52%,rgba(37,42,213,1) 100% );\n      color: ", ";\n    }\n  }\n  /*Drop down style*/ \n  .dropdown{\n    background: #fff;\n    visibility: hidden;\n    opacity: 0;\n    min-width: 200px;\n    border: 1px solid #f5f5f5;\n    position: absolute;\n    margin-top: 1rem;\n    left: 20px;\n    padding: 15px 0px;\n    display: none;\n    box-shadow: 0px 30px 70px 0px rgba(137,139,142,0.15);\n    -webkit-transform: translateY(20px);\n    -ms-transform: translateY(20px);\n    transform: translateY(20px);\n    transition: all 0.3s ease-in-out;\n  }\n  ul li:hover > ul,\n  ul li ul:hover {\n    opacity: 1;\n    visibility: visible;\n    -webkit-transform: translateY(0px);\n    -ms-transform: translateY(0px);\n    transform: translateY(0px);\n    display: block;\n  }\n  \n  nav {\n    ul {\n      margin: 0;\n      padding: 0;\n      list-style: none;\n      display: flex;\n      align-items: center;\n    }\n    li{\n        position: relative;\n        padding: 28px 0px 28px 40px;\n        .dropdown{\n          li{\n            padding: 0;\n            a{\n              color: #1D316C;\n              display: block;\n              padding: 5px 15px;\n              &:hover{\n                color: ", " !important;\n              }\n              &:before{\n                content: none;\n              }\n            }\n          }\n        }\n      \n      a, .nav-active{\n        position: relative;\n        color: #fff;\n        font-size: 15px;\n        transition: 450ms all;\n        padding-bottom: 5px;\n        cursor: pointer;\n        &:before{\n          content: '';\n          position: absolute;\n          left : 0;\n          bottom:0;\n          width: 20px;\n          height: 1px;\n          opacity: 0;\n          background: ", ";\n          transition: 450ms all;\n        }\n        &:hover{\n          color: ", ";\n          &:before{\n            opacity: 1;\n          }\n        }\n      }\n    }\n  }\n  .logo{\n    margin-top: 8px;\n    transition: all 0.8s cubic-bezier(0.3, 0.8, 0.2, 1) 0s;\n    img{\n      width: 250px;\n    }\n  }\n  &.scrolled{ \n    box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 30px;\n    background: rgb(0, 27, 71);\n    // background: #290E59;\n    border-color: ", ";\n    .navbar-wrap{\n      border-color: transparent\n    }\n    .logo{\n        width: 230px;\n    } \n    .nav{\n      li{\n        padding: 14px 0px 14px 40px;\n        a{ \n          &:hover{\n            color: ", ";\n          }\n        }\n      }\n      li{\n        .dropdown{\n          li{\n            padding: 0;\n          }\n        }\n      }\n    }\n  }\n\n\n  @media only screen and (max-width: 912px) {\n    height: auto;\n    min-height: 50px;\n    padding: 15px 20px;\n    // background: #290E59;\n    background: rgb(0, 27, 71);\n    &.scrolled{\n        padding: 8px 20px;\n        border-color: transparent;\n        .nav .collapsed {\n          li{\n            padding: 0;\n            a{\n              padding: 8px 10px;\n              display: block;\n            }\n          }\n          li+li{\n            padding-left: 0;\n          }\n        } \n    }\n    .has-dropdown{\n      a{\n        position: relative;\n        &:before{\n          content: '';\n          \n        }\n      }\n    }\n    .dropdown{\n      position: relative;\n      left: 0;\n      margin-top: 0;\n      box-shadow: none;\n    }\n    .navbar-wrap{\n        border-color: transparent;\n        display: block;\n        position: relative;\n    }\n    .logo {\n      width: 100%;\n      display: block;\n      margin: 7px 0 0 0;\n      img{width: 110px;}\n    }\n    .mobile-menu-icon {\n      display: inline-block;\n      position: absolute;\n      top: 8px;\n      right: 3px;\n      cursor: pointer;\n    }\n    .nav{\n        width: 100%;\n        .mobile-menu-icon{\n          color: white;\n        }\n      .collapsed {\n        width: 100%;\n        display: flex;\n        justify-content: space-between;\n        flex-wrap: wrap;\n        transition: 450ms all ease-in-out;\n        overflow: hidden;\n        max-height: 0;\n\n        &.is-expanded {\n          padding-top: 15px;\n          overflow-y: auto;\n          max-height: 250px; /* approximate max height */\n        }\n        li {\n          padding: 0;\n          margin: 0px 0px;\n          width: 100%;\n          .dropdown{\n            li{\n              a{\n                color: #1D316C;\n              }\n            }\n          }\n          a{\n            padding: 8px 10px;\n            display: block;\n            color: white;\n            &:before{\n              content: none;\n            }\n          }\n        }\n      }\n    }\n  }\n\n"])), function (props) {
+var NavigationWrap = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].header(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    background: ", ";\n    position: fixed;\n    width: 100%;\n    z-index: 9999;\n    top: 0;\n    transition: all 0.3s ease 0s;\n    border-bottom: 1px solid transparent;\n  .navbar-wrap{\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    border-bottom: 1px solid #6A598E;\n  }\n  .mobile-menu-icon {\n    display: none;\n    color: #1D316C;\n    font-size: 24px;\n  }\n  .nav__button{\n    width: 170px;\n    height: 60px;\n    background: ", ";\n    border-radius: 5px;\n    font-size: 18px;\n    color: ", ";\n    transition: all 0.3s ease-in;\n    &:hover,\n    &:focus{\n      outline: none;\n      border: none;\n      background: linear-gradient( 93deg,rgba(196,56,231,1) 0%,rgba(122,49,222,1) 52%,rgba(37,42,213,1) 100% );\n      color: ", ";\n    }\n  }\n  /*Drop down style*/ \n  .dropdown{\n    background: #fff;\n    visibility: hidden;\n    opacity: 0;\n    min-width: 200px;\n    border: 1px solid #f5f5f5;\n    position: absolute;\n    margin-top: 1rem;\n    left: 20px;\n    padding: 15px 0px;\n    display: none;\n    box-shadow: 0px 30px 70px 0px rgba(137,139,142,0.15);\n    -webkit-transform: translateY(20px);\n    -ms-transform: translateY(20px);\n    transform: translateY(20px);\n    transition: all 0.3s ease-in-out;\n  }\n  ul li:hover > ul,\n  ul li ul:hover {\n    opacity: 1;\n    visibility: visible;\n    -webkit-transform: translateY(0px);\n    -ms-transform: translateY(0px);\n    transform: translateY(0px);\n    display: block;\n  }\n  \n  nav {\n    ul {\n      margin: 0;\n      padding: 0;\n      list-style: none;\n      display: flex;\n      align-items: center;\n    }\n    li{\n        position: relative;\n        padding: 28px 0px 28px 40px;\n        .dropdown{\n          li{\n            padding: 0;\n            a{\n              color: #1D316C;\n              display: block;\n              padding: 5px 15px;\n              &:hover{\n                color: ", " !important;\n              }\n              &:before{\n                content: none;\n              }\n            }\n          }\n        }\n      \n      a, .nav-active{\n        position: relative;\n        color: #fff;\n        font-size: 15px;\n        transition: 450ms all;\n        padding-bottom: 5px;\n        cursor: pointer;\n        &:before{\n          content: '';\n          position: absolute;\n          left : 0;\n          bottom:0;\n          width: 20px;\n          height: 1px;\n          opacity: 0;\n          background: ", ";\n          transition: 450ms all;\n        }\n        &:hover{\n          color: ", ";\n          &:before{\n            opacity: 1;\n          }\n        }\n      }\n    }\n  }\n  .logo{\n    margin-top: 8px;\n    transition: all 0.8s cubic-bezier(0.3, 0.8, 0.2, 1) 0s;\n    img{\n      width: 210px;\n    }\n  }\n  &.scrolled{ \n    box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 30px;\n    background: rgb(0, 27, 71);\n    // background: #290E59;\n    border-color: ", ";\n    .navbar-wrap{\n      border-color: transparent\n    }\n    .logo{\n        width: 200px;\n    } \n    .nav{\n      li{\n        padding: 14px 0px 14px 40px;\n        a{ \n          &:hover{\n            color: ", ";\n          }\n        }\n      }\n      li{\n        .dropdown{\n          li{\n            padding: 0;\n          }\n        }\n      }\n    }\n  }\n\n\n  @media only screen and (max-width: 912px) {\n    height: auto;\n    min-height: 50px;\n    padding: 15px 20px;\n    // background: #290E59;\n    background: rgb(0, 27, 71);\n    &.scrolled{\n        padding: 8px 20px;\n        border-color: transparent;\n        .nav .collapsed {\n          li{\n            padding: 0;\n            a{\n              padding: 8px 10px;\n              display: block;\n            }\n          }\n          li+li{\n            padding-left: 0;\n          }\n        } \n    }\n    .has-dropdown{\n      a{\n        position: relative;\n        &:before{\n          content: '';\n          \n        }\n      }\n    }\n    .dropdown{\n      position: relative;\n      left: 0;\n      margin-top: 0;\n      box-shadow: none;\n    }\n    .navbar-wrap{\n        border-color: transparent;\n        display: block;\n        position: relative;\n    }\n    .logo {\n      width: 100%;\n      display: block;\n      margin: 7px 0 0 0;\n      img{width: 110px;}\n    }\n    .mobile-menu-icon {\n      display: inline-block;\n      position: absolute;\n      top: 8px;\n      right: 3px;\n      cursor: pointer;\n    }\n    .nav{\n        width: 100%;\n        .mobile-menu-icon{\n          color: white;\n        }\n      .collapsed {\n        width: 100%;\n        display: flex;\n        justify-content: space-between;\n        flex-wrap: wrap;\n        transition: 450ms all ease-in-out;\n        overflow: hidden;\n        max-height: 0;\n\n        &.is-expanded {\n          padding-top: 15px;\n          overflow-y: auto;\n          max-height: 250px; /* approximate max height */\n        }\n        li {\n          padding: 0;\n          margin: 0px 0px;\n          width: 100%;\n          .dropdown{\n            li{\n              a{\n                color: #1D316C;\n              }\n            }\n          }\n          a{\n            padding: 8px 10px;\n            display: block;\n            color: white;\n            &:before{\n              content: none;\n            }\n          }\n        }\n      }\n    }\n  }\n\n"])), function (props) {
   return props.theme.NavBG;
 }, function (props) {
   return props.theme.white;
@@ -26822,7 +26823,7 @@ var WalletSectionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["defau
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Femplugxm3%2Fapplications%2Fnext-landing%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************************/
@@ -26845,5 +26846,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

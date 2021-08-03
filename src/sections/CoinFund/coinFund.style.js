@@ -23,8 +23,10 @@ const CoinFundWrapper = styled.div`
     margin-top: 35px;
   }
   .btn-fill {
+    width:auto;
     font-size: 16px;
     padding: 18px 35px;
+    font-weight:bold;
     background: #ffffff;
     color: ${(props) =>
       props.theme.linkColor ? props.theme.linkColor : "#1F2AD5"};
