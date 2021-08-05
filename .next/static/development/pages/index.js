@@ -23754,21 +23754,21 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 9
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 17
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 21
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -23776,7 +23776,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 25
     }
   }, __jsx(reusecore_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -23786,7 +23786,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 32,
       columnNumber: 29
     }
   })), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -23794,7 +23794,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 25
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -23802,21 +23802,21 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 29
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_8__["SectionTitle"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 36,
       columnNumber: 33
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_8__["SectionBackground"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 37,
       columnNumber: 37
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -23824,22 +23824,31 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 38,
       columnNumber: 41
     }
-  }, "Providing investors more than 500% APY")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "The Smartness way to get what you need:")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 44,
       columnNumber: 37
     }
-  }, "Holders have the oppurtunity to earn up to 500% APY from the activities that happens in the market place. As the token holders buy, sale, refer or hold the Panache Token and as the more liquidity are provided in the Panache trading pool. Trading fee are compounded and distributed ")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Panache Token comes with core values that employs 4 simple functions; Reflection + LP acquisition + Burn + vendor rewards In each trade, the transaction is taxed a 4% fee excluding the vendor rewards for brand ambassadors."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    as: "span",
+    className: "description",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 41
+    }
+  }, "Additional tax of 5% is charged on the vendors items on the marketplace and are distributed pro rata to the vendors brand ambassadors.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "about-list",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 49,
       columnNumber: 33
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -23847,7 +23856,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 50,
       columnNumber: 37
     }
   }, "90% Distributed to Community."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -23855,7 +23864,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 51,
       columnNumber: 37
     }
   }, "3% Reserved Funding."), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -23863,7 +23872,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 52,
       columnNumber: 37
     }
   }, "7% Founders and Team Management.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -23871,7 +23880,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 55,
       columnNumber: 33
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -23879,7 +23888,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 56,
       columnNumber: 37
     }
   }, __jsx("a", {
@@ -23887,14 +23896,14 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 56,
       columnNumber: 53
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaGooglePlay"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 56,
       columnNumber: 82
     }
   }), " Buy Token")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -23902,7 +23911,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 57,
       columnNumber: 37
     }
   }, __jsx("a", {
@@ -23910,14 +23919,14 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 57,
       columnNumber: 52
     }
   }, __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaApple"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 57,
       columnNumber: 71
     }
   }), "Visit the marketplace"))))))));
@@ -24463,7 +24472,7 @@ var _templateObject;
 
 
 
-var CoinFundWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 110px 0 140px 0;\n  position: relative;\n  background: url(", ");\n  background-repeat: no-repeat;\n  background-size: inherit;\n  background-position: 72% 0px;\n\n  &::before {\n    position: absolute;\n    right: 0;\n    top: 0%;\n    width: 100%;\n    height: 100%;\n    content: \" \";\n  }\n\n  .btn-wrapper{\n    margin-top: 35px;\n  }\n  .btn-fill {\n    width:auto;\n    font-size: 16px;\n    padding: 18px 35px;\n    font-weight:bold;\n    background: #ffffff;\n    color: ", ";\n  }\n\n  .progressbar-wrapper {\n    position: relative;\n    height: 20px;\n    border-radius: 20px;\n    display: flex;\n    align-items: center;\n    background: #fff;\n\n    span {\n      position: absolute;\n      right: 0;\n      bottom: -42px;\n      color: #fff;\n      font-size: 18px;\n      margin: 0;\n    }\n\n    .progressbar {\n      position: relative;\n      width: ", ";\n      height: 30px;\n      border-radius: 20px;\n      background: rgb(35, 42, 213);\n      background: linear-gradient(\n        93deg,\n        rgba(252, 165, 3, 1) 0%,\n        rgba(227, 197, 113, 1) 42%,\n        rgba(150, 112, 3, 1) 100%\n      );\n      span {\n        bottom: -38px;\n      }\n    }\n  }\n\n  .payment-getway {\n    margin-top: 85px;\n    text-align: center;\n    font-size: 20px;\n    color: #fff;\n    span {\n      margin-right: 25px;\n      &:last-child {\n        margin-right: 0;\n      }\n    }\n  }\n  .countBoxItem {\n    min-width: 100px;\n    position: relative;\n    text-align: center;\n    display: flex;\n    flex-direction: column-reverse;\n  }\n  .countdown-wrapper {\n    margin-bottom: 40px;\n    .text {\n      font-size: 14px;\n      color: #fff;\n      text-align: center;\n      margin-bottom: 35px;\n    }\n    .countBox {\n      display: flex;\n      flex-direction: row-reverse;\n      justify-content: center;\n      .count {\n        line-height: 46px;\n        font-weight: 700;\n        margin-bottom: 16px;\n      }\n      .label {\n       font-size: 14px;\n       color: #BEABDF;\n      }\n      .split {\n        font-size: 40px;\n        font-weight: 700;\n        color: #fff;\n        margin: 6px 8px 0 8px;\n      }\n    }\n  }\n  @media only screen and (max-width: 1024px) {\n    background-size: 36%;\n    background-position: 86% 41%;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n      text-align: left;\n    }\n    .countdown-wrapper {\n      .count {\n        font-size: 45px;\n      }\n    }\n  }\n\n  @media only screen and (max-width: 912px) {\n    background-position: 86% 70%;\n    .coin-fund-content-left{\n      text-align: center;\n      margin-bottom: 80px;\n    }\n  }\n  @media only screen and (max-width: 768px) {\n    .countdown-wrap{\n      width: 100%;\n    }\n  }\n  @media only screen and (max-width: 480px) {\n    background: none;\n    padding: 50px 0;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n    }\n    .countdown-wrapper {\n      .split {\n        display: none;\n      }\n      .count {\n        font-size: 35px;\n      } \n      .countBox{\n        flex-direction: column-reverse;\n      }\n    }\n  }\n"])), assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, function (props) {
+var CoinFundWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 110px 0 140px 0;\n  position: relative;\n  background: url(", ");\n  background-repeat: no-repeat;\n  background-size: inherit;\n  background-position: 72% 0px;\n\n  @keyframes fundBanner {\n    0%{\n      background: url(", ");\n      transform:rotate(360deg)\n    }\n    50%{\n      background: url(", ");\n      transform:rotate(0deg)\n    }\n  }\n\n  &::before {\n    position: absolute;\n    right: 0;\n    top: 0%;\n    width: 100%;\n    height: 100%;\n    content: \" \";\n  }\n\n  .btn-wrapper{\n    margin-top: 35px;\n  }\n  .btn-fill {\n    width:auto;\n    font-size: 16px;\n    padding: 18px 35px;\n    font-weight:bold;\n    background: #ffffff;\n    color: ", ";\n  }\n\n  .progressbar-wrapper {\n    position: relative;\n    height: 20px;\n    border-radius: 20px;\n    display: flex;\n    align-items: center;\n    background: #fff;\n\n    span {\n      position: absolute;\n      right: 0;\n      bottom: -42px;\n      color: #fff;\n      font-size: 18px;\n      margin: 0;\n    }\n\n    .progressbar {\n      position: relative;\n      width: ", ";\n      height: 30px;\n      border-radius: 20px;\n      background: rgb(35, 42, 213);\n      background: linear-gradient(\n        93deg,\n        rgba(252, 165, 3, 1) 0%,\n        rgba(227, 197, 113, 1) 42%,\n        rgba(150, 112, 3, 1) 100%\n      );\n      span {\n        bottom: -38px;\n      }\n    }\n  }\n\n  .payment-getway {\n    margin-top: 85px;\n    text-align: center;\n    font-size: 20px;\n    color: #fff;\n    span {\n      margin-right: 25px;\n      &:last-child {\n        margin-right: 0;\n      }\n    }\n  }\n  .countBoxItem {\n    min-width: 100px;\n    position: relative;\n    text-align: center;\n    display: flex;\n    flex-direction: column-reverse;\n  }\n  .countdown-wrapper {\n    margin-bottom: 40px;\n    .text {\n      font-size: 14px;\n      color: #fff;\n      text-align: center;\n      margin-bottom: 35px;\n    }\n    .countBox {\n      display: flex;\n      flex-direction: row-reverse;\n      justify-content: center;\n      .count {\n        line-height: 46px;\n        font-weight: 700;\n        margin-bottom: 16px;\n      }\n      .label {\n       font-size: 14px;\n       color: #BEABDF;\n      }\n      .split {\n        font-size: 40px;\n        font-weight: 700;\n        color: #fff;\n        margin: 6px 8px 0 8px;\n      }\n    }\n  }\n  @media only screen and (max-width: 1024px) {\n    background-size: 36%;\n    background-position: 86% 41%;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n      text-align: left;\n    }\n    .countdown-wrapper {\n      .count {\n        font-size: 45px;\n      }\n    }\n  }\n\n  @media only screen and (max-width: 912px) {\n    background-position: 86% 70%;\n    .coin-fund-content-left{\n      text-align: center;\n      margin-bottom: 80px;\n    }\n  }\n  @media only screen and (max-width: 768px) {\n    .countdown-wrap{\n      width: 100%;\n    }\n  }\n  @media only screen and (max-width: 480px) {\n    background: none;\n    padding: 50px 0;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n    }\n    .countdown-wrapper {\n      .split {\n        display: none;\n      }\n      .count {\n        font-size: 35px;\n      } \n      .countBox{\n        flex-direction: column-reverse;\n      }\n    }\n  }\n"])), assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, function (props) {
   return props.theme.linkColor ? props.theme.linkColor : "#1F2AD5";
 }, function (props) {
   return props.dayCount ? props.dayCount + "%" : "1%";
@@ -24514,6 +24523,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 var CoinFund = function CoinFund(_ref) {
   var dayCount = _ref.dayCount;
+  dayCount = 5;
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])({
     daySecondsCount: new Date().getUTCSeconds() + 60 * (new Date().getUTCMinutes() + 60 * new Date().getUTCHours()),
@@ -24531,6 +24541,13 @@ var CoinFund = function CoinFund(_ref) {
   var secondsSinceEpoch = Math.round(Date.now() / 1000);
   var displayText = "";
   var daysLeftBeforePreSaleDate = tokenpreSaleStopDate - secondsSinceEpoch;
+  var endFunding = "1,000,000";
+
+  var startFunding = function () {
+    var _startFunding = 0;
+    return _startFunding;
+  }();
+
   console.log(daysLeftBeforePreSaleDate);
   var tokenBuyAction = preSaleDuration != secondsSinceEpoch ? "".concat(Math.floor(daysLeftBeforePreSaleDate % 31536000 % 2628000 / 86400), " days remaining to buy token") : "Buy Token";
   preSaleDuration = preSaleDuration != secondsSinceEpoch ? daysLeftBeforePreSaleDate : preSaleDuration;
@@ -24555,21 +24572,21 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 79,
       columnNumber: 5
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 80,
       columnNumber: 7
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 81,
       columnNumber: 9
     }
   }, __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -24577,7 +24594,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 82,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24585,35 +24602,35 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 83,
       columnNumber: 13
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_8__["SectionTitle"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 84,
       columnNumber: 15
     }
   }, __jsx(reusecore_SectionTitle__WEBPACK_IMPORTED_MODULE_8__["SectionBackground"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 85,
       columnNumber: 17
     }
   }, __jsx(reusecore_Heading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 86,
       columnNumber: 19
     }
   }, "Get the token, Presale starts: August 20th - 27th, 2021")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 90,
       columnNumber: 17
     }
   }, "Panache Token represents all aspects of our social lives, from the type of watches you wear, your dressing appearances, the cars you drive, the houses you live in and all other confidence lifestyles.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24621,7 +24638,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 96,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -24629,7 +24646,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 97,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -24637,7 +24654,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 98,
       columnNumber: 19
     }
   }, tokenBuyAction))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -24645,7 +24662,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 103,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24653,28 +24670,28 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 104,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 105,
       columnNumber: 15
     }
   }, " ", __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 105,
       columnNumber: 22
     }
   }, displayText)), __jsx(react_component_countdown_timer__WEBPACK_IMPORTED_MODULE_3___default.a, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, settings, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 106,
       columnNumber: 15
     }
   }))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24682,7 +24699,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 108,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24690,7 +24707,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 109,
       columnNumber: 15
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24698,23 +24715,23 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 110,
       columnNumber: 17
     }
-  }, "$0")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, "$", startFunding)), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     as: "span",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 112,
       columnNumber: 15
     }
-  }, "$1,000,000")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "$", endFunding)), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
     className: "payment-getway",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 115,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24722,14 +24739,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 116,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaBitcoin"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 118,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24737,14 +24754,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 120,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcMastercard"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 122,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24752,14 +24769,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 124,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcVisa"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 126,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24767,14 +24784,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119,
+      lineNumber: 128,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcDiscover"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 130,
       columnNumber: 17
     }
   }), " "))))));

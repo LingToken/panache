@@ -17,7 +17,8 @@ import {
 
 import CoinFundWrapper from "./coinFund.style";
 
-const CoinFund = ({dayCount}) => {
+const CoinFund = ({dayCount }) => {
+  dayCount = 5;
 
   const [state, setState] = useState(
 
@@ -41,6 +42,14 @@ let displayText = "";
 
 
 let daysLeftBeforePreSaleDate = tokenpreSaleStopDate - secondsSinceEpoch;
+
+const endFunding = "1,000,000";
+
+const startFunding = (() => {
+  let _startFunding = 0;
+  return _startFunding;
+
+})();
 
 
 console.log(daysLeftBeforePreSaleDate);
@@ -98,9 +107,9 @@ let tokenBuyAction =  preSaleDuration != secondsSinceEpoch  ? `${Math.floor(((da
             </Box>
             <Box className="progressbar-wrapper">
               <Box className="progressbar">
-                <Text as="span">$0</Text>
+                <Text as="span">${startFunding}</Text>
               </Box>
-              <Text as="span">$1,000,000</Text>
+              <Text as="span">${endFunding}</Text>
             </Box>
 
             <Box className="payment-getway">

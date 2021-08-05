@@ -10,6 +10,17 @@ const CoinFundWrapper = styled.div`
   background-size: inherit;
   background-position: 72% 0px;
 
+  @keyframes fundBanner {
+    0%{
+      background: url(${fundsBg});
+      transform:rotate(360deg)
+    }
+    50%{
+      background: url(${fundsBg});
+      transform:rotate(0deg)
+    }
+  }
+
   &::before {
     position: absolute;
     right: 0;

@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 
 
 import { Container, Row, Col } from 'reusecore/Layout'
+
 import Box from 'reusecore/Box';
 import Heading from 'reusecore/Heading';
 import Text from 'reusecore/Text';
@@ -35,13 +36,14 @@ const About = () => {
                                 <SectionTitle>
                                     <SectionBackground>
                                         <Heading as="h1">
-                                           Providing investors more than 500% APY
+                                           The Smartness way to get what you need:
                                         </Heading>
                                     </SectionBackground>
+                                  
                                     
-                                    <Text>Holders have the oppurtunity to earn up to 500% APY from the activities that
-                                         happens in the market place. As the token holders buy, sale, refer or hold the Panache Token
-                                          and as the more liquidity are provided in the Panache trading pool. Trading fee are compounded and distributed </Text>
+                                    <Text>Panache Token comes with core values that employs 4 simple functions; Reflection + LP acquisition + 
+                                        Burn + vendor rewards In each trade, the transaction is taxed a 4% fee excluding the vendor rewards for brand ambassadors.</Text>
+                                        <Text as="span" className="description">Additional tax of 5% is charged on the vendors items on the marketplace and are distributed pro rata to the vendors brand ambassadors.</Text>
                                 </SectionTitle>  
 
                                 <Box className="about-list">
