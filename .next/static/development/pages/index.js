@@ -25605,11 +25605,12 @@ var ScrollspyMenu = function ScrollspyMenu(_ref) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var Data = {
-  menuItems: [{
-    name: "About",
-    path: "about",
-    offset: "-100"
-  }, {
+  menuItems: [// {
+  //   name: "About",
+  //   path: "about",
+  //   offset: "-100"
+  // },
+  {
     name: "Features",
     path: "service",
     offset: "-120"
@@ -25621,28 +25622,29 @@ var Data = {
     name: "Roadmap",
     path: "roadmap",
     offset: "-100"
-  }, {
-    name: "Blogs",
-    path: "/blog-grid" // subItems: [
-    //   {
-    //     name: "Blog Grid",
-    //     path: "/blog-grid"
-    //   },
-    //   {
-    //     name: "Blog List",
-    //     path: "/blog-list"
-    //   },
-    //   {
-    //     name: "Blog Full",
-    //     path: "/blog-full"
-    //   },
-    //   {
-    //     name: "Blog Single",
-    //     path: "/blog-single"
-    //   }
-    // ]
-
   }, // {
+  //   name: "Blogs",
+  //   path: "/blog-grid",
+  // subItems: [
+  //   {
+  //     name: "Blog Grid",
+  //     path: "/blog-grid"
+  //   },
+  //   {
+  //     name: "Blog List",
+  //     path: "/blog-list"
+  //   },
+  //   {
+  //     name: "Blog Full",
+  //     path: "/blog-full"
+  //   },
+  //   {
+  //     name: "Blog Single",
+  //     path: "/blog-single"
+  //   }
+  // ]
+  // },
+  // {
   //   name: "FAQ",
   //   path: "faq",
   //   offset: "-60"

@@ -1,11 +1,11 @@
 const Data = {
   menuItems: [
 
-    {
-      name: "About",
-      path: "about",
-      offset: "-100"
-    },
+    // {
+    //   name: "About",
+    //   path: "about",
+    //   offset: "-100"
+    // },
     {
       name: "Features",
       path: "service",
@@ -22,9 +22,9 @@ const Data = {
       offset: "-100"
     },
    
-    {
-      name: "Blogs",
-      path: "/blog-grid",
+    // {
+    //   name: "Blogs",
+    //   path: "/blog-grid",
       // subItems: [
       //   {
       //     name: "Blog Grid",
@@ -43,7 +43,7 @@ const Data = {
       //     path: "/blog-single"
       //   }
       // ]
-    },
+   // },
     // {
     //   name: "FAQ",
     //   path: "faq",
