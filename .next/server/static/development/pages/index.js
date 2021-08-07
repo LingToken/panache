@@ -6723,7 +6723,7 @@ const CoinFund = ({
       lineNumber: 86,
       columnNumber: 19
     }
-  }, "Get the token, Presale starts: August 20th - 27th, 2021")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "Get the token, Presale starts: September, 1st- 7th, 2021")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,

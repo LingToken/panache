@@ -84,7 +84,7 @@ let tokenBuyAction =  preSaleDuration != secondsSinceEpoch  ? `${Math.floor(((da
               <SectionTitle>
                 <SectionBackground>
                   <Heading>
-                 Get the token, Presale starts: August 20th - 27th, 2021
+                 Get the token, Presale starts: September, 1st- 7th, 2021
                   </Heading>
                 </SectionBackground>
                  <Text>
