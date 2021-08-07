@@ -37,14 +37,14 @@ const Home = () => {
       <BannerTwo />
       <Service />
       <CoinFund dayCount />
-      <About />
-      <Awards />
+      {/* <About />
+      <Awards /> */}
       {/* <UserMap /> */}
-      <Wallet />
+      {/* <Wallet /> */}
       <RoadMap/>
       {/* <Statistics /> */}
        {/* <Faq /> */}
-      <Stack />
+      {/* <Stack /> */}
       <Footer />
     </ThemeProvider>
   );

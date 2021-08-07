@@ -7,7 +7,7 @@ const RoadMap = () => {
     return(
         <RoadMapWrapper id="roadmap">
             <h1>Our RoadMap</h1>
-            <p>we intend to continously improve on the features of panache token, however,
+            <p className="roadmap-text">we intend to continously improve on the features of panache token, however,
                  the first three quarters below is just our starting point, it will be updated as the community grows</p>
 
             <div className="roadmap-item-container">

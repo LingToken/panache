@@ -12,9 +12,9 @@ h1{
    text-align:center;
    padding: 1.5em 0 0 0;
 }
-p{
+.roadmap-text{
     text-align:center;
-    width:30%;
+    width:50%;
     margin: 0 auto;
     padding: 1em 0 1em 0;
 }
@@ -51,13 +51,46 @@ background: transparent;
     @media(max-width: 600px){
         flex-direction:column;
 
-        p{
-            width:400px !important;
+        .roadmap-text{
+            width:80%;
+            margin:0;
     
         }
         .roadmap-item{
             width:70%;
             height: auto;
+            padding:1em;
+        }
+
+    }
+
+    @media(max-width: 900px){
+        flex-direction:column;
+
+        .roadmap-text{
+            width:80%;
+            margin:0;
+    
+        }
+        .roadmap-item{
+            width:70%;
+            height: auto;
+            padding:1em;
+        }
+
+    }
+
+    @media(max-width: 1200px){
+ 
+
+        .roadmap-text{
+            width:80%;
+            margin:0;
+    
+        }
+        .roadmap-item{
+            width:70%;
+            height: 25em;
             padding:1em;
         }
 

@@ -24,8 +24,8 @@ const CoinFund = ({dayCount }) => {
 
     {
       daySecondsCount : new Date().getUTCSeconds() + (60 * (new Date().getUTCMinutes() + (60 * new Date().getUTCHours()))),
-      preSaleStartDate: "August, 20 2021",
-      preSaleStopDate: "August, 27 2021"
+      preSaleStartDate: "September, 1 2021",
+      preSaleStopDate: "September, 7 2021"
     }
   )
 // state.preSaleStartDate ? new Date()
@@ -87,9 +87,30 @@ let tokenBuyAction =  preSaleDuration != secondsSinceEpoch  ? `${Math.floor(((da
                  Get the token, Presale starts: August 20th - 27th, 2021
                   </Heading>
                 </SectionBackground>
+                 <Text>
+                  <h2>How to Buy</h2>
+                  <span>Every investor is an equivalent owner and contributor to the network</span>
+                  <p>IMPORTANT: Whether in Metamask or Trust Wallet, it’s vital you tap on the ‘cog wheel’ and set slippage to 7% and increase in increments until accepted (this is to avoid the trading bots).
+
+UPDATE: Issue seeing coins? Anyone that has issues with TrustWallet not showing their $DOGI coin, make sure you copy and paste our token address in the contract address bar and make sure decimals are set to 9 (not 18).</p>
+                </Text>
                 <Text>
-                Panache Token represents all aspects of our social lives, from the type of watches you wear, 
-                your dressing appearances, the cars you drive, the houses you live in and all other confidence lifestyles.
+                  <ul className="token-sale-list">
+                    <li>Install Metamask on your browser or download the mobile app</li>
+                    <li>Visit the Presale Link and connect your Metamask wallet</li>
+                    <li>Enter quantity of $Panache to purchase, maximum is 1BNB worth of Panache Max</li>
+                    {/* <li>Open the browser on your phone, paste ‘trust://browser_enable‘ into the address bar and follow the prompt to take you back to Trust Wallet</li>
+                    <li>On Trust Wallet, tap ‘Browser’ in the menu & look for Pancake Swap. ‘Connect’ it to your wallet.</li>
+                    <li>Select the amount of BSC you want to convert. Tap ‘Select Currency’ and paste in this address: 0x373849e1dbee104d67afff1b73703de4fd96294e.</li>
+                    <li>IMPORTANT: Tap on the ‘cog wheel’ and set slippage to 7% and increase until the transaction is accepted (this process avoids the trading bots).
+</li>
+<li>Press the ‘swap’ button and you’ll have $DOGI coins in your account (there will be a delay in the coins appearing in your wallet)</li> */}
+                  </ul>
+             
+
+
+
+
                 </Text>
               </SectionTitle>
 

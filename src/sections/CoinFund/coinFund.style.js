@@ -10,6 +10,17 @@ const CoinFundWrapper = styled.div`
   background-size: inherit;
   background-position: 72% 0px;
 
+  .token-sale-list{
+    display:block;
+  }
+  .token-sale-list li{
+    list-style:none;
+    padding: 1em 0;
+    border-bottom: 1px solid #06258c;
+    
+  }
+
+
   @keyframes fundBanner {
     0%{
       background: url(${fundsBg});

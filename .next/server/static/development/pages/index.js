@@ -1941,39 +1941,11 @@ const Home = () => {
       lineNumber: 39,
       columnNumber: 7
     }
-  }), __jsx(sections_About__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 7
-    }
-  }), __jsx(sections_Awards__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 7
-    }
-  }), __jsx(sections_Wallet__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 7
-    }
   }), __jsx(sections_RoadMap__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44,
-      columnNumber: 7
-    }
-  }), __jsx(sections_Stack__WEBPACK_IMPORTED_MODULE_12__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
       columnNumber: 7
     }
   }), __jsx(sections_Footer__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -6430,6 +6402,17 @@ const CoinFundWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a
   background-size: inherit;
   background-position: 72% 0px;
 
+  .token-sale-list{
+    display:block;
+  }
+  .token-sale-list li{
+    list-style:none;
+    padding: 1em 0;
+    border-bottom: 1px solid #06258c;
+    
+  }
+
+
   @keyframes fundBanner {
     0%{
       background: url(${assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_1___default.a});
@@ -6644,8 +6627,8 @@ const CoinFund = ({
     1: setState
   } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
     daySecondsCount: new Date().getUTCSeconds() + 60 * (new Date().getUTCMinutes() + 60 * new Date().getUTCHours()),
-    preSaleStartDate: "August, 20 2021",
-    preSaleStopDate: "August, 27 2021"
+    preSaleStartDate: "September, 1 2021",
+    preSaleStopDate: "September, 7 2021"
   }); // state.preSaleStartDate ? new Date()
 
   const tokenpreSaleStopDate = Math.floor(new Date(state.preSaleStartDate) / 1000.0); //2678400;
@@ -6745,14 +6728,71 @@ const CoinFund = ({
     __source: {
       fileName: _jsxFileName,
       lineNumber: 90,
+      columnNumber: 18
+    }
+  }, __jsx("h2", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91,
+      columnNumber: 19
+    }
+  }, "How to Buy"), __jsx("span", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92,
+      columnNumber: 19
+    }
+  }, "Every investor is an equivalent owner and contributor to the network"), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93,
+      columnNumber: 19
+    }
+  }, "IMPORTANT: Whether in Metamask or Trust Wallet, it\u2019s vital you tap on the \u2018cog wheel\u2019 and set slippage to 7% and increase in increments until accepted (this is to avoid the trading bots). UPDATE: Issue seeing coins? Anyone that has issues with TrustWallet not showing their $DOGI coin, make sure you copy and paste our token address in the contract address bar and make sure decimals are set to 9 (not 18).")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97,
       columnNumber: 17
     }
-  }, "Panache Token represents all aspects of our social lives, from the type of watches you wear, your dressing appearances, the cars you drive, the houses you live in and all other confidence lifestyles.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, __jsx("ul", {
+    className: "token-sale-list",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98,
+      columnNumber: 19
+    }
+  }, __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99,
+      columnNumber: 21
+    }
+  }, "Install Metamask on your browser or download the mobile app"), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100,
+      columnNumber: 21
+    }
+  }, "Visit the Presale Link and connect your Metamask wallet"), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101,
+      columnNumber: 21
+    }
+  }, "Enter quantity of $Panache to purchase, maximum is 1BNB worth of Panache Max")))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "btn-wrapper",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 117,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -6760,7 +6800,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 118,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -6768,7 +6808,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 119,
       columnNumber: 19
     }
   }, tokenBuyAction))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -6776,7 +6816,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 124,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -6784,28 +6824,28 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 125,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 126,
       columnNumber: 15
     }
   }, " ", __jsx("b", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 126,
       columnNumber: 22
     }
   }, displayText)), __jsx(react_component_countdown_timer__WEBPACK_IMPORTED_MODULE_2___default.a, _extends({}, settings, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 127,
       columnNumber: 15
     }
   }))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -6813,7 +6853,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 129,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -6821,7 +6861,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 130,
       columnNumber: 15
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -6829,7 +6869,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 131,
       columnNumber: 17
     }
   }, "$", startFunding)), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -6837,7 +6877,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 133,
       columnNumber: 15
     }
   }, "$", endFunding)), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -6845,7 +6885,7 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 136,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -6853,14 +6893,14 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 137,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_8__["FaBitcoin"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 139,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -6868,14 +6908,14 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 141,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_8__["FaCcMastercard"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 143,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -6883,14 +6923,14 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 145,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_8__["FaCcVisa"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 147,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -6898,14 +6938,14 @@ const CoinFund = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 149,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_8__["FaCcDiscover"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 151,
       columnNumber: 17
     }
   }), " "))))));
@@ -8216,6 +8256,7 @@ const RoadMap = () => {
       columnNumber: 13
     }
   }, "Our RoadMap"), __jsx("p", {
+    className: "roadmap-text",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -8396,9 +8437,9 @@ h1{
    text-align:center;
    padding: 1.5em 0 0 0;
 }
-p{
+.roadmap-text{
     text-align:center;
-    width:30%;
+    width:50%;
     margin: 0 auto;
     padding: 1em 0 1em 0;
 }
@@ -8435,13 +8476,46 @@ background: transparent;
     @media(max-width: 600px){
         flex-direction:column;
 
-        p{
-            width:400px !important;
+        .roadmap-text{
+            width:80%;
+            margin:0;
     
         }
         .roadmap-item{
             width:70%;
             height: auto;
+            padding:1em;
+        }
+
+    }
+
+    @media(max-width: 900px){
+        flex-direction:column;
+
+        .roadmap-text{
+            width:80%;
+            margin:0;
+    
+        }
+        .roadmap-item{
+            width:70%;
+            height: auto;
+            padding:1em;
+        }
+
+    }
+
+    @media(max-width: 1200px){
+ 
+
+        .roadmap-text{
+            width:80%;
+            margin:0;
+    
+        }
+        .roadmap-item{
+            width:70%;
+            height: 25em;
             padding:1em;
         }
 

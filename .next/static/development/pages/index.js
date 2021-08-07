@@ -21713,39 +21713,11 @@ var Home = function Home() {
       lineNumber: 39,
       columnNumber: 7
     }
-  }), __jsx(sections_About__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 7
-    }
-  }), __jsx(sections_Awards__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 7
-    }
-  }), __jsx(sections_Wallet__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 7
-    }
   }), __jsx(sections_RoadMap__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44,
-      columnNumber: 7
-    }
-  }), __jsx(sections_Stack__WEBPACK_IMPORTED_MODULE_12__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
       columnNumber: 7
     }
   }), __jsx(sections_Footer__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -24472,7 +24444,7 @@ var _templateObject;
 
 
 
-var CoinFundWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 110px 0 140px 0;\n  position: relative;\n  background: url(", ");\n  background-repeat: no-repeat;\n  background-size: inherit;\n  background-position: 72% 0px;\n\n  @keyframes fundBanner {\n    0%{\n      background: url(", ");\n      transform:rotate(360deg)\n    }\n    50%{\n      background: url(", ");\n      transform:rotate(0deg)\n    }\n  }\n\n  &::before {\n    position: absolute;\n    right: 0;\n    top: 0%;\n    width: 100%;\n    height: 100%;\n    content: \" \";\n  }\n\n  .btn-wrapper{\n    margin-top: 35px;\n  }\n  .btn-fill {\n    width:auto;\n    font-size: 16px;\n    padding: 18px 35px;\n    font-weight:bold;\n    background: #ffffff;\n    color: ", ";\n  }\n\n  .progressbar-wrapper {\n    position: relative;\n    height: 20px;\n    border-radius: 20px;\n    display: flex;\n    align-items: center;\n    background: #fff;\n\n    span {\n      position: absolute;\n      right: 0;\n      bottom: -42px;\n      color: #fff;\n      font-size: 18px;\n      margin: 0;\n    }\n\n    .progressbar {\n      position: relative;\n      width: ", ";\n      height: 30px;\n      border-radius: 20px;\n      background: rgb(35, 42, 213);\n      background: linear-gradient(\n        93deg,\n        rgba(252, 165, 3, 1) 0%,\n        rgba(227, 197, 113, 1) 42%,\n        rgba(150, 112, 3, 1) 100%\n      );\n      span {\n        bottom: -38px;\n      }\n    }\n  }\n\n  .payment-getway {\n    margin-top: 85px;\n    text-align: center;\n    font-size: 20px;\n    color: #fff;\n    span {\n      margin-right: 25px;\n      &:last-child {\n        margin-right: 0;\n      }\n    }\n  }\n  .countBoxItem {\n    min-width: 100px;\n    position: relative;\n    text-align: center;\n    display: flex;\n    flex-direction: column-reverse;\n  }\n  .countdown-wrapper {\n    margin-bottom: 40px;\n    .text {\n      font-size: 14px;\n      color: #fff;\n      text-align: center;\n      margin-bottom: 35px;\n    }\n    .countBox {\n      display: flex;\n      flex-direction: row-reverse;\n      justify-content: center;\n      .count {\n        line-height: 46px;\n        font-weight: 700;\n        margin-bottom: 16px;\n      }\n      .label {\n       font-size: 14px;\n       color: #BEABDF;\n      }\n      .split {\n        font-size: 40px;\n        font-weight: 700;\n        color: #fff;\n        margin: 6px 8px 0 8px;\n      }\n    }\n  }\n  @media only screen and (max-width: 1024px) {\n    background-size: 36%;\n    background-position: 86% 41%;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n      text-align: left;\n    }\n    .countdown-wrapper {\n      .count {\n        font-size: 45px;\n      }\n    }\n  }\n\n  @media only screen and (max-width: 912px) {\n    background-position: 86% 70%;\n    .coin-fund-content-left{\n      text-align: center;\n      margin-bottom: 80px;\n    }\n  }\n  @media only screen and (max-width: 768px) {\n    .countdown-wrap{\n      width: 100%;\n    }\n  }\n  @media only screen and (max-width: 480px) {\n    background: none;\n    padding: 50px 0;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n    }\n    .countdown-wrapper {\n      .split {\n        display: none;\n      }\n      .count {\n        font-size: 35px;\n      } \n      .countBox{\n        flex-direction: column-reverse;\n      }\n    }\n  }\n"])), assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, function (props) {
+var CoinFundWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 110px 0 140px 0;\n  position: relative;\n  background: url(", ");\n  background-repeat: no-repeat;\n  background-size: inherit;\n  background-position: 72% 0px;\n\n  .token-sale-list{\n    display:block;\n  }\n  .token-sale-list li{\n    list-style:none;\n    padding: 1em 0;\n    border-bottom: 1px solid #06258c;\n    \n  }\n\n\n  @keyframes fundBanner {\n    0%{\n      background: url(", ");\n      transform:rotate(360deg)\n    }\n    50%{\n      background: url(", ");\n      transform:rotate(0deg)\n    }\n  }\n\n  &::before {\n    position: absolute;\n    right: 0;\n    top: 0%;\n    width: 100%;\n    height: 100%;\n    content: \" \";\n  }\n\n  .btn-wrapper{\n    margin-top: 35px;\n  }\n  .btn-fill {\n    width:auto;\n    font-size: 16px;\n    padding: 18px 35px;\n    font-weight:bold;\n    background: #ffffff;\n    color: ", ";\n  }\n\n  .progressbar-wrapper {\n    position: relative;\n    height: 20px;\n    border-radius: 20px;\n    display: flex;\n    align-items: center;\n    background: #fff;\n\n    span {\n      position: absolute;\n      right: 0;\n      bottom: -42px;\n      color: #fff;\n      font-size: 18px;\n      margin: 0;\n    }\n\n    .progressbar {\n      position: relative;\n      width: ", ";\n      height: 30px;\n      border-radius: 20px;\n      background: rgb(35, 42, 213);\n      background: linear-gradient(\n        93deg,\n        rgba(252, 165, 3, 1) 0%,\n        rgba(227, 197, 113, 1) 42%,\n        rgba(150, 112, 3, 1) 100%\n      );\n      span {\n        bottom: -38px;\n      }\n    }\n  }\n\n  .payment-getway {\n    margin-top: 85px;\n    text-align: center;\n    font-size: 20px;\n    color: #fff;\n    span {\n      margin-right: 25px;\n      &:last-child {\n        margin-right: 0;\n      }\n    }\n  }\n  .countBoxItem {\n    min-width: 100px;\n    position: relative;\n    text-align: center;\n    display: flex;\n    flex-direction: column-reverse;\n  }\n  .countdown-wrapper {\n    margin-bottom: 40px;\n    .text {\n      font-size: 14px;\n      color: #fff;\n      text-align: center;\n      margin-bottom: 35px;\n    }\n    .countBox {\n      display: flex;\n      flex-direction: row-reverse;\n      justify-content: center;\n      .count {\n        line-height: 46px;\n        font-weight: 700;\n        margin-bottom: 16px;\n      }\n      .label {\n       font-size: 14px;\n       color: #BEABDF;\n      }\n      .split {\n        font-size: 40px;\n        font-weight: 700;\n        color: #fff;\n        margin: 6px 8px 0 8px;\n      }\n    }\n  }\n  @media only screen and (max-width: 1024px) {\n    background-size: 36%;\n    background-position: 86% 41%;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n      text-align: left;\n    }\n    .countdown-wrapper {\n      .count {\n        font-size: 45px;\n      }\n    }\n  }\n\n  @media only screen and (max-width: 912px) {\n    background-position: 86% 70%;\n    .coin-fund-content-left{\n      text-align: center;\n      margin-bottom: 80px;\n    }\n  }\n  @media only screen and (max-width: 768px) {\n    .countdown-wrap{\n      width: 100%;\n    }\n  }\n  @media only screen and (max-width: 480px) {\n    background: none;\n    padding: 50px 0;\n    .heading {\n      font-size: 25px;\n      line-height: 40px;\n    }\n    .countdown-wrapper {\n      .split {\n        display: none;\n      }\n      .count {\n        font-size: 35px;\n      } \n      .countBox{\n        flex-direction: column-reverse;\n      }\n    }\n  }\n"])), assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, assets_images_funds_bg_png__WEBPACK_IMPORTED_MODULE_2___default.a, function (props) {
   return props.theme.linkColor ? props.theme.linkColor : "#1F2AD5";
 }, function (props) {
   return props.dayCount ? props.dayCount + "%" : "1%";
@@ -24527,8 +24499,8 @@ var CoinFund = function CoinFund(_ref) {
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])({
     daySecondsCount: new Date().getUTCSeconds() + 60 * (new Date().getUTCMinutes() + 60 * new Date().getUTCHours()),
-    preSaleStartDate: "August, 20 2021",
-    preSaleStopDate: "August, 27 2021"
+    preSaleStartDate: "September, 1 2021",
+    preSaleStopDate: "September, 7 2021"
   }),
       state = _useState[0],
       setState = _useState[1]; // state.preSaleStartDate ? new Date()
@@ -24631,14 +24603,71 @@ var CoinFund = function CoinFund(_ref) {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 90,
+      columnNumber: 18
+    }
+  }, __jsx("h2", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91,
+      columnNumber: 19
+    }
+  }, "How to Buy"), __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92,
+      columnNumber: 19
+    }
+  }, "Every investor is an equivalent owner and contributor to the network"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93,
+      columnNumber: 19
+    }
+  }, "IMPORTANT: Whether in Metamask or Trust Wallet, it\u2019s vital you tap on the \u2018cog wheel\u2019 and set slippage to 7% and increase in increments until accepted (this is to avoid the trading bots). UPDATE: Issue seeing coins? Anyone that has issues with TrustWallet not showing their $DOGI coin, make sure you copy and paste our token address in the contract address bar and make sure decimals are set to 9 (not 18).")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97,
       columnNumber: 17
     }
-  }, "Panache Token represents all aspects of our social lives, from the type of watches you wear, your dressing appearances, the cars you drive, the houses you live in and all other confidence lifestyles.")), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx("ul", {
+    className: "token-sale-list",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98,
+      columnNumber: 19
+    }
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99,
+      columnNumber: 21
+    }
+  }, "Install Metamask on your browser or download the mobile app"), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100,
+      columnNumber: 21
+    }
+  }, "Visit the Presale Link and connect your Metamask wallet"), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101,
+      columnNumber: 21
+    }
+  }, "Enter quantity of $Panache to purchase, maximum is 1BNB worth of Panache Max")))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
     className: "btn-wrapper",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 117,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -24646,7 +24675,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 118,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -24654,7 +24683,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 119,
       columnNumber: 19
     }
   }, tokenBuyAction))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -24662,7 +24691,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 124,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24670,28 +24699,28 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 125,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 126,
       columnNumber: 15
     }
   }, " ", __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 126,
       columnNumber: 22
     }
   }, displayText)), __jsx(react_component_countdown_timer__WEBPACK_IMPORTED_MODULE_3___default.a, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, settings, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 127,
       columnNumber: 15
     }
   }))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24699,7 +24728,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 129,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24707,7 +24736,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 130,
       columnNumber: 15
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24715,7 +24744,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 131,
       columnNumber: 17
     }
   }, "$", startFunding)), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24723,7 +24752,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 133,
       columnNumber: 15
     }
   }, "$", endFunding)), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24731,7 +24760,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 136,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24739,14 +24768,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 137,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaBitcoin"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 139,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24754,14 +24783,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 141,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcMastercard"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 143,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24769,14 +24798,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 145,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcVisa"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 147,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24784,14 +24813,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 149,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcDiscover"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 151,
       columnNumber: 17
     }
   }), " "))))));
@@ -25664,6 +25693,7 @@ var RoadMap = function RoadMap() {
       columnNumber: 13
     }
   }, "Our RoadMap"), __jsx("p", {
+    className: "roadmap-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -25838,7 +25868,7 @@ var _templateObject, _templateObject2;
 
 
 var RoadMapHead = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    display: flex;\n    text-align:center;\n\n"])));
-var RoadMapWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2 || (_templateObject2 = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\nh1{\n   text-align:center;\n   padding: 1.5em 0 0 0;\n}\np{\n    text-align:center;\n    width:30%;\n    margin: 0 auto;\n    padding: 1em 0 1em 0;\n}\n\n.roadmap-item-container{\ndisplay:flex;\nwidth:100%;\njustify-content:center;\nalign-items:center;\nbackground: transparent;\n\n    .roadmap-item{\n        width:20%;\n        height: 25em;\n        flex-wrap:wrap;\n        margin:1rem;\n        border-radius:5px;\n        border: 1px solid #ccc;\n        transition: all .7s ease-in-out;\n        li{\n            list-style:none;\n            padding:0.3rem;\n            text-align: center;\n            text-decoration:underline;\n        }\n        h2{\n            text-align:center;\n        }\n    \n        &:hover{\n            transform:scale(1.1);\n        }\n    }\n    @media(max-width: 600px){\n        flex-direction:column;\n\n        p{\n            width:400px !important;\n    \n        }\n        .roadmap-item{\n            width:70%;\n            height: auto;\n            padding:1em;\n        }\n\n    }\n\n}\n\n\n"])));
+var RoadMapWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2 || (_templateObject2 = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\nh1{\n   text-align:center;\n   padding: 1.5em 0 0 0;\n}\n.roadmap-text{\n    text-align:center;\n    width:50%;\n    margin: 0 auto;\n    padding: 1em 0 1em 0;\n}\n\n.roadmap-item-container{\ndisplay:flex;\nwidth:100%;\njustify-content:center;\nalign-items:center;\nbackground: transparent;\n\n    .roadmap-item{\n        width:20%;\n        height: 25em;\n        flex-wrap:wrap;\n        margin:1rem;\n        border-radius:5px;\n        border: 1px solid #ccc;\n        transition: all .7s ease-in-out;\n        li{\n            list-style:none;\n            padding:0.3rem;\n            text-align: center;\n            text-decoration:underline;\n        }\n        h2{\n            text-align:center;\n        }\n    \n        &:hover{\n            transform:scale(1.1);\n        }\n    }\n    @media(max-width: 600px){\n        flex-direction:column;\n\n        .roadmap-text{\n            width:80%;\n            margin:0;\n    \n        }\n        .roadmap-item{\n            width:70%;\n            height: auto;\n            padding:1em;\n        }\n\n    }\n\n    @media(max-width: 900px){\n        flex-direction:column;\n\n        .roadmap-text{\n            width:80%;\n            margin:0;\n    \n        }\n        .roadmap-item{\n            width:70%;\n            height: auto;\n            padding:1em;\n        }\n\n    }\n\n    @media(max-width: 1200px){\n \n\n        .roadmap-text{\n            width:80%;\n            margin:0;\n    \n        }\n        .roadmap-item{\n            width:70%;\n            height: 25em;\n            padding:1em;\n        }\n\n    }\n\n}\n\n\n"])));
 /* harmony default export */ __webpack_exports__["default"] = (RoadMapWrapper);
 
 /***/ }),
