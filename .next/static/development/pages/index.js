@@ -24619,18 +24619,11 @@ var CoinFund = function CoinFund(_ref) {
       lineNumber: 92,
       columnNumber: 19
     }
-  }, "Every investor is an equivalent owner and contributor to the network"), __jsx("p", {
+  }, "Every investor is an equivalent owner and contributor to the network")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 19
-    }
-  }, "IMPORTANT: Whether in Metamask or Trust Wallet, it\u2019s vital you tap on the \u2018cog wheel\u2019 and set slippage to 7% and increase in increments until accepted (this is to avoid the trading bots). UPDATE: Issue seeing coins? Anyone that has issues with TrustWallet not showing their $DOGI coin, make sure you copy and paste our token address in the contract address bar and make sure decimals are set to 9 (not 18).")), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 95,
       columnNumber: 17
     }
   }, __jsx("ul", {
@@ -24638,28 +24631,28 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 96,
       columnNumber: 19
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 97,
       columnNumber: 21
     }
   }, "Install Metamask on your browser or download the mobile app"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 98,
       columnNumber: 21
     }
   }, "Visit the Presale Link and connect your Metamask wallet"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 99,
       columnNumber: 21
     }
   }, "Enter quantity of $Panache to purchase, maximum is 1BNB worth of Panache Max")))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24667,7 +24660,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 115,
       columnNumber: 15
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -24675,7 +24668,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 116,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -24683,7 +24676,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119,
+      lineNumber: 117,
       columnNumber: 19
     }
   }, tokenBuyAction))))), __jsx(reusecore_Layout__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -24691,7 +24684,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 122,
       columnNumber: 11
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24699,28 +24692,28 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 123,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 124,
       columnNumber: 15
     }
   }, " ", __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 124,
       columnNumber: 22
     }
   }, displayText)), __jsx(react_component_countdown_timer__WEBPACK_IMPORTED_MODULE_3___default.a, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, settings, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 125,
       columnNumber: 15
     }
   }))), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24728,7 +24721,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 127,
       columnNumber: 13
     }
   }, __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24736,7 +24729,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 128,
       columnNumber: 15
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24744,7 +24737,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
+      lineNumber: 129,
       columnNumber: 17
     }
   }, "$", startFunding)), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24752,7 +24745,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 131,
       columnNumber: 15
     }
   }, "$", endFunding)), __jsx(reusecore_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24760,7 +24753,7 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 134,
       columnNumber: 13
     }
   }, __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24768,14 +24761,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 135,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaBitcoin"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 137,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24783,14 +24776,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 139,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcMastercard"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 141,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24798,14 +24791,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 143,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcVisa"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147,
+      lineNumber: 145,
       columnNumber: 17
     }
   }), " "), __jsx(reusecore_Text__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24813,14 +24806,14 @@ var CoinFund = function CoinFund(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149,
+      lineNumber: 147,
       columnNumber: 15
     }
   }, " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaCcDiscover"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 149,
       columnNumber: 17
     }
   }), " "))))));

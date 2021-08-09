@@ -90,9 +90,7 @@ let tokenBuyAction =  preSaleDuration != secondsSinceEpoch  ? `${Math.floor(((da
                  <Text>
                   <h2>How to Buy</h2>
                   <span>Every investor is an equivalent owner and contributor to the network</span>
-                  <p>IMPORTANT: Whether in Metamask or Trust Wallet, it’s vital you tap on the ‘cog wheel’ and set slippage to 7% and increase in increments until accepted (this is to avoid the trading bots).
-
-UPDATE: Issue seeing coins? Anyone that has issues with TrustWallet not showing their $DOGI coin, make sure you copy and paste our token address in the contract address bar and make sure decimals are set to 9 (not 18).</p>
+                  {/* <p>UPDATE: Issue seeing coins? Anyone that has issues with TrustWallet not showing their $PANACHE coin, make sure you copy and paste our token address in the contract address bar and make sure decimals are set to 9 (not 18).</p> */}
                 </Text>
                 <Text>
                   <ul className="token-sale-list">
