@@ -102,7 +102,7 @@ let tokenBuyAction =  preSaleDuration != secondsSinceEpoch  ? `${Math.floor(((da
                     <li>Select the amount of BSC you want to convert. Tap ‘Select Currency’ and paste in this address: 0x373849e1dbee104d67afff1b73703de4fd96294e.</li>
                     <li>IMPORTANT: Tap on the ‘cog wheel’ and set slippage to 7% and increase until the transaction is accepted (this process avoids the trading bots).
 </li>
-<li>Press the ‘swap’ button and you’ll have $DOGI coins in your account (there will be a delay in the coins appearing in your wallet)</li> */}
+<li>Press the ‘swap’ button and you’ll have $PANACHE coins in your account (there will be a delay in the coins appearing in your wallet)</li> */}
                   </ul>
              
 
