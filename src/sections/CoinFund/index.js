@@ -24,8 +24,8 @@ const CoinFund = ({dayCount }) => {
 
     {
       daySecondsCount : new Date().getUTCSeconds() + (60 * (new Date().getUTCMinutes() + (60 * new Date().getUTCHours()))),
-      preSaleStartDate: "September, 22 2021",
-      preSaleStopDate: "September, 28 2021"
+      preSaleStartDate: "November, 16 2021",
+      preSaleStopDate: "November, 23 2021"
     }
   )
 // state.preSaleStartDate ? new Date()
